@@ -1,0 +1,1021 @@
+{
+  "schema_version": 1,
+  "dataset_role": "illustrative",
+  "provenance": {
+    "description": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+    "source_plan": null,
+    "source_plan_sha256": null,
+    "historical_assertions": false,
+    "generation": "Hand-curated deterministic fictional test records; alias counts exercise foundation validation only."
+  },
+  "registers": {
+    "sources": [
+      {
+        "id": "SRC-0001",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "S01"
+        ],
+        "unknowns_json": {
+          "event_date": "Fixture makes no historical event assertion",
+          "access_date": "No source access occurred",
+          "completeness": "Invented item has no acquired bytes"
+        },
+        "creator": "Fictional fixture author",
+        "title": "Invented source 1; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "publication_date": "2001",
+        "event_date": "unknown",
+        "date_precision_json": {
+          "publication_date": {
+            "precision": "year",
+            "basis": "Invented test value"
+          },
+          "event_date": {
+            "precision": "unknown",
+            "basis": "No event asserted"
+          }
+        },
+        "source_locator": "archive:fictional-fixture-1",
+        "access_date": "unknown",
+        "source_type": "illustrative test record",
+        "account_status_json": {
+          "firsthand": "yes",
+          "retrospective": "yes",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "parent_source_ids_json": [],
+        "retrieval_status": "not_attempted",
+        "inspection_json": {
+          "text": "uninspected",
+          "linked_media": "uninspected",
+          "underlying_records": "unverified",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "known_edits_json": [],
+        "restrictions": "Test use only; never evidence",
+        "provenance_limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+      },
+      {
+        "id": "SRC-0002",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "S02"
+        ],
+        "unknowns_json": {
+          "event_date": "Fixture makes no historical event assertion",
+          "access_date": "No source access occurred",
+          "completeness": "Invented item has no acquired bytes"
+        },
+        "creator": "Fictional fixture author",
+        "title": "Invented source 2; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "publication_date": "2001",
+        "event_date": "unknown",
+        "date_precision_json": {
+          "publication_date": {
+            "precision": "year",
+            "basis": "Invented test value"
+          },
+          "event_date": {
+            "precision": "unknown",
+            "basis": "No event asserted"
+          }
+        },
+        "source_locator": "archive:fictional-fixture-2",
+        "access_date": "unknown",
+        "source_type": "illustrative test record",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "retrospective": "unknown",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "parent_source_ids_json": [
+          "SRC-0001"
+        ],
+        "retrieval_status": "not_attempted",
+        "inspection_json": {
+          "text": "uninspected",
+          "linked_media": "uninspected",
+          "underlying_records": "unverified",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "known_edits_json": [],
+        "restrictions": "Test use only; never evidence",
+        "provenance_limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+      },
+      {
+        "id": "SRC-0003",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "S03"
+        ],
+        "unknowns_json": {
+          "event_date": "Fixture makes no historical event assertion",
+          "access_date": "No source access occurred",
+          "completeness": "Invented item has no acquired bytes"
+        },
+        "creator": "Fictional fixture author",
+        "title": "Invented source 3; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "publication_date": "2001",
+        "event_date": "unknown",
+        "date_precision_json": {
+          "publication_date": {
+            "precision": "year",
+            "basis": "Invented test value"
+          },
+          "event_date": {
+            "precision": "unknown",
+            "basis": "No event asserted"
+          }
+        },
+        "source_locator": "archive:fictional-fixture-3",
+        "access_date": "unknown",
+        "source_type": "illustrative test record",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "retrospective": "unknown",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "parent_source_ids_json": [],
+        "retrieval_status": "blocked",
+        "inspection_json": {
+          "text": "uninspected",
+          "linked_media": "uninspected",
+          "underlying_records": "unverified",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "known_edits_json": [],
+        "restrictions": "Test use only; never evidence",
+        "provenance_limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+      },
+      {
+        "id": "SRC-0004",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "S04"
+        ],
+        "unknowns_json": {
+          "event_date": "Fixture makes no historical event assertion",
+          "access_date": "No source access occurred",
+          "completeness": "Invented item has no acquired bytes"
+        },
+        "creator": "Fictional fixture author",
+        "title": "Invented source 4; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "publication_date": "2001",
+        "event_date": "unknown",
+        "date_precision_json": {
+          "publication_date": {
+            "precision": "year",
+            "basis": "Invented test value"
+          },
+          "event_date": {
+            "precision": "unknown",
+            "basis": "No event asserted"
+          }
+        },
+        "source_locator": "archive:fictional-fixture-4",
+        "access_date": "unknown",
+        "source_type": "illustrative test record",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "retrospective": "unknown",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "parent_source_ids_json": [],
+        "retrieval_status": "not_attempted",
+        "inspection_json": {
+          "text": "uninspected",
+          "linked_media": "uninspected",
+          "underlying_records": "unverified",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "known_edits_json": [],
+        "restrictions": "Test use only; never evidence",
+        "provenance_limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+      },
+      {
+        "id": "SRC-0005",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "S05"
+        ],
+        "unknowns_json": {
+          "event_date": "Fixture makes no historical event assertion",
+          "access_date": "No source access occurred",
+          "completeness": "Invented item has no acquired bytes"
+        },
+        "creator": "Fictional fixture author",
+        "title": "Invented source 5; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "publication_date": "2001",
+        "event_date": "unknown",
+        "date_precision_json": {
+          "publication_date": {
+            "precision": "year",
+            "basis": "Invented test value"
+          },
+          "event_date": {
+            "precision": "unknown",
+            "basis": "No event asserted"
+          }
+        },
+        "source_locator": "archive:fictional-fixture-5",
+        "access_date": "unknown",
+        "source_type": "illustrative test record",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "retrospective": "unknown",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "parent_source_ids_json": [],
+        "retrieval_status": "not_attempted",
+        "inspection_json": {
+          "text": "uninspected",
+          "linked_media": "uninspected",
+          "underlying_records": "unverified",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "known_edits_json": [],
+        "restrictions": "Test use only; never evidence",
+        "provenance_limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+      },
+      {
+        "id": "SRC-0006",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "S06"
+        ],
+        "unknowns_json": {
+          "event_date": "Fixture makes no historical event assertion",
+          "access_date": "No source access occurred",
+          "completeness": "Invented item has no acquired bytes"
+        },
+        "creator": "Fictional fixture author",
+        "title": "Invented source 6; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "publication_date": "2001",
+        "event_date": "unknown",
+        "date_precision_json": {
+          "publication_date": {
+            "precision": "year",
+            "basis": "Invented test value"
+          },
+          "event_date": {
+            "precision": "unknown",
+            "basis": "No event asserted"
+          }
+        },
+        "source_locator": "archive:fictional-fixture-6",
+        "access_date": "unknown",
+        "source_type": "illustrative test record",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "retrospective": "unknown",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "parent_source_ids_json": [],
+        "retrieval_status": "not_attempted",
+        "inspection_json": {
+          "text": "uninspected",
+          "linked_media": "uninspected",
+          "underlying_records": "unverified",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "known_edits_json": [],
+        "restrictions": "Test use only; never evidence",
+        "provenance_limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+      },
+      {
+        "id": "SRC-0007",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "S07"
+        ],
+        "unknowns_json": {
+          "event_date": "Fixture makes no historical event assertion",
+          "access_date": "No source access occurred",
+          "completeness": "Invented item has no acquired bytes"
+        },
+        "creator": "Fictional fixture author",
+        "title": "Invented source 7; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "publication_date": "2001",
+        "event_date": "unknown",
+        "date_precision_json": {
+          "publication_date": {
+            "precision": "year",
+            "basis": "Invented test value"
+          },
+          "event_date": {
+            "precision": "unknown",
+            "basis": "No event asserted"
+          }
+        },
+        "source_locator": "archive:fictional-fixture-7",
+        "access_date": "unknown",
+        "source_type": "illustrative test record",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "retrospective": "unknown",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "parent_source_ids_json": [],
+        "retrieval_status": "not_attempted",
+        "inspection_json": {
+          "text": "uninspected",
+          "linked_media": "uninspected",
+          "underlying_records": "unverified",
+          "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "known_edits_json": [],
+        "restrictions": "Test use only; never evidence",
+        "provenance_limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+      }
+    ],
+    "claims": [
+      {
+        "id": "CLM-0001",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [],
+        "unknowns_json": {},
+        "proposition": "Invented account 1 reports an invented event; no historical claim.",
+        "category": "reported_claim",
+        "supporting_evidence_json": [
+          {
+            "source_id": "SRC-0001",
+            "locator": {
+              "kind": "paragraph",
+              "value": "1",
+              "precision": "exact fixture paragraph",
+              "description": "Invented reference only"
+            },
+            "role": "Supports only the invented report",
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "contradicting_evidence_json": [],
+        "confidence": "unassessed",
+        "confidence_reasons": "Test record; no evidence was examined.",
+        "caveats_json": [
+          "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        ]
+      },
+      {
+        "id": "CLM-0002",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [],
+        "unknowns_json": {},
+        "proposition": "Invented account 2 reports an invented event; no historical claim.",
+        "category": "reported_claim",
+        "supporting_evidence_json": [
+          {
+            "source_id": "SRC-0002",
+            "locator": {
+              "kind": "paragraph",
+              "value": "1",
+              "precision": "exact fixture paragraph",
+              "description": "Invented reference only"
+            },
+            "role": "Supports only the invented report",
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "contradicting_evidence_json": [],
+        "confidence": "unassessed",
+        "confidence_reasons": "Test record; no evidence was examined.",
+        "caveats_json": [
+          "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+        ]
+      }
+    ],
+    "timeline": [],
+    "hypotheses": [
+      {
+        "id": "HYP-0001",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "H1"
+        ],
+        "unknowns_json": {},
+        "proposition": "Invented hypothesis 1; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "question_scope": "entry point",
+        "necessary_conditions_json": [
+          {
+            "description": "An invented condition would need evidence",
+            "expected_observations": "No observation asserted",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "predictions_json": [
+          {
+            "description": "Invented alternative predicts a distinguishable invented result",
+            "expected_observations": "No test performed",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "supporting_claim_ids_json": [],
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "next_test": "Design an isolated invented exercise",
+        "status": "untested",
+        "exclusion_json": {}
+      },
+      {
+        "id": "HYP-0002",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "H2"
+        ],
+        "unknowns_json": {},
+        "proposition": "Invented hypothesis 2; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "question_scope": "entry point",
+        "necessary_conditions_json": [
+          {
+            "description": "An invented condition would need evidence",
+            "expected_observations": "No observation asserted",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "predictions_json": [
+          {
+            "description": "Invented alternative predicts a distinguishable invented result",
+            "expected_observations": "No test performed",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "supporting_claim_ids_json": [],
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "next_test": "Design an isolated invented exercise",
+        "status": "untested",
+        "exclusion_json": {}
+      },
+      {
+        "id": "HYP-0003",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "H3"
+        ],
+        "unknowns_json": {},
+        "proposition": "Invented hypothesis 3; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "question_scope": "entry point",
+        "necessary_conditions_json": [
+          {
+            "description": "An invented condition would need evidence",
+            "expected_observations": "No observation asserted",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "predictions_json": [
+          {
+            "description": "Invented alternative predicts a distinguishable invented result",
+            "expected_observations": "No test performed",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "supporting_claim_ids_json": [],
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "next_test": "Design an isolated invented exercise",
+        "status": "untested",
+        "exclusion_json": {}
+      },
+      {
+        "id": "HYP-0004",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "H4"
+        ],
+        "unknowns_json": {},
+        "proposition": "Invented hypothesis 4; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "question_scope": "production timing",
+        "necessary_conditions_json": [
+          {
+            "description": "An invented condition would need evidence",
+            "expected_observations": "No observation asserted",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "predictions_json": [
+          {
+            "description": "Invented alternative predicts a distinguishable invented result",
+            "expected_observations": "No test performed",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "supporting_claim_ids_json": [],
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "next_test": "Design an isolated invented exercise",
+        "status": "untested",
+        "exclusion_json": {}
+      },
+      {
+        "id": "HYP-0005",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "H5"
+        ],
+        "unknowns_json": {},
+        "proposition": "Invented hypothesis 5; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "question_scope": "transmitting site",
+        "necessary_conditions_json": [
+          {
+            "description": "An invented condition would need evidence",
+            "expected_observations": "No observation asserted",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "predictions_json": [
+          {
+            "description": "Invented alternative predicts a distinguishable invented result",
+            "expected_observations": "No test performed",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "supporting_claim_ids_json": [],
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "next_test": "Design an isolated invented exercise",
+        "status": "untested",
+        "exclusion_json": {}
+      },
+      {
+        "id": "HYP-0006",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "H6"
+        ],
+        "unknowns_json": {},
+        "proposition": "Invented hypothesis 6; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "question_scope": "insider knowledge",
+        "necessary_conditions_json": [
+          {
+            "description": "An invented condition would need evidence",
+            "expected_observations": "No observation asserted",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "predictions_json": [
+          {
+            "description": "Invented alternative predicts a distinguishable invented result",
+            "expected_observations": "No test performed",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "supporting_claim_ids_json": [],
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "next_test": "Design an isolated invented exercise",
+        "status": "untested",
+        "exclusion_json": {}
+      },
+      {
+        "id": "HYP-0007",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "H7"
+        ],
+        "unknowns_json": {},
+        "proposition": "Invented hypothesis 7; ILLUSTRATIVE ONLY: invented fixture, not incident evidence.",
+        "question_scope": "artifact origin",
+        "necessary_conditions_json": [
+          {
+            "description": "An invented condition would need evidence",
+            "expected_observations": "No observation asserted",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "predictions_json": [
+          {
+            "description": "Invented alternative predicts a distinguishable invented result",
+            "expected_observations": "No test performed",
+            "supporting_references": [],
+            "limits": "ILLUSTRATIVE ONLY: invented fixture, not incident evidence."
+          }
+        ],
+        "supporting_claim_ids_json": [],
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "next_test": "Design an isolated invented exercise",
+        "status": "untested",
+        "exclusion_json": {}
+      }
+    ],
+    "tasks": [
+      {
+        "id": "TASK-0001",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "T01"
+        ],
+        "unknowns_json": {
+          "external_wait": "No external action is part of this invented queued exercise",
+          "result": "The queued exercise has not run",
+          "reopening_condition": "The invented queued branch has not stopped or closed"
+        },
+        "question": "Invented fixture question 1",
+        "owner": "fixture test runner",
+        "priority": "P1",
+        "dependencies_json": [],
+        "method": "Run an isolated invented exercise",
+        "expected_output": "A test observation; never a research product",
+        "completion_condition": "The invented exercise has an inspectable result",
+        "output_refs_json": [],
+        "effort_timebox": "one isolated test run",
+        "external_wait": "not_applicable",
+        "status": "queued",
+        "result": "not_applicable",
+        "next_action": "Run only inside an illustrative temporary workspace",
+        "reopening_condition": "not_applicable"
+      },
+      {
+        "id": "TASK-0002",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "T02"
+        ],
+        "unknowns_json": {
+          "external_wait": "No external action is part of this invented queued exercise",
+          "result": "The queued exercise has not run",
+          "reopening_condition": "The invented queued branch has not stopped or closed"
+        },
+        "question": "Invented fixture question 2",
+        "owner": "fixture test runner",
+        "priority": "P1",
+        "dependencies_json": [
+          {
+            "id": "TASK-0001",
+            "note": "Invented test dependency"
+          }
+        ],
+        "method": "Run an isolated invented exercise",
+        "expected_output": "A test observation; never a research product",
+        "completion_condition": "The invented exercise has an inspectable result",
+        "output_refs_json": [],
+        "effort_timebox": "one isolated test run",
+        "external_wait": "not_applicable",
+        "status": "queued",
+        "result": "not_applicable",
+        "next_action": "Run only inside an illustrative temporary workspace",
+        "reopening_condition": "not_applicable"
+      },
+      {
+        "id": "TASK-0003",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "T03"
+        ],
+        "unknowns_json": {
+          "external_wait": "No external action is part of this invented queued exercise",
+          "result": "The queued exercise has not run",
+          "reopening_condition": "The invented queued branch has not stopped or closed"
+        },
+        "question": "Invented fixture question 3",
+        "owner": "fixture test runner",
+        "priority": "P1",
+        "dependencies_json": [
+          {
+            "id": "TASK-0002",
+            "note": "Invented test dependency"
+          }
+        ],
+        "method": "Run an isolated invented exercise",
+        "expected_output": "A test observation; never a research product",
+        "completion_condition": "The invented exercise has an inspectable result",
+        "output_refs_json": [],
+        "effort_timebox": "one isolated test run",
+        "external_wait": "not_applicable",
+        "status": "queued",
+        "result": "not_applicable",
+        "next_action": "Run only inside an illustrative temporary workspace",
+        "reopening_condition": "not_applicable"
+      },
+      {
+        "id": "TASK-0004",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "T04"
+        ],
+        "unknowns_json": {
+          "external_wait": "No external action is part of this invented queued exercise",
+          "result": "The queued exercise has not run",
+          "reopening_condition": "The invented queued branch has not stopped or closed"
+        },
+        "question": "Invented fixture question 4",
+        "owner": "fixture test runner",
+        "priority": "P1",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Invented test dependency"
+          }
+        ],
+        "method": "Run an isolated invented exercise",
+        "expected_output": "A test observation; never a research product",
+        "completion_condition": "The invented exercise has an inspectable result",
+        "output_refs_json": [],
+        "effort_timebox": "one isolated test run",
+        "external_wait": "not_applicable",
+        "status": "queued",
+        "result": "not_applicable",
+        "next_action": "Run only inside an illustrative temporary workspace",
+        "reopening_condition": "not_applicable"
+      },
+      {
+        "id": "TASK-0005",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "T05"
+        ],
+        "unknowns_json": {
+          "external_wait": "No external action is part of this invented queued exercise",
+          "result": "The queued exercise has not run",
+          "reopening_condition": "The invented queued branch has not stopped or closed"
+        },
+        "question": "Invented fixture question 5",
+        "owner": "fixture test runner",
+        "priority": "P1",
+        "dependencies_json": [
+          {
+            "id": "TASK-0004",
+            "note": "Invented test dependency"
+          }
+        ],
+        "method": "Run an isolated invented exercise",
+        "expected_output": "A test observation; never a research product",
+        "completion_condition": "The invented exercise has an inspectable result",
+        "output_refs_json": [],
+        "effort_timebox": "one isolated test run",
+        "external_wait": "not_applicable",
+        "status": "queued",
+        "result": "not_applicable",
+        "next_action": "Run only inside an illustrative temporary workspace",
+        "reopening_condition": "not_applicable"
+      },
+      {
+        "id": "TASK-0006",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "T06"
+        ],
+        "unknowns_json": {
+          "external_wait": "No external action is part of this invented queued exercise",
+          "result": "The queued exercise has not run",
+          "reopening_condition": "The invented queued branch has not stopped or closed"
+        },
+        "question": "Invented fixture question 6",
+        "owner": "fixture test runner",
+        "priority": "P1",
+        "dependencies_json": [
+          {
+            "id": "TASK-0005",
+            "note": "Invented test dependency"
+          }
+        ],
+        "method": "Run an isolated invented exercise",
+        "expected_output": "A test observation; never a research product",
+        "completion_condition": "The invented exercise has an inspectable result",
+        "output_refs_json": [],
+        "effort_timebox": "one isolated test run",
+        "external_wait": "not_applicable",
+        "status": "queued",
+        "result": "not_applicable",
+        "next_action": "Run only inside an illustrative temporary workspace",
+        "reopening_condition": "not_applicable"
+      },
+      {
+        "id": "TASK-0007",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "T07"
+        ],
+        "unknowns_json": {
+          "external_wait": "No external action is part of this invented queued exercise",
+          "result": "The queued exercise has not run",
+          "reopening_condition": "The invented queued branch has not stopped or closed"
+        },
+        "question": "Invented fixture question 7",
+        "owner": "fixture test runner",
+        "priority": "P1",
+        "dependencies_json": [
+          {
+            "id": "TASK-0006",
+            "note": "Invented test dependency"
+          }
+        ],
+        "method": "Run an isolated invented exercise",
+        "expected_output": "A test observation; never a research product",
+        "completion_condition": "The invented exercise has an inspectable result",
+        "output_refs_json": [],
+        "effort_timebox": "one isolated test run",
+        "external_wait": "not_applicable",
+        "status": "queued",
+        "result": "not_applicable",
+        "next_action": "Run only inside an illustrative temporary workspace",
+        "reopening_condition": "not_applicable"
+      },
+      {
+        "id": "TASK-0008",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "T08"
+        ],
+        "unknowns_json": {
+          "external_wait": "No external action is part of this invented queued exercise",
+          "result": "The queued exercise has not run",
+          "reopening_condition": "The invented queued branch has not stopped or closed"
+        },
+        "question": "Invented fixture question 8",
+        "owner": "fixture test runner",
+        "priority": "P1",
+        "dependencies_json": [
+          {
+            "id": "TASK-0007",
+            "note": "Invented test dependency"
+          }
+        ],
+        "method": "Run an isolated invented exercise",
+        "expected_output": "A test observation; never a research product",
+        "completion_condition": "The invented exercise has an inspectable result",
+        "output_refs_json": [],
+        "effort_timebox": "one isolated test run",
+        "external_wait": "not_applicable",
+        "status": "queued",
+        "result": "not_applicable",
+        "next_action": "Run only inside an illustrative temporary workspace",
+        "reopening_condition": "not_applicable"
+      },
+      {
+        "id": "TASK-0009",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "T09"
+        ],
+        "unknowns_json": {
+          "external_wait": "No external action is part of this invented queued exercise",
+          "result": "The queued exercise has not run",
+          "reopening_condition": "The invented queued branch has not stopped or closed"
+        },
+        "question": "Invented fixture question 9",
+        "owner": "fixture test runner",
+        "priority": "P1",
+        "dependencies_json": [
+          {
+            "id": "TASK-0008",
+            "note": "Invented test dependency"
+          }
+        ],
+        "method": "Run an isolated invented exercise",
+        "expected_output": "A test observation; never a research product",
+        "completion_condition": "The invented exercise has an inspectable result",
+        "output_refs_json": [],
+        "effort_timebox": "one isolated test run",
+        "external_wait": "not_applicable",
+        "status": "queued",
+        "result": "not_applicable",
+        "next_action": "Run only inside an illustrative temporary workspace",
+        "reopening_condition": "not_applicable"
+      },
+      {
+        "id": "TASK-0010",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "T10"
+        ],
+        "unknowns_json": {
+          "external_wait": "No external action is part of this invented queued exercise",
+          "result": "The queued exercise has not run",
+          "reopening_condition": "The invented queued branch has not stopped or closed"
+        },
+        "question": "Invented fixture question 10",
+        "owner": "fixture test runner",
+        "priority": "P1",
+        "dependencies_json": [
+          {
+            "id": "TASK-0009",
+            "note": "Invented test dependency"
+          }
+        ],
+        "method": "Run an isolated invented exercise",
+        "expected_output": "A test observation; never a research product",
+        "completion_condition": "The invented exercise has an inspectable result",
+        "output_refs_json": [],
+        "effort_timebox": "one isolated test run",
+        "external_wait": "not_applicable",
+        "status": "queued",
+        "result": "not_applicable",
+        "next_action": "Run only inside an illustrative temporary workspace",
+        "reopening_condition": "not_applicable"
+      },
+      {
+        "id": "TASK-0011",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [
+          "T11"
+        ],
+        "unknowns_json": {
+          "external_wait": "No external action is part of this invented queued exercise",
+          "result": "The queued exercise has not run",
+          "reopening_condition": "The invented queued branch has not stopped or closed"
+        },
+        "question": "Invented fixture question 11",
+        "owner": "fixture test runner",
+        "priority": "P1",
+        "dependencies_json": [
+          {
+            "id": "TASK-0010",
+            "note": "Invented test dependency"
+          }
+        ],
+        "method": "Run an isolated invented exercise",
+        "expected_output": "A test observation; never a research product",
+        "completion_condition": "The invented exercise has an inspectable result",
+        "output_refs_json": [],
+        "effort_timebox": "one isolated test run",
+        "external_wait": "not_applicable",
+        "status": "queued",
+        "result": "not_applicable",
+        "next_action": "Run only inside an illustrative temporary workspace",
+        "reopening_condition": "not_applicable"
+      }
+    ],
+    "searches": [
+      {
+        "id": "SRCH-0001",
+        "revision": 1,
+        "retired": false,
+        "legacy_aliases_json": [],
+        "unknowns_json": {
+          "cycle_id": "Invented initial discovery, outside a bounded cycle"
+        },
+        "question": "Invented unsuccessful lookup",
+        "repository": "fictional fixture repository",
+        "exact_query": "invented fixture term with no result",
+        "filters_json": {
+          "date_range": "2001"
+        },
+        "executed_at": "2001-01-01T00:00:00Z",
+        "coverage": "ILLUSTRATIVE initial discovery; no real repository searched",
+        "useful_source_ids_json": [],
+        "unsuccessful_results_json": [
+          "Invented zero-result case; not proof of nonexistence"
+        ],
+        "access_barriers_json": [
+          "Invented fixture barrier"
+        ],
+        "cycle_id": "not_applicable"
+      }
+    ]
+  }
+}
