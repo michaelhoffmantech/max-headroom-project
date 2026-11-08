@@ -1,0 +1,36 @@
+{
+  "acquired_at": "2026-11-08T20:53:17.795857+00:00",
+  "actor": "research_assistant",
+  "byte_count": 5608429,
+  "capture_date": null,
+  "completeness": null,
+  "created_at": "2026-11-08T20:53:17.795953+00:00",
+  "digitization_history": "Exact public download; prior conversion/cropping/timing losses unknown",
+  "id": "AST-0014",
+  "input_asset_ids": [],
+  "input_locators": [],
+  "kind": "acquired_original",
+  "known_edits": [],
+  "original_media_history": "Host attribution only; original capture and tape chain unverified",
+  "processing": null,
+  "provenance_limits": "Acquired original means unchanged downloaded bytes, not original1987 master; actual capture/feed/generation/edits unknown",
+  "receiver_feed": null,
+  "restrictions": "Private owner/selected-reviewer research only; host licensing assertion not independently adjudicated",
+  "revision": 1,
+  "schema_version": 1,
+  "sha256": "0b4cf98b3fb0f212bdfe82e2e55a38fbd5b0eaa18c8dcc268de2bd1edcbb0672",
+  "source_id": "SRC-0020",
+  "storage": {
+    "access_limit": "Private owner/selected-reviewer research only; host licensing assertion not independently adjudicated",
+    "alias": "primary_evidence",
+    "relative_path": "AST-0014/wgn-archive.mp4"
+  },
+  "tape_generation": null,
+  "unknowns": {
+    "capture_date": "Not yet established; do not infer.",
+    "completeness": "Not yet established; do not infer.",
+    "processing": "Not yet established; do not infer.",
+    "receiver_feed": "Not yet established; do not infer.",
+    "tape_generation": "Not yet established; do not infer."
+  }
+}

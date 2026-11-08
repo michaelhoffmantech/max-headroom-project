@@ -1,0 +1,472 @@
+{
+  "change_integrity": {
+    "byte_count": 82903,
+    "sha256": "ccef77ba1dbaaf4035f8146fef91c3b848389cade3e4d61ee2f5fedfbdfc4703"
+  },
+  "closure": null,
+  "id": "CHG-0054",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 10458,
+        "sha256": "b1d6877c92db81a669853531f119b8ca06ec090ca198583c62e5a9909440e9f8"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/document.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/.document.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 4793,
+        "sha256": "4df59f9e408475d268ff25f8b739344c13bc2ca637958d029b9f84265b3e91d4"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/docs/STATUS.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/docs/.STATUS.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 29816,
+        "sha256": "59adb6d3f1469babf6f14dddb0cf77f3c2fef3a9b0131e6dcf7eccf474a45d9a"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/INVESTIGATION_PLAN.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/.INVESTIGATION_PLAN.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 14369,
+        "sha256": "14457f0f790d70926fc31fe6b341f47d213e444422fe4ae6b5a3802ebc89500b"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/docs/METHODS.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/docs/.METHODS.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 8492,
+        "sha256": "0f98e3ba013a242fa7ef7135cf46f72a5b3ad4b3a7a04cd32fa18552f7fa7f0d"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/docs/DECISIONS.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/docs/.DECISIONS.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 3204,
+        "sha256": "9a50b25f40172bd7bca6932359c86e0e9e2c637923df2e49695ac9a170aefa5b"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/workstreams.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/.workstreams.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 4162,
+        "sha256": "1193a27b6e8166e77508a5f6f44834da0d15e340106a5e2c2f5bf8366e7c21f0"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/findings/FND-0001.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/findings/.FND-0001.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 4263,
+        "sha256": "c75f5d24d5d697b4a7569edab55686bd8342aa90836974053320e0211138a453"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/findings/FND-0001.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/findings/.FND-0001.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 11332,
+        "sha256": "eb6a884276f5d3e56a03f3d1152ef20abd6b6958001bc8cb6f125a0af771ef69"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/cycles/CYC-0001.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/cycles/.CYC-0001.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2818,
+        "sha256": "3df3740bb2707e9a336f079419539bb79a3c81fce963ebc0522ff4021525f540"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/cycles/CYC-0001.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/cycles/.CYC-0001.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 4191,
+        "sha256": "7734b54338033c9b2a1aafb749690d056c9670d899f8f8b03acbc40859367f82"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/media-comparison/compare_recordings.py",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/media-comparison/.compare_recordings.py.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2872,
+        "sha256": "5a42b59aee998b56c10e8e19b5ea4bb689bb45bd74ef8a53e2ae93dca08638f5"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/media-comparison/comparison-report.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/media-comparison/.comparison-report.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 8568,
+        "sha256": "0cd4d9054f37d4b3aa4dcdcb6212a0002cbf61f87a4d349fcc093655d1746767"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/media-comparison/recording-inventory.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/media-comparison/.recording-inventory.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 5692,
+        "sha256": "df7305bba06d432b9b95fe859dd4a18dde806777d8d137ff578aecaffe4283e0"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/chronology/source-map.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/chronology/.source-map.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 8805,
+        "sha256": "8968d895d298a15e70b995b53c7d3fb10d2ea3148ae9751ec0a535c5202ac27b"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/chronology/timeline.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/chronology/.timeline.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 9533,
+        "sha256": "556866e6a4e975b792a24d9663879c27f64bc308db3a8a573ba22f72c2c79495"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/chronology/contradictions.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/chronology/.contradictions.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 1308,
+        "sha256": "16272355e7f75799c6429b7ed893737ed1770677ed16991634018dd21a9b5cd2"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/chronology/image-text-check.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/chronology/.image-text-check.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 4343,
+        "sha256": "272fcfcc19a1a68f85e8e0be1705f35bf57f1a2e9cb9077ff4123786f934446b"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/engineering/signal-paths.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/engineering/.signal-paths.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 4064,
+        "sha256": "a8f2fec7f9df229da5b1f743d36f5e5e2023de4ca1b6f86c3162915ae8ed07b4"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/engineering/assumptions.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/engineering/.assumptions.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 3591,
+        "sha256": "6cfeb30760b8bae194557ed03b15620ad7d9636fa5a8adeade89c707f03c1c67"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/engineering/explanation-comparison.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/engineering/.explanation-comparison.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 7750,
+        "sha256": "18eebbd5e749687e7b3c4016a46f681a73305d8d860fa6a1f71afab115d6e52d"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/records/inventory.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/records/.inventory.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 4170,
+        "sha256": "85240258f3d7d3ccd3d842709a71d862f94fe20175c591673ae8c0e289dc7eb1"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/requests/record-request.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/requests/.record-request.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 3433,
+        "sha256": "743b3ffae0799e6de8f9fdce2262fb393ee9b754344c5d9fcfad8a238f1aac2a"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/interviews/neutral-guide.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/interviews/.neutral-guide.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2422,
+        "sha256": "751ffac771e1a4938c1943c0804243533e115dcf1fbe202ebfb55b40aee4f143"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/culture/reference-catalog.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/analysis/culture/.reference-catalog.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 1681,
+        "sha256": "c53bc05947c817f964e8ba2b82c50cce7d3a4f59b9908d647108996211b774c0"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/transcripts/README.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/transcripts/.README.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 3459,
+        "sha256": "eb89594473f1a67abeec73a522047160452d2c4aa6fe63a7b7f419395b2b436d"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/docs/inspections/2026-11-08-records-rendered.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/docs/inspections/.2026-11-08-records-rendered.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 34999,
+        "sha256": "1afe800a7c61bb9ccb39fe145860bd43533873d15617b971565d97c910374b95"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/docs/inspections/2026-11-08-records-research.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/docs/inspections/.2026-11-08-records-research.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 11722,
+        "sha256": "2550d7877aacc5de75ec2328b182a2ba4fa3e785ce484a784e8ec94415bea746"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/saved-state-reader.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/.saved-state-reader.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2578,
+        "sha256": "bd164a40aa51a09036a5f556fab66ffd71c8cbaa94f512da113d706143b4f638"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/us3-us4-exercise.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/.us3-us4-exercise.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 5951,
+        "sha256": "18c805a7541a98c9c907e5a75a9520192f44368d2acf90e4f028915a895dcb65"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/us5-exercise.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/.us5-exercise.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 12015,
+        "sha256": "6392c8f80d0d22585c2173c45b386179700633699d8bd2bc3b7da9e2fee660a2"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/us6-exercise.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/.us6-exercise.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 16630,
+        "sha256": "ae154e1fb7557b8e8900f5278d5155eb6dc904e51341d2f76e6c99d80cf4db9a"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/public-package-check.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/.public-package-check.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 3778,
+        "sha256": "fed9a4f9806bd305967c4321c720ec2505e699f88342a750fc5e6d34469b6f9e"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/public-package-check.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/.public-package-check.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 1392,
+        "sha256": "cab38b89fb86d7183716fc9b2713ca44254348bcd4b70f72f0c4a5f1d39b8178"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/quickstart-completion.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/reports/milestones/exercises/.quickstart-completion.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 1449,
+        "sha256": "aed61e015ed17a869152a9b878a183e74ab4a75f50d757eeedad7c583c4f7477"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/README.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/.README.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 528,
+        "sha256": "eca572aac980775727b85823d33b16656a4c9c6f41f678e5d2ab57b5aff88549"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/.gitignore",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/..gitignore.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 1617,
+        "sha256": "0965ea356b53896d47a0223e1980b905de28bf6e06b34204387006cb42bec378"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/config/storage.local.example.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/config/.storage.local.example.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 107734,
+        "sha256": "0e5a2919c74f93b766d922eb17b4a3420799066f410a5c6e8adbe5357ef831c5"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/tools/dossier.py",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/tools/.dossier.py.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 43826,
+        "sha256": "dd23eac3e16d8945c0fe82c413c324b88ccf61be452ddc4e4ac6e10f5ddb16c4"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/specs/001-investigation-dossier/spec.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/specs/001-investigation-dossier/.spec.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 15407,
+        "sha256": "297f3a04b2dba16189cef2bd6bc5c8e1496767c8b71dcb3cd08f9e722d49c69b"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/.specify/memory/constitution.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/.specify/memory/.constitution.md.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 148462,
+        "sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/records-pages/AST-0011-page-1.png",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/records-pages/.AST-0011-page-1.png.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 232629,
+        "sha256": "2ca728985c5f8f89f4ff723d4952f6ab7ac1346229d3c0fc67b1a528c049c7a4"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/records-pages/AST-0011-page-4.png",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/records-pages/.AST-0011-page-4.png.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 478993,
+        "sha256": "8d4b591e7ecaf5a7237db8e31931d801c8b639d3110868517e6515d806f2791c"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/records-pages/AST-0011-page-5.png",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/records-pages/.AST-0011-page-5.png.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 341972,
+        "sha256": "719b95174e424815c44f870ba92d44c0a31a357e9a785d1d1a8bd7841c6c7685"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/records-pages/AST-0012-page-1.png",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/records-pages/.AST-0012-page-1.png.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 333681,
+        "sha256": "66c4de4487a98c3bc49ddeedb8bed37c3db1e864502f8dcc1a31034e9befbb4e"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/records-pages/AST-0012-page-2.png",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/records-pages/.AST-0012-page-2.png.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2501596,
+        "sha256": "949817a5886eec720c2a6b5fe626db9386bed4345434c15b803b5ac89e6858f2"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/CYC-0001-retry/AST-0013-contact.png",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/CYC-0001-retry/.AST-0013-contact.png.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 57359,
+        "sha256": "619fe4ece6e57ab3d38c4d0c0653e0b7445d2a060aaea4eac34c412ea288be9c"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/CYC-0001-retry/AST-0013-end.png",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/CYC-0001-retry/.AST-0013-end.png.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 7251536,
+        "sha256": "88507d073fccb9d3ce1dde6137a9415bca13a7d934d3832783d80ff27367fb73"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/CYC-0001-retry/AST-0014-contact.png",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/CYC-0001-retry/.AST-0014-contact.png.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 796075,
+        "sha256": "854e5f520a2d2493d13dfc438a0b1d8b7db642294fd63999841dbf0884959a7e"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/CYC-0001-retry/AST-0014-end.png",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/CYC-0001-retry/.AST-0014-end.png.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 11186,
+        "sha256": "d1606fb7085d232b701da09b340491c9ecdc14992421f6bc684349e54c913e5c"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/CYC-0001-retry/manifest.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0007/basis/derived/frames/CYC-0001-retry/.manifest.json.CHG-0054.stage"
+    },
+    {
+      "new": {
+        "byte_count": 60360,
+        "sha256": "f8bdca9d09c61c64e9ce74613a0fad30f5a1761acb1c49798cb2dfeac4b0bdc4"
+      },
+      "path": "reports/findings/reviews/RVW-0007.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/.RVW-0007.json.CHG-0054.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T21:11:45.137852+00:00",
+  "published_at": "2026-11-08T21:11:45.211852+00:00",
+  "state": "published"
+}

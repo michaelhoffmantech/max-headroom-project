@@ -1,0 +1,49 @@
+{
+  "change_integrity": {
+    "byte_count": 39038,
+    "sha256": "c95cc9c0e5c0db54384a68368373f6027a3ce57390231b551f7554161e2cae97"
+  },
+  "closure": null,
+  "id": "CHG-0043",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 4263,
+        "sha256": "c75f5d24d5d697b4a7569edab55686bd8342aa90836974053320e0211138a453"
+      },
+      "path": "reports/findings/FND-0001.json",
+      "previous": {
+        "byte_count": 4262,
+        "sha256": "56ae0de24d6f82444236665d3ffe1042a7b58d3c6cd8658accd83b7d0b6878a7"
+      },
+      "staged": "reports/findings/.FND-0001.json.CHG-0043.stage"
+    },
+    {
+      "new": {
+        "byte_count": 36412,
+        "sha256": "d06664d0c00c7ff4aaf9cd5b2815a4a439acccf850de3df66d6571324aa975c0"
+      },
+      "path": "registers/searches.csv",
+      "previous": {
+        "byte_count": 34744,
+        "sha256": "fdb002d7324366134fd0f2bc516331a76c8a28413afb838ba9c654a63eb47397"
+      },
+      "staged": "registers/.searches.csv.CHG-0043.stage"
+    },
+    {
+      "new": {
+        "byte_count": 11330,
+        "sha256": "dcad0b05e98824013bc01097a3d0cc384c27b5459fa0e55dc48168df0f511a39"
+      },
+      "path": "analysis/cycles/CYC-0001.json",
+      "previous": {
+        "byte_count": 11279,
+        "sha256": "85733e83ff82942d4b9491d9380bde1d720781fcd6786c2db8a19bacc0245aae"
+      },
+      "staged": "analysis/cycles/.CYC-0001.json.CHG-0043.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T20:56:55.912152+00:00",
+  "published_at": "2026-11-08T20:56:55.946975+00:00",
+  "state": "published"
+}

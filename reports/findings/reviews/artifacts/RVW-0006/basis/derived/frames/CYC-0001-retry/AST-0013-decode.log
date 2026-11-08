@@ -1,0 +1,42 @@
+Input #0, matroska,webm, from 'C:\dev\max-headroom-project\evidence\originals\AST-0013\wgn-commons.webm':
+  Metadata:
+    COMPATIBLE_BRANDS: isomiso2avc1mp41
+    MAJOR_BRAND     : mp42
+    MINOR_VERSION   : 512
+    ENCODER         : Lavf58.20.100
+  Duration: 00:00:33.23, start: 0.000000, bitrate: 2519 kb/s
+  Stream #0:0: Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 29.97 fps, 29.97 tbr, 1k tbn, start 0.007000 (default)
+    Metadata:
+      HANDLER_NAME    : VideoHandler
+      ENCODER         : Lavc58.35.100 libvpx-vp9
+      DURATION        : 00:00:33.206000000
+  Stream #0:1: Audio: opus, 48000 Hz, stereo, fltp (default)
+    Metadata:
+      HANDLER_NAME    : Stereo
+      ENCODER         : Lavc58.35.100 libopus
+      DURATION        : 00:00:33.234000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> wrapped_avframe (native))
+  Stream #0:1 -> #0:1 (opus (native) -> pcm_s16le (native))
+Output #0, null, to 'pipe:':
+  Metadata:
+    COMPATIBLE_BRANDS: isomiso2avc1mp41
+    MAJOR_BRAND     : mp42
+    MINOR_VERSION   : 512
+    encoder         : Lavf63.1.102
+  Stream #0:0: Video: wrapped_avframe, yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 wrapped_avframe
+      HANDLER_NAME    : VideoHandler
+      DURATION        : 00:00:33.206000000
+  Stream #0:1: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.102 pcm_s16le
+      HANDLER_NAME    : Stereo
+      DURATION        : 00:00:33.234000000
+[Parsed_blackdetect_0 @ 00000128912ec640] black_start:0.007 black_end:9.583 black_duration:9.576
+[Parsed_blackdetect_0 @ 00000128912ec640] black_start:26.133 black_end:26.5 black_duration:0.367
+[Parsed_blackdetect_0 @ 00000128912ec640] black_start:26.534 black_end:27.167 black_duration:0.633
+[Parsed_blackdetect_0 @ 00000128912ec640] black_start:27.201 black_end:33.173 black_duration:5.972
+[out#0/null @ 000001288f4a5c40] video:412KiB audio:6230KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  995 fps=0.0 q=-0.0 Lsize=N/A time=00:00:33.22 bitrate=N/A speed=70.5x elapsed=0:00:00.47    

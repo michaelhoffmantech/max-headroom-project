@@ -1,0 +1,24 @@
+{
+  "anchor_observed_at": "2026-11-07T22:52:31.495731+00:00",
+  "anchor_reason": "Explicit initial-run migration: bytes observed after implementation added CHG anchoring; not retroactive evidence of earlier integrity.",
+  "change_integrity": {
+    "byte_count": 2685,
+    "sha256": "842e6608f29749a00ab52dfb3a94b042333de1e06bdfec12eae65890c6889968"
+  },
+  "closure": null,
+  "id": "CHG-0002",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 1732,
+        "sha256": "a62c6ba4de32e81c3c1217460033bc371d548d98e44be05ab09eb84922198ddd"
+      },
+      "path": "evidence/metadata/sessions/SES-0001.json",
+      "previous": null,
+      "staged": "evidence/metadata/sessions/.SES-0001.json.CHG-0002.stage"
+    }
+  ],
+  "prepared_at": "2026-11-07T22:36:27.777858+00:00",
+  "published_at": "2026-11-07T22:36:27.782198+00:00",
+  "state": "published"
+}

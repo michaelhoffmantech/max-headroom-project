@@ -1,0 +1,71 @@
+{
+  "acquired_at": "2026-11-08T21:01:23.028028+00:00",
+  "actor": "research_assistant",
+  "byte_count": 148462,
+  "capture_date": null,
+  "completeness": null,
+  "created_at": "2026-11-08T21:01:23.028047+00:00",
+  "digitization_history": null,
+  "id": "AST-0023",
+  "input_asset_ids": [
+    "AST-0011"
+  ],
+  "input_locators": [
+    {
+      "asset_id": "AST-0011",
+      "page_number": 1
+    }
+  ],
+  "kind": "derivative",
+  "known_edits": null,
+  "original_media_history": null,
+  "processing": {
+    "arguments": [
+      "python",
+      "work/render-records.py"
+    ],
+    "claimed_as_recovered_evidence": false,
+    "executable": "python / PyMuPDF",
+    "generative": false,
+    "limits": "Original invocation rendered all pages; per-page selection is recorded in input_locators, not an invented CLI argument. Portable repeat helper uses canonical IDs and a new output directory.",
+    "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+    "output_sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d",
+    "repeat_command": [
+      "python",
+      "analysis/chronology/render_records.py",
+      "--output",
+      "work/new-record-page-reproduction"
+    ],
+    "script_preserved_copy": "docs/inspections/scripts/render-records-original.py",
+    "settings": {
+      "alpha": false,
+      "dpi": 160
+    },
+    "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+    "time_base": "Still PDF page coordinates; no broadcast timing",
+    "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+  },
+  "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+  "receiver_feed": null,
+  "restrictions": "Private mechanical page viewing derivative",
+  "revision": 2,
+  "schema_version": 1,
+  "sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d",
+  "source_id": null,
+  "storage": {
+    "access_limit": "Private owner/selected reviewers",
+    "alias": "project",
+    "relative_path": "derived/frames/records-pages/AST-0011-page-1.png"
+  },
+  "tape_generation": null,
+  "unknowns": {
+    "capture_date": "Not yet established; do not infer.",
+    "completeness": "Not yet established; do not infer.",
+    "digitization_history": "Not yet established; do not infer.",
+    "known_edits": "Not yet established; do not infer.",
+    "original_media_history": "Not yet established; do not infer.",
+    "receiver_feed": "Not yet established; do not infer.",
+    "source_id": "Not yet established; do not infer.",
+    "tape_generation": "Not yet established; do not infer."
+  }
+}

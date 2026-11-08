@@ -1,0 +1,292 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T21:14:00.118086+00:00",
+  "id": "CHG-0055",
+  "intended_final_file_manifest": {
+    "evidence/metadata/sessions/SES-0004.json": {
+      "byte_count": 3777,
+      "sha256": "c8ff539d83e9db6e9c1223313aa608a9e4fac37d84bdff79f099ff6a3f06d3f3"
+    },
+    "registers/tasks.csv": {
+      "byte_count": 15744,
+      "sha256": "a73e44444cbf4c9d905e8e0f2cf5c6912aa5e42a09d24d82b743518889a87509"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Another reviewer can trace findings to evidence; alternatives and unresolved questions are included",
+        "dependencies_json": [
+          {
+            "id": "TASK-0010",
+            "note": "Required: original T10"
+          }
+        ],
+        "effort_timebox": "One review/handoff session; no external outreach or spending",
+        "expected_output": "Another reviewer can trace findings to evidence; alternatives and unresolved questions are included",
+        "external_wait": "No external wait needed for final review; conditional transcription/culture waits are separate tasks",
+        "id": "TASK-0011",
+        "legacy_aliases_json": [
+          "T11"
+        ],
+        "method": "Have an actual separate reviewer trace evidence, challenge alternatives/dependence, and retain unresolved questions and specialist limits.",
+        "next_action": "Recover saved state independently and complete cross-output delivery review",
+        "output_refs_json": [
+          "reports/findings/FND-0001.md",
+          "reports/findings/reviews/RVW-0003.json",
+          "reports/milestones/delivery-review.md"
+        ],
+        "owner": "separate AI review + user",
+        "priority": "P1 after each cycle",
+        "question": "Challenge review and findings report",
+        "reopening_condition": "Refresh current review after changed finding/basis or final handoff corrections",
+        "result": "Actual cycle finding and extraction reviews passed with limits; fresh saved-file recovery passed. Final cross-output review and final closure remain in progress.",
+        "retired": false,
+        "revision": 3,
+        "status": "active",
+        "unknowns_json": {}
+      },
+      "proposed": {
+        "completion_condition": "Another reviewer can trace findings to evidence; alternatives and unresolved questions are included",
+        "dependencies_json": [
+          {
+            "id": "TASK-0010",
+            "note": "Required: original T10"
+          }
+        ],
+        "effort_timebox": "One review/handoff session; no external outreach or spending",
+        "expected_output": "Another reviewer can trace findings to evidence; alternatives and unresolved questions are included",
+        "external_wait": "No external wait needed for final review; conditional transcription/culture waits are separate tasks",
+        "id": "TASK-0011",
+        "legacy_aliases_json": [
+          "T11"
+        ],
+        "method": "Have an actual separate reviewer trace evidence, challenge alternatives/dependence, and retain unresolved questions and specialist limits.",
+        "next_action": "Continue the three saved research actions; no external submission/outreach authorized",
+        "output_refs_json": [
+          "reports/findings/FND-0001.md",
+          "reports/findings/reviews/RVW-0003.json",
+          "reports/milestones/delivery-review.md",
+          "reports/milestones/exercises/saved-state-reader.json",
+          "reports/milestones/exercises/final-state-reader.json"
+        ],
+        "owner": "separate AI review + user",
+        "priority": "P1 after each cycle",
+        "question": "Challenge review and findings report",
+        "reopening_condition": "New evidence, revised finding/basis or changed handoff requires appropriate replacement review and confirmed snapshot",
+        "result": "Actual separate finding/extraction and cross-output source/reasoning/privacy reviews passed with limits. Two actual no-chat fresh readers recovered the saved question/evidence/confidence/waits/nextactions; final replacement review binds updated handoff.",
+        "retired": false,
+        "revision": 4,
+        "status": "done",
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sessions",
+      "previous": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": null,
+        "completed_task_outputs": [
+          {
+            "output_refs": [
+              "reports/milestones/exercises/saved-state-reader.json"
+            ],
+            "result": "Actual fresh-instance saved-file recovery performed; minor stale status cues identified and corrected in final review session",
+            "task_id": "T059"
+          }
+        ],
+        "created_at": "2026-11-08T21:07:38.723968+00:00",
+        "current_milestone": "final delivery review",
+        "current_question": "Can another reviewer audit the actual limited finding and resume the next evidence work from saved files?",
+        "deferred_branches": [
+          "RF mechanism/site/power pending dated architecture and qualified review"
+        ],
+        "disagreements": [
+          "Historical reported phase timing remains unresolved"
+        ],
+        "final_handoff": null,
+        "findings": [
+          {
+            "confidence": "moderate",
+            "id": "FND-0001",
+            "result": "Qualified selected-file program-return context observation",
+            "revision": 2
+          }
+        ],
+        "gaps": [
+          "Unknown capture/feed/edit independence",
+          "Unperformed blind transcription and period cultural interpretation",
+          "Missing cited agency letter/Q1capture chain and dated as-built equipment"
+        ],
+        "hypothesis_changes": [
+          {
+            "id": "HYP-0008",
+            "status": "weakened"
+          },
+          {
+            "id": "HYP-0009",
+            "status": "supported"
+          }
+        ],
+        "id": "SES-0004",
+        "intended_completion_at": null,
+        "intended_state": "active",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0007",
+              "Protected inputs and preferred words withheld"
+            ],
+            "output": "Actual annotated and blind second transcription if wording matters",
+            "owner": "Owner with unprimed listener"
+          },
+          {
+            "dependencies": [
+              "TASK-0009",
+              "Private contact/fee choice and current agency instructions"
+            ],
+            "output": "Decide on narrow UNSENT FBI records request",
+            "owner": "Owner"
+          },
+          {
+            "dependencies": [
+              "Dated equipment/monitoring records or fuller capture evidence"
+            ],
+            "output": "New prospectively frozen architecture/timing question",
+            "owner": "AI and qualified historical broadcast reviewer"
+          }
+        ],
+        "reopening_condition": "New full-context records/captures or qualified listeners justify the next bounded question",
+        "reserved_receipt_id": null,
+        "revision": 2,
+        "schema_version": 1,
+        "started_at": "2026-11-08T21:07:38.723946+00:00",
+        "stopping_condition": "Close after current reviews and final exact-byte backup; do not claim broader historical conclusions",
+        "unknowns": {
+          "closure_snapshot_id": "Not yet established; do not infer.",
+          "final_handoff": "Not yet established; do not infer.",
+          "intended_completion_at": "Not yet established; do not infer.",
+          "reserved_receipt_id": "Not yet established; do not infer."
+        },
+        "waits": [
+          "ConditionalT067/T068 listening/content dependencies; no disputed words used"
+        ]
+      },
+      "proposed": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": null,
+        "completed_task_outputs": [
+          {
+            "output_refs": [
+              "reports/milestones/delivery-review.md",
+              "reports/milestones/exercises/final-state-reader.json"
+            ],
+            "result": "Actual separate cross-output review and both fresh-reader recoveries complete; all requirements assessed with conditional waits",
+            "task_id": "TASK-0011"
+          },
+          {
+            "output_refs": [
+              "reports/milestones/exercises/public-package-check.json",
+              "reports/milestones/exercises/quickstart-completion.json"
+            ],
+            "result": "92isolated tests and CLI recovery semantics pass; supplied exercises remain illustrative",
+            "task_id": "T079"
+          },
+          {
+            "output_refs": [
+              "analysis/cycles/CYC-0001.json",
+              "reports/findings/FND-0001.md"
+            ],
+            "result": "Actual prospective protected-file test performed and separately reviewed with limits",
+            "task_id": "TASK-0010"
+          }
+        ],
+        "created_at": "2026-11-08T21:07:38.723968+00:00",
+        "current_milestone": "first-delivery final handoff",
+        "current_question": "How can the owner and selected reviewers audit the qualified file-context finding and resume the three saved next research actions?",
+        "deferred_branches": [
+          "RF mechanism/site/power pending dated architecture and qualified review"
+        ],
+        "disagreements": [
+          "Historical reported phase timing remains unresolved"
+        ],
+        "final_handoff": null,
+        "findings": [
+          {
+            "confidence": "moderate",
+            "id": "FND-0001",
+            "result": "Qualified selected-file program-return context observation",
+            "revision": 2
+          }
+        ],
+        "gaps": [
+          "Unknown capture/feed/edit independence",
+          "Unperformed blind transcription and period cultural interpretation",
+          "Missing cited agency letter/Q1capture chain and dated as-built equipment"
+        ],
+        "hypothesis_changes": [
+          {
+            "id": "HYP-0008",
+            "status": "weakened"
+          },
+          {
+            "id": "HYP-0009",
+            "status": "supported"
+          }
+        ],
+        "id": "SES-0004",
+        "intended_completion_at": null,
+        "intended_state": "active",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0007",
+              "Protected inputs and preferred words withheld"
+            ],
+            "output": "Actual annotated and blind second transcription if wording matters",
+            "owner": "Owner with unprimed listener"
+          },
+          {
+            "dependencies": [
+              "TASK-0009",
+              "Private contact/fee choice and current agency instructions"
+            ],
+            "output": "Decide on narrow UNSENT FBI records request",
+            "owner": "Owner"
+          },
+          {
+            "dependencies": [
+              "Dated equipment/monitoring records or fuller capture evidence"
+            ],
+            "output": "New prospectively frozen architecture/timing question",
+            "owner": "AI and qualified historical broadcast reviewer"
+          }
+        ],
+        "reopening_condition": "Continue three saved owned actions when their evidence/listener/owner dependencies are supplied; changed notes require another snapshot",
+        "reserved_receipt_id": null,
+        "revision": 3,
+        "schema_version": 1,
+        "started_at": "2026-11-08T21:07:38.723946+00:00",
+        "stopping_condition": "First useful reviewed increment complete; close with exact final snapshot and verify read-only delivery gate. Conditional listening/culture work waits without false completion.",
+        "unknowns": {
+          "closure_snapshot_id": "Not yet established; do not infer.",
+          "final_handoff": "Not yet established; do not infer.",
+          "intended_completion_at": "Not yet established; do not infer.",
+          "reserved_receipt_id": "Not yet established; do not infer."
+        },
+        "waits": [
+          "ConditionalT067/T068 listening/content dependencies; no disputed words used"
+        ]
+      }
+    }
+  ],
+  "reason": "Finalize actual reviewed research outcomes, fresh-reader result and owned continuation state before replacement review and final protection",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

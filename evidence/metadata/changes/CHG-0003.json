@@ -1,0 +1,143 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-07T22:50:35.565447+00:00",
+  "id": "CHG-0003",
+  "intended_final_file_manifest": {
+    "registers/tasks.csv": {
+      "byte_count": 11477,
+      "sha256": "67f21ebd53b8e044ff902bc121b9a35d90f0e2a83011946f625bc41c8cdb5508"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Proposed structure exists; status note, ID rules, and register fields are usable",
+        "dependencies_json": [],
+        "effort_timebox": "about 1 session",
+        "expected_output": "Proposed structure exists; status note, ID rules, and register fields are usable",
+        "external_wait": "not_applicable",
+        "id": "TASK-0001",
+        "legacy_aliases_json": [
+          "T01"
+        ],
+        "method": "Create the proposed structure, status note, ID rules, and six usable registers.",
+        "next_action": "Establish the dossier without claiming research outcomes; record actual outputs before changing completion status.",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Set up dossier and registers",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Proposed structure exists; status note, ID rules, and register fields are usable",
+        "dependencies_json": [],
+        "effort_timebox": "about 1 session",
+        "expected_output": "Proposed structure exists; status note, ID rules, and register fields are usable",
+        "external_wait": "not_applicable",
+        "id": "TASK-0001",
+        "legacy_aliases_json": [
+          "T01"
+        ],
+        "method": "Create the proposed structure, status note, ID rules, and six usable registers.",
+        "next_action": "Complete bounded setup/intake and preserve its output",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Set up dossier and registers",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Register S01-S07, identify original sources behind later accounts, and document retrieval limits",
+        "dependencies_json": [
+          {
+            "id": "TASK-0001",
+            "note": "Required: original T01"
+          }
+        ],
+        "effort_timebox": "1-2 sessions",
+        "expected_output": "Register S01-S07, identify original sources behind later accounts, and document retrieval limits",
+        "external_wait": "not_applicable",
+        "id": "TASK-0002",
+        "legacy_aliases_json": [
+          "T02"
+        ],
+        "method": "Register S01-S07; trace original sources behind later accounts and retain retrieval limits.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Map the starting sources and their dependencies",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Register S01-S07, identify original sources behind later accounts, and document retrieval limits",
+        "dependencies_json": [
+          {
+            "id": "TASK-0001",
+            "note": "Required: original T01"
+          }
+        ],
+        "effort_timebox": "1-2 sessions",
+        "expected_output": "Register S01-S07, identify original sources behind later accounts, and document retrieval limits",
+        "external_wait": "not_applicable",
+        "id": "TASK-0002",
+        "legacy_aliases_json": [
+          "T02"
+        ],
+        "method": "Register S01-S07; trace original sources behind later accounts and retain retrieval limits.",
+        "next_action": "Complete bounded setup/intake and preserve its output",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Map the starting sources and their dependencies",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    }
+  ],
+  "reason": "Begin actual setup and bounded starter-source inspection",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

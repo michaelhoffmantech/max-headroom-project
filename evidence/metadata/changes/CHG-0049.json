@@ -1,0 +1,1518 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T21:03:03.264865+00:00",
+  "id": "CHG-0049",
+  "intended_final_file_manifest": {
+    "evidence/metadata/assets/AST-0023.json": {
+      "byte_count": 2686,
+      "sha256": "b8625c4ece284b2d2b9c149178de4a28c9053700f4a7b08ad736d76125be9cfa"
+    },
+    "evidence/metadata/assets/AST-0024.json": {
+      "byte_count": 2686,
+      "sha256": "d7776a50ce8d6b664b34f7a954c8c38a838b3603f159f0e2311b040d89072f51"
+    },
+    "evidence/metadata/assets/AST-0025.json": {
+      "byte_count": 2686,
+      "sha256": "db59320da76bf38e594ee64a000b3970a78971c1ac17ad336ff596a3b2b7a848"
+    },
+    "evidence/metadata/assets/AST-0026.json": {
+      "byte_count": 2686,
+      "sha256": "88d6f5720332aebbc7000703f65564b5e83816a8687fe7dad2f2df49605440dd"
+    },
+    "evidence/metadata/assets/AST-0027.json": {
+      "byte_count": 2686,
+      "sha256": "f367f70e28e06e2029a9a3e3a991deed4d3212bb07604f7e2e16643897b9bd82"
+    },
+    "evidence/metadata/assets/AST-0028.json": {
+      "byte_count": 2686,
+      "sha256": "010c798b9918b9683c2c6c282cc969085b9aff0b7d487c41ad9fc6688ba03171"
+    },
+    "evidence/metadata/assets/AST-0029.json": {
+      "byte_count": 2686,
+      "sha256": "b7a482732e39a053860234d4da8a198f0508d1821ba63446f39f5e9beab3a22f"
+    },
+    "evidence/metadata/assets/AST-0030.json": {
+      "byte_count": 2686,
+      "sha256": "f7b1ddc91e718898635a5f00cbb0e7955a45975f7aa3a33dd6c8a6eb52cdc3a9"
+    },
+    "evidence/metadata/assets/AST-0031.json": {
+      "byte_count": 2686,
+      "sha256": "67cfba3b89f4fd38b6183a09dc096ab3553fd53243795ce3d11736f038786c31"
+    },
+    "evidence/metadata/assets/AST-0032.json": {
+      "byte_count": 2686,
+      "sha256": "08a3d64743e87e6eebf7e31756dc9af9b20ff8876060f8db0241fd54dcf9c973"
+    },
+    "registers/claims.csv": {
+      "byte_count": 21961,
+      "sha256": "54e2ddee08167c22010eefdaf1324562c4a1a072b578c67ea8b8794bfd1af31d"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Other alternatives on pages 1-2 are unchecked; extracted text alone is misleading",
+          "No exhaustive new search, definite additional records, transfer or destruction established"
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Direct visual reading of the protected third-party letter copy; confidence applies to its administrative statement, not case completeness",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0023",
+        "legacy_aliases_json": [],
+        "proposition": "The inspected December 13, 2023 FBI release letter states that five previously processed pages were supplied and, in its checked first paragraph, that additional responsive records may exist.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "limits": "MuckRock-hosted agency-letter copy; agency original/custody not independently authenticated; other boxes are unchecked",
+            "locator": {
+              "description": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda",
+              "kind": "page",
+              "precision": "PDF pages visually checked at 160 dpi",
+              "value": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda"
+            },
+            "role": "Release context for the five previously processed record pages",
+            "source_id": "SRC-0019",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Applies only to the tape examined by that laboratory",
+          "Q1 tape, prints and full copy history are absent",
+          "No claimed recovered detail or identification"
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Direct visual reading of page 5 of the protected five-page third-party report copy; no independent authentication of agency originals",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0024",
+        "legacy_aliases_json": [],
+        "proposition": "The inspected December 7, 1988 FBI laboratory report describes Q1 as at least a second-generation recording, reports unsuccessful image enhancement and says its six prints were illustrative.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "limits": "No linkage established between Q1 and online recordings; not a mechanism or identity finding",
+            "locator": {
+              "description": "PDF page 5 Result of examination",
+              "kind": "page",
+              "precision": "PDF page(s), visually checked at160dpi",
+              "value": "PDF page 5 Result of examination"
+            },
+            "role": "Supports the attributed laboratory assessment of specimen Q1 only",
+            "source_id": "SRC-0018",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": {
+        "acquired_at": "2026-11-08T21:01:23.028028+00:00",
+        "actor": "research_assistant",
+        "byte_count": 148462,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.028047+00:00",
+        "digitization_history": null,
+        "id": "AST-0023",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 1
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=1"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-1.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      },
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.028028+00:00",
+        "actor": "research_assistant",
+        "byte_count": 148462,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.028047+00:00",
+        "digitization_history": null,
+        "id": "AST-0023",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 1
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "work/render-records.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "limits": "Original invocation rendered all pages; per-page selection is recorded in input_locators, not an invented CLI argument. Portable repeat helper uses canonical IDs and a new output directory.",
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d",
+          "repeat_command": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "--output",
+            "work/new-record-page-reproduction"
+          ],
+          "script_preserved_copy": "docs/inspections/scripts/render-records-original.py",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 2,
+        "schema_version": 1,
+        "sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-1.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": {
+        "acquired_at": "2026-11-08T21:01:23.049820+00:00",
+        "actor": "research_assistant",
+        "byte_count": 413741,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.049835+00:00",
+        "digitization_history": null,
+        "id": "AST-0024",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 2
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=2"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "1565fb013601fd8380a0a2903dbe7e157410c2ed5bb7625c635b9bbec6420ca9",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "1565fb013601fd8380a0a2903dbe7e157410c2ed5bb7625c635b9bbec6420ca9",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-2.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      },
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.049820+00:00",
+        "actor": "research_assistant",
+        "byte_count": 413741,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.049835+00:00",
+        "digitization_history": null,
+        "id": "AST-0024",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 2
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "work/render-records.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "limits": "Original invocation rendered all pages; per-page selection is recorded in input_locators, not an invented CLI argument. Portable repeat helper uses canonical IDs and a new output directory.",
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "1565fb013601fd8380a0a2903dbe7e157410c2ed5bb7625c635b9bbec6420ca9",
+          "repeat_command": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "--output",
+            "work/new-record-page-reproduction"
+          ],
+          "script_preserved_copy": "docs/inspections/scripts/render-records-original.py",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 2,
+        "schema_version": 1,
+        "sha256": "1565fb013601fd8380a0a2903dbe7e157410c2ed5bb7625c635b9bbec6420ca9",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-2.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": {
+        "acquired_at": "2026-11-08T21:01:23.073934+00:00",
+        "actor": "research_assistant",
+        "byte_count": 307504,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.073947+00:00",
+        "digitization_history": null,
+        "id": "AST-0025",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 3
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=3"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "3fae691e9a1f5ab808b85f08175896048c40fcdc60970307759e1dde7036775d",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "3fae691e9a1f5ab808b85f08175896048c40fcdc60970307759e1dde7036775d",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-3.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      },
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.073934+00:00",
+        "actor": "research_assistant",
+        "byte_count": 307504,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.073947+00:00",
+        "digitization_history": null,
+        "id": "AST-0025",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 3
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "work/render-records.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "limits": "Original invocation rendered all pages; per-page selection is recorded in input_locators, not an invented CLI argument. Portable repeat helper uses canonical IDs and a new output directory.",
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "3fae691e9a1f5ab808b85f08175896048c40fcdc60970307759e1dde7036775d",
+          "repeat_command": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "--output",
+            "work/new-record-page-reproduction"
+          ],
+          "script_preserved_copy": "docs/inspections/scripts/render-records-original.py",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 2,
+        "schema_version": 1,
+        "sha256": "3fae691e9a1f5ab808b85f08175896048c40fcdc60970307759e1dde7036775d",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-3.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": {
+        "acquired_at": "2026-11-08T21:01:23.099938+00:00",
+        "actor": "research_assistant",
+        "byte_count": 232629,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.099953+00:00",
+        "digitization_history": null,
+        "id": "AST-0026",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 4
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=4"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "2ca728985c5f8f89f4ff723d4952f6ab7ac1346229d3c0fc67b1a528c049c7a4",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "2ca728985c5f8f89f4ff723d4952f6ab7ac1346229d3c0fc67b1a528c049c7a4",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-4.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      },
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.099938+00:00",
+        "actor": "research_assistant",
+        "byte_count": 232629,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.099953+00:00",
+        "digitization_history": null,
+        "id": "AST-0026",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 4
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "work/render-records.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "limits": "Original invocation rendered all pages; per-page selection is recorded in input_locators, not an invented CLI argument. Portable repeat helper uses canonical IDs and a new output directory.",
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "2ca728985c5f8f89f4ff723d4952f6ab7ac1346229d3c0fc67b1a528c049c7a4",
+          "repeat_command": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "--output",
+            "work/new-record-page-reproduction"
+          ],
+          "script_preserved_copy": "docs/inspections/scripts/render-records-original.py",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 2,
+        "schema_version": 1,
+        "sha256": "2ca728985c5f8f89f4ff723d4952f6ab7ac1346229d3c0fc67b1a528c049c7a4",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-4.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": {
+        "acquired_at": "2026-11-08T21:01:23.121650+00:00",
+        "actor": "research_assistant",
+        "byte_count": 478993,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.121663+00:00",
+        "digitization_history": null,
+        "id": "AST-0027",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 5
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=5"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "8d4b591e7ecaf5a7237db8e31931d801c8b639d3110868517e6515d806f2791c",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "8d4b591e7ecaf5a7237db8e31931d801c8b639d3110868517e6515d806f2791c",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-5.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      },
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.121650+00:00",
+        "actor": "research_assistant",
+        "byte_count": 478993,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.121663+00:00",
+        "digitization_history": null,
+        "id": "AST-0027",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 5
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "work/render-records.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "limits": "Original invocation rendered all pages; per-page selection is recorded in input_locators, not an invented CLI argument. Portable repeat helper uses canonical IDs and a new output directory.",
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "8d4b591e7ecaf5a7237db8e31931d801c8b639d3110868517e6515d806f2791c",
+          "repeat_command": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "--output",
+            "work/new-record-page-reproduction"
+          ],
+          "script_preserved_copy": "docs/inspections/scripts/render-records-original.py",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 2,
+        "schema_version": 1,
+        "sha256": "8d4b591e7ecaf5a7237db8e31931d801c8b639d3110868517e6515d806f2791c",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-5.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": {
+        "acquired_at": "2026-11-08T21:01:23.145090+00:00",
+        "actor": "research_assistant",
+        "byte_count": 341972,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.145106+00:00",
+        "digitization_history": null,
+        "id": "AST-0028",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 1
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=1"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "719b95174e424815c44f870ba92d44c0a31a357e9a785d1d1a8bd7841c6c7685",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "719b95174e424815c44f870ba92d44c0a31a357e9a785d1d1a8bd7841c6c7685",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-1.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      },
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.145090+00:00",
+        "actor": "research_assistant",
+        "byte_count": 341972,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.145106+00:00",
+        "digitization_history": null,
+        "id": "AST-0028",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 1
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "work/render-records.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "limits": "Original invocation rendered all pages; per-page selection is recorded in input_locators, not an invented CLI argument. Portable repeat helper uses canonical IDs and a new output directory.",
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "719b95174e424815c44f870ba92d44c0a31a357e9a785d1d1a8bd7841c6c7685",
+          "repeat_command": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "--output",
+            "work/new-record-page-reproduction"
+          ],
+          "script_preserved_copy": "docs/inspections/scripts/render-records-original.py",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 2,
+        "schema_version": 1,
+        "sha256": "719b95174e424815c44f870ba92d44c0a31a357e9a785d1d1a8bd7841c6c7685",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-1.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": {
+        "acquired_at": "2026-11-08T21:01:23.166382+00:00",
+        "actor": "research_assistant",
+        "byte_count": 333681,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.166395+00:00",
+        "digitization_history": null,
+        "id": "AST-0029",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 2
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=2"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "66c4de4487a98c3bc49ddeedb8bed37c3db1e864502f8dcc1a31034e9befbb4e",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "66c4de4487a98c3bc49ddeedb8bed37c3db1e864502f8dcc1a31034e9befbb4e",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-2.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      },
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.166382+00:00",
+        "actor": "research_assistant",
+        "byte_count": 333681,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.166395+00:00",
+        "digitization_history": null,
+        "id": "AST-0029",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 2
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "work/render-records.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "limits": "Original invocation rendered all pages; per-page selection is recorded in input_locators, not an invented CLI argument. Portable repeat helper uses canonical IDs and a new output directory.",
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "66c4de4487a98c3bc49ddeedb8bed37c3db1e864502f8dcc1a31034e9befbb4e",
+          "repeat_command": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "--output",
+            "work/new-record-page-reproduction"
+          ],
+          "script_preserved_copy": "docs/inspections/scripts/render-records-original.py",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 2,
+        "schema_version": 1,
+        "sha256": "66c4de4487a98c3bc49ddeedb8bed37c3db1e864502f8dcc1a31034e9befbb4e",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-2.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": {
+        "acquired_at": "2026-11-08T21:01:23.192663+00:00",
+        "actor": "research_assistant",
+        "byte_count": 110209,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.192679+00:00",
+        "digitization_history": null,
+        "id": "AST-0030",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 3
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=3"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "36353fb48a44fbb85b0ebe3a08b9be9564dc88ace8aec4ab31cf5527f8776dcf",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "36353fb48a44fbb85b0ebe3a08b9be9564dc88ace8aec4ab31cf5527f8776dcf",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-3.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      },
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.192663+00:00",
+        "actor": "research_assistant",
+        "byte_count": 110209,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.192679+00:00",
+        "digitization_history": null,
+        "id": "AST-0030",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 3
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "work/render-records.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "limits": "Original invocation rendered all pages; per-page selection is recorded in input_locators, not an invented CLI argument. Portable repeat helper uses canonical IDs and a new output directory.",
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "36353fb48a44fbb85b0ebe3a08b9be9564dc88ace8aec4ab31cf5527f8776dcf",
+          "repeat_command": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "--output",
+            "work/new-record-page-reproduction"
+          ],
+          "script_preserved_copy": "docs/inspections/scripts/render-records-original.py",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 2,
+        "schema_version": 1,
+        "sha256": "36353fb48a44fbb85b0ebe3a08b9be9564dc88ace8aec4ab31cf5527f8776dcf",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-3.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": {
+        "acquired_at": "2026-11-08T21:01:23.216764+00:00",
+        "actor": "research_assistant",
+        "byte_count": 513453,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.216779+00:00",
+        "digitization_history": null,
+        "id": "AST-0031",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 4
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=4"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "b722fbe6116672e054b99e7adb74bc313fda5fa68325cf10aa3ff5379b11d03c",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "b722fbe6116672e054b99e7adb74bc313fda5fa68325cf10aa3ff5379b11d03c",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-4.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      },
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.216764+00:00",
+        "actor": "research_assistant",
+        "byte_count": 513453,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.216779+00:00",
+        "digitization_history": null,
+        "id": "AST-0031",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 4
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "work/render-records.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "limits": "Original invocation rendered all pages; per-page selection is recorded in input_locators, not an invented CLI argument. Portable repeat helper uses canonical IDs and a new output directory.",
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "b722fbe6116672e054b99e7adb74bc313fda5fa68325cf10aa3ff5379b11d03c",
+          "repeat_command": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "--output",
+            "work/new-record-page-reproduction"
+          ],
+          "script_preserved_copy": "docs/inspections/scripts/render-records-original.py",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 2,
+        "schema_version": 1,
+        "sha256": "b722fbe6116672e054b99e7adb74bc313fda5fa68325cf10aa3ff5379b11d03c",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-4.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": {
+        "acquired_at": "2026-11-08T21:01:23.240632+00:00",
+        "actor": "research_assistant",
+        "byte_count": 358370,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.240647+00:00",
+        "digitization_history": null,
+        "id": "AST-0032",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 5
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=5"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "b2661c0cb7a2276ace2d00139e8c2b9108e928c00037eef8412d3362cbb50365",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "b2661c0cb7a2276ace2d00139e8c2b9108e928c00037eef8412d3362cbb50365",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-5.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      },
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.240632+00:00",
+        "actor": "research_assistant",
+        "byte_count": 358370,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.240647+00:00",
+        "digitization_history": null,
+        "id": "AST-0032",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 5
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "work/render-records.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "limits": "Original invocation rendered all pages; per-page selection is recorded in input_locators, not an invented CLI argument. Portable repeat helper uses canonical IDs and a new output directory.",
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "b2661c0cb7a2276ace2d00139e8c2b9108e928c00037eef8412d3362cbb50365",
+          "repeat_command": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "--output",
+            "work/new-record-page-reproduction"
+          ],
+          "script_preserved_copy": "docs/inspections/scripts/render-records-original.py",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 2,
+        "schema_version": 1,
+        "sha256": "b2661c0cb7a2276ace2d00139e8c2b9108e928c00037eef8412d3362cbb50365",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-5.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    }
+  ],
+  "reason": "Register attributed release claims and correct exact original rendering invocation without changing bytes or lineage",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

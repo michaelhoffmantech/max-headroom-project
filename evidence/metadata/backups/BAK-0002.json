@@ -1,0 +1,40 @@
+{
+  "actor": "research_assistant",
+  "attempted_at": "2026-11-08T13:35:00.612471+00:00",
+  "confirmed_at": "2026-11-08T13:35:00.612480+00:00",
+  "covered_ids": [
+    "AST-0001"
+  ],
+  "created_at": "2026-11-08T13:35:00.612487+00:00",
+  "destination_alias": "backup",
+  "failure_domain": "Owner-selected private separate directory on C:. Verified copies protect against accidental changes, not failure or loss of C:.",
+  "failure_reason": null,
+  "id": "BAK-0002",
+  "limits": "Integrity only; no historical authentication",
+  "manifest": [
+    {
+      "asset_id": "AST-0001",
+      "backup_relative_path": "objects/BAK-0002/AST-0001",
+      "byte_count": 73680,
+      "sha256": "ae99f651aabcd3e8d15809f602b19382c318269940b3f4c21999e3311facd749",
+      "source": {
+        "access_limit": "Private copyrighted source; no public redistribution",
+        "alias": "primary_evidence",
+        "relative_path": "AST-0001/1987-11-24-tribune.pdf"
+      }
+    }
+  ],
+  "method": "stream-copy; SHA-256 and byte count readback",
+  "predecessor_attempt": null,
+  "restrictions": "Private backup; no publication authorization",
+  "result": "confirmed",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "original",
+  "source_alias": "primary_evidence",
+  "tool_version": "dossier schema1 Python 3.13.12",
+  "unknowns": {
+    "failure_reason": "Not yet established; do not infer.",
+    "predecessor_attempt": "Not yet established; do not infer."
+  }
+}

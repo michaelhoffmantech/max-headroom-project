@@ -1,0 +1,159 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T13:35:00.507354+00:00",
+  "id": "CHG-0011",
+  "intended_final_file_manifest": {
+    "evidence/metadata/assets/AST-0001.json": {
+      "byte_count": 1407,
+      "sha256": "481797588cc3e217bde13c9a0dd0665bf553c07abdad8496eb2ab36aa0962ff0"
+    },
+    "registers/sources.csv": {
+      "byte_count": 20888,
+      "sha256": "af0b6d7bcf6bb0ccb0c2d8bb90f6d3e34a68f0cfd1548513a4d6a813f7af773c"
+    }
+  },
+  "operations": [
+    {
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T13:35:00.465867+00:00",
+        "actor": "research_assistant",
+        "byte_count": 73680,
+        "capture_date": null,
+        "completeness": "unknown",
+        "created_at": "2026-11-08T13:35:00.465920+00:00",
+        "digitization_history": "Repository download; scan production/date/edits unknown",
+        "id": "AST-0001",
+        "input_asset_ids": [],
+        "input_locators": [],
+        "kind": "acquired_original",
+        "known_edits": [],
+        "original_media_history": "Contemporary newspaper/trade-paper clipping or issue, as attributed by repository; original paper chain unknown",
+        "processing": null,
+        "provenance_limits": "Third-party source attributed by archive; original publication/capture chain unverified",
+        "receiver_feed": null,
+        "restrictions": "Private copyrighted source; no public redistribution",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "ae99f651aabcd3e8d15809f602b19382c318269940b3f4c21999e3311facd749",
+        "source_id": "SRC-0008",
+        "storage": {
+          "access_limit": "Private copyrighted source; no public redistribution",
+          "alias": "primary_evidence",
+          "relative_path": "AST-0001/1987-11-24-tribune.pdf"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not a broadcast capture; scan creation unknown",
+          "processing": "Not yet established; do not infer.",
+          "receiver_feed": "Not a broadcast recording",
+          "tape_generation": "Not a broadcast recording"
+        }
+      }
+    },
+    {
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "unknown",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive attribution/filename; article image date/byline not yet verified",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0008",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No authentication of original publication or historical technical conclusion; archive/index mediation retained",
+          "linked_media": "uninspected",
+          "text": "PDF available remotely but has no readable text layer; image inspection pending",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "URL: https://cuttingsarchive.org/images/6/6d/1987-11-24_Chicago_Tribune.pdf",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "A powerful video prankster could become Max Jailroom",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "creator": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0001"
+        ],
+        "completeness": "unknown",
+        "creator": "unknown",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive attribution/filename; article image date/byline not yet verified",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0008",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No authentication of original publication or historical technical conclusion; archive/index mediation retained",
+          "linked_media": "uninspected",
+          "text": "PDF available remotely but has no readable text layer; image inspection pending",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 2,
+        "source_locator": "URL: https://cuttingsarchive.org/images/6/6d/1987-11-24_Chicago_Tribune.pdf",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "A powerful video prankster could become Max Jailroom",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "creator": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    }
+  ],
+  "reason": "Register unchanged supplied acquisition",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

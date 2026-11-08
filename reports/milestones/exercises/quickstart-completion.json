@@ -1,0 +1,47 @@
+{
+  "task": "T079",
+  "checked_at": "2026-11-08T21:03:32.910023+00:00",
+  "operator_instructions_updated": "specs\\001-investigation-dossier\\quickstart.md",
+  "quickstart_sha256": "3407185add8cc92dd237187485dd40283a644f7238a49bc50159281b9018c4e6",
+  "status": "proof_ready_for_root_dependency_check",
+  "public_commit": "dae05ca",
+  "full_suite": {
+    "tests": 92,
+    "exit_code": 0,
+    "duration_seconds": 56.98,
+    "proof": "work/public-package-check.json"
+  },
+  "workflow_suite": {
+    "tests": 54,
+    "exit_code": 0,
+    "proof": "work/us6-exercise.json"
+  },
+  "exercises": [
+    {
+      "story": "US3/US4",
+      "checks": 8,
+      "status": "passed",
+      "proof": "work/us3-us4-exercise.json"
+    },
+    {
+      "story": "US5",
+      "checks": 11,
+      "proof": "work/us5-exercise.json"
+    },
+    {
+      "story": "US6",
+      "checks": 12,
+      "status": "passed",
+      "proof": "work/us6-exercise.json"
+    }
+  ],
+  "cli_proofs": [
+    "work/public-package-check.json",
+    "work/public-cli-recovery-check.json"
+  ],
+  "actual_vs_illustrative_distinction_retained": true,
+  "tests_repeated_without_new_need": false,
+  "task_marker_changed": false,
+  "canonical_data_edited": false,
+  "remaining_dependency": "Root confirms T059 closure and remaining final-delivery requirements; no delivery success claimed by this note"
+}

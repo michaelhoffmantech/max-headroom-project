@@ -1,0 +1,151 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-07T22:50:36.034375+00:00",
+  "id": "CHG-0005",
+  "intended_final_file_manifest": {
+    "registers/tasks.csv": {
+      "byte_count": 11868,
+      "sha256": "6665216e44aed5be345f7988de9da4405ce29cf1de020712a8842981c83062b8"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Proposed structure exists; status note, ID rules, and register fields are usable",
+        "dependencies_json": [],
+        "effort_timebox": "about 1 session",
+        "expected_output": "Proposed structure exists; status note, ID rules, and register fields are usable",
+        "external_wait": "not_applicable",
+        "id": "TASK-0001",
+        "legacy_aliases_json": [
+          "T01"
+        ],
+        "method": "Create the proposed structure, status note, ID rules, and six usable registers.",
+        "next_action": "Complete bounded setup/intake and preserve its output",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Set up dossier and registers",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Proposed structure exists; status note, ID rules, and register fields are usable",
+        "dependencies_json": [],
+        "effort_timebox": "about 1 session",
+        "expected_output": "Proposed structure exists; status note, ID rules, and register fields are usable",
+        "external_wait": "not_applicable",
+        "id": "TASK-0001",
+        "legacy_aliases_json": [
+          "T01"
+        ],
+        "method": "Create the proposed structure, status note, ID rules, and six usable registers.",
+        "next_action": "Review actual foundation before expanded collection",
+        "output_refs_json": [
+          "README.md",
+          "docs/STATUS.md",
+          "docs/METHODS.md",
+          "registers/"
+        ],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Set up dossier and registers",
+        "reopening_condition": "not_applicable",
+        "result": "Dossier structure, six schemas, stable ID rules, status and preservation tooling exist and pass isolated checks; no historical milestone inferred.",
+        "retired": false,
+        "revision": 3,
+        "status": "done",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Register S01-S07, identify original sources behind later accounts, and document retrieval limits",
+        "dependencies_json": [
+          {
+            "id": "TASK-0001",
+            "note": "Required: original T01"
+          }
+        ],
+        "effort_timebox": "1-2 sessions",
+        "expected_output": "Register S01-S07, identify original sources behind later accounts, and document retrieval limits",
+        "external_wait": "not_applicable",
+        "id": "TASK-0002",
+        "legacy_aliases_json": [
+          "T02"
+        ],
+        "method": "Register S01-S07; trace original sources behind later accounts and retain retrieval limits.",
+        "next_action": "Complete bounded setup/intake and preserve its output",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Map the starting sources and their dependencies",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Register S01-S07, identify original sources behind later accounts, and document retrieval limits",
+        "dependencies_json": [
+          {
+            "id": "TASK-0001",
+            "note": "Required: original T01"
+          }
+        ],
+        "effort_timebox": "1-2 sessions",
+        "expected_output": "Register S01-S07, identify original sources behind later accounts, and document retrieval limits",
+        "external_wait": "not_applicable",
+        "id": "TASK-0002",
+        "legacy_aliases_json": [
+          "T02"
+        ],
+        "method": "Register S01-S07; trace original sources behind later accounts and retain retrieval limits.",
+        "next_action": "Obtain separate foundation usability review; preserve original-source gaps",
+        "output_refs_json": [
+          "registers/sources.csv",
+          "registers/claims.csv",
+          "registers/searches.csv",
+          "work/starter-inspection-b.json"
+        ],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Map the starting sources and their dependencies",
+        "reopening_condition": "not_applicable",
+        "result": "All seven starter references attempted; accessible text and blocked/indexed limits recorded. Shared witness and original-record/session unknowns remain explicit, rather than assumed independence.",
+        "retired": false,
+        "revision": 3,
+        "status": "done",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed."
+        }
+      }
+    }
+  ],
+  "reason": "Record bounded foundation setup/intake outputs without claiming baseline or completed cycle",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

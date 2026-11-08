@@ -1,0 +1,489 @@
+{
+  "checked_at": "2026-11-08T20:52:26.213165+00:00",
+  "package_directory": "C:\\dev\\max-headroom-project\\work\\public-package-20261108T205128Z",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "9d0f6e7c0a91db268b53bc96aae91ccadc115cd5cd9674e063608674e7af3c03",
+      "byte_count": 521
+    },
+    {
+      "path": "README.md",
+      "sha256": "aed61e015ed17a869152a9b878a183e74ab4a75f50d757eeedad7c583c4f7477",
+      "byte_count": 1449
+    },
+    {
+      "path": "tools/dossier.py",
+      "sha256": "6c62a5d743287ae7199260b79b1174822f6b70cbe9bd74a3f8664a4dcb813ad2",
+      "byte_count": 106404
+    },
+    {
+      "path": "config/storage.local.example.json",
+      "sha256": "aba3cd0e1bc348dfc9b60b5110edd9387a96a974141bde82d4163f67bf0a008a",
+      "byte_count": 1489
+    },
+    {
+      "path": "tests/test_preservation.py",
+      "sha256": "7fdecacb3ae462dc658bb111a12006b1b6e22d8e0235a85de45cdc2e5b85b9f6",
+      "byte_count": 12203
+    },
+    {
+      "path": "tests/test_records.py",
+      "sha256": "bb3dede00635e5752da09e8fb1e72d6920af73cd32dc5746fd016d7c02f451a8",
+      "byte_count": 22625
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "sha256": "ec2073128560f0dc04dd2e69aae8f7ccf6de978753ab72cea6e4b87f54a53b7e",
+      "byte_count": 40276
+    },
+    {
+      "path": "tests/fixtures/README.md",
+      "sha256": "132191862e4e53010b72f8522f9ac38400ea236b6f4b9549714755f71a6f6e71",
+      "byte_count": 1427
+    },
+    {
+      "path": "tests/fixtures/seed-records.json",
+      "sha256": "9cf1caa7409b040204825c16b08069b602f9dc8dc1f2d7018bc64be6e273bf40",
+      "byte_count": 38942
+    }
+  ],
+  "commands": [
+    {
+      "arguments": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "label": "unittest",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "arguments": [
+        "tools/dossier.py",
+        "--root",
+        "work/illustrative",
+        "--format",
+        "json",
+        "init",
+        "--seeds",
+        "tests/fixtures/seed-records.json",
+        "--dataset-role",
+        "illustrative"
+      ],
+      "label": "init",
+      "exit_code": 0,
+      "expected": 0,
+      "json": {
+        "blockers": [],
+        "changed_ids": [
+          "SRC-0001",
+          "SRC-0002",
+          "SRC-0003",
+          "SRC-0004",
+          "SRC-0005",
+          "SRC-0006",
+          "SRC-0007",
+          "CLM-0001",
+          "CLM-0002",
+          "HYP-0001",
+          "HYP-0002",
+          "HYP-0003",
+          "HYP-0004",
+          "HYP-0005",
+          "HYP-0006",
+          "HYP-0007",
+          "TASK-0001",
+          "TASK-0002",
+          "TASK-0003",
+          "TASK-0004",
+          "TASK-0005",
+          "TASK-0006",
+          "TASK-0007",
+          "TASK-0008",
+          "TASK-0009",
+          "TASK-0010",
+          "TASK-0011",
+          "SRCH-0001"
+        ],
+        "checks": [],
+        "command": "init",
+        "created_paths": [
+          "README.md",
+          "analysis/chronology/",
+          "analysis/culture/",
+          "analysis/engineering/",
+          "analysis/geography/",
+          "analysis/media-comparison/",
+          "config/",
+          "config/dossier.json",
+          "derived/audio/",
+          "derived/frames/",
+          "derived/transcripts/",
+          "docs/",
+          "docs/DECISIONS.md",
+          "docs/METHODS.md",
+          "docs/STATUS.md",
+          "evidence/originals/",
+          "private/",
+          "registers/claims.csv",
+          "registers/hypotheses.csv",
+          "registers/searches.csv",
+          "registers/sources.csv",
+          "registers/tasks.csv",
+          "registers/timeline.csv",
+          "reports/findings/reviews/artifacts/",
+          "reports/interviews/",
+          "reports/milestones/",
+          "reports/records/",
+          "reports/requests/",
+          "tests/fixtures/",
+          "tools/",
+          "work/"
+        ],
+        "dataset_manifest": {
+          "registers/claims.csv": {
+            "byte_count": 1239,
+            "sha256": "43f84516bb37c5ac9903d9ff55d36d8fd582a0c53006f43ba14e6f539ee5a25e"
+          },
+          "registers/hypotheses.csv": {
+            "byte_count": 4927,
+            "sha256": "7ba5979da5e69bc5aaeb32072bab01fb46609c1439c1715870aff94cdc71fa1b"
+          },
+          "registers/searches.csv": {
+            "byte_count": 611,
+            "sha256": "c5da6577c6862cdea4cf0193648767cdbf9e8b64d852add144a683b61d665745"
+          },
+          "registers/sources.csv": {
+            "byte_count": 7286,
+            "sha256": "992dd5c58705e54f475a4d0b4993b677914674ac8b3a862a0550adb5dadefd59"
+          },
+          "registers/tasks.csv": {
+            "byte_count": 7033,
+            "sha256": "75d608362fab8f31115bb6328660ae5a0648e0c042f1d6da3b28107ce096c690"
+          },
+          "registers/timeline.csv": {
+            "byte_count": 248,
+            "sha256": "d788a460ae52a20a40c8b17845e3a7c71ee5b77c098c070741fafb6829098b0c"
+          }
+        },
+        "dataset_role": "illustrative",
+        "errors": [],
+        "gaps": [],
+        "schema_version": 1,
+        "status": "ok",
+        "transaction_id": "CHG-0001"
+      }
+    },
+    {
+      "arguments": [
+        "tools/dossier.py",
+        "--root",
+        "work/illustrative",
+        "--format",
+        "json",
+        "validate",
+        "--gate",
+        "records"
+      ],
+      "label": "records",
+      "exit_code": 0,
+      "expected": 0,
+      "json": {
+        "blockers": [],
+        "changed_ids": [],
+        "checks": [
+          {
+            "name": "records",
+            "result": "pass"
+          }
+        ],
+        "command": "validate",
+        "created_paths": [],
+        "dataset_manifest": {
+          "registers/claims.csv": {
+            "byte_count": 1239,
+            "sha256": "43f84516bb37c5ac9903d9ff55d36d8fd582a0c53006f43ba14e6f539ee5a25e"
+          },
+          "registers/hypotheses.csv": {
+            "byte_count": 4927,
+            "sha256": "7ba5979da5e69bc5aaeb32072bab01fb46609c1439c1715870aff94cdc71fa1b"
+          },
+          "registers/searches.csv": {
+            "byte_count": 611,
+            "sha256": "c5da6577c6862cdea4cf0193648767cdbf9e8b64d852add144a683b61d665745"
+          },
+          "registers/sources.csv": {
+            "byte_count": 7286,
+            "sha256": "992dd5c58705e54f475a4d0b4993b677914674ac8b3a862a0550adb5dadefd59"
+          },
+          "registers/tasks.csv": {
+            "byte_count": 7033,
+            "sha256": "75d608362fab8f31115bb6328660ae5a0648e0c042f1d6da3b28107ce096c690"
+          },
+          "registers/timeline.csv": {
+            "byte_count": 248,
+            "sha256": "d788a460ae52a20a40c8b17845e3a7c71ee5b77c098c070741fafb6829098b0c"
+          }
+        },
+        "dataset_role": "illustrative",
+        "errors": [],
+        "finding_states": {},
+        "gaps": [],
+        "readiness": "structure_only",
+        "schema_version": 1,
+        "status": "ok"
+      }
+    },
+    {
+      "arguments": [
+        "tools/dossier.py",
+        "--root",
+        "work/illustrative",
+        "--format",
+        "json",
+        "validate",
+        "--gate",
+        "foundation"
+      ],
+      "label": "foundation",
+      "exit_code": 0,
+      "expected": 0,
+      "json": {
+        "blockers": [],
+        "changed_ids": [],
+        "checks": [
+          {
+            "name": "records",
+            "result": "pass"
+          }
+        ],
+        "command": "validate",
+        "created_paths": [],
+        "dataset_manifest": {
+          "registers/claims.csv": {
+            "byte_count": 1239,
+            "sha256": "43f84516bb37c5ac9903d9ff55d36d8fd582a0c53006f43ba14e6f539ee5a25e"
+          },
+          "registers/hypotheses.csv": {
+            "byte_count": 4927,
+            "sha256": "7ba5979da5e69bc5aaeb32072bab01fb46609c1439c1715870aff94cdc71fa1b"
+          },
+          "registers/searches.csv": {
+            "byte_count": 611,
+            "sha256": "c5da6577c6862cdea4cf0193648767cdbf9e8b64d852add144a683b61d665745"
+          },
+          "registers/sources.csv": {
+            "byte_count": 7286,
+            "sha256": "992dd5c58705e54f475a4d0b4993b677914674ac8b3a862a0550adb5dadefd59"
+          },
+          "registers/tasks.csv": {
+            "byte_count": 7033,
+            "sha256": "75d608362fab8f31115bb6328660ae5a0648e0c042f1d6da3b28107ce096c690"
+          },
+          "registers/timeline.csv": {
+            "byte_count": 248,
+            "sha256": "d788a460ae52a20a40c8b17845e3a7c71ee5b77c098c070741fafb6829098b0c"
+          }
+        },
+        "dataset_role": "illustrative",
+        "errors": [],
+        "finding_states": {},
+        "gaps": [
+          {
+            "code": "backup_unconfigured",
+            "message": "Production backup remains an operational dependency",
+            "reference": "config/storage.local.json"
+          }
+        ],
+        "readiness": "structure_only",
+        "schema_version": 1,
+        "status": "ok"
+      }
+    },
+    {
+      "arguments": [
+        "tools/dossier.py",
+        "--root",
+        "work/illustrative",
+        "--format",
+        "json",
+        "validate",
+        "--gate",
+        "delivery",
+        "--verify-files"
+      ],
+      "label": "delivery-rejected",
+      "exit_code": 4,
+      "expected": 4,
+      "json": {
+        "blockers": [
+          {
+            "code": "foundation_review",
+            "dependency": null,
+            "message": "Passed foundation review required before expanded collection",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": null
+          },
+          {
+            "code": "baseline_output",
+            "dependency": "analysis/chronology/source-map.md",
+            "message": "Baseline output missing",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": "analysis/chronology/source-map.md"
+          },
+          {
+            "code": "baseline_output",
+            "dependency": "analysis/chronology/timeline.md",
+            "message": "Baseline output missing",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": "analysis/chronology/timeline.md"
+          },
+          {
+            "code": "baseline_output",
+            "dependency": "analysis/chronology/contradictions.md",
+            "message": "Baseline output missing",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": "analysis/chronology/contradictions.md"
+          },
+          {
+            "code": "baseline_output",
+            "dependency": "analysis/media-comparison/recording-inventory.md",
+            "message": "Baseline output missing",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": "analysis/media-comparison/recording-inventory.md"
+          },
+          {
+            "code": "baseline_output",
+            "dependency": "analysis/engineering/signal-paths.md",
+            "message": "Baseline output missing",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": "analysis/engineering/signal-paths.md"
+          },
+          {
+            "code": "baseline_output",
+            "dependency": "analysis/engineering/assumptions.md",
+            "message": "Baseline output missing",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": "analysis/engineering/assumptions.md"
+          },
+          {
+            "code": "baseline_review",
+            "dependency": null,
+            "message": "Retained baseline review required",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": null
+          },
+          {
+            "code": "actual_reviewed_cycle",
+            "dependency": null,
+            "message": "Need a performed real test and matching separate findings review",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": null
+          },
+          {
+            "code": "actual_dataset_required",
+            "dependency": null,
+            "message": "Illustrative datasets cannot pass delivery",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": null
+          },
+          {
+            "code": "milestone_review",
+            "dependency": "foundation",
+            "message": "Missing matching milestone review",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": "foundation"
+          },
+          {
+            "code": "milestone_review",
+            "dependency": "baseline",
+            "message": "Missing matching milestone review",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": "baseline"
+          },
+          {
+            "code": "milestone_review",
+            "dependency": "analytical_cycle",
+            "message": "Missing matching milestone review",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": "analytical_cycle"
+          },
+          {
+            "code": "milestone_review",
+            "dependency": "review",
+            "message": "Missing matching milestone review",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": "review"
+          },
+          {
+            "code": "workstream_inventory",
+            "dependency": null,
+            "message": "Five-workstream output/status inventory missing",
+            "next_action": "Account for every required output with an actual product or an explicit unfinished dependency.",
+            "reference": "reports/milestones/workstreams.md"
+          },
+          {
+            "code": "completed_handoff",
+            "dependency": null,
+            "message": "Exact-content final session backup and mirrored commit required",
+            "next_action": "Supply or complete the named dependency; retain actual limits.",
+            "reference": null
+          }
+        ],
+        "changed_ids": [],
+        "checks": [
+          {
+            "name": "records",
+            "result": "pass"
+          }
+        ],
+        "command": "validate",
+        "created_paths": [],
+        "dataset_manifest": {
+          "registers/claims.csv": {
+            "byte_count": 1239,
+            "sha256": "43f84516bb37c5ac9903d9ff55d36d8fd582a0c53006f43ba14e6f539ee5a25e"
+          },
+          "registers/hypotheses.csv": {
+            "byte_count": 4927,
+            "sha256": "7ba5979da5e69bc5aaeb32072bab01fb46609c1439c1715870aff94cdc71fa1b"
+          },
+          "registers/searches.csv": {
+            "byte_count": 611,
+            "sha256": "c5da6577c6862cdea4cf0193648767cdbf9e8b64d852add144a683b61d665745"
+          },
+          "registers/sources.csv": {
+            "byte_count": 7286,
+            "sha256": "992dd5c58705e54f475a4d0b4993b677914674ac8b3a862a0550adb5dadefd59"
+          },
+          "registers/tasks.csv": {
+            "byte_count": 7033,
+            "sha256": "75d608362fab8f31115bb6328660ae5a0648e0c042f1d6da3b28107ce096c690"
+          },
+          "registers/timeline.csv": {
+            "byte_count": 248,
+            "sha256": "d788a460ae52a20a40c8b17845e3a7c71ee5b77c098c070741fafb6829098b0c"
+          }
+        },
+        "dataset_role": "illustrative",
+        "errors": [],
+        "finding_states": {},
+        "gaps": [
+          {
+            "code": "backup_unconfigured",
+            "message": "Production backup remains an operational dependency",
+            "reference": "config/storage.local.json"
+          }
+        ],
+        "readiness": "not_ready",
+        "schema_version": 1,
+        "status": "blocked"
+      }
+    }
+  ]
+}

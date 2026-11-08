@@ -1,0 +1,76 @@
+{
+  "exercise": "US3/US4",
+  "executed_at": "2026-11-08T21:02:48.831623+00:00",
+  "dataset_role": "illustrative",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "unprotected_input_blocks_start",
+      "result": "pass",
+      "detail": "original_backup_required"
+    },
+    {
+      "name": "protected_start",
+      "result": "pass",
+      "detail": "Confirmed backup precedes command-owned input manifest and actual analysis start"
+    },
+    {
+      "name": "performed_fixture_result",
+      "result": "pass",
+      "detail": "Measured one exact marker and retained original frozen predictions"
+    },
+    {
+      "name": "scoped_hypothesis",
+      "result": "pass",
+      "detail": "New fixture-only hypothesis is supported without changing seeded alternatives"
+    },
+    {
+      "name": "reverse_review_preserves_finding",
+      "result": "pass",
+      "detail": "Fictional reviewer metadata clears structural readiness without editing reviewed finding"
+    },
+    {
+      "name": "exact_final_handoff",
+      "result": "pass",
+      "detail": "Final fixture notes/session snapshot confirmed and mirrored before completion"
+    },
+    {
+      "name": "illustrative_delivery_rejected",
+      "result": "pass",
+      "detail": "Structurally exercised cycle/report/closure cannot become actual delivery"
+    },
+    {
+      "name": "changed_basis_invalidates_readiness",
+      "result": "pass",
+      "detail": "Changed source makes review pending and current snapshot stale"
+    }
+  ],
+  "actual_research_written": false,
+  "actual_separate_reviewer_claimed": false,
+  "temporary_dataset_removed": true,
+  "frozen_plan": {
+    "alternatives": [
+      "The generated fixture contains the exact ASCII marker",
+      "The generated fixture does not contain that marker"
+    ],
+    "dependencies": [],
+    "evidence_needs": [
+      "Generated fixture bytes, explicitly known in advance; no blinded discovery"
+    ],
+    "expected_output": "An illustrative exact byte-marker count and its limited interpretation",
+    "necessary_conditions": [
+      {
+        "description": "The generated input must decode as ASCII for this marker test"
+      }
+    ],
+    "predictions": [
+      {
+        "description": "The first alternative predicts at least one exact ILLUSTRATIVE byte sequence"
+      }
+    ],
+    "question": "Does the supplied generated fixture contain its explicit ILLUSTRATIVE marker?",
+    "timebox": "one test run"
+  },
+  "observed_marker_count": 1,
+  "fixture_delivery_exit_code": 4
+}

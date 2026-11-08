@@ -1,0 +1,177 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T14:08:15.553267+00:00",
+  "id": "CHG-0022",
+  "intended_final_file_manifest": {
+    "evidence/metadata/sessions/SES-0002.json": {
+      "byte_count": 3022,
+      "sha256": "72147822af985ccc8199a11a4ed24bd2443656ea1681df320f0098b3c43670c3"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "sessions",
+      "previous": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": null,
+        "completed_task_outputs": [],
+        "created_at": "2026-11-08T13:29:25.014200+00:00",
+        "current_milestone": "baseline",
+        "current_question": "What do accessible contemporary accounts and recording leads establish for the two stations, and which historical path components remain unknown?",
+        "deferred_branches": [
+          "Detailed audiovisual interpretation awaits inventoried/protected input and required review"
+        ],
+        "disagreements": [],
+        "final_handoff": null,
+        "findings": [],
+        "gaps": [
+          "Original recordings and exact capture lineage not established",
+          "Dated1987 equipment/monitoring documentation not yet located"
+        ],
+        "hypothesis_changes": [],
+        "id": "SES-0002",
+        "intended_completion_at": null,
+        "intended_state": "active",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0002"
+            ],
+            "output": "Defined contemporary reporting survey",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0002"
+            ],
+            "output": "Recording inventory with explicit provenance gaps",
+            "owner": "AI; owner for personal copies"
+          },
+          {
+            "dependencies": [
+              "TASK-0003"
+            ],
+            "output": "Chronology and dated signal-path baseline",
+            "owner": "AI"
+          }
+        ],
+        "reopening_condition": null,
+        "reserved_receipt_id": null,
+        "revision": 1,
+        "schema_version": 1,
+        "started_at": "2026-11-08T13:29:25.014186+00:00",
+        "stopping_condition": null,
+        "unknowns": {
+          "closure_snapshot_id": "Not yet established; do not infer.",
+          "final_handoff": "Not yet established; do not infer.",
+          "intended_completion_at": "Not yet established; do not infer.",
+          "reopening_condition": "Not yet established; do not infer.",
+          "reserved_receipt_id": "Not yet established; do not infer.",
+          "stopping_condition": "Not yet established; do not infer."
+        },
+        "waits": []
+      },
+      "proposed": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": null,
+        "completed_task_outputs": [
+          {
+            "output_refs": [
+              "registers/searches.csv",
+              "analysis/chronology/image-text-check.md"
+            ],
+            "result": "Defined contemporary survey with image checks and barriers",
+            "task_id": "TASK-0003"
+          },
+          {
+            "output_refs": [
+              "analysis/media-comparison/recording-inventory.md"
+            ],
+            "result": "Provisional recording version/provenance inventory",
+            "task_id": "TASK-0004"
+          },
+          {
+            "output_refs": [
+              "analysis/chronology/timeline.md",
+              "analysis/chronology/contradictions.md"
+            ],
+            "result": "Source-linked chronology with explicit clock/phase limits",
+            "task_id": "TASK-0005"
+          },
+          {
+            "output_refs": [
+              "analysis/engineering/signal-paths.md",
+              "analysis/engineering/assumptions.md"
+            ],
+            "result": "Dated reported paths and unknowns; no point RF deduction",
+            "task_id": "TASK-0006"
+          }
+        ],
+        "created_at": "2026-11-08T13:29:25.014200+00:00",
+        "current_milestone": "baseline",
+        "current_question": "What do accessible contemporary accounts and recording leads establish for the two stations, and which historical path components remain unknown?",
+        "deferred_branches": [
+          "Detailed audiovisual interpretation awaits inventoried/protected input and required review"
+        ],
+        "disagreements": [],
+        "final_handoff": null,
+        "findings": [],
+        "gaps": [
+          "No inspected broadcast recording yet",
+          "Historic receiver/antenna/control/alternate-feed details remain unverified",
+          "Clip runtime/capture completeness and independence not established"
+        ],
+        "hypothesis_changes": [],
+        "id": "SES-0002",
+        "intended_completion_at": null,
+        "intended_state": "active",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0005",
+              "TASK-0006"
+            ],
+            "output": "Preserve separate baseline review and freeze bounded candidate-completeness test",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0004"
+            ],
+            "output": "Acquire and protect selected candidate files before probing",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0010"
+            ],
+            "output": "Perform test and challenge its file-coordinate/context conclusions",
+            "owner": "AI; separate reviewer"
+          }
+        ],
+        "reopening_condition": null,
+        "reserved_receipt_id": null,
+        "revision": 2,
+        "schema_version": 1,
+        "started_at": "2026-11-08T13:29:25.014186+00:00",
+        "stopping_condition": null,
+        "unknowns": {
+          "closure_snapshot_id": "Not yet established; do not infer.",
+          "final_handoff": "Not yet established; do not infer.",
+          "intended_completion_at": "Not yet established; do not infer.",
+          "reopening_condition": "Not yet established; do not infer.",
+          "reserved_receipt_id": "Not yet established; do not infer.",
+          "stopping_condition": "Not yet established; do not infer."
+        },
+        "waits": []
+      }
+    }
+  ],
+  "reason": "Save actual baseline product state before separate review; no analytical test claimed",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

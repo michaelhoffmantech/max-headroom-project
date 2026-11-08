@@ -1,0 +1,60 @@
+{
+  "acquired_at": "2026-11-08T13:45:49.299135+00:00",
+  "actor": "research_assistant",
+  "byte_count": 454453,
+  "capture_date": null,
+  "completeness": "partial",
+  "created_at": "2026-11-08T13:45:49.299147+00:00",
+  "digitization_history": "Mechanical PyMuPDF page rendering,160dpi,RGB,noalpha; no OCR/enhancement",
+  "id": "AST-0005",
+  "input_asset_ids": [
+    "AST-0001"
+  ],
+  "input_locators": [
+    {
+      "asset_id": "AST-0001",
+      "page_number": 2
+    }
+  ],
+  "kind": "derivative",
+  "known_edits": [
+    "PDF page rendered to PNG; original bytes unchanged"
+  ],
+  "original_media_history": "Inherited from the protected source asset; this is a rendered page",
+  "processing": {
+    "arguments": [
+      "analysis/chronology/render_clippings.py"
+    ],
+    "claimed_as_recovered_evidence": false,
+    "executable": "python",
+    "generative": false,
+    "method": "Mechanical page rasterization",
+    "output_sha256": "7a39b4a27f15cf4901398ba8fd24386c4a0d34f979d986671e4b02736f2f7e16",
+    "settings": {
+      "alpha": false,
+      "dpi": 160
+    },
+    "stream_notes": "PDF page ordinal 2",
+    "time_base": "not_applicable: paged source",
+    "tool_version": "Python3.13.12; PyMuPDF2.1"
+  },
+  "provenance_limits": "Rendering preserves displayed source content; neither source nor scan origin authenticated",
+  "receiver_feed": null,
+  "restrictions": "Private research only; source restrictions apply",
+  "revision": 1,
+  "schema_version": 1,
+  "sha256": "7a39b4a27f15cf4901398ba8fd24386c4a0d34f979d986671e4b02736f2f7e16",
+  "source_id": null,
+  "storage": {
+    "access_limit": "Private copyrighted source-derived page; no public redistribution",
+    "alias": "project",
+    "relative_path": "derived/frames/newspaper-pages/AST-0001-page-2.png"
+  },
+  "tape_generation": null,
+  "unknowns": {
+    "capture_date": "Not yet established; do not infer.",
+    "receiver_feed": "Not yet established; do not infer.",
+    "source_id": "Derivative source lineage comes from every input asset, not an arbitrary singular source",
+    "tape_generation": "Not yet established; do not infer."
+  }
+}

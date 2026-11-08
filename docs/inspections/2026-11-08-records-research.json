@@ -1,0 +1,741 @@
+{
+  "actual_external_actions": [],
+  "claim_suggestions": [
+    {
+      "category": "reported_claim",
+      "caveats": [
+        "Other alternatives on pages 1-2 are unchecked; extracted text alone is misleading",
+        "No exhaustive new search, definite additional records, transfer or destruction established"
+      ],
+      "confidence": "moderate",
+      "confidence_reasons": "Direct visual reading of the protected third-party letter copy; confidence applies to its administrative statement, not case completeness",
+      "proposition": "The inspected December 13, 2023 FBI release letter states that five previously processed pages were supplied and, in its checked first paragraph, that additional responsive records may exist.",
+      "supporting_evidence": [
+        {
+          "limits": "MuckRock-hosted agency-letter copy; agency original/custody not independently authenticated; other boxes are unchecked",
+          "locator": {
+            "description": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda",
+            "kind": "page",
+            "precision": "PDF pages visually checked at 160 dpi",
+            "value": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda"
+          },
+          "role": "Release context for the five previously processed record pages",
+          "source_id": "SRC-0019",
+          "source_revision": 3
+        }
+      ]
+    },
+    {
+      "category": "reported_claim",
+      "caveats": [
+        "Applies only to the tape examined by that laboratory",
+        "Q1 tape, prints and full copy history are absent",
+        "No claimed recovered detail or identification"
+      ],
+      "confidence": "moderate",
+      "confidence_reasons": "Direct visual reading of page 5 of the protected five-page third-party report copy; no independent authentication of agency originals",
+      "proposition": "The inspected December 7, 1988 FBI laboratory report describes Q1 as at least a second-generation recording, reports unsuccessful image enhancement and says its six prints were illustrative.",
+      "supporting_evidence": [
+        {
+          "limits": "No linkage established between Q1 and online recordings; not a mechanism or identity finding",
+          "locator": {
+            "description": "PDF page 5 Result of examination",
+            "kind": "page",
+            "precision": "PDF page(s), visually checked at160dpi",
+            "value": "PDF page 5 Result of examination"
+          },
+          "role": "Supports the attributed laboratory assessment of specimen Q1 only",
+          "source_id": "SRC-0018",
+          "source_revision": 3
+        }
+      ]
+    }
+  ],
+  "exercises": {
+    "US6": "work/us6-exercise.json"
+  },
+  "file_basis": [
+    {
+      "byte_count": 7167,
+      "path": "reports/records/inventory.md",
+      "sha256": "60771e85de75c94d7a80ca0be86cbab05f8d43d3507a94f32839116bc1f2cc7e"
+    },
+    {
+      "byte_count": 4170,
+      "path": "reports/requests/record-request.md",
+      "sha256": "85240258f3d7d3ccd3d842709a71d862f94fe20175c591673ae8c0e289dc7eb1"
+    },
+    {
+      "byte_count": 3433,
+      "path": "reports/interviews/neutral-guide.md",
+      "sha256": "743b3ffae0799e6de8f9fdce2262fb393ee9b754344c5d9fcfad8a238f1aac2a"
+    },
+    {
+      "byte_count": 9187,
+      "path": "work/us6-exercise.py",
+      "sha256": "4e5f7793a8073f937848316dd515362ab981dfe22494e5e9e7a20a83c21dcf4f"
+    },
+    {
+      "byte_count": 12015,
+      "path": "work/us6-exercise.json",
+      "sha256": "6392c8f80d0d22585c2173c45b386179700633699d8bd2bc3b7da9e2fee660a2"
+    },
+    {
+      "byte_count": 2017,
+      "path": "work/us6-exercise.md",
+      "sha256": "a7034f00ba633e3c9aa72e7cad0dc460cd0f0c3b52164f16648594cc13b410fe"
+    },
+    {
+      "byte_count": 1181,
+      "path": "work/render-records.py",
+      "sha256": "8b6dbbbfa7cd5b09b37d6ba2cd2c166cbec75de6354aef96155fe3571ae7837d"
+    },
+    {
+      "byte_count": 3459,
+      "path": "work/records-rendered.json",
+      "sha256": "eb89594473f1a67abeec73a522047160452d2c4aa6fe63a7b7f419395b2b436d"
+    }
+  ],
+  "inspection_render_manifest": "work/records-rendered.json",
+  "limits": [
+    "No complete agency file authenticated",
+    "No physical master or prints obtained",
+    "No new request/interview/contact/spend",
+    "No identity or mechanism conclusion"
+  ],
+  "new_source_suggestions": [
+    {
+      "completeness": "partial",
+      "creator": "MuckRock request page archived by Internet Archive",
+      "inspection": "Archived HTML text inspected: submitted December 5, tracking 1612675-000. Live page 403. Attached CDN files separately protected as SRC-0018/0019.",
+      "key": "archived_request",
+      "limits": "Third-party archive context; not agency-original custody proof or complete case file",
+      "publication_date": "2023-12-05",
+      "retrieval_status": "retrieved",
+      "title": "Archived MuckRock request 155546: Max Headroom Incident",
+      "url": "https://web.archive.org/web/20240623234056/https://www.muckrock.com/foi/united-states-of-america-10/max-headroom-incident-155546/"
+    },
+    {
+      "completeness": "complete",
+      "creator": "Federal Bureau of Investigation",
+      "inspection": "Official HTML instructions inspected November 8, 2026; eFOIPA and letter routes, incident description, contact and fee-limit requirements",
+      "key": "fbi_instructions",
+      "limits": "Process guidance only; no case holding confirmation. Recheck before owner-authorized submission.",
+      "publication_date": "unknown",
+      "retrieval_status": "retrieved",
+      "title": "Requesting FBI Records: official current instructions",
+      "url": "https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/freedom-of-information-privacy-act/requesting-fbi-records"
+    },
+    {
+      "completeness": "partial",
+      "creator": "Federal Bureau of Investigation",
+      "inspection": "Indexed extracts only: printed page 422/622 tracks 1612675 opened December 7, 2023; page 50 extract tracks 1608751. Full images not inspected.",
+      "key": "fbi_log",
+      "limits": "Request-processing log does not establish underlying incident-record existence, contents or an exhaustive search",
+      "publication_date": "unknown",
+      "records_context": {
+        "agency_identifiers": [
+          "FBI FOIA 1612675",
+          "FBI FOIA 1608751"
+        ],
+        "authentication_limits": "Partial indexed administrative log extract; release context and complete original images unverified; no substantive incident disposition established",
+        "kind": "agency_release",
+        "pagination": "FBI printed pages 50 and 422 of 622, indexed extracts only",
+        "release_letter_evidence": [],
+        "unknowns": {
+          "release_letter_evidence": "No release cover letter for this log was inspected"
+        }
+      },
+      "retrieval_status": "excerpt_only",
+      "title": "FBI 2023 FOIA log indexed topic entries",
+      "url": "https://vault.fbi.gov/foia-log-2023/FOIA%20Log%202023%20Part%2001%20%28Final%29/"
+    },
+    {
+      "completeness": "partial",
+      "creator": "Attributed Federal Communications Commission via Government Attic",
+      "inspection": "Indexed extract only: FY2020 entry FCC-2020-000497 submitted May 24, 2020, status Closed, subject WGN/WTTW intrusion. PDF images and disposition not inspected.",
+      "key": "fcc_log",
+      "limits": "Closed processing status is not a no-records decision; release-letter context and page images unverified",
+      "publication_date": "unknown",
+      "records_context": {
+        "agency_identifiers": [
+          "FCC-2020-000497"
+        ],
+        "authentication_limits": "Partial indexed administrative log extract; release context and complete original images unverified; no substantive incident disposition established",
+        "kind": "agency_release",
+        "pagination": "unknown",
+        "release_letter_evidence": [],
+        "unknowns": {
+          "pagination": "PDF page image/printed page containing the matched entry was not inspected",
+          "release_letter_evidence": "No release cover letter for this log was inspected"
+        }
+      },
+      "retrieval_status": "excerpt_only",
+      "title": "FCC FOIA case logs FY2017-FY2020: third-party release index",
+      "url": "https://www.governmentattic.org/54docs/FCCfoiaLogs2017-2020.pdf"
+    },
+    {
+      "completeness": "unknown",
+      "creator": "Museum of Classic Chicago Television / Fuzzy Memories",
+      "inspection": "Indexed listing describes a November 23, 1987 report; no playback or acquisition in this records task",
+      "key": "wmaq_listing",
+      "limits": "Catalog lead only; physical master, current access and capture chain unconfirmed",
+      "publication_date": "unknown",
+      "records_context": {
+        "access_status": "unconfirmed",
+        "confirmation_evidence": [],
+        "holding_identifier": "Public listing 2594; physical item identifier unknown",
+        "institution": "Museum of Classic Chicago Television / Fuzzy Memories",
+        "kind": "holding",
+        "limits": "Indexed catalog listing only. No physical master, complete capture chain or current institutional access confirmed.",
+        "unknowns": {
+          "confirmation_evidence": "No actual confirmation of the relevant physical holding or access was obtained"
+        }
+      },
+      "retrieval_status": "excerpt_only",
+      "title": "WMAQChannel5 PirateReport1987 listing2594",
+      "url": "https://www.fuzzymemories.tv/m/v/2594/"
+    },
+    {
+      "completeness": "unknown",
+      "creator": "Museum of Classic Chicago Television / Fuzzy Memories",
+      "inspection": "Indexed listing describes a November 23, 1987 report; no playback or acquisition in this records task",
+      "key": "wfld_listing",
+      "limits": "Catalog lead only; physical master, current access and capture chain unconfirmed",
+      "publication_date": "unknown",
+      "records_context": {
+        "access_status": "unconfirmed",
+        "confirmation_evidence": [],
+        "holding_identifier": "Public listing 2593; physical item identifier unknown",
+        "institution": "Museum of Classic Chicago Television / Fuzzy Memories",
+        "kind": "holding",
+        "limits": "Indexed catalog listing only. No physical master, complete capture chain or current institutional access confirmed.",
+        "unknowns": {
+          "confirmation_evidence": "No actual confirmation of the relevant physical holding or access was obtained"
+        }
+      },
+      "retrieval_status": "excerpt_only",
+      "title": "WFLDChannel32 PirateReport1987 listing2593",
+      "url": "https://fuzzymemories.tv/m/v/2593/"
+    },
+    {
+      "completeness": "unknown",
+      "creator": "Museum of Classic Chicago Television / Fuzzy Memories",
+      "inspection": "Indexed listing describes a November 23, 1987 report; no playback or acquisition in this records task",
+      "key": "wls_listing",
+      "limits": "Catalog lead only; physical master, current access and capture chain unconfirmed",
+      "publication_date": "unknown",
+      "records_context": {
+        "access_status": "unconfirmed",
+        "confirmation_evidence": [],
+        "holding_identifier": "Public listing 2596; physical item identifier unknown",
+        "institution": "Museum of Classic Chicago Television / Fuzzy Memories",
+        "kind": "holding",
+        "limits": "Indexed catalog listing only. No physical master, complete capture chain or current institutional access confirmed.",
+        "unknowns": {
+          "confirmation_evidence": "No actual confirmation of the relevant physical holding or access was obtained"
+        }
+      },
+      "retrieval_status": "excerpt_only",
+      "title": "WLSChannel7 PirateReport1987 listing2596",
+      "url": "https://www.fuzzymemories.tv/m/v/2596/"
+    }
+  ],
+  "owner_decisions": [
+    {
+      "decision": "FutureFBIrequestsubmission",
+      "dependency": "Ownerprovidesprivateidentity/contact/feelimitandrechecksroute",
+      "essential_for_first_delivery": false,
+      "status": "waiting_owner",
+      "value": "Capture/feed/copyhistoryandmissingFCCletter"
+    },
+    {
+      "decision": "Station/collector/libraryinquiry",
+      "dependency": "Concretecollectionitem/accessconfirmationbeforetravel/spend",
+      "essential_for_first_delivery": false,
+      "status": "deferred",
+      "value": "Datedtopology,logsorfullcontextcapturelineage"
+    }
+  ],
+  "prepared_at": "2026-11-08T20:59:55.756908+00:00",
+  "recommended_source_TASK9_state": "done_for_unsent_drafting_only",
+  "searches": [
+    {
+      "access_barriers": [
+        "Tertiaryaccountfactsnotadopted"
+      ],
+      "coverage": "Pooled3querywebindex response; thirdpartyarticle only lead",
+      "cycle_id": null,
+      "exact_query": "\"Max Headroom\" FBI MuckRock records 95-284429",
+      "executed_at": "2026-11-08T20:51:02+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [],
+      "coverage": "Pooled3querywebindex response; noexhaustivecoveragemapping",
+      "cycle_id": null,
+      "exact_query": "site.governmentattic.org \"Max Headroom\" FCC",
+      "executed_at": "2026-11-08T20:51:02+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "Otheragencyinstructionsnotused"
+      ],
+      "coverage": "Pooled3querywebindex response",
+      "cycle_id": null,
+      "exact_query": "site.fcc.gov FOIA request records electronic PAL portal 2026",
+      "executed_at": "2026-11-08T20:51:02+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "Directrequest403"
+      ],
+      "coverage": "Domainwebindex leadsearch; thirdpartylinkdiscovery",
+      "cycle_id": null,
+      "exact_query": "site.muckrock.com \"Max Headroom\"",
+      "executed_at": "2026-11-08T20:51:20+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": [
+        "archived_request"
+      ]
+    },
+    {
+      "access_barriers": [
+        "Maincurrentpageaccessblocked"
+      ],
+      "coverage": "Officialinstructionindexcheck",
+      "cycle_id": null,
+      "exact_query": "\"FCC\" \"Freedom of Information Act\" request site:fcc.gov/general",
+      "executed_at": "2026-11-08T20:51:30+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "Originalpageimagesanddispositionuninspected"
+      ],
+      "coverage": "FCCexistingreleaselogdiscovery",
+      "cycle_id": null,
+      "exact_query": "\"Max Headroom\" site:governmentattic.org",
+      "executed_at": "2026-11-08T20:51:30+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": [
+        "fcc_log"
+      ]
+    },
+    {
+      "access_barriers": [
+        "2023transitionnoticeonly; no currentFCCrouteconfirmed"
+      ],
+      "coverage": "Pooled3querycurrentprocesscheck",
+      "cycle_id": null,
+      "exact_query": "site:fcc.gov \"FOIAOnline\" \"request\" \"FOIA\"",
+      "executed_at": "2026-11-08T20:51:40+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "No verifiedcurrentFCCfilingroute fromthisrun"
+      ],
+      "coverage": "Pooled3querycurrentprocesscheck",
+      "cycle_id": null,
+      "exact_query": "site:fcc.gov \"FOIA\" \"2026\" \"Submit\"",
+      "executed_at": "2026-11-08T20:51:40+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [],
+      "coverage": "Pooled3queryreleasecontextsearch",
+      "cycle_id": null,
+      "exact_query": "\"Max Headroom Incident\" \"muckrock.com/foi\"",
+      "executed_at": "2026-11-08T20:51:40+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": [
+        "archived_request"
+      ]
+    },
+    {
+      "access_barriers": [
+        "No identified item; notevidenceofabsentholdings"
+      ],
+      "coverage": "Incidentnameholdingsindex; noidentifieditem; notinternalcatalogsearch",
+      "cycle_id": null,
+      "exact_query": "\"Max Headroom\" site:archives.lib.duke.edu OR site:chicagofilmarchives.org OR site:chicagohistory.org OR site:mediaburn.org",
+      "executed_at": "2026-11-08T20:51:50+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "No video played/provenanceconfirmed"
+      ],
+      "coverage": "Pooled4domainqueries; collectorpublisherlistingleads",
+      "cycle_id": null,
+      "exact_query": "\"Max Headroom\" site:fuzzymemories.tv",
+      "executed_at": "2026-11-08T20:52:00+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": [
+        "wmaq_listing",
+        "wfld_listing",
+        "wls_listing"
+      ]
+    },
+    {
+      "access_barriers": [
+        "Noidentifieditem; indexcoverageincomplete"
+      ],
+      "coverage": "Pooled4domainqueries; noidentifieditemforthisdomain",
+      "cycle_id": null,
+      "exact_query": "\"Max Headroom\" site:mediaburn.org",
+      "executed_at": "2026-11-08T20:52:00+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "Noidentifieditem; existingnewspaperguideSRC6blocked"
+      ],
+      "coverage": "Pooled4domainqueries; noidentifieditemforthisdomain",
+      "cycle_id": null,
+      "exact_query": "\"Max Headroom\" site:chipublib.org",
+      "executed_at": "2026-11-08T20:52:00+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "Noidentifieditem; notofflinecollectionsearch"
+      ],
+      "coverage": "Pooled4domainqueries; noidentifieditemforthisdomain",
+      "cycle_id": null,
+      "exact_query": "\"Max Headroom\" site:archives.northwestern.edu",
+      "executed_at": "2026-11-08T20:52:00+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "Nofullincidentcaseidentifiedinthisindexrun"
+      ],
+      "coverage": "Pooled2queries; FBIprocessinglogentries",
+      "cycle_id": null,
+      "exact_query": "\"Max Headroom\" site:vault.fbi.gov",
+      "executed_at": "2026-11-08T20:52:10+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": [
+        "fbi_log"
+      ]
+    },
+    {
+      "access_barriers": [
+        "Noidentifieditem; notabsentholdingsproof"
+      ],
+      "coverage": "Pooled2queries; noidentifieditemforthisdomain",
+      "cycle_id": null,
+      "exact_query": "\"Max Headroom\" site:americanarchive.org",
+      "executed_at": "2026-11-08T20:52:10+00:00",
+      "repository": "Websearchindex",
+      "timestamp_note": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "accesserror; noinstructionschecked"
+      ],
+      "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+      "cycle_id": null,
+      "exact_query": "open https://www.fcc.gov/general/freedom-information-act-foia",
+      "executed_at": "2026-11-08T20:51:56+00:00",
+      "outcome": "accesserror; noinstructionschecked",
+      "repository": "DirectURLviawebtool",
+      "timestamp_note": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "403; currentFCCinstructionsunverified"
+      ],
+      "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+      "cycle_id": null,
+      "exact_query": "open https://www.fcc.gov/foia",
+      "executed_at": "2026-11-08T20:51:56+00:00",
+      "outcome": "403; currentFCCinstructionsunverified",
+      "repository": "DirectURLviawebtool",
+      "timestamp_note": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "accesserror; noinstructionschecked"
+      ],
+      "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+      "cycle_id": null,
+      "exact_query": "open https://www.fcc.gov/general/foia-frequently-asked-questions",
+      "executed_at": "2026-11-08T20:51:56+00:00",
+      "outcome": "accesserror; noinstructionschecked",
+      "repository": "DirectURLviawebtool",
+      "timestamp_note": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "403; archivedcopyused"
+      ],
+      "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+      "cycle_id": null,
+      "exact_query": "open https://www.muckrock.com/foi/united-states-of-america-10/max-headroom-incident-155546/",
+      "executed_at": "2026-11-08T20:51:56+00:00",
+      "outcome": "403; archivedcopyused",
+      "repository": "DirectURLviawebtool",
+      "timestamp_note": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [],
+      "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+      "cycle_id": null,
+      "exact_query": "open https://web.archive.org/web/20240623234056/https://www.muckrock.com/foi/united-states-of-america-10/max-headroom-incident-155546/",
+      "executed_at": "2026-11-08T20:51:56+00:00",
+      "outcome": "ArchivedHTMLrequestcontextinspected; no submission",
+      "repository": "DirectURLviawebtool",
+      "timestamp_note": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [],
+      "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+      "cycle_id": null,
+      "exact_query": "open https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/freedom-of-information-privacy-act/requesting-fbi-records",
+      "executed_at": "2026-11-08T20:51:56+00:00",
+      "outcome": "OfficialcurrentFBIinstructionsHTMLinspected; no submission",
+      "repository": "DirectURLviawebtool",
+      "timestamp_note": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [],
+      "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+      "cycle_id": null,
+      "exact_query": "open https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/freedom-of-information-privacy-act",
+      "executed_at": "2026-11-08T20:51:56+00:00",
+      "outcome": "OfficialFOIPAoverviewHTMLinspected; no submission",
+      "repository": "DirectURLviawebtool",
+      "timestamp_note": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [],
+      "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+      "cycle_id": null,
+      "exact_query": "open https://unsolvedfiles.com/the-max-headroom-tapes-and-the-fbi-report-that-followed/",
+      "executed_at": "2026-11-08T20:51:56+00:00",
+      "outcome": "Linkdiscoveryonly; tertiaryhistoricalassertionsnotadopted",
+      "repository": "DirectURLviawebtool",
+      "timestamp_note": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [],
+      "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+      "cycle_id": null,
+      "exact_query": "open https://unsolvedfiles.com/the-max-headroom-signal-hijacking-incident/",
+      "executed_at": "2026-11-08T20:51:56+00:00",
+      "outcome": "Linkdiscoveryonly; tertiaryhistoricalassertionsnotadopted",
+      "repository": "DirectURLviawebtool",
+      "timestamp_note": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch",
+      "useful_source_keys": []
+    },
+    {
+      "access_barriers": [
+        "UnverifiedguessedURLaccesserror; discarded, notusedasfilingroute"
+      ],
+      "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+      "cycle_id": null,
+      "exact_query": "open https://www.foia.gov/agency.html?id=75718707-5b82-4f4a-93a3-2c20f26464c9&type=component",
+      "executed_at": "2026-11-08T20:51:56+00:00",
+      "outcome": "UnverifiedguessedURLaccesserror; discarded, notusedasfilingroute",
+      "repository": "DirectURLviawebtool",
+      "timestamp_note": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch",
+      "useful_source_keys": []
+    }
+  ],
+  "source_updates": [
+    {
+      "expected_revision": 2,
+      "fields": {
+        "account_status_json": {
+          "firsthand": "yes",
+          "limits": "Administrative release statement; no direct observation of the 1987 broadcast",
+          "retrospective": "yes"
+        },
+        "completeness": "partial",
+        "creator": "Federal Bureau of Investigation, Record/Information Dissemination Section (attributed signed letter)",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Subject line identifies the historical incident, not a new observation",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "PDF page 1 date visually checked",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Only the first substantive checkbox on page 1 is checked. Other alternatives on pages 1-2 are unmarked, although extracted text contains them all.",
+          "linked_media": "not_applicable",
+          "records_context": {
+            "agency_identifiers": [
+              "FOIPA 1612675-000",
+              "MuckRock 155546"
+            ],
+            "authentication_limits": "Third-party MuckRock CDN copy linked by archived request; not directly obtained from the agency. Administrative letter is not a complete incident case file.",
+            "kind": "agency_release",
+            "pagination": "Five PDF pages: letter pages 1-3, standard addendum 4, exemptions 5; separate from five released record pages",
+            "release_letter_evidence": [
+              {
+                "limits": "MuckRock-hosted agency-letter copy; agency original/custody not independently authenticated; other boxes are unchecked",
+                "locator": {
+                  "description": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda",
+                  "kind": "page",
+                  "precision": "PDF pages visually checked at 160 dpi",
+                  "value": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda"
+                },
+                "role": "Release context for the five previously processed record pages",
+                "source_id": "SRC-0019",
+                "source_revision": 3
+              }
+            ]
+          },
+          "text": "All five PDF pages visually inspected from the protected original via 160 dpi mechanical rendering",
+          "underlying_records": "Five partial prior-release record pages separately inspected as SRC-0018; no complete-case authentication"
+        },
+        "provenance_limits": "Protected unchanged third-party release-letter copy. Checked prior-results paragraph permits possible additional records; it does not confirm definite existence, transfer, destruction or an exhaustive new search.",
+        "publication_date": "2023-12-13",
+        "title": "FBI December 13, 2023 release letter and addenda, FOIPA 1612675-000"
+      },
+      "id": "SRC-0019"
+    },
+    {
+      "expected_revision": 2,
+      "fields": {
+        "account_status_json": {
+          "firsthand": "yes",
+          "limits": "The laboratory describes its own 1988 examination of a copied tape; no direct 1987 off-air observation",
+          "retrospective": "yes"
+        },
+        "completeness": "partial",
+        "creator": "Federal Bureau of Investigation, Technical Services Division (attributed forms/report)",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Historical subject date identified in associated release letter, not direct incident observation",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Main report date on PDF page 5 was visually checked; earlier forms retain separate dates",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "The page 5 generation assessment applies only to Q1. No link to online assets established. Page 1 receipt date 8/11 differs from page 4/page 5 delivery date 8/10; retain distinct fields.",
+          "linked_media": "Q1 tape and six prints absent and uninspected",
+          "records_context": {
+            "agency_identifiers": [
+              "FBI 95-284429",
+              "Laboratory 80810015 E QE",
+              "Referring 1130A",
+              "FOIPA 1612675-000"
+            ],
+            "authentication_limits": "Third-party MuckRock copy and archived request context. Redacted partial laboratory package, not an independently authenticated complete agency case file.",
+            "kind": "agency_release",
+            "pagination": "Five PDF pages: worksheet 1, video worksheet 2, return invoice 3, evidence acknowledgment 4, December 7 report 5; July 20 request letter, tape and prints absent",
+            "release_letter_evidence": [
+              {
+                "limits": "MuckRock-hosted agency-letter copy; agency original/custody not independently authenticated; other boxes are unchecked",
+                "locator": {
+                  "description": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda",
+                  "kind": "page",
+                  "precision": "PDF pages visually checked at 160 dpi",
+                  "value": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda"
+                },
+                "role": "Release context for the five previously processed record pages",
+                "source_id": "SRC-0019",
+                "source_revision": 3
+              }
+            ]
+          },
+          "text": "All five scanned PDF pages visually inspected from the protected original via 160 dpi mechanical rendering; no OCR inference",
+          "underlying_records": "Partial released laboratory forms only; full case and agency originals unverified"
+        },
+        "provenance_limits": "Five redacted previously processed laboratory pages. Cited July 20 FCC letter, tape, prints and full capture/custody history absent. No origin, identity, frequency or online-file authenticity established.",
+        "publication_date": "1988-12-07",
+        "title": "FBI laboratory forms and December 7, 1988 report: Max Headroom Incident, Microwave Jamming"
+      },
+      "id": "SRC-0018"
+    }
+  ],
+  "task_output_refs": [
+    {
+      "analytical_gap": "Released five-page package omits the cited letter and full Q1 feed/copy history",
+      "analytical_value": "Could distinguish Q1 feed, copy and observation provenance and locate dated technical records; no online-file authentication implied",
+      "custodian": "FBI RIDS Initial Processing Operations Unit",
+      "date_range": "1987-11-22 through 1988-12-31",
+      "file": {
+        "access_limit": "Private owner and selected reviewers",
+        "alias": "project",
+        "relative_path": "reports/requests/record-request.md"
+      },
+      "kind": "request_draft",
+      "records_requested": [
+        "Existing July 20, 1988 FCC letter and attachments",
+        "Existing Q1 submission, copy-history, custody and return records",
+        "Existing technical worksheets, incident logs, complaints and correspondence in FBI file 95-284429",
+        "Existing index, cross-reference and disposition records"
+      ],
+      "sha256": "85240258f3d7d3ccd3d842709a71d862f94fe20175c591673ae8c0e289dc7eb1",
+      "status": "unsent"
+    },
+    {
+      "file": {
+        "access_limit": "Private owner and selected reviewers",
+        "alias": "project",
+        "relative_path": "reports/interviews/neutral-guide.md"
+      },
+      "kind": "interview_guide",
+      "prompts": {
+        "actions_taken": "What did you personally do, in what sequence, and what changed?",
+        "affected_feed": "Which specific monitor, receiver, recorder or distribution feed?",
+        "later_information": "What did you learn later from colleagues, reporting or online copies?",
+        "personal_observation": "What did you personally observe, when and in what role?",
+        "verifying_records": "Which surviving log, diagram, correspondence, recording or custody record could verify or correct this?"
+      },
+      "sha256": "743b3ffae0799e6de8f9fdce2262fb393ee9b754344c5d9fcfad8a238f1aac2a",
+      "status": "unsent"
+    }
+  ]
+}

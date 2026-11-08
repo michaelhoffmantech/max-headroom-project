@@ -1,0 +1,41 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T20:53:17.502200+00:00",
+  "id": "CHG-0037",
+  "intended_final_file_manifest": {
+    "registers/searches.csv": {
+      "byte_count": 34744,
+      "sha256": "fdb002d7324366134fd0f2bc516331a76c8a28413afb838ba9c654a63eb47397"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "Exact unchanged selected candidate download; no media probe/decoding before backup",
+        "cycle_id": "CYC-0001",
+        "exact_query": "download https://archive.org/download/maxheadroom/1st%20incident.mp4",
+        "executed_at": "2026-11-08T20:53:13.602588+00:00",
+        "filters_json": {},
+        "id": "SRCH-0055",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Public host direct bytes",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {},
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0020"
+        ]
+      }
+    }
+  ],
+  "reason": "Record actual candidate acquisition endpoint before ingestion",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

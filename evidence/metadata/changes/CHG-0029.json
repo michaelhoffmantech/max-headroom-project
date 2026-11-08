@@ -1,0 +1,61 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T20:52:31.590129+00:00",
+  "id": "CHG-0029",
+  "intended_final_file_manifest": {
+    "evidence/metadata/backups/BAK-0006.json": {
+      "byte_count": 1453,
+      "sha256": "d7d0a372df0d11ca33d351f17234c39903057988cbda5f3b7868c2932bb32523"
+    }
+  },
+  "operations": [
+    {
+      "entity_type": "backups",
+      "previous": null,
+      "proposed": {
+        "actor": "research_assistant",
+        "attempted_at": "2026-11-08T20:52:31.553273+00:00",
+        "confirmed_at": "2026-11-08T20:52:31.553281+00:00",
+        "covered_ids": [
+          "AST-0011"
+        ],
+        "created_at": "2026-11-08T20:52:31.553288+00:00",
+        "destination_alias": "backup",
+        "failure_domain": "Owner-selected private separate directory on C:. Verified copies protect against accidental changes, not failure or loss of C:.",
+        "failure_reason": null,
+        "id": "BAK-0006",
+        "limits": "Integrity only; no historical authentication",
+        "manifest": [
+          {
+            "asset_id": "AST-0011",
+            "backup_relative_path": "objects/BAK-0006/AST-0011",
+            "byte_count": 189887,
+            "sha256": "5a38af2d759f2a2f927de8fbef71f3ce049f7c4a372f065da21e00f59e919e69",
+            "source": {
+              "access_limit": "Private owner/selected-reviewer research; no public publication",
+              "alias": "primary_evidence",
+              "relative_path": "AST-0011/muckrock-lab-report.pdf"
+            }
+          }
+        ],
+        "method": "stream-copy; SHA-256 and byte count readback",
+        "predecessor_attempt": null,
+        "restrictions": "Private backup; no publication authorization",
+        "result": "confirmed",
+        "revision": 1,
+        "schema_version": 1,
+        "scope": "original",
+        "source_alias": "primary_evidence",
+        "tool_version": "dossier schema1 Python 3.13.12",
+        "unknowns": {
+          "failure_reason": "Not yet established; do not infer.",
+          "predecessor_attempt": "Not yet established; do not infer."
+        }
+      }
+    }
+  ],
+  "reason": "Confirm matching copied bytes",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

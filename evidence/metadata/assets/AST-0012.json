@@ -1,0 +1,36 @@
+{
+  "acquired_at": "2026-11-08T20:52:32.276159+00:00",
+  "actor": "research_assistant",
+  "byte_count": 269177,
+  "capture_date": null,
+  "completeness": null,
+  "created_at": "2026-11-08T20:52:32.276211+00:00",
+  "digitization_history": "Unchanged downloaded PDF; scan creation/edit history unknown",
+  "id": "AST-0012",
+  "input_asset_ids": [],
+  "input_locators": [],
+  "kind": "acquired_original",
+  "known_edits": [],
+  "original_media_history": "MuckRock-hosted PDF; earlier agency handling chain unverified",
+  "processing": null,
+  "provenance_limits": "Third-party released-record candidate; release context/completeness/authenticity unverified before inspection",
+  "receiver_feed": null,
+  "restrictions": "Private owner/selected-reviewer research; no public publication",
+  "revision": 1,
+  "schema_version": 1,
+  "sha256": "8c3c6819455674a63fd1af2371d263c1b5cd23f984596eb6d94b49fb833b9f72",
+  "source_id": "SRC-0019",
+  "storage": {
+    "access_limit": "Private owner/selected-reviewer research; no public publication",
+    "alias": "primary_evidence",
+    "relative_path": "AST-0012/muckrock-release-letter.pdf"
+  },
+  "tape_generation": null,
+  "unknowns": {
+    "capture_date": "Not yet established; do not infer.",
+    "completeness": "Not yet established; do not infer.",
+    "processing": "Not yet established; do not infer.",
+    "receiver_feed": "Not yet established; do not infer.",
+    "tape_generation": "Not yet established; do not infer."
+  }
+}

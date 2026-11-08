@@ -1,0 +1,74 @@
+{
+  "acquired_at": "2026-11-08T20:54:38.958607+00:00",
+  "actor": "research_assistant",
+  "byte_count": 5476,
+  "capture_date": null,
+  "completeness": null,
+  "created_at": "2026-11-08T20:56:37.407296+00:00",
+  "digitization_history": null,
+  "id": "AST-0021",
+  "input_asset_ids": [
+    "AST-0014"
+  ],
+  "input_locators": [
+    {
+      "asset_id": "AST-0014",
+      "location": "last decoded video frame from full stream reversal; native decoded resolution; avoids audio/container-tail seek ambiguity"
+    }
+  ],
+  "kind": "derivative",
+  "known_edits": null,
+  "original_media_history": null,
+  "processing": {
+    "arguments": [
+      "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+      "-hide_banner",
+      "-nostdin",
+      "-i",
+      "C:\\dev\\max-headroom-project\\evidence\\originals\\AST-0014\\wgn-archive.mp4",
+      "-an",
+      "-vf",
+      "reverse",
+      "-frames:v",
+      "1",
+      "-update",
+      "1",
+      "C:\\dev\\max-headroom-project\\derived\\frames\\CYC-0001-retry\\AST-0014-last.png"
+    ],
+    "claimed_as_recovered_evidence": false,
+    "executable": "ffmpeg",
+    "generative": false,
+    "method": "Conservative FFmpeg decode/sample/checksum only",
+    "output_sha256": "1219d9aea52a4633d504c46615e1da1abfac6ac0f06f755fe8504ed1a0e006e5",
+    "settings": {
+      "description": "last decoded video frame from full stream reversal; native decoded resolution; avoids audio/container-tail seek ambiguity",
+      "generative": false
+    },
+    "stream_notes": "Original bytes retain acquired streams. Viewing PNGs lose motion/audio and may be reduced. No deinterlacing/enhancement or original overwrite.",
+    "time_base": "Decoded file coordinates; framemd5 time base1001/30000, not historical clock",
+    "tool_version": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "provenance_limits": "Software transformation of downloaded bytes; no capture authentication",
+  "receiver_feed": null,
+  "restrictions": "Private viewing/analysis derivative; not public publication",
+  "revision": 1,
+  "schema_version": 1,
+  "sha256": "1219d9aea52a4633d504c46615e1da1abfac6ac0f06f755fe8504ed1a0e006e5",
+  "source_id": null,
+  "storage": {
+    "access_limit": "Private owner/selected-reviewer analysis",
+    "alias": "project",
+    "relative_path": "derived/frames/CYC-0001-retry/AST-0014-last.png"
+  },
+  "tape_generation": null,
+  "unknowns": {
+    "capture_date": "Not yet established; do not infer.",
+    "completeness": "Not yet established; do not infer.",
+    "digitization_history": "Not yet established; do not infer.",
+    "known_edits": "Not yet established; do not infer.",
+    "original_media_history": "Not yet established; do not infer.",
+    "receiver_feed": "Not yet established; do not infer.",
+    "source_id": "Not yet established; do not infer.",
+    "tape_generation": "Not yet established; do not infer."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "purpose": "T026 bounded starter-source inspection; root registers canonical records",
+  "actor": "/root/implementation_docs",
+  "access_date": "2026-11-07",
+  "accessed_at": "2026-11-07T22:37:14+00:00",
+  "method": "Web-tool inspection of the three exact starter URLs only; no linked media, expanded searches, downloads, or outreach",
+  "acquired_local_files": [],
+  "sources": [
+    {
+      "alias": "S01",
+      "source_id": "SRC-0001",
+      "url": "https://news.wttw.com/2017/11/21/30-years-later-notorious-max-headroom-incident-remains-mystery",
+      "creator": "Jay Shefsky / WTTW",
+      "title": "30 Years Later, Notorious ‘Max Headroom Incident’ Remains a Mystery",
+      "publication_date": "2017-11-21",
+      "retrieval_status": "retrieved",
+      "inspection": "Main article text inspected; embedded audio/video and underlying station/FCC records uninspected.",
+      "useful_items": [
+        {
+          "paraphrase": "Article reports WGN's evening-news interruption as approximately thirty seconds.",
+          "locator": "Main article paragraph 7, excluding sponsor inserts; web extraction line 80."
+        },
+        {
+          "paraphrase": "Paul Rizzo retrospectively recalls WTTW staff being unable to intervene; article describes normal programming returning after approximately ninety seconds.",
+          "locator": "Main article paragraph 5; web extraction line 78."
+        },
+        {
+          "paraphrase": "Al Skierkiewicz's technical-skill assessment is a retrospective attributed opinion, not demonstrated participant identification.",
+          "locator": "Main article paragraph 6; web extraction line 79."
+        }
+      ],
+      "dependence": "Shared interviewee Skierkiewicz also appears in S04. Separate publications do not establish independent underlying testimony; interview-session dependence and parent records remain unknown.",
+      "parent_source_ids": [],
+      "limits": "Durations are attributed article descriptions, not measurements. Investigation-status wording is a 2017 statement, not verification of present status."
+    },
+    {
+      "alias": "S04",
+      "source_id": "SRC-0004",
+      "url": "https://thisiscriminal.com/wp-content/uploads/2020/11/Episode-153-The-Max-Headroom-Incident.pdf",
+      "creator": "Criminal Productions / Phoebe Judge",
+      "title": "Episode 153: The Max Headroom Incident",
+      "publication_date": "2020-11-20",
+      "retrieval_status": "retrieved",
+      "inspection": "Extracted text across all nine PDF pages inspected; audio and embedded broadcast recordings uninspected. Page locators use printed pages 1-9.",
+      "useful_items": [
+        {
+          "paraphrase": "Publisher warns transcription may contain errors and requires checking corresponding audio before quotation.",
+          "locator": "Page 1, opening copyright/transcription notice; extraction lines 2-5."
+        },
+        {
+          "paraphrase": "Dan Roan recalls seeing the studio feed rather than an off-air feed during the WGN interruption.",
+          "locator": "Page 2, first Dan interview paragraph; extraction lines 24-29."
+        },
+        {
+          "paraphrase": "Larry Ocher describes receiving a call at home and recalls inability to switch off the transmitter.",
+          "locator": "Pages 3-4, Larry introduction and response; extraction lines 83-94."
+        },
+        {
+          "paraphrase": "Narrator describes WGN as approximately thirty seconds, including initial black picture, and WTTW as slightly longer than one minute.",
+          "locator": "Page 2, lines 42-45; page 3, line 78."
+        },
+        {
+          "paraphrase": "Narration attributes a next-morning FCC complaint account to Skierkiewicz.",
+          "locator": "Page 6, opening paragraph; extraction lines 163-166."
+        }
+      ],
+      "dependence": "Retrospective interview compilation; original logs and complaint unverified. Shared Skierkiewicz interviewee with S01; session relationship unknown.",
+      "parent_source_ids": [],
+      "limits": "Potential transcription defects remain uncorrected; no independent timing measurement, architecture verification, or disputed-audio finding."
+    },
+    {
+      "alias": "S07",
+      "source_id": "SRC-0007",
+      "url": "https://www.foia.gov/how-to.html",
+      "creator": "U.S. Department of Justice / FOIA.gov",
+      "title": "How to Make a FOIA Request",
+      "publication_date": null,
+      "retrieval_status": "retrieved",
+      "inspection": "Visible process-guidance text inspected; videos, agency-specific instructions, and existing-release search not inspected.",
+      "useful_items": [
+        {
+          "paraphrase": "Guidance recommends checking publicly available information before requesting records.",
+          "locator": "Heading ‘How do I make a FOIA Request?’, first text paragraph; extraction line 14."
+        },
+        {
+          "paraphrase": "Requests should identify records in writing and follow the selected agency's requirements.",
+          "locator": "Same heading, second text paragraph; extraction line 15."
+        },
+        {
+          "paraphrase": "The page distinguishes existing agency records from newly created records, research, analysis, or answers to questions.",
+          "locator": "Heading ‘What can I ask for under the FOIA?’, text paragraph; extraction line 22."
+        }
+      ],
+      "dependence": "Official general process page; no incident-specific evidence or known parent source needed for this use.",
+      "parent_source_ids": [],
+      "limits": "Publication/update date unstated. This inspection confirms no custodian, holding, available incident record, fee, response deadline, or submission authorization."
+    }
+  ]
+}

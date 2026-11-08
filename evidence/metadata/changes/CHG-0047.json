@@ -1,0 +1,2607 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T21:01:24.879004+00:00",
+  "id": "CHG-0047",
+  "intended_final_file_manifest": {
+    "evidence/metadata/assets/AST-0023.json": {
+      "byte_count": 2275,
+      "sha256": "5b78169f657af86698a41a9a5c32425b485b123ed6564f991141a5feb08daa76"
+    },
+    "evidence/metadata/assets/AST-0024.json": {
+      "byte_count": 2275,
+      "sha256": "6de29b0eaa82fd9a8a6ccad78398c7e8967a5be64fed4482ee7c874681a2adf4"
+    },
+    "evidence/metadata/assets/AST-0025.json": {
+      "byte_count": 2275,
+      "sha256": "ab21798065be8ee442a922d04ba664417b79075a0922d36b6cd3a0b97cbf9cb7"
+    },
+    "evidence/metadata/assets/AST-0026.json": {
+      "byte_count": 2275,
+      "sha256": "46abdddcd50acbed245a9e959380ce63e3c86bc0b1b944fcdffc6c41617264f8"
+    },
+    "evidence/metadata/assets/AST-0027.json": {
+      "byte_count": 2275,
+      "sha256": "710e0b20608a9606b6a94618b12e3ed74af36720cc589607c13732161d3e5cb2"
+    },
+    "evidence/metadata/assets/AST-0028.json": {
+      "byte_count": 2275,
+      "sha256": "2ef7bbf1c7d8f92cb4540cb2d988aac6818e7ced17cd9cee2403330925eeea8d"
+    },
+    "evidence/metadata/assets/AST-0029.json": {
+      "byte_count": 2275,
+      "sha256": "c32337e4db5470a22e2da4b713bc07330ccb3811cf4b9bb5796cf19c8ae24f8a"
+    },
+    "evidence/metadata/assets/AST-0030.json": {
+      "byte_count": 2275,
+      "sha256": "d5e2bb4c3b93165bc796ff7a87807fb6df0d63eb355cf731171a4075adb704d0"
+    },
+    "evidence/metadata/assets/AST-0031.json": {
+      "byte_count": 2275,
+      "sha256": "97fa968191631a870767b02c8b5e450af3e422b5b98cf3038795b579de7bd363"
+    },
+    "evidence/metadata/assets/AST-0032.json": {
+      "byte_count": 2275,
+      "sha256": "c5131d5f432069928e5a5cfc9b651842aaac024df59f13d2977f934f29164a18"
+    },
+    "registers/searches.csv": {
+      "byte_count": 50185,
+      "sha256": "731d5d907153fb4775daf3c4600e3e3cbdf63a2c4032fc62dcdf25c64f0c942f"
+    },
+    "registers/sources.csv": {
+      "byte_count": 55942,
+      "sha256": "dd57921a29b94b2b1a0f576d912308c1a597a455698a7dac0e4fd846094bf6c3"
+    },
+    "registers/tasks.csv": {
+      "byte_count": 15086,
+      "sha256": "649188ce86afc3381d2ad6b921703d49dbef5ba22a887e7e2458ed7bbd5b3c03"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [
+          "AST-0012"
+        ],
+        "completeness": "unknown",
+        "creator": "Attributed agency release via MuckRock; document verification pending",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0019",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No full source inspection claimed",
+          "linked_media": "uninspected",
+          "text": "uninspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party download. Release relationship, identifiers, pagination and completeness not yet checked; not authentication.",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer inspection; no public data publication",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 2,
+        "source_locator": "https://cdn.muckrock.com/foia_files/2023/12/13/E1614a7be853f0bba1e9cff241597ce2ed96fbb1447474ad4ac_Q206652_R432036_D165128967.pdf",
+        "source_type": "Third-party hosted agency-release candidate",
+        "title": "MuckRock-hosted Max Headroom release-letter candidate",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "yes",
+          "limits": "Administrative release statement; no direct observation of the 1987 broadcast",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [
+          "AST-0012"
+        ],
+        "completeness": "partial",
+        "creator": "Federal Bureau of Investigation, Record/Information Dissemination Section (attributed signed letter)",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Subject line identifies the historical incident, not a new observation",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "PDF page 1 date visually checked",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0019",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Only the first substantive checkbox on page 1 is checked. Other alternatives on pages 1-2 are unmarked, although extracted text contains them all.",
+          "linked_media": "not_applicable",
+          "records_context": {
+            "agency_identifiers": [
+              "FOIPA 1612675-000",
+              "MuckRock 155546"
+            ],
+            "authentication_limits": "Third-party MuckRock CDN copy linked by archived request; not directly obtained from the agency. Administrative letter is not a complete incident case file.",
+            "kind": "agency_release",
+            "pagination": "Five PDF pages: letter pages 1-3, standard addendum 4, exemptions 5; separate from five released record pages",
+            "release_letter_evidence": [
+              {
+                "limits": "MuckRock-hosted agency-letter copy; agency original/custody not independently authenticated; other boxes are unchecked",
+                "locator": {
+                  "description": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda",
+                  "kind": "page",
+                  "precision": "PDF pages visually checked at 160 dpi",
+                  "value": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda"
+                },
+                "role": "Release context for the five previously processed record pages",
+                "source_id": "SRC-0019",
+                "source_revision": 3
+              }
+            ]
+          },
+          "text": "All five PDF pages visually inspected from the protected original via 160 dpi mechanical rendering",
+          "underlying_records": "Five partial prior-release record pages separately inspected as SRC-0018; no complete-case authentication"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Protected unchanged third-party release-letter copy. Checked prior-results paragraph permits possible additional records; it does not confirm definite existence, transfer, destruction or an exhaustive new search.",
+        "publication_date": "2023-12-13",
+        "restrictions": "Private owner/selected-reviewer inspection; no public data publication",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 3,
+        "source_locator": "https://cdn.muckrock.com/foia_files/2023/12/13/E1614a7be853f0bba1e9cff241597ce2ed96fbb1447474ad4ac_Q206652_R432036_D165128967.pdf",
+        "source_type": "Third-party hosted agency-release candidate",
+        "title": "FBI December 13, 2023 release letter and addenda, FOIPA 1612675-000",
+        "unknowns_json": {
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [
+          "AST-0011"
+        ],
+        "completeness": "unknown",
+        "creator": "Attributed agency release via MuckRock; document verification pending",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0018",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No full source inspection claimed",
+          "linked_media": "uninspected",
+          "text": "uninspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party download. Release relationship, identifiers, pagination and completeness not yet checked; not authentication.",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer inspection; no public data publication",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 2,
+        "source_locator": "https://cdn.muckrock.com/foia_files/2023/12/13/E1614a7be853f0bba1e9cff241597ce2ed96fbb1447474ad4ac_Q206652_R432036_D165128834.pdf",
+        "source_type": "Third-party hosted agency-release candidate",
+        "title": "MuckRock-hosted Max Headroom lab-report candidate",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "yes",
+          "limits": "The laboratory describes its own 1988 examination of a copied tape; no direct 1987 off-air observation",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [
+          "AST-0011"
+        ],
+        "completeness": "partial",
+        "creator": "Federal Bureau of Investigation, Technical Services Division (attributed forms/report)",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Historical subject date identified in associated release letter, not direct incident observation",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Main report date on PDF page 5 was visually checked; earlier forms retain separate dates",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0018",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "The page 5 generation assessment applies only to Q1. No link to online assets established. Page 1 receipt date 8/11 differs from page 4/page 5 delivery date 8/10; retain distinct fields.",
+          "linked_media": "Q1 tape and six prints absent and uninspected",
+          "records_context": {
+            "agency_identifiers": [
+              "FBI 95-284429",
+              "Laboratory 80810015 E QE",
+              "Referring 1130A",
+              "FOIPA 1612675-000"
+            ],
+            "authentication_limits": "Third-party MuckRock copy and archived request context. Redacted partial laboratory package, not an independently authenticated complete agency case file.",
+            "kind": "agency_release",
+            "pagination": "Five PDF pages: worksheet 1, video worksheet 2, return invoice 3, evidence acknowledgment 4, December 7 report 5; July 20 request letter, tape and prints absent",
+            "release_letter_evidence": [
+              {
+                "limits": "MuckRock-hosted agency-letter copy; agency original/custody not independently authenticated; other boxes are unchecked",
+                "locator": {
+                  "description": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda",
+                  "kind": "page",
+                  "precision": "PDF pages visually checked at 160 dpi",
+                  "value": "PDF page 1 first checked box; pages 2-5 administrative continuation and addenda"
+                },
+                "role": "Release context for the five previously processed record pages",
+                "source_id": "SRC-0019",
+                "source_revision": 3
+              }
+            ]
+          },
+          "text": "All five scanned PDF pages visually inspected from the protected original via 160 dpi mechanical rendering; no OCR inference",
+          "underlying_records": "Partial released laboratory forms only; full case and agency originals unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Five redacted previously processed laboratory pages. Cited July 20 FCC letter, tape, prints and full capture/custody history absent. No origin, identity, frequency or online-file authenticity established.",
+        "publication_date": "1988-12-07",
+        "restrictions": "Private owner/selected-reviewer inspection; no public data publication",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 3,
+        "source_locator": "https://cdn.muckrock.com/foia_files/2023/12/13/E1614a7be853f0bba1e9cff241597ce2ed96fbb1447474ad4ac_Q206652_R432036_D165128834.pdf",
+        "source_type": "Third-party hosted agency-release candidate",
+        "title": "FBI laboratory forms and December 7, 1988 report: Max Headroom Incident, Microwave Jamming",
+        "unknowns_json": {
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "partial",
+        "creator": "MuckRock request page archived by Internet Archive",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Administrative record/holding not incident clock",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "As observed in the explicitly inspected page/index; no unsupported precision",
+            "precision": "day"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0021",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Third-party archive context; not agency-original custody proof or complete case file",
+          "linked_media": "uninspected",
+          "text": "Archived HTML text inspected: submitted December 5, tracking 1612675-000. Live page 403. Attached CDN files separately protected as SRC-0018/0019.",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party archive context; not agency-original custody proof or complete case file",
+        "publication_date": "2023-12-05",
+        "restrictions": "Private owner/selected-reviewer research context",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "https://web.archive.org/web/20240623234056/https://www.muckrock.com/foi/united-states-of-america-10/max-headroom-incident-155546/",
+        "source_type": "Records/holding/instructions discovery; exact inspection scope retained",
+        "title": "Archived MuckRock request 155546: Max Headroom Incident",
+        "unknowns_json": {
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "complete",
+        "creator": "Federal Bureau of Investigation",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0022",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Process guidance only; no case holding confirmation. Recheck before owner-authorized submission.",
+          "linked_media": "uninspected",
+          "text": "Official HTML instructions inspected November 8, 2026; eFOIPA and letter routes, incident description, contact and fee-limit requirements",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Process guidance only; no case holding confirmation. Recheck before owner-authorized submission.",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer research context",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/freedom-of-information-privacy-act/requesting-fbi-records",
+        "source_type": "Records/holding/instructions discovery; exact inspection scope retained",
+        "title": "Requesting FBI Records: official current instructions",
+        "unknowns_json": {
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "partial",
+        "creator": "Federal Bureau of Investigation",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0023",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Request-processing log does not establish underlying incident-record existence, contents or an exhaustive search",
+          "linked_media": "uninspected",
+          "records_context": {
+            "agency_identifiers": [
+              "FBI FOIA 1612675",
+              "FBI FOIA 1608751"
+            ],
+            "authentication_limits": "Partial indexed administrative log extract; release context and complete original images unverified; no substantive incident disposition established",
+            "kind": "agency_release",
+            "pagination": "FBI printed pages 50 and 422 of 622, indexed extracts only",
+            "release_letter_evidence": [],
+            "unknowns": {
+              "release_letter_evidence": "No release cover letter for this log was inspected"
+            }
+          },
+          "text": "Indexed extracts only: printed page 422/622 tracks 1612675 opened December 7, 2023; page 50 extract tracks 1608751. Full images not inspected.",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Request-processing log does not establish underlying incident-record existence, contents or an exhaustive search",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer research context",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 1,
+        "source_locator": "https://vault.fbi.gov/foia-log-2023/FOIA%20Log%202023%20Part%2001%20%28Final%29/",
+        "source_type": "Records/holding/instructions discovery; exact inspection scope retained",
+        "title": "FBI 2023 FOIA log indexed topic entries",
+        "unknowns_json": {
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "partial",
+        "creator": "Attributed Federal Communications Commission via Government Attic",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0024",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Closed processing status is not a no-records decision; release-letter context and page images unverified",
+          "linked_media": "uninspected",
+          "records_context": {
+            "agency_identifiers": [
+              "FCC-2020-000497"
+            ],
+            "authentication_limits": "Partial indexed administrative log extract; release context and complete original images unverified; no substantive incident disposition established",
+            "kind": "agency_release",
+            "pagination": "unknown",
+            "release_letter_evidence": [],
+            "unknowns": {
+              "pagination": "PDF page image/printed page containing the matched entry was not inspected",
+              "release_letter_evidence": "No release cover letter for this log was inspected"
+            }
+          },
+          "text": "Indexed extract only: FY2020 entry FCC-2020-000497 submitted May 24, 2020, status Closed, subject WGN/WTTW intrusion. PDF images and disposition not inspected.",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Closed processing status is not a no-records decision; release-letter context and page images unverified",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer research context",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 1,
+        "source_locator": "https://www.governmentattic.org/54docs/FCCfoiaLogs2017-2020.pdf",
+        "source_type": "Records/holding/instructions discovery; exact inspection scope retained",
+        "title": "FCC FOIA case logs FY2017-FY2020: third-party release index",
+        "unknowns_json": {
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Museum of Classic Chicago Television / Fuzzy Memories",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0025",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Catalog lead only; physical master, current access and capture chain unconfirmed",
+          "linked_media": "uninspected",
+          "records_context": {
+            "access_status": "unconfirmed",
+            "confirmation_evidence": [],
+            "holding_identifier": "Public listing 2594; physical item identifier unknown",
+            "institution": "Museum of Classic Chicago Television / Fuzzy Memories",
+            "kind": "holding",
+            "limits": "Indexed catalog listing only. No physical master, complete capture chain or current institutional access confirmed.",
+            "unknowns": {
+              "confirmation_evidence": "No actual confirmation of the relevant physical holding or access was obtained"
+            }
+          },
+          "text": "Indexed listing describes a November 23, 1987 report; no playback or acquisition in this records task",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Catalog lead only; physical master, current access and capture chain unconfirmed",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer research context",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 1,
+        "source_locator": "https://www.fuzzymemories.tv/m/v/2594/",
+        "source_type": "Records/holding/instructions discovery; exact inspection scope retained",
+        "title": "WMAQChannel5 PirateReport1987 listing2594",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Museum of Classic Chicago Television / Fuzzy Memories",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0026",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Catalog lead only; physical master, current access and capture chain unconfirmed",
+          "linked_media": "uninspected",
+          "records_context": {
+            "access_status": "unconfirmed",
+            "confirmation_evidence": [],
+            "holding_identifier": "Public listing 2593; physical item identifier unknown",
+            "institution": "Museum of Classic Chicago Television / Fuzzy Memories",
+            "kind": "holding",
+            "limits": "Indexed catalog listing only. No physical master, complete capture chain or current institutional access confirmed.",
+            "unknowns": {
+              "confirmation_evidence": "No actual confirmation of the relevant physical holding or access was obtained"
+            }
+          },
+          "text": "Indexed listing describes a November 23, 1987 report; no playback or acquisition in this records task",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Catalog lead only; physical master, current access and capture chain unconfirmed",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer research context",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 1,
+        "source_locator": "https://fuzzymemories.tv/m/v/2593/",
+        "source_type": "Records/holding/instructions discovery; exact inspection scope retained",
+        "title": "WFLDChannel32 PirateReport1987 listing2593",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Museum of Classic Chicago Television / Fuzzy Memories",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0027",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Catalog lead only; physical master, current access and capture chain unconfirmed",
+          "linked_media": "uninspected",
+          "records_context": {
+            "access_status": "unconfirmed",
+            "confirmation_evidence": [],
+            "holding_identifier": "Public listing 2596; physical item identifier unknown",
+            "institution": "Museum of Classic Chicago Television / Fuzzy Memories",
+            "kind": "holding",
+            "limits": "Indexed catalog listing only. No physical master, complete capture chain or current institutional access confirmed.",
+            "unknowns": {
+              "confirmation_evidence": "No actual confirmation of the relevant physical holding or access was obtained"
+            }
+          },
+          "text": "Indexed listing describes a November 23, 1987 report; no playback or acquisition in this records task",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Catalog lead only; physical master, current access and capture chain unconfirmed",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer research context",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 1,
+        "source_locator": "https://www.fuzzymemories.tv/m/v/2596/",
+        "source_type": "Records/holding/instructions discovery; exact inspection scope retained",
+        "title": "WLSChannel7 PirateReport1987 listing2596",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Tertiaryaccountfactsnotadopted"
+        ],
+        "coverage": "Pooled3querywebindex response; thirdpartyarticle only lead",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" FBI MuckRock records 95-284429",
+        "executed_at": "2026-11-08T20:51:02+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0059",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "Pooled3querywebindex response; noexhaustivecoveragemapping",
+        "cycle_id": "not_applicable",
+        "exact_query": "site.governmentattic.org \"Max Headroom\" FCC",
+        "executed_at": "2026-11-08T20:51:02+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0060",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Otheragencyinstructionsnotused"
+        ],
+        "coverage": "Pooled3querywebindex response",
+        "cycle_id": "not_applicable",
+        "exact_query": "site.fcc.gov FOIA request records electronic PAL portal 2026",
+        "executed_at": "2026-11-08T20:51:02+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0061",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Directrequest403"
+        ],
+        "coverage": "Domainwebindex leadsearch; thirdpartylinkdiscovery",
+        "cycle_id": "not_applicable",
+        "exact_query": "site.muckrock.com \"Max Headroom\"",
+        "executed_at": "2026-11-08T20:51:20+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0062",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0021"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Maincurrentpageaccessblocked"
+        ],
+        "coverage": "Officialinstructionindexcheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"FCC\" \"Freedom of Information Act\" request site:fcc.gov/general",
+        "executed_at": "2026-11-08T20:51:30+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0063",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Originalpageimagesanddispositionuninspected"
+        ],
+        "coverage": "FCCexistingreleaselogdiscovery",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" site:governmentattic.org",
+        "executed_at": "2026-11-08T20:51:30+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0064",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0024"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "2023transitionnoticeonly; no currentFCCrouteconfirmed"
+        ],
+        "coverage": "Pooled3querycurrentprocesscheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:fcc.gov \"FOIAOnline\" \"request\" \"FOIA\"",
+        "executed_at": "2026-11-08T20:51:40+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0065",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "No verifiedcurrentFCCfilingroute fromthisrun"
+        ],
+        "coverage": "Pooled3querycurrentprocesscheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:fcc.gov \"FOIA\" \"2026\" \"Submit\"",
+        "executed_at": "2026-11-08T20:51:40+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0066",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "Pooled3queryreleasecontextsearch",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom Incident\" \"muckrock.com/foi\"",
+        "executed_at": "2026-11-08T20:51:40+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0067",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0021"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "No identified item; notevidenceofabsentholdings"
+        ],
+        "coverage": "Incidentnameholdingsindex; noidentifieditem; notinternalcatalogsearch",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" site:archives.lib.duke.edu OR site:chicagofilmarchives.org OR site:chicagohistory.org OR site:mediaburn.org",
+        "executed_at": "2026-11-08T20:51:50+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0068",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "No video played/provenanceconfirmed"
+        ],
+        "coverage": "Pooled4domainqueries; collectorpublisherlistingleads",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" site:fuzzymemories.tv",
+        "executed_at": "2026-11-08T20:52:00+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0069",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0025",
+          "SRC-0026",
+          "SRC-0027"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Noidentifieditem; indexcoverageincomplete"
+        ],
+        "coverage": "Pooled4domainqueries; noidentifieditemforthisdomain",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" site:mediaburn.org",
+        "executed_at": "2026-11-08T20:52:00+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0070",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Noidentifieditem; existingnewspaperguideSRC6blocked"
+        ],
+        "coverage": "Pooled4domainqueries; noidentifieditemforthisdomain",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" site:chipublib.org",
+        "executed_at": "2026-11-08T20:52:00+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0071",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Noidentifieditem; notofflinecollectionsearch"
+        ],
+        "coverage": "Pooled4domainqueries; noidentifieditemforthisdomain",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" site:archives.northwestern.edu",
+        "executed_at": "2026-11-08T20:52:00+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0072",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Nofullincidentcaseidentifiedinthisindexrun"
+        ],
+        "coverage": "Pooled2queries; FBIprocessinglogentries",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" site:vault.fbi.gov",
+        "executed_at": "2026-11-08T20:52:10+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0073",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0023"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Noidentifieditem; notabsentholdingsproof"
+        ],
+        "coverage": "Pooled2queries; noidentifieditemforthisdomain",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" site:americanarchive.org",
+        "executed_at": "2026-11-08T20:52:10+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTC research-call checkpoint, second-level execution times are approximate; nothistoricaleventclocks"
+        },
+        "id": "SRCH-0074",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Websearchindex",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "accesserror; noinstructionschecked"
+        ],
+        "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.fcc.gov/general/freedom-information-act-foia",
+        "executed_at": "2026-11-08T20:51:56+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch"
+        },
+        "id": "SRCH-0075",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "DirectURLviawebtool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "403; currentFCCinstructionsunverified"
+        ],
+        "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.fcc.gov/foia",
+        "executed_at": "2026-11-08T20:51:56+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch"
+        },
+        "id": "SRCH-0076",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "DirectURLviawebtool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "accesserror; noinstructionschecked"
+        ],
+        "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.fcc.gov/general/foia-frequently-asked-questions",
+        "executed_at": "2026-11-08T20:51:56+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch"
+        },
+        "id": "SRCH-0077",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "DirectURLviawebtool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "403; archivedcopyused"
+        ],
+        "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.muckrock.com/foi/united-states-of-america-10/max-headroom-incident-155546/",
+        "executed_at": "2026-11-08T20:51:56+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch"
+        },
+        "id": "SRCH-0078",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "DirectURLviawebtool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://web.archive.org/web/20240623234056/https://www.muckrock.com/foi/united-states-of-america-10/max-headroom-incident-155546/",
+        "executed_at": "2026-11-08T20:51:56+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch"
+        },
+        "id": "SRCH-0079",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "DirectURLviawebtool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/freedom-of-information-privacy-act/requesting-fbi-records",
+        "executed_at": "2026-11-08T20:51:56+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch"
+        },
+        "id": "SRCH-0080",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "DirectURLviawebtool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/freedom-of-information-privacy-act",
+        "executed_at": "2026-11-08T20:51:56+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch"
+        },
+        "id": "SRCH-0081",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "DirectURLviawebtool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://unsolvedfiles.com/the-max-headroom-tapes-and-the-fbi-report-that-followed/",
+        "executed_at": "2026-11-08T20:51:56+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch"
+        },
+        "id": "SRCH-0082",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "DirectURLviawebtool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://unsolvedfiles.com/the-max-headroom-signal-hijacking-incident/",
+        "executed_at": "2026-11-08T20:51:56+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch"
+        },
+        "id": "SRCH-0083",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "DirectURLviawebtool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "UnverifiedguessedURLaccesserror; discarded, notusedasfilingroute"
+        ],
+        "coverage": "Existingrecords/instructions/holdings; limitedonlinecheck",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.foia.gov/agency.html?id=75718707-5b82-4f4a-93a3-2c20f26464c9&type=component",
+        "executed_at": "2026-11-08T20:51:56+00:00",
+        "filters_json": {
+          "timestamp_basis": "UTCcallcheckpoint; individualopensapproximatewithinresearchbatch"
+        },
+        "id": "SRCH-0084",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "DirectURLviawebtool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.028028+00:00",
+        "actor": "research_assistant",
+        "byte_count": 148462,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.028047+00:00",
+        "digitization_history": null,
+        "id": "AST-0023",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 1
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=1"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-1.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.049820+00:00",
+        "actor": "research_assistant",
+        "byte_count": 413741,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.049835+00:00",
+        "digitization_history": null,
+        "id": "AST-0024",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 2
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=2"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "1565fb013601fd8380a0a2903dbe7e157410c2ed5bb7625c635b9bbec6420ca9",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "1565fb013601fd8380a0a2903dbe7e157410c2ed5bb7625c635b9bbec6420ca9",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-2.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.073934+00:00",
+        "actor": "research_assistant",
+        "byte_count": 307504,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.073947+00:00",
+        "digitization_history": null,
+        "id": "AST-0025",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 3
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=3"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "3fae691e9a1f5ab808b85f08175896048c40fcdc60970307759e1dde7036775d",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "3fae691e9a1f5ab808b85f08175896048c40fcdc60970307759e1dde7036775d",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-3.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.099938+00:00",
+        "actor": "research_assistant",
+        "byte_count": 232629,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.099953+00:00",
+        "digitization_history": null,
+        "id": "AST-0026",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 4
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=4"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "2ca728985c5f8f89f4ff723d4952f6ab7ac1346229d3c0fc67b1a528c049c7a4",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "2ca728985c5f8f89f4ff723d4952f6ab7ac1346229d3c0fc67b1a528c049c7a4",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-4.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.121650+00:00",
+        "actor": "research_assistant",
+        "byte_count": 478993,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.121663+00:00",
+        "digitization_history": null,
+        "id": "AST-0027",
+        "input_asset_ids": [
+          "AST-0011"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0011",
+            "page_number": 5
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=5"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "8d4b591e7ecaf5a7237db8e31931d801c8b639d3110868517e6515d806f2791c",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "8d4b591e7ecaf5a7237db8e31931d801c8b639d3110868517e6515d806f2791c",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0011-page-5.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.145090+00:00",
+        "actor": "research_assistant",
+        "byte_count": 341972,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.145106+00:00",
+        "digitization_history": null,
+        "id": "AST-0028",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 1
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=1"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "719b95174e424815c44f870ba92d44c0a31a357e9a785d1d1a8bd7841c6c7685",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "719b95174e424815c44f870ba92d44c0a31a357e9a785d1d1a8bd7841c6c7685",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-1.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.166382+00:00",
+        "actor": "research_assistant",
+        "byte_count": 333681,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.166395+00:00",
+        "digitization_history": null,
+        "id": "AST-0029",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 2
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=2"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "66c4de4487a98c3bc49ddeedb8bed37c3db1e864502f8dcc1a31034e9befbb4e",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "66c4de4487a98c3bc49ddeedb8bed37c3db1e864502f8dcc1a31034e9befbb4e",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-2.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.192663+00:00",
+        "actor": "research_assistant",
+        "byte_count": 110209,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.192679+00:00",
+        "digitization_history": null,
+        "id": "AST-0030",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 3
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=3"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "36353fb48a44fbb85b0ebe3a08b9be9564dc88ace8aec4ab31cf5527f8776dcf",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "36353fb48a44fbb85b0ebe3a08b9be9564dc88ace8aec4ab31cf5527f8776dcf",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-3.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.216764+00:00",
+        "actor": "research_assistant",
+        "byte_count": 513453,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.216779+00:00",
+        "digitization_history": null,
+        "id": "AST-0031",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 4
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=4"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "b722fbe6116672e054b99e7adb74bc313fda5fa68325cf10aa3ff5379b11d03c",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "b722fbe6116672e054b99e7adb74bc313fda5fa68325cf10aa3ff5379b11d03c",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-4.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T21:01:23.240632+00:00",
+        "actor": "research_assistant",
+        "byte_count": 358370,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T21:01:23.240647+00:00",
+        "digitization_history": null,
+        "id": "AST-0032",
+        "input_asset_ids": [
+          "AST-0012"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0012",
+            "page_number": 5
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": null,
+        "original_media_history": null,
+        "processing": {
+          "arguments": [
+            "python",
+            "analysis/chronology/render_records.py",
+            "PDFpage=5"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python / PyMuPDF",
+          "generative": false,
+          "method": "Mechanical 160dpi PDF page render; alpha=False; no OCR or enhancement",
+          "output_sha256": "b2661c0cb7a2276ace2d00139e8c2b9108e928c00037eef8412d3362cbb50365",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "160dpi alphaFalse PDF rasterization only, no OCR/enhancement; original PDF preserved",
+          "time_base": "Still PDF page coordinates; no broadcast timing",
+          "tool_version": "Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] / PyMuPDF 2.1"
+        },
+        "provenance_limits": "Rendered unchanged protected PDF; no authenticity upgrade",
+        "receiver_feed": null,
+        "restrictions": "Private mechanical page viewing derivative",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "b2661c0cb7a2276ace2d00139e8c2b9108e928c00037eef8412d3362cbb50365",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private owner/selected reviewers",
+          "alias": "project",
+          "relative_path": "derived/frames/records-pages/AST-0012-page-5.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "digitization_history": "Not yet established; do not infer.",
+          "known_edits": "Not yet established; do not infer.",
+          "original_media_history": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Request specifies missing records, identifiers, date range, relevant custodian, and how a response could change the analysis",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          },
+          {
+            "id": "TASK-0006",
+            "note": "Required: original T06"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Request specifies missing records, identifiers, date range, relevant custodian, and how a response could change the analysis",
+        "external_wait": "not_applicable",
+        "id": "TASK-0009",
+        "legacy_aliases_json": [
+          "T09"
+        ],
+        "method": "Search existing releases and confirmed holdings, then draft narrow unsent requests for existing records tied to an analytical gap.",
+        "next_action": "Integrate already performed bounded records preparation; no earlier activation timestamp is inferred",
+        "output_refs_json": [],
+        "owner": "AI; user decides outreach",
+        "priority": "P2",
+        "question": "Draft targeted archive requests",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Request specifies missing records, identifiers, date range, relevant custodian, and how a response could change the analysis",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          },
+          {
+            "id": "TASK-0006",
+            "note": "Required: original T06"
+          }
+        ],
+        "effort_timebox": "One bounded online preparation session; initial seed supplied no numerical timebox; no retrospective precommitment claimed",
+        "expected_output": "Request specifies missing records, identifiers, date range, relevant custodian, and how a response could change the analysis",
+        "external_wait": "not_applicable",
+        "id": "TASK-0009",
+        "legacy_aliases_json": [
+          "T09"
+        ],
+        "method": "Search existing releases and confirmed holdings, then draft narrow unsent requests for existing records tied to an analytical gap.",
+        "next_action": "Owner may authorize a separate submission with private contact/fee limit; recheck instructions and confirm holdings before any paid visit",
+        "output_refs_json": [
+          "reports/records/inventory.md",
+          {
+            "analytical_gap": "Released five-page package omits the cited letter and full Q1 feed/copy history",
+            "analytical_value": "Could distinguish Q1 feed, copy and observation provenance and locate dated technical records; no online-file authentication implied",
+            "custodian": "FBI RIDS Initial Processing Operations Unit",
+            "date_range": "1987-11-22 through 1988-12-31",
+            "file": {
+              "access_limit": "Private owner and selected reviewers",
+              "alias": "project",
+              "relative_path": "reports/requests/record-request.md"
+            },
+            "kind": "request_draft",
+            "records_requested": [
+              "Existing July 20, 1988 FCC letter and attachments",
+              "Existing Q1 submission, copy-history, custody and return records",
+              "Existing technical worksheets, incident logs, complaints and correspondence in FBI file 95-284429",
+              "Existing index, cross-reference and disposition records"
+            ],
+            "sha256": "85240258f3d7d3ccd3d842709a71d862f94fe20175c591673ae8c0e289dc7eb1",
+            "status": "unsent"
+          },
+          {
+            "file": {
+              "access_limit": "Private owner and selected reviewers",
+              "alias": "project",
+              "relative_path": "reports/interviews/neutral-guide.md"
+            },
+            "kind": "interview_guide",
+            "prompts": {
+              "actions_taken": "What did you personally do, in what sequence, and what changed?",
+              "affected_feed": "Which specific monitor, receiver, recorder or distribution feed?",
+              "later_information": "What did you learn later from colleagues, reporting or online copies?",
+              "personal_observation": "What did you personally observe, when and in what role?",
+              "verifying_records": "Which surviving log, diagram, correspondence, recording or custody record could verify or correct this?"
+            },
+            "sha256": "743b3ffae0799e6de8f9fdce2262fb393ee9b754344c5d9fcfad8a238f1aac2a",
+            "status": "unsent"
+          }
+        ],
+        "owner": "AI; user decides outreach",
+        "priority": "P2",
+        "question": "Draft targeted archive requests",
+        "reopening_condition": "Reopen on directly obtained additional records, confirmed collection access or owner-authorized request scope",
+        "result": "Bounded existing-release/holding search, actual partial5page package and release context inspected; targeted request and neutral interview guide prepared UNSENT. No contact/submission/holding access or spending occurred.",
+        "retired": false,
+        "revision": 3,
+        "status": "done",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Reproducible derivatives, uncertainty annotations, and blind review of disputed passages",
+        "dependencies_json": [
+          {
+            "id": "TASK-0004",
+            "note": "Required: original T04"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Reproducible derivatives, uncertainty annotations, and blind review of disputed passages",
+        "external_wait": "not_applicable",
+        "id": "TASK-0007",
+        "legacy_aliases_json": [
+          "T07"
+        ],
+        "method": "Create reproducible derivatives, uncertainty annotations, and blind second transcription for disputed passages.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI + user as independent listener",
+        "priority": "P2",
+        "question": "Transcribe and compare recordings",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Reproducible derivatives, uncertainty annotations, and blind review of disputed passages",
+        "dependencies_json": [
+          {
+            "id": "TASK-0004",
+            "note": "Required: original T04"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Reproducible derivatives, uncertainty annotations, and blind review of disputed passages",
+        "external_wait": "Unprimed second listener and actual time-coded transcription, if disputed words are to be used",
+        "id": "TASK-0007",
+        "legacy_aliases_json": [
+          "T07"
+        ],
+        "method": "Create reproducible derivatives, uncertainty annotations, and blind second transcription for disputed passages.",
+        "next_action": "Obtain independent blind transcription before adopting any disputed wording; no wording used in FND-0001",
+        "output_refs_json": [
+          "analysis/media-comparison/comparison-report.md",
+          "analysis/media-comparison/recording-inventory.md"
+        ],
+        "owner": "AI + user as independent listener",
+        "priority": "P2",
+        "question": "Transcribe and compare recordings",
+        "reopening_condition": "Named actual listener with preferred words withheld and preserved inputs permits T067 completion",
+        "result": "Protected two real files and performed bounded visual context comparison; full annotated transcription and genuine blind second listening remain unperformed",
+        "retired": false,
+        "revision": 2,
+        "status": "waiting",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Each examined reference has an interpretation, pre-incident source or unresolved status, and distinctiveness assessment",
+        "dependencies_json": [
+          {
+            "id": "TASK-0007",
+            "note": "Required: original T07. Preliminary public-availability work uses a separate TASK and cannot complete T08."
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Each examined reference has an interpretation, pre-incident source or unresolved status, and distinctiveness assessment",
+        "external_wait": "not_applicable",
+        "id": "TASK-0008",
+        "legacy_aliases_json": [
+          "T08"
+        ],
+        "method": "Assess verified words/images against dated pre-incident material or unresolved status and explain public availability/distinctiveness.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI + user",
+        "priority": "P2",
+        "question": "Build period-reference catalog",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Each examined reference has an interpretation, pre-incident source or unresolved status, and distinctiveness assessment",
+        "dependencies_json": [
+          {
+            "id": "TASK-0007",
+            "note": "Required: original T07. Preliminary public-availability work uses a separate TASK and cannot complete T08."
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Each examined reference has an interpretation, pre-incident source or unresolved status, and distinctiveness assessment",
+        "external_wait": "TASK-0007 verified transcription/comparison and required blind review",
+        "id": "TASK-0008",
+        "legacy_aliases_json": [
+          "T08"
+        ],
+        "method": "Assess verified words/images against dated pre-incident material or unresolved status and explain public availability/distinctiveness.",
+        "next_action": "After T07 complete, verify words/images against dated pre1987-11-22 primary material",
+        "output_refs_json": [],
+        "owner": "AI + user",
+        "priority": "P2",
+        "question": "Build period-reference catalog",
+        "reopening_condition": "Completed T07 and dated material that can assess public availability/distinctiveness",
+        "result": "Preliminary catalog conventions exist; actual cultural-reference interpretation unperformed and sourceT07 notcomplete",
+        "retired": false,
+        "revision": 2,
+        "status": "waiting",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0001"
+        ],
+        "completeness": "unknown",
+        "creator": "John Camper; contribution by Steve Daley / Chicago Tribune",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive attribution/filename; article image date/byline not yet verified",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0008",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Image transcription checked; no case-source authentication, media timing measurement or as-built equipment verification",
+          "linked_media": "uninspected",
+          "text": "Both clipping images inspected: bylineJohnCamper and continuation contributionSteveDaley visible. Archive-attributed1987-11-24; clipping lacks issue-date masthead.",
+          "underlying_records": "Publication image inspected; underlying engineering/FCC records unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified. Both clipping images inspected: bylineJohnCamper and continuation contributionSteveDaley visible. Archive-attributed1987-11-24; clipping lacks issue-date masthead.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 3,
+        "source_locator": "URL: https://cuttingsarchive.org/images/6/6d/1987-11-24_Chicago_Tribune.pdf",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "A powerful video prankster could become Max Jailroom",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0001"
+        ],
+        "completeness": "unknown",
+        "creator": "John Camper; contribution by Steve Daley / Chicago Tribune",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive-attributed date/filename; clipping image inspected without dated masthead, so issue/date attribution remains qualified",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0008",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Image transcription checked; no case-source authentication, media timing measurement or as-built equipment verification",
+          "linked_media": "uninspected",
+          "text": "Both clipping images inspected: bylineJohnCamper and continuation contributionSteveDaley visible. Archive-attributed1987-11-24; clipping lacks issue-date masthead.",
+          "underlying_records": "Publication image inspected; underlying engineering/FCC records unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified. Both clipping images inspected: bylineJohnCamper and continuation contributionSteveDaley visible. Archive-attributed1987-11-24; clipping lacks issue-date masthead.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 4,
+        "source_locator": "URL: https://cuttingsarchive.org/images/6/6d/1987-11-24_Chicago_Tribune.pdf",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "A powerful video prankster could become Max Jailroom",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0002"
+        ],
+        "completeness": "unknown",
+        "creator": "Don Hayner / Chicago Sun-Times",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive text metadata attributes1987-11-24; image verification pending",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0009",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Image transcription checked; no case-source authentication, media timing measurement or as-built equipment verification",
+          "linked_media": "uninspected",
+          "text": "Original clipping image compared with archive transcription; bylineDonHayner visible. OCR corrupts25seconds/local/transmission wording. Archive-attributed date lacks issue masthead in clipping.",
+          "underlying_records": "Publication image inspected; underlying engineering/FCC records unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified. Original clipping image compared with archive transcription; bylineDonHayner visible. OCR corrupts25seconds/local/transmission wording. Archive-attributed date lacks issue masthead in clipping.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 3,
+        "source_locator": "URL: https://cuttingsarchive.org/images/f/fa/1987-11-24_Chicago_Sun-Times.jpg",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "2 channels interrupted to the Max",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0002"
+        ],
+        "completeness": "unknown",
+        "creator": "Don Hayner / Chicago Sun-Times",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive-attributed date/filename; clipping image inspected without dated masthead, so issue/date attribution remains qualified",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0009",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Image transcription checked; no case-source authentication, media timing measurement or as-built equipment verification",
+          "linked_media": "uninspected",
+          "text": "Original clipping image compared with archive transcription; bylineDonHayner visible. OCR corrupts25seconds/local/transmission wording. Archive-attributed date lacks issue masthead in clipping.",
+          "underlying_records": "Publication image inspected; underlying engineering/FCC records unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified. Original clipping image compared with archive transcription; bylineDonHayner visible. OCR corrupts25seconds/local/transmission wording. Archive-attributed date lacks issue masthead in clipping.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 4,
+        "source_locator": "URL: https://cuttingsarchive.org/images/f/fa/1987-11-24_Chicago_Sun-Times.jpg",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "2 channels interrupted to the Max",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    }
+  ],
+  "reason": "Integrate actual records inspection, protected derivatives, unsent drafts and honest conditional media/culture waits",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

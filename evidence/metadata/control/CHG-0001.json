@@ -1,0 +1,81 @@
+{
+  "anchor_observed_at": "2026-11-07T22:52:31.491529+00:00",
+  "anchor_reason": "Explicit initial-run migration: bytes observed after implementation added CHG anchoring; not retroactive evidence of earlier integrity.",
+  "change_integrity": {
+    "byte_count": 51691,
+    "sha256": "3e65c3498f80183c54743ea0929d649e86596afc5262b641e064033f91ba5de4"
+  },
+  "closure": null,
+  "id": "CHG-0001",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 15328,
+        "sha256": "424d99005448a9a8348ec6019d28c29e721e394b1c2451301af7896cff0542f9"
+      },
+      "path": "registers/sources.csv",
+      "previous": null,
+      "staged": "registers/.sources.csv.CHG-0001.stage"
+    },
+    {
+      "new": {
+        "byte_count": 171,
+        "sha256": "20b182ff5346df6f335da3207b354981272a1b070b29c2754c4ceadbebf9babf"
+      },
+      "path": "registers/claims.csv",
+      "previous": null,
+      "staged": "registers/.claims.csv.CHG-0001.stage"
+    },
+    {
+      "new": {
+        "byte_count": 248,
+        "sha256": "d788a460ae52a20a40c8b17845e3a7c71ee5b77c098c070741fafb6829098b0c"
+      },
+      "path": "registers/timeline.csv",
+      "previous": null,
+      "staged": "registers/.timeline.csv.CHG-0001.stage"
+    },
+    {
+      "new": {
+        "byte_count": 7123,
+        "sha256": "73c3de5b0a0d28fc37519cdaeb7af753b6761bebd05e674e5322e58d8132c2ab"
+      },
+      "path": "registers/hypotheses.csv",
+      "previous": null,
+      "staged": "registers/.hypotheses.csv.CHG-0001.stage"
+    },
+    {
+      "new": {
+        "byte_count": 11586,
+        "sha256": "a4a75995b20c2983adcab524f5ed16a8d350314ec6df8fd337f98367821ad228"
+      },
+      "path": "registers/tasks.csv",
+      "previous": null,
+      "staged": "registers/.tasks.csv.CHG-0001.stage"
+    },
+    {
+      "new": {
+        "byte_count": 199,
+        "sha256": "ccc30770c78022045666809c2d3faf5dfd6f9ae52747846599b4e67da921aa36"
+      },
+      "path": "registers/searches.csv",
+      "previous": null,
+      "staged": "registers/.searches.csv.CHG-0001.stage"
+    },
+    {
+      "new": {
+        "byte_count": 1705,
+        "sha256": "f8491f75836320f1e6084809c840a664e1f21d0d94c74bac42b3cce01cca5be7"
+      },
+      "path": "config/dossier.json",
+      "previous": {
+        "byte_count": 725,
+        "sha256": "6b8ee3643556cbef385cc057580d7a286413a39cedb0b0512e74939ecff6b7e2"
+      },
+      "staged": "config/.dossier.json.CHG-0001.stage"
+    }
+  ],
+  "prepared_at": "2026-11-07T22:36:27.488577+00:00",
+  "published_at": "2026-11-07T22:36:27.499980+00:00",
+  "state": "published"
+}

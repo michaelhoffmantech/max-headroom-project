@@ -1,0 +1,27 @@
+{
+  "anchor_observed_at": "2026-11-07T22:52:31.507013+00:00",
+  "anchor_reason": "Explicit initial-run migration: bytes observed after implementation added CHG anchoring; not retroactive evidence of earlier integrity.",
+  "change_integrity": {
+    "byte_count": 6278,
+    "sha256": "74d58846f898b1f68c035e412b128b688b57931fba444ffa13ddcbc8ee58ffbe"
+  },
+  "closure": null,
+  "id": "CHG-0005",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 11868,
+        "sha256": "6665216e44aed5be345f7988de9da4405ce29cf1de020712a8842981c83062b8"
+      },
+      "path": "registers/tasks.csv",
+      "previous": {
+        "byte_count": 11477,
+        "sha256": "67f21ebd53b8e044ff902bc121b9a35d90f0e2a83011946f625bc41c8cdb5508"
+      },
+      "staged": "registers/.tasks.csv.CHG-0005.stage"
+    }
+  ],
+  "prepared_at": "2026-11-07T22:50:36.035253+00:00",
+  "published_at": "2026-11-07T22:50:36.039408+00:00",
+  "state": "published"
+}

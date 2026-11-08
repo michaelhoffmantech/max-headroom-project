@@ -1,0 +1,26 @@
+{
+  "access_limits": {
+    "backup": "Unknown until the owner supplies and authorizes the destination and its access limits.",
+    "primary_evidence": "Unknown until the owner-authorized local configuration is created.",
+    "project": "Unknown until the local project root and selected-reviewer access are configured."
+  },
+  "backup_failure_domain": null,
+  "configuration_status": "template_unconfigured",
+  "instructions": [
+    "Copy this template to config/storage.local.json only when configuring authorized storage; keep that file private.",
+    "Supply absolute paths for project and primary_evidence. The default primary store may be inside project.",
+    "Leave backup unset until the owner supplies an authorized absolute destination and describes its failure domain.",
+    "Use a distinct failure domain for drive-loss protection. An explicitly owner-selected separate directory on the same volume may be configured with owner_selected_same_volume=true and a documented rationale; it protects separate copies, not loss of that volume.",
+    "The backup root must not overlap project or primary_evidence, and references must not escape their configured root.",
+    "An unset or unreachable backup blocks affected original analysis and research-session completion, while unrelated implementation may continue.",
+    "A path in this file does not grant access, provision storage, connect an account, or confirm a backup."
+  ],
+  "owner_authorized": false,
+  "owner_selected_same_volume": false,
+  "roots": {
+    "backup": null,
+    "primary_evidence": null,
+    "project": null
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,77 @@
+{
+  "access_limits": "Private local dossier; acquired media/source rights not independently adjudicated; no research publication",
+  "actor": "research_assistant",
+  "alternatives": [
+    "Brief unsampled return",
+    "Prior capture/edit/encoding difference rather than historical event boundary"
+  ],
+  "audience": "owner_and_selected_reviewers",
+  "claims": [
+    {
+      "id": "CLM-0021",
+      "revision": 1
+    },
+    {
+      "id": "CLM-0022",
+      "revision": 1
+    }
+  ],
+  "confidence": "moderate",
+  "confidence_reasons": "Positive return visible; negative sampling and unverified capture/edit chain limit historical inference",
+  "created_at": "2026-11-08T20:56:37.621017+00:00",
+  "cycle_id": "CYC-0001",
+  "evidence": [
+    {
+      "limits": "Sampled imagery can miss very brief intermediate frames; no historical clock/authentication; SRC revision updated in same change",
+      "locator": {
+        "description": "AST-0013 decoded file: contact sheet 1s samples, final3s at5fps, native final frame; derived/frames/CYC-0001-retry/AST-0013-*",
+        "kind": "paragraph",
+        "precision": "Text passage/field as identified",
+        "value": "AST-0013 decoded file: contact sheet 1s samples, final3s at5fps, native final frame; derived/frames/CYC-0001-retry/AST-0013-*"
+      },
+      "role": "Direct observation of acquired digital file",
+      "source_id": "SRC-0012",
+      "source_revision": 3
+    },
+    {
+      "limits": "Approximate file-relative samples only; original capture/edits unknown; source revision updated in same change",
+      "locator": {
+        "description": "AST-0014 decoded file: contact sheet row-major6columns, about58s visible studio return, later WGN NEWS group, final3s and native final frame; derived/frames/CYC-0001-retry/AST-0014-*",
+        "kind": "paragraph",
+        "precision": "Text passage/field as identified",
+        "value": "AST-0014 decoded file: contact sheet row-major6columns, about58s visible studio return, later WGN NEWS group, final3s and native final frame; derived/frames/CYC-0001-retry/AST-0014-*"
+      },
+      "role": "Direct observation of acquired digital file",
+      "source_id": "SRC-0020",
+      "source_revision": 3
+    }
+  ],
+  "id": "FND-0001",
+  "limitations": [
+    "Original capture date/feed/tape generation/digitization/independence unknown for both files",
+    "Sampled images can miss a very brief return; precise phase boundaries not measured",
+    "Similar mask/backdrop movement is qualitative; different crop, watermark/resolution/encoding prohibit assumed independent corroboration",
+    "Audio decoded for error check, not listened/transcribed; continuity, pitch and disputed wording remain unassessed",
+    "Container runtime33.23/97.55s is not intrusion duration; Archive contains surrounding program material",
+    "Blackdetect threshold events are file-pixel statistics, not proof of RF failure; initial/final acquired streams are progressive/encoded and cannot recover lost analog/interlace detail"
+  ],
+  "method": "Protected-file FFmpeg decode, full-runtime one-second contact sheets, dense terminal samples and native final frame; see retained script/manifest",
+  "narrative": {
+    "access_limit": "Owner and selected reviewers only",
+    "alias": "project",
+    "relative_path": "reports/findings/FND-0001.md",
+    "sha256": "1193a27b6e8166e77508a5f6f44834da0d15e340106a5e2c2f5bf8366e7c21f0"
+  },
+  "next_action": "Obtain fuller/higher-generation evidence or dense transitions for a newly frozen question; blind listening remains waiting for disputed wording",
+  "novelty_category": "new_to_project",
+  "novelty_search_ids": [
+    "SRCH-0056",
+    "SRCH-0057",
+    "SRCH-0058"
+  ],
+  "question": "Do the selected acquired WGN candidate files retain visible studio/program return, or is at least one incomplete for that boundary?",
+  "result": "Within the selected acquired digital files, Commons AST-0013 lacks recognizable return in the inspected sampled/terminal sequence; Archive AST-0014 visibly contains a post-mask studio return. The all-context alternative HYP-0008 is weakened, HYP-0009 supported with sampling/capture limits. No hypothesis is ruled out and H1-H7 remain untested.",
+  "revision": 2,
+  "schema_version": 1,
+  "unknowns": {}
+}

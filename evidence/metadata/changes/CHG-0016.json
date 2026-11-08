@@ -1,0 +1,61 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T13:35:07.433208+00:00",
+  "id": "CHG-0016",
+  "intended_final_file_manifest": {
+    "evidence/metadata/backups/BAK-0004.json": {
+      "byte_count": 1452,
+      "sha256": "7db93db5185b640e9c2f0ee78ac6bb8120141ff59c93f454be1d2b90f3af0220"
+    }
+  },
+  "operations": [
+    {
+      "entity_type": "backups",
+      "previous": null,
+      "proposed": {
+        "actor": "research_assistant",
+        "attempted_at": "2026-11-08T13:35:07.398962+00:00",
+        "confirmed_at": "2026-11-08T13:35:07.398972+00:00",
+        "covered_ids": [
+          "AST-0003"
+        ],
+        "created_at": "2026-11-08T13:35:07.398978+00:00",
+        "destination_alias": "backup",
+        "failure_domain": "Owner-selected private separate directory on C:. Verified copies protect against accidental changes, not failure or loss of C:.",
+        "failure_reason": null,
+        "id": "BAK-0004",
+        "limits": "Integrity only; no historical authentication",
+        "manifest": [
+          {
+            "asset_id": "AST-0003",
+            "backup_relative_path": "objects/BAK-0004/AST-0003",
+            "byte_count": 16711686,
+            "sha256": "05962f70a48507e6c5c58f08ac8910aa11122f20fbd6af8f1a3a2e3b54730afa",
+            "source": {
+              "access_limit": "Private copyrighted source; no public redistribution",
+              "alias": "primary_evidence",
+              "relative_path": "AST-0003/1987-11-30-electronic-media.pdf"
+            }
+          }
+        ],
+        "method": "stream-copy; SHA-256 and byte count readback",
+        "predecessor_attempt": null,
+        "restrictions": "Private backup; no publication authorization",
+        "result": "confirmed",
+        "revision": 1,
+        "schema_version": 1,
+        "scope": "original",
+        "source_alias": "primary_evidence",
+        "tool_version": "dossier schema1 Python 3.13.12",
+        "unknowns": {
+          "failure_reason": "Not yet established; do not infer.",
+          "predecessor_attempt": "Not yet established; do not infer."
+        }
+      }
+    }
+  ],
+  "reason": "Confirm matching copied bytes",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

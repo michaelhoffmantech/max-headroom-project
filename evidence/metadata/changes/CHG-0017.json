@@ -1,0 +1,801 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T13:45:50.018077+00:00",
+  "id": "CHG-0017",
+  "intended_final_file_manifest": {
+    "evidence/metadata/assets/AST-0004.json": {
+      "byte_count": 2105,
+      "sha256": "e19697634b2e1ae6ca54d95954197da2a66854df878ad151280d12469d7e766f"
+    },
+    "evidence/metadata/assets/AST-0005.json": {
+      "byte_count": 2105,
+      "sha256": "03de654d1c34129dc69cc78df0d0ab28aef3173c6abfcff84fd3977051f2ef7d"
+    },
+    "evidence/metadata/assets/AST-0006.json": {
+      "byte_count": 2106,
+      "sha256": "c59f61af9175cf2a8651e7e6993edd83d4a3676880d416721a42100500810b08"
+    },
+    "evidence/metadata/assets/AST-0007.json": {
+      "byte_count": 2106,
+      "sha256": "cd46c01d895992ed07d78df266daac56740e093278046150e8239fb5d4dc579b"
+    },
+    "evidence/metadata/assets/AST-0008.json": {
+      "byte_count": 2109,
+      "sha256": "828644d3058bafc1e1580335beaf0a78a4a69dea00f66ff8e5cf14afc146c968"
+    },
+    "evidence/metadata/assets/AST-0009.json": {
+      "byte_count": 2109,
+      "sha256": "993840c6cc5fa780b98890ca92b64f4d2e75abf794bf3143b3d310f81ce5659d"
+    },
+    "evidence/metadata/assets/AST-0010.json": {
+      "byte_count": 2109,
+      "sha256": "f38fd2eccd39c39cb7cc46c25dfa97d127e7ca3346f8a18028a5a56fa0890a5d"
+    },
+    "registers/sources.csv": {
+      "byte_count": 21947,
+      "sha256": "9021d44addb1621a3a73e5b8be6a1db921ec82c31130d87fc2e3c6d11996dc6b"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T13:45:49.289255+00:00",
+        "actor": "research_assistant",
+        "byte_count": 393320,
+        "capture_date": null,
+        "completeness": "partial",
+        "created_at": "2026-11-08T13:45:49.289299+00:00",
+        "digitization_history": "Mechanical PyMuPDF page rendering,160dpi,RGB,noalpha; no OCR/enhancement",
+        "id": "AST-0004",
+        "input_asset_ids": [
+          "AST-0001"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0001",
+            "page_number": 1
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": [
+          "PDF page rendered to PNG; original bytes unchanged"
+        ],
+        "original_media_history": "Inherited from the protected source asset; this is a rendered page",
+        "processing": {
+          "arguments": [
+            "analysis/chronology/render_clippings.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python",
+          "generative": false,
+          "method": "Mechanical page rasterization",
+          "output_sha256": "31202b72ef1380aa73dea48ef4137b9fabe923646ba2beb2df24c086ed9418c8",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "PDF page ordinal 1",
+          "time_base": "not_applicable: paged source",
+          "tool_version": "Python3.13.12; PyMuPDF2.1"
+        },
+        "provenance_limits": "Rendering preserves displayed source content; neither source nor scan origin authenticated",
+        "receiver_feed": null,
+        "restrictions": "Private research only; source restrictions apply",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "31202b72ef1380aa73dea48ef4137b9fabe923646ba2beb2df24c086ed9418c8",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private copyrighted source-derived page; no public redistribution",
+          "alias": "project",
+          "relative_path": "derived/frames/newspaper-pages/AST-0001-page-1.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Derivative source lineage comes from every input asset, not an arbitrary singular source",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T13:45:49.299135+00:00",
+        "actor": "research_assistant",
+        "byte_count": 454453,
+        "capture_date": null,
+        "completeness": "partial",
+        "created_at": "2026-11-08T13:45:49.299147+00:00",
+        "digitization_history": "Mechanical PyMuPDF page rendering,160dpi,RGB,noalpha; no OCR/enhancement",
+        "id": "AST-0005",
+        "input_asset_ids": [
+          "AST-0001"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0001",
+            "page_number": 2
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": [
+          "PDF page rendered to PNG; original bytes unchanged"
+        ],
+        "original_media_history": "Inherited from the protected source asset; this is a rendered page",
+        "processing": {
+          "arguments": [
+            "analysis/chronology/render_clippings.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python",
+          "generative": false,
+          "method": "Mechanical page rasterization",
+          "output_sha256": "7a39b4a27f15cf4901398ba8fd24386c4a0d34f979d986671e4b02736f2f7e16",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "PDF page ordinal 2",
+          "time_base": "not_applicable: paged source",
+          "tool_version": "Python3.13.12; PyMuPDF2.1"
+        },
+        "provenance_limits": "Rendering preserves displayed source content; neither source nor scan origin authenticated",
+        "receiver_feed": null,
+        "restrictions": "Private research only; source restrictions apply",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "7a39b4a27f15cf4901398ba8fd24386c4a0d34f979d986671e4b02736f2f7e16",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private copyrighted source-derived page; no public redistribution",
+          "alias": "project",
+          "relative_path": "derived/frames/newspaper-pages/AST-0001-page-2.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Derivative source lineage comes from every input asset, not an arbitrary singular source",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T13:45:49.308519+00:00",
+        "actor": "research_assistant",
+        "byte_count": 2802022,
+        "capture_date": null,
+        "completeness": "partial",
+        "created_at": "2026-11-08T13:45:49.308532+00:00",
+        "digitization_history": "Mechanical PyMuPDF page rendering,160dpi,RGB,noalpha; no OCR/enhancement",
+        "id": "AST-0006",
+        "input_asset_ids": [
+          "AST-0003"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0003",
+            "page_number": 2
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": [
+          "PDF page rendered to PNG; original bytes unchanged"
+        ],
+        "original_media_history": "Inherited from the protected source asset; this is a rendered page",
+        "processing": {
+          "arguments": [
+            "analysis/chronology/render_clippings.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python",
+          "generative": false,
+          "method": "Mechanical page rasterization",
+          "output_sha256": "99f2385e64490c9f6e5ecf4ad3efa4e8a22732152ee2a900b2511f06a885cde1",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "PDF page ordinal 2",
+          "time_base": "not_applicable: paged source",
+          "tool_version": "Python3.13.12; PyMuPDF2.1"
+        },
+        "provenance_limits": "Rendering preserves displayed source content; neither source nor scan origin authenticated",
+        "receiver_feed": null,
+        "restrictions": "Private research only; source restrictions apply",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "99f2385e64490c9f6e5ecf4ad3efa4e8a22732152ee2a900b2511f06a885cde1",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private copyrighted source-derived page; no public redistribution",
+          "alias": "project",
+          "relative_path": "derived/frames/newspaper-pages/AST-0003-page-2.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Derivative source lineage comes from every input asset, not an arbitrary singular source",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T13:45:49.317100+00:00",
+        "actor": "research_assistant",
+        "byte_count": 3854114,
+        "capture_date": null,
+        "completeness": "partial",
+        "created_at": "2026-11-08T13:45:49.317112+00:00",
+        "digitization_history": "Mechanical PyMuPDF page rendering,160dpi,RGB,noalpha; no OCR/enhancement",
+        "id": "AST-0007",
+        "input_asset_ids": [
+          "AST-0003"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0003",
+            "page_number": 6
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": [
+          "PDF page rendered to PNG; original bytes unchanged"
+        ],
+        "original_media_history": "Inherited from the protected source asset; this is a rendered page",
+        "processing": {
+          "arguments": [
+            "analysis/chronology/render_clippings.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python",
+          "generative": false,
+          "method": "Mechanical page rasterization",
+          "output_sha256": "b1866eb0f503946d5bea6c55f44337ac9699e1c1c6a2bfe78c383166573c19c4",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "PDF page ordinal 6",
+          "time_base": "not_applicable: paged source",
+          "tool_version": "Python3.13.12; PyMuPDF2.1"
+        },
+        "provenance_limits": "Rendering preserves displayed source content; neither source nor scan origin authenticated",
+        "receiver_feed": null,
+        "restrictions": "Private research only; source restrictions apply",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "b1866eb0f503946d5bea6c55f44337ac9699e1c1c6a2bfe78c383166573c19c4",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private copyrighted source-derived page; no public redistribution",
+          "alias": "project",
+          "relative_path": "derived/frames/newspaper-pages/AST-0003-page-6.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Derivative source lineage comes from every input asset, not an arbitrary singular source",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T13:45:49.326875+00:00",
+        "actor": "research_assistant",
+        "byte_count": 4194191,
+        "capture_date": null,
+        "completeness": "partial",
+        "created_at": "2026-11-08T13:45:49.326886+00:00",
+        "digitization_history": "Mechanical PyMuPDF page rendering,160dpi,RGB,noalpha; no OCR/enhancement",
+        "id": "AST-0008",
+        "input_asset_ids": [
+          "AST-0003"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0003",
+            "page_number": 80
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": [
+          "PDF page rendered to PNG; original bytes unchanged"
+        ],
+        "original_media_history": "Inherited from the protected source asset; this is a rendered page",
+        "processing": {
+          "arguments": [
+            "analysis/chronology/render_clippings.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python",
+          "generative": false,
+          "method": "Mechanical page rasterization",
+          "output_sha256": "b28809a540cf4fcd518f2b0b4ace6c39d15d4a757c2848212c3b44009904072b",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "PDF page ordinal 80",
+          "time_base": "not_applicable: paged source",
+          "tool_version": "Python3.13.12; PyMuPDF2.1"
+        },
+        "provenance_limits": "Rendering preserves displayed source content; neither source nor scan origin authenticated",
+        "receiver_feed": null,
+        "restrictions": "Private research only; source restrictions apply",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "b28809a540cf4fcd518f2b0b4ace6c39d15d4a757c2848212c3b44009904072b",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private copyrighted source-derived page; no public redistribution",
+          "alias": "project",
+          "relative_path": "derived/frames/newspaper-pages/AST-0003-page-80.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Derivative source lineage comes from every input asset, not an arbitrary singular source",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T13:45:49.335587+00:00",
+        "actor": "research_assistant",
+        "byte_count": 4196513,
+        "capture_date": null,
+        "completeness": "partial",
+        "created_at": "2026-11-08T13:45:49.335599+00:00",
+        "digitization_history": "Mechanical PyMuPDF page rendering,160dpi,RGB,noalpha; no OCR/enhancement",
+        "id": "AST-0009",
+        "input_asset_ids": [
+          "AST-0003"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0003",
+            "page_number": 87
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": [
+          "PDF page rendered to PNG; original bytes unchanged"
+        ],
+        "original_media_history": "Inherited from the protected source asset; this is a rendered page",
+        "processing": {
+          "arguments": [
+            "analysis/chronology/render_clippings.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python",
+          "generative": false,
+          "method": "Mechanical page rasterization",
+          "output_sha256": "5f670714d55bd87d0010653fe38a007dff387ed49656b4fd8f43b7b8f13ef4b0",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "PDF page ordinal 87",
+          "time_base": "not_applicable: paged source",
+          "tool_version": "Python3.13.12; PyMuPDF2.1"
+        },
+        "provenance_limits": "Rendering preserves displayed source content; neither source nor scan origin authenticated",
+        "receiver_feed": null,
+        "restrictions": "Private research only; source restrictions apply",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "5f670714d55bd87d0010653fe38a007dff387ed49656b4fd8f43b7b8f13ef4b0",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private copyrighted source-derived page; no public redistribution",
+          "alias": "project",
+          "relative_path": "derived/frames/newspaper-pages/AST-0003-page-87.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Derivative source lineage comes from every input asset, not an arbitrary singular source",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T13:45:49.344758+00:00",
+        "actor": "research_assistant",
+        "byte_count": 3826658,
+        "capture_date": null,
+        "completeness": "partial",
+        "created_at": "2026-11-08T13:45:49.344771+00:00",
+        "digitization_history": "Mechanical PyMuPDF page rendering,160dpi,RGB,noalpha; no OCR/enhancement",
+        "id": "AST-0010",
+        "input_asset_ids": [
+          "AST-0003"
+        ],
+        "input_locators": [
+          {
+            "asset_id": "AST-0003",
+            "page_number": 89
+          }
+        ],
+        "kind": "derivative",
+        "known_edits": [
+          "PDF page rendered to PNG; original bytes unchanged"
+        ],
+        "original_media_history": "Inherited from the protected source asset; this is a rendered page",
+        "processing": {
+          "arguments": [
+            "analysis/chronology/render_clippings.py"
+          ],
+          "claimed_as_recovered_evidence": false,
+          "executable": "python",
+          "generative": false,
+          "method": "Mechanical page rasterization",
+          "output_sha256": "61f39e5f54e433c251145b1c30783d5eb7c919c66ba8dcd93c4b22c0b3e1f499",
+          "settings": {
+            "alpha": false,
+            "dpi": 160
+          },
+          "stream_notes": "PDF page ordinal 89",
+          "time_base": "not_applicable: paged source",
+          "tool_version": "Python3.13.12; PyMuPDF2.1"
+        },
+        "provenance_limits": "Rendering preserves displayed source content; neither source nor scan origin authenticated",
+        "receiver_feed": null,
+        "restrictions": "Private research only; source restrictions apply",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "61f39e5f54e433c251145b1c30783d5eb7c919c66ba8dcd93c4b22c0b3e1f499",
+        "source_id": null,
+        "storage": {
+          "access_limit": "Private copyrighted source-derived page; no public redistribution",
+          "alias": "project",
+          "relative_path": "derived/frames/newspaper-pages/AST-0003-page-89.png"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "source_id": "Derivative source lineage comes from every input asset, not an arbitrary singular source",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0001"
+        ],
+        "completeness": "unknown",
+        "creator": "unknown",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive attribution/filename; article image date/byline not yet verified",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0008",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No authentication of original publication or historical technical conclusion; archive/index mediation retained",
+          "linked_media": "uninspected",
+          "text": "PDF available remotely but has no readable text layer; image inspection pending",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 2,
+        "source_locator": "URL: https://cuttingsarchive.org/images/6/6d/1987-11-24_Chicago_Tribune.pdf",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "A powerful video prankster could become Max Jailroom",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "creator": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0001"
+        ],
+        "completeness": "unknown",
+        "creator": "John Camper; contribution by Steve Daley / Chicago Tribune",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive attribution/filename; article image date/byline not yet verified",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0008",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Image transcription checked; no case-source authentication, media timing measurement or as-built equipment verification",
+          "linked_media": "uninspected",
+          "text": "Both clipping images inspected: bylineJohnCamper and continuation contributionSteveDaley visible. Archive-attributed1987-11-24; clipping lacks issue-date masthead.",
+          "underlying_records": "Publication image inspected; underlying engineering/FCC records unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified. Both clipping images inspected: bylineJohnCamper and continuation contributionSteveDaley visible. Archive-attributed1987-11-24; clipping lacks issue-date masthead.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 3,
+        "source_locator": "URL: https://cuttingsarchive.org/images/6/6d/1987-11-24_Chicago_Tribune.pdf",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "A powerful video prankster could become Max Jailroom",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0002"
+        ],
+        "completeness": "unknown",
+        "creator": "Don Hayner / Chicago Sun-Times",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive text metadata attributes1987-11-24; image verification pending",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0009",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No authentication of original publication or historical technical conclusion; archive/index mediation retained",
+          "linked_media": "uninspected",
+          "text": "Archive transcription inspected; obvious OCR defects require image comparison before technical use",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 2,
+        "source_locator": "URL: https://cuttingsarchive.org/images/f/fa/1987-11-24_Chicago_Sun-Times.jpg",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "2 channels interrupted to the Max",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0002"
+        ],
+        "completeness": "unknown",
+        "creator": "Don Hayner / Chicago Sun-Times",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive text metadata attributes1987-11-24; image verification pending",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0009",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Image transcription checked; no case-source authentication, media timing measurement or as-built equipment verification",
+          "linked_media": "uninspected",
+          "text": "Original clipping image compared with archive transcription; bylineDonHayner visible. OCR corrupts25seconds/local/transmission wording. Archive-attributed date lacks issue masthead in clipping.",
+          "underlying_records": "Publication image inspected; underlying engineering/FCC records unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified. Original clipping image compared with archive transcription; bylineDonHayner visible. OCR corrupts25seconds/local/transmission wording. Archive-attributed date lacks issue masthead in clipping.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 3,
+        "source_locator": "URL: https://cuttingsarchive.org/images/f/fa/1987-11-24_Chicago_Sun-Times.jpg",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "2 channels interrupted to the Max",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0003"
+        ],
+        "completeness": "unknown",
+        "creator": "Adam Buckman / Electronic Media",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Indexed PDF text labels November30,1987, pages4 and87",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0010",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No authentication of original publication or historical technical conclusion; archive/index mediation retained",
+          "linked_media": "uninspected",
+          "text": "Direct PDF retrieval403; indexed article/continuation text inspected, page image not yet inspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified.",
+        "publication_date": "1987-11-30",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 2,
+        "source_locator": "URL: https://www.worldradiohistory.com/Archive-All-Communications/Electronic-Media/80s/87/Electronic-Media-1987-11-30.pdf",
+        "source_type": "Contemporary trade reporting",
+        "title": "Signal pirates hit Chicago",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0003"
+        ],
+        "completeness": "unknown",
+        "creator": "Adam Buckman / Electronic Media",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Printed header visually verified on article pages4and87",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0010",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "Image transcription checked; no case-source authentication, media timing measurement or as-built equipment verification",
+          "linked_media": "uninspected",
+          "text": "Protected92-page issue; printedpages4and87 visually inspected (PDFpages6and89). November30,1987 header,AdamBuckman byline and continuation verified against images.",
+          "underlying_records": "Publication image inspected; underlying engineering/FCC records unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified. Protected92-page issue; printedpages4and87 visually inspected (PDFpages6and89). November30,1987 header,AdamBuckman byline and continuation verified against images.",
+        "publication_date": "1987-11-30",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 3,
+        "source_locator": "URL: https://www.worldradiohistory.com/Archive-All-Communications/Electronic-Media/80s/87/Electronic-Media-1987-11-30.pdf",
+        "source_type": "Contemporary trade reporting",
+        "title": "Authorities seek industry's latest TV signal pirate / Signal pirates hit Chicago (continuation)",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    }
+  ],
+  "reason": "Register reproducible rendered-page lineage and actual image/text inspection before using extracted claims",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

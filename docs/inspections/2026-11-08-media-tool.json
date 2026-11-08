@@ -1,0 +1,70 @@
+{
+  "binary_license": {
+    "license_text_integrity": {
+      "byte_count": 2098,
+      "sha256": "99a10d4fbd564a8c0554cb38bd44036ed31e7ac8a357b8b2c06dc01661a6164f"
+    },
+    "reported_license_text": "work/bin/ffmpeg-license.txt",
+    "summary": "GNU GPL 3 or later, as reported by this binary"
+  },
+  "byte_count": 105423872,
+  "capabilities": {
+    "blackdetect": true,
+    "select": true,
+    "showinfo": true
+  },
+  "copied_from": "work/media-tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v9.0.2.exe",
+  "documentation_access": "imageio maintainer README/license inspected; FFmpeg command/legal text available through search index after direct pages timed out.",
+  "executable": "ffmpeg",
+  "ffprobe": {
+    "existing_path": null,
+    "prepared": false,
+    "required": false
+  },
+  "installation_scope": "Workspace target and executable copy only; no global packages or PATH modification. Public Git excludes work/.",
+  "license_command": [
+    "C:\\dev\\max-headroom-project\\work\\bin\\ffmpeg.exe",
+    "-L"
+  ],
+  "limitations": [
+    "Executable SHA-256/byte count verify the local bytes, not an independent security audit or historical evidence authenticity.",
+    "Pip install report identifies the fetched wheel source/archive hash; executable was independently hashed before and after copying.",
+    "No media decoding, extraction, timing measurement, enhancement, or historical-media acquisition was performed.",
+    "Copy version/hash/source details into the actual analysis manifest when this optional tool is used; work/ is temporary and ignored."
+  ],
+  "package": {
+    "dependencies_installed": false,
+    "install_report": "work/media-tools/install-report.json",
+    "install_target": "work/media-tools",
+    "metadata_license": "BSD-2-Clause",
+    "name": "imageio-ffmpeg",
+    "version": "0.8.1",
+    "wheel_archive_info": {
+      "hash": "sha256=f27ca4cb85e2d4946deedbce1a81245dfd942a2bcf94b53676fb3956aa95bf1b",
+      "hashes": {
+        "sha256": "f27ca4cb85e2d4946deedbce1a81245dfd942a2bcf94b53676fb3956aa95bf1b"
+      }
+    },
+    "wheel_url": "https://files.pythonhosted.org/packages/82/0c/a1d49f3dd2688bd750b4986f8e271ad11f8e729a896070ea25f587b44da8/imageio_ffmpeg-0.8.1-py3-none-win_amd64.whl"
+  },
+  "path": "C:\\dev\\max-headroom-project\\work\\bin\\ffmpeg.exe",
+  "prepared_at": "2026-11-08T13:59:55.454255+00:00",
+  "primary_documentation": [
+    "https://github.com/imageio/imageio-ffmpeg",
+    "https://github.com/imageio/imageio-ffmpeg/blob/main/LICENSE",
+    "https://ffmpeg.org/ffmpeg.html",
+    "https://ffmpeg.org/legal.html"
+  ],
+  "project_relative_path": "work/bin/ffmpeg.exe",
+  "purpose": "Optional bounded upcoming comparison: inspect WGN candidate context/restoration before treating file runtime as intrusion duration. No historical media queried or processed by this setup.",
+  "readiness_commands_only": true,
+  "schema_version": 1,
+  "sha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+  "status": "ready",
+  "version": "9.0.2-essentials_build-www.gyan.dev",
+  "version_command": [
+    "C:\\dev\\max-headroom-project\\work\\bin\\ffmpeg.exe",
+    "-version"
+  ],
+  "version_line": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+}

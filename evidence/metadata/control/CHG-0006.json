@@ -1,0 +1,157 @@
+{
+  "change_integrity": {
+    "byte_count": 27458,
+    "sha256": "aae8a43d73b9a899b455601dcbc3d22f7ee34705df4073d8997116b4685e8328"
+  },
+  "closure": null,
+  "id": "CHG-0006",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 3003,
+        "sha256": "0afbe5828b2484224a8875a0a4959ab421c7ef44aa7988a6944cb0e19eca6247"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/document.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/.document.md.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 1449,
+        "sha256": "aed61e015ed17a869152a9b878a183e74ab4a75f50d757eeedad7c583c4f7477"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/README.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/.README.md.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2369,
+        "sha256": "154dfe657686035db4c099b729cee159b4650eb24538942d02d073bc212a4a3d"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/STATUS.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/.STATUS.md.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 13559,
+        "sha256": "47f7033a41ea9b7511ca81a14262bec0d5252219b8473d17bc67d1af40e7323e"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/METHODS.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/.METHODS.md.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 7736,
+        "sha256": "9f7b90e20f1b536dcfad46d4c09a5b96bbb932b2883e80371e67be9371f384d3"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/DECISIONS.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/.DECISIONS.md.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 26903,
+        "sha256": "d2e095728215b3fe46290a7531204dab701fb1c9bddcd41f5044006b1fee7ec1"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/INVESTIGATION_PLAN.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/.INVESTIGATION_PLAN.md.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 15407,
+        "sha256": "297f3a04b2dba16189cef2bd6bc5c8e1496767c8b71dcb3cd08f9e722d49c69b"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/.specify/memory/constitution.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/.specify/memory/.constitution.md.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 43826,
+        "sha256": "dd23eac3e16d8945c0fe82c413c324b88ccf61be452ddc4e4ac6e10f5ddb16c4"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/spec.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/.spec.md.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 15069,
+        "sha256": "9e50d6420b0fba9a4490640e79b27d51832746f06f36c3e43195f2c09aa6a5e8"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/plan.md",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/.plan.md.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 15110,
+        "sha256": "cb825b2cc19325ccf355839eae62f8aada2a31facf09999c66d2598def296bf4"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/sources.csv",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/.sources.csv.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 6885,
+        "sha256": "d8adf61fcdd2816c7a24927525cd377520f4855a53fc2afb4b467df6d15c438d"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/claims.csv",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/.claims.csv.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 248,
+        "sha256": "d788a460ae52a20a40c8b17845e3a7c71ee5b77c098c070741fafb6829098b0c"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/timeline.csv",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/.timeline.csv.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 7123,
+        "sha256": "73c3de5b0a0d28fc37519cdaeb7af753b6761bebd05e674e5322e58d8132c2ab"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/hypotheses.csv",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/.hypotheses.csv.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 11868,
+        "sha256": "6665216e44aed5be345f7988de9da4405ce29cf1de020712a8842981c83062b8"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/tasks.csv",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/.tasks.csv.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 5683,
+        "sha256": "1c1056634159f82e218f07177d34ef22cbca340d79daa38ecc1525e16506738a"
+      },
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/searches.csv",
+      "previous": null,
+      "staged": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/.searches.csv.CHG-0006.stage"
+    },
+    {
+      "new": {
+        "byte_count": 20550,
+        "sha256": "9a1098454a3d1a2b0715b5c767b0cfee90368e3ece089b00d6e3d65a495c83d2"
+      },
+      "path": "reports/findings/reviews/RVW-0001.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/.RVW-0001.json.CHG-0006.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T13:23:34.982182+00:00",
+  "published_at": "2026-11-08T13:23:35.024471+00:00",
+  "state": "published"
+}

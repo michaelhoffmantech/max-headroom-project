@@ -1,0 +1,640 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T13:23:34.981290+00:00",
+  "id": "CHG-0006",
+  "intended_final_file_manifest": {
+    "reports/findings/reviews/RVW-0001.json": {
+      "byte_count": 20550,
+      "sha256": "9a1098454a3d1a2b0715b5c767b0cfee90368e3ece089b00d6e3d65a495c83d2"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/.specify/memory/constitution.md": {
+      "byte_count": 15407,
+      "sha256": "297f3a04b2dba16189cef2bd6bc5c8e1496767c8b71dcb3cd08f9e722d49c69b"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/INVESTIGATION_PLAN.md": {
+      "byte_count": 26903,
+      "sha256": "d2e095728215b3fe46290a7531204dab701fb1c9bddcd41f5044006b1fee7ec1"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/README.md": {
+      "byte_count": 1449,
+      "sha256": "aed61e015ed17a869152a9b878a183e74ab4a75f50d757eeedad7c583c4f7477"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/docs/DECISIONS.md": {
+      "byte_count": 7736,
+      "sha256": "9f7b90e20f1b536dcfad46d4c09a5b96bbb932b2883e80371e67be9371f384d3"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/docs/METHODS.md": {
+      "byte_count": 13559,
+      "sha256": "47f7033a41ea9b7511ca81a14262bec0d5252219b8473d17bc67d1af40e7323e"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/docs/STATUS.md": {
+      "byte_count": 2369,
+      "sha256": "154dfe657686035db4c099b729cee159b4650eb24538942d02d073bc212a4a3d"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/registers/claims.csv": {
+      "byte_count": 6885,
+      "sha256": "d8adf61fcdd2816c7a24927525cd377520f4855a53fc2afb4b467df6d15c438d"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/registers/hypotheses.csv": {
+      "byte_count": 7123,
+      "sha256": "73c3de5b0a0d28fc37519cdaeb7af753b6761bebd05e674e5322e58d8132c2ab"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/registers/searches.csv": {
+      "byte_count": 5683,
+      "sha256": "1c1056634159f82e218f07177d34ef22cbca340d79daa38ecc1525e16506738a"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/registers/sources.csv": {
+      "byte_count": 15110,
+      "sha256": "cb825b2cc19325ccf355839eae62f8aada2a31facf09999c66d2598def296bf4"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/registers/tasks.csv": {
+      "byte_count": 11868,
+      "sha256": "6665216e44aed5be345f7988de9da4405ce29cf1de020712a8842981c83062b8"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/registers/timeline.csv": {
+      "byte_count": 248,
+      "sha256": "d788a460ae52a20a40c8b17845e3a7c71ee5b77c098c070741fafb6829098b0c"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/plan.md": {
+      "byte_count": 15069,
+      "sha256": "9e50d6420b0fba9a4490640e79b27d51832746f06f36c3e43195f2c09aa6a5e8"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/spec.md": {
+      "byte_count": 43826,
+      "sha256": "dd23eac3e16d8945c0fe82c413c324b88ccf61be452ddc4e4ac6e10f5ddb16c4"
+    },
+    "reports/findings/reviews/artifacts/RVW-0001/document.md": {
+      "byte_count": 3003,
+      "sha256": "0afbe5828b2484224a8875a0a4959ab421c7ef44aa7988a6944cb0e19eca6247"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "reviews",
+      "previous": null,
+      "proposed": {
+        "actor": "research_assistant",
+        "author_identity": "/root",
+        "author_type": "AI research assistant",
+        "created_at": "2026-11-08T13:23:34.543392+00:00",
+        "decision": "continue",
+        "evidence_inspected": [
+          {
+            "byte_count": 1449,
+            "path": "README.md",
+            "sha256": "aed61e015ed17a869152a9b878a183e74ab4a75f50d757eeedad7c583c4f7477"
+          },
+          {
+            "byte_count": 2369,
+            "path": "docs/STATUS.md",
+            "sha256": "154dfe657686035db4c099b729cee159b4650eb24538942d02d073bc212a4a3d"
+          },
+          {
+            "byte_count": 13559,
+            "path": "docs/METHODS.md",
+            "sha256": "47f7033a41ea9b7511ca81a14262bec0d5252219b8473d17bc67d1af40e7323e"
+          },
+          {
+            "byte_count": 7736,
+            "path": "docs/DECISIONS.md",
+            "sha256": "9f7b90e20f1b536dcfad46d4c09a5b96bbb932b2883e80371e67be9371f384d3"
+          },
+          {
+            "byte_count": 3003,
+            "path": "reports/milestones/foundation.md",
+            "sha256": "0afbe5828b2484224a8875a0a4959ab421c7ef44aa7988a6944cb0e19eca6247"
+          },
+          {
+            "byte_count": 26903,
+            "path": "INVESTIGATION_PLAN.md",
+            "sha256": "d2e095728215b3fe46290a7531204dab701fb1c9bddcd41f5044006b1fee7ec1"
+          },
+          {
+            "byte_count": 15407,
+            "path": ".specify/memory/constitution.md",
+            "sha256": "297f3a04b2dba16189cef2bd6bc5c8e1496767c8b71dcb3cd08f9e722d49c69b"
+          },
+          {
+            "byte_count": 43826,
+            "path": "specs/001-investigation-dossier/spec.md",
+            "sha256": "dd23eac3e16d8945c0fe82c413c324b88ccf61be452ddc4e4ac6e10f5ddb16c4"
+          },
+          {
+            "byte_count": 15069,
+            "path": "specs/001-investigation-dossier/plan.md",
+            "sha256": "9e50d6420b0fba9a4490640e79b27d51832746f06f36c3e43195f2c09aa6a5e8"
+          },
+          {
+            "byte_count": 15110,
+            "path": "registers/sources.csv",
+            "sha256": "cb825b2cc19325ccf355839eae62f8aada2a31facf09999c66d2598def296bf4"
+          },
+          {
+            "byte_count": 6885,
+            "path": "registers/claims.csv",
+            "sha256": "d8adf61fcdd2816c7a24927525cd377520f4855a53fc2afb4b467df6d15c438d"
+          },
+          {
+            "byte_count": 248,
+            "path": "registers/timeline.csv",
+            "sha256": "d788a460ae52a20a40c8b17845e3a7c71ee5b77c098c070741fafb6829098b0c"
+          },
+          {
+            "byte_count": 7123,
+            "path": "registers/hypotheses.csv",
+            "sha256": "73c3de5b0a0d28fc37519cdaeb7af753b6761bebd05e674e5322e58d8132c2ab"
+          },
+          {
+            "byte_count": 11868,
+            "path": "registers/tasks.csv",
+            "sha256": "6665216e44aed5be345f7988de9da4405ce29cf1de020712a8842981c83062b8"
+          },
+          {
+            "byte_count": 5683,
+            "path": "registers/searches.csv",
+            "sha256": "1c1056634159f82e218f07177d34ef22cbca340d79daa38ecc1525e16506738a"
+          }
+        ],
+        "exposure_rationale": "Reviewer inherited the implementation/planning context and prior foundation review. This separate current review inspected the saved dossier and governing rules. It did not acquire sources, measure recordings, or independently corroborate incident facts.",
+        "findings": {
+          "checks": [
+            {
+              "evidence": "Constitution, original investigation purpose/backlog, specification clarifications, methods and implementation plan preserve evidence-supported success, five workstreams, real baseline/test/review acceptance, stable identities, user-controlled outreach/spending, and private owner/reviewer findings.",
+              "name": "scope_and_governance",
+              "result": "pass"
+            },
+            {
+              "evidence": {
+                "claims": 8,
+                "hypotheses": 7,
+                "searches": 9,
+                "sources": 7,
+                "tasks": 11,
+                "timeline": 0
+              },
+              "name": "canonical_registers_and_aliases",
+              "result": "pass"
+            },
+            {
+              "evidence": "SRC-0001 through SRC-0007 revision2 separate text from uninspected media/records. SRC-0002 is indexed excerpt-only; SRC-0006 is blocked/uninspected; SRC-0005 is a listing. Shared interviewee/session uncertainty for SRC-0001/SRC-0004 is explicit. Empty parent/capture lists are not treated as independence.",
+              "name": "source_inspection_and_dependence",
+              "result": "pass_with_limits"
+            },
+            {
+              "evidence": "CLM-0001 through CLM-0008 are reported_claim with exact passage/field locators, source revision2, moderate confidence reasons applying to the account, and no media-measurement or identity conclusion. Competing approximate durations/times remain separate.",
+              "name": "claims_and_precision",
+              "result": "pass"
+            },
+            {
+              "evidence": "H1-H7 remain untested with distinct/coexisting scopes and original test descriptions. TASK-0001/TASK-0002 have actual bounded setup/intake outputs; subsequent tasks remain queued. T08 retains T07, and T10 retains conditional media dependency.",
+              "name": "hypotheses_and_backlog",
+              "result": "pass"
+            },
+            {
+              "evidence": "Methods/report treat sources as evidence rather than instructions, retain private controls, exclude unsupported attribution and masked/distorted identification, and do not claim outreach or public publication authorization. No current claim promotes an uncorroborated participant allegation.",
+              "name": "source_content_and_privacy",
+              "result": "pass"
+            },
+            {
+              "evidence": "Executed python tools/dossier.py --format json validate --gate foundation --verify-files during this review; exit0,statusok,readinessready,recordspass,noerrors/blockers. No acquired original exists, so this is not a recording-authenticity or production-backup assertion.",
+              "name": "foundation_byte_verifying_validation",
+              "result": "pass"
+            },
+            {
+              "evidence": "Milestone/question, gaps and owned next actions are recoverable, but the next-action list contains a completed task. Same-volume backup limitation and pending session completion are explicit; no confirmed first snapshot is claimed.",
+              "name": "handoff_and_protection_boundary",
+              "result": "pass_with_housekeeping"
+            }
+          ],
+          "critique": [
+            {
+              "blocking": false,
+              "issue": "TASK-0002 is done at revision3 but inspection is still a next action; the note still says the separate review is pending.",
+              "location": "docs/STATUS.md Next three actions and review status",
+              "recommendation": "After preserving this review, refresh the handoff to actual current close/survey/recording-inventory actions and record the review through normal state updates before session closure.",
+              "severity": "low"
+            },
+            {
+              "blocking": false,
+              "issue": "The known-edits collection remains empty while the inspected transcript notice establishes editorial adjustment for clarity. The fact is retained in inspection/provenance and CLM-0008, so it does not defeat usability.",
+              "location": "SRC-0003 known_edits_json; CLM-0008",
+              "recommendation": "On the next retained source revision, add the known editorial notice and preserve uncertainty about detailed edit history.",
+              "severity": "low"
+            }
+          ],
+          "summary": "The current foundation is usable for expanded collection: all six canonical registers are inspectable; seven source, seven hypothesis, and eleven backlog aliases remain traceable; eight text claims are explicitly attributed with passage locators and caveats; nine retrieval/search actions disclose indexed, blocked, and uninspected material. The empty timeline and untested hypotheses avoid invented completion. This review is a usability/reasoning check only, not a real-source baseline, analytical test, source authentication, or backup confirmation."
+        },
+        "id": "RVW-0001",
+        "preferred_theory_exposure": "not_blind",
+        "review_type": "milestone",
+        "reviewed_at": "2026-11-08T13:18:05.846307+00:00",
+        "reviewer_identity": "/root/resume_review",
+        "reviewer_instance": "/root/resume_review:foundation:2026-11-08T13:18:05.846307+00:00",
+        "reviewer_type": "AI agent, separate current instance from report author",
+        "revision": 1,
+        "schema_version": 1,
+        "superseded_review_id": null,
+        "target": {
+          "basis_files": [
+            {
+              "byte_count": 1449,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "README.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/README.md"
+              },
+              "sha256": "aed61e015ed17a869152a9b878a183e74ab4a75f50d757eeedad7c583c4f7477"
+            },
+            {
+              "byte_count": 2369,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "docs/STATUS.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/STATUS.md"
+              },
+              "sha256": "154dfe657686035db4c099b729cee159b4650eb24538942d02d073bc212a4a3d"
+            },
+            {
+              "byte_count": 13559,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "docs/METHODS.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/METHODS.md"
+              },
+              "sha256": "47f7033a41ea9b7511ca81a14262bec0d5252219b8473d17bc67d1af40e7323e"
+            },
+            {
+              "byte_count": 7736,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "docs/DECISIONS.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/DECISIONS.md"
+              },
+              "sha256": "9f7b90e20f1b536dcfad46d4c09a5b96bbb932b2883e80371e67be9371f384d3"
+            },
+            {
+              "byte_count": 26903,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "INVESTIGATION_PLAN.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/INVESTIGATION_PLAN.md"
+              },
+              "sha256": "d2e095728215b3fe46290a7531204dab701fb1c9bddcd41f5044006b1fee7ec1"
+            },
+            {
+              "byte_count": 15407,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": ".specify/memory/constitution.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/.specify/memory/constitution.md"
+              },
+              "sha256": "297f3a04b2dba16189cef2bd6bc5c8e1496767c8b71dcb3cd08f9e722d49c69b"
+            },
+            {
+              "byte_count": 43826,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "specs/001-investigation-dossier/spec.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/spec.md"
+              },
+              "sha256": "dd23eac3e16d8945c0fe82c413c324b88ccf61be452ddc4e4ac6e10f5ddb16c4"
+            },
+            {
+              "byte_count": 15069,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "specs/001-investigation-dossier/plan.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/plan.md"
+              },
+              "sha256": "9e50d6420b0fba9a4490640e79b27d51832746f06f36c3e43195f2c09aa6a5e8"
+            },
+            {
+              "byte_count": 15110,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "registers/sources.csv"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/sources.csv"
+              },
+              "sha256": "cb825b2cc19325ccf355839eae62f8aada2a31facf09999c66d2598def296bf4"
+            },
+            {
+              "byte_count": 6885,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "registers/claims.csv"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/claims.csv"
+              },
+              "sha256": "d8adf61fcdd2816c7a24927525cd377520f4855a53fc2afb4b467df6d15c438d"
+            },
+            {
+              "byte_count": 248,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "registers/timeline.csv"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/timeline.csv"
+              },
+              "sha256": "d788a460ae52a20a40c8b17845e3a7c71ee5b77c098c070741fafb6829098b0c"
+            },
+            {
+              "byte_count": 7123,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "registers/hypotheses.csv"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/hypotheses.csv"
+              },
+              "sha256": "73c3de5b0a0d28fc37519cdaeb7af753b6761bebd05e674e5322e58d8132c2ab"
+            },
+            {
+              "byte_count": 11868,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "registers/tasks.csv"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/tasks.csv"
+              },
+              "sha256": "6665216e44aed5be345f7988de9da4405ce29cf1de020712a8842981c83062b8"
+            },
+            {
+              "byte_count": 5683,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "registers/searches.csv"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/searches.csv"
+              },
+              "sha256": "1c1056634159f82e218f07177d34ef22cbca340d79daa38ecc1525e16506738a"
+            }
+          ],
+          "basis_records": [
+            {
+              "id": "SRC-0001",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0002",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0003",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0004",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0005",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0006",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0007",
+              "revision": 2
+            },
+            {
+              "id": "CLM-0001",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0002",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0003",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0004",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0005",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0006",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0007",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0008",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0001",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0002",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0003",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0004",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0005",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0006",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0007",
+              "revision": 1
+            },
+            {
+              "id": "TASK-0001",
+              "revision": 3
+            },
+            {
+              "id": "TASK-0002",
+              "revision": 3
+            },
+            {
+              "id": "TASK-0003",
+              "revision": 1
+            },
+            {
+              "id": "TASK-0004",
+              "revision": 1
+            },
+            {
+              "id": "TASK-0005",
+              "revision": 1
+            },
+            {
+              "id": "TASK-0006",
+              "revision": 1
+            },
+            {
+              "id": "TASK-0007",
+              "revision": 1
+            },
+            {
+              "id": "TASK-0008",
+              "revision": 1
+            },
+            {
+              "id": "TASK-0009",
+              "revision": 1
+            },
+            {
+              "id": "TASK-0010",
+              "revision": 1
+            },
+            {
+              "id": "TASK-0011",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0001",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0002",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0003",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0004",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0005",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0006",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0007",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0008",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0009",
+              "revision": 1
+            }
+          ],
+          "byte_count": 3003,
+          "document": {
+            "access_limit": "Private owner/selected-reviewer research state",
+            "alias": "project",
+            "relative_path": "reports/milestones/foundation.md"
+          },
+          "kind": "milestone_document",
+          "milestone": "foundation",
+          "reviewed_copy": {
+            "access_limit": "Private owner/selected-reviewer research state",
+            "alias": "project",
+            "relative_path": "reports/findings/reviews/artifacts/RVW-0001/document.md"
+          },
+          "sha256": "0afbe5828b2484224a8875a0a4959ab421c7ef44aa7988a6944cb0e19eca6247"
+        },
+        "unknowns": {
+          "superseded_review_id": "No predecessor supplied for this actual review"
+        },
+        "unresolved_specialist_questions": [
+          "This separate AI usability/reasoning review is not independent factual corroboration; inherited planning and prior-review exposure are disclosed.",
+          "No source web collection, acquired file, recording/audio inspection, historical timing measurement, hardware reconstruction, source authentication, or participant identification was performed by this reviewer.",
+          "Indexed text, transcription, blocked holdings, unknown parent/capture/session histories, and absence of underlying records remain explicit limitations.",
+          "No engineering specialist is required to judge foundation file usability. Later specialist engineering questions and disputed-audio blind listening remain distinct dependencies.",
+          "This review does not confirm a backup or session completion. The exact final notes/registers still require a verified private snapshot and mirrored control commit.",
+          "Changing implementation code, records contract and data model were excluded from this fixed reviewed basis; the core agent separately owns their tests/audit. This review does not certify unfinished tooling checks."
+        ]
+      }
+    }
+  ],
+  "reason": "Preserve actual separate foundation review; no factual corroboration implied",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

@@ -1,0 +1,100 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T20:52:30.977458+00:00",
+  "id": "CHG-0027",
+  "intended_final_file_manifest": {
+    "registers/searches.csv": {
+      "byte_count": 32581,
+      "sha256": "8831fcd1837bd1aa59766c47052f473c548569767737ef0c1e6ff254f5611b05"
+    },
+    "registers/sources.csv": {
+      "byte_count": 37598,
+      "sha256": "8214fd39637939b971806ce0d7f28dcb082ab5789e12ca0dec387659a24aec40"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Attributed agency release via MuckRock; document verification pending",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0018",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No full source inspection claimed",
+          "linked_media": "uninspected",
+          "text": "uninspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party download. Release relationship, identifiers, pagination and completeness not yet checked; not authentication.",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer inspection; no public data publication",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "https://cdn.muckrock.com/foia_files/2023/12/13/E1614a7be853f0bba1e9cff241597ce2ed96fbb1447474ad4ac_Q206652_R432036_D165128834.pdf",
+        "source_type": "Third-party hosted agency-release candidate",
+        "title": "MuckRock-hosted Max Headroom lab-report candidate",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "Exact report/letter public endpoint provided by separate records researcher; acquire only, no analysis yet",
+        "cycle_id": "not_applicable",
+        "exact_query": "download https://cdn.muckrock.com/foia_files/2023/12/13/E1614a7be853f0bba1e9cff241597ce2ed96fbb1447474ad4ac_Q206652_R432036_D165128834.pdf",
+        "executed_at": "2026-11-08T20:52:30.672919+00:00",
+        "filters_json": {},
+        "id": "SRCH-0050",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "MuckRock CDN",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0018"
+        ]
+      }
+    }
+  ],
+  "reason": "Register candidate released-record file before preserved acquisition",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

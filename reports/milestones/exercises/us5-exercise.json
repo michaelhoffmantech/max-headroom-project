@@ -1,0 +1,138 @@
+{
+  "actual_research_written": false,
+  "actual_source_T07_T08_completed": false,
+  "asset_ids": {
+    "annotation": "AST-0005",
+    "clip_A": "AST-0001",
+    "clip_B": "AST-0002",
+    "comparison": "AST-0004",
+    "fictional_reference": "AST-0003",
+    "reference_catalog": "AST-0006"
+  },
+  "blind_transcription": {
+    "listener_obtained": false,
+    "preferred_wording_supplied": false,
+    "reason": "No second listener participated. Generated tones contain no scripted speech.",
+    "status": "waiting",
+    "verified_words": []
+  },
+  "checks": [
+    {
+      "detail": "Every record, asset and receipt belongs only to a temporary illustrative dataset.",
+      "name": "dataset_isolation",
+      "result": "pass"
+    },
+    {
+      "detail": "PCM wave headers were read, not inferred from file names.",
+      "name": "valid_wav_headers",
+      "result": "pass"
+    },
+    {
+      "detail": "B's entire sample sequence equals the declared one-second crop of A.",
+      "name": "known_crop_alignment",
+      "result": "pass"
+    },
+    {
+      "detail": "The deliberate common marker follows the copy chain; it is not independent corroboration.",
+      "name": "shared_marker",
+      "result": "pass"
+    },
+    {
+      "detail": "Capture/generation dependence stays visible separately from transformation input IDs.",
+      "name": "shared_source_lineage",
+      "result": "pass"
+    },
+    {
+      "detail": "Multi-input derivatives preserve every AST and derive source lineage transitively.",
+      "name": "all_derivative_inputs_retained",
+      "result": "pass"
+    },
+    {
+      "detail": "No blind RVW or listener completion was invented.",
+      "name": "blind_review_not_fabricated",
+      "result": "pass"
+    },
+    {
+      "detail": "Typed metadata, retained changes, existing bytes and copied originals pass the record gate.",
+      "name": "records_file_verification",
+      "result": "pass"
+    },
+    {
+      "detail": "Illustrative exercise cannot substitute for real baseline, actual test or first delivery.",
+      "name": "fixtures_cannot_satisfy_delivery",
+      "result": "pass"
+    },
+    {
+      "detail": "Related lineage/processing/uncertainty/date/generative guards executed against isolated fixtures.",
+      "name": "media_acceptance_subset",
+      "result": "pass"
+    },
+    {
+      "detail": "The exercise and tests used a stable core file.",
+      "name": "stable_tool_version",
+      "result": "pass"
+    }
+  ],
+  "dataset_role": "illustrative",
+  "executed_at": "2026-11-08T13:33:44.506442+00:00",
+  "exercise": "US5",
+  "label": "ILLUSTRATIVE ONLY: generated tones and fictional material, never incident evidence",
+  "measurements": {
+    "clip_A": {
+      "asset_id": "AST-0001",
+      "channels": 1,
+      "duration_seconds": 2.0,
+      "frames": 16000,
+      "rate": 8000,
+      "sample_width": 2,
+      "sha256": "7ed62e3f1758d32662b8b08a7c267c3e4c6a6871fe306f58a498672c6ac75297"
+    },
+    "clip_B": {
+      "asset_id": "AST-0002",
+      "channels": 1,
+      "duration_seconds": 1.0,
+      "frames": 8000,
+      "rate": 8000,
+      "sample_width": 2,
+      "sha256": "ff21500471752cac24522147b233f049bbc7ddeb4141e904e59d72df09b72390"
+    },
+    "common_marker_A_frames": [
+      7000,
+      7008
+    ],
+    "common_marker_B_frames": [
+      3000,
+      3008
+    ],
+    "crop_A_frames": [
+      4000,
+      12000
+    ],
+    "independence_basis": "Known generation script and Source parent graph, not hash comparison alone",
+    "independent_capture_count": 1,
+    "label": "ILLUSTRATIVE ONLY: generated tones and fictional material, never incident evidence",
+    "limits": [
+      "No analog interlacing exists",
+      "No historical broadcast or receiver clock exists",
+      "Synthetic tones are not spoken words",
+      "No actual capture or copy-generation inference tested"
+    ],
+    "time_base": "1/8000second per PCM frame"
+  },
+  "related_tests": {
+    "command": "python -m unittest test_records.MediaAcceptanceTests -v (cwd tests)",
+    "exit_code": 0,
+    "output": "test_derivative_requires_complete_reproducible_processing_manifest (test_records.MediaAcceptanceTests.test_derivative_requires_complete_reproducible_processing_manifest) ... ok\ntest_generative_output_cannot_be_claimed_as_recovered_evidence (test_records.MediaAcceptanceTests.test_generative_output_cannot_be_claimed_as_recovered_evidence) ... ok\ntest_identical_bytes_do_not_merge_sources_or_all_derivative_inputs (test_records.MediaAcceptanceTests.test_identical_bytes_do_not_merge_sources_or_all_derivative_inputs) ... ok\ntest_lost_timing_and_interlacing_remain_explicit_limits (test_records.MediaAcceptanceTests.test_lost_timing_and_interlacing_remain_explicit_limits) ... ok\ntest_multisource_derivative_rejects_arbitrary_single_source_parent (test_records.MediaAcceptanceTests.test_multisource_derivative_rejects_arbitrary_single_source_parent) ... ok\ntest_period_source_date_must_be_real_and_partial_precision_is_retained (test_records.MediaAcceptanceTests.test_period_source_date_must_be_real_and_partial_precision_is_retained) ... ok\ntest_time_location_requires_recording_basis_or_explicit_uncertainty (test_records.MediaAcceptanceTests.test_time_location_requires_recording_basis_or_explicit_uncertainty) ... ok\ntest_unclear_reading_keeps_alternatives_without_claiming_supported_words (test_records.MediaAcceptanceTests.test_unclear_reading_keeps_alternatives_without_claiming_supported_words) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 3.591s\n\nOK\n"
+  },
+  "schema_version": 1,
+  "status": "passed",
+  "temporary_dataset_removed": true,
+  "temporary_session_completion_claimed": false,
+  "tool_sha256_after": "6c62a5d743287ae7199260b79b1174822f6b70cbe9bd74a3f8664a4dcb813ad2",
+  "tool_sha256_before": "6c62a5d743287ae7199260b79b1174822f6b70cbe9bd74a3f8664a4dcb813ad2",
+  "verified_original_receipts": [
+    "BAK-0001",
+    "BAK-0002",
+    "BAK-0003"
+  ]
+}

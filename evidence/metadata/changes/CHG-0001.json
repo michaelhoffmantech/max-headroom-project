@@ -1,0 +1,1037 @@
+{
+  "actor": "initializer",
+  "created_at": "2026-11-07T22:36:27.487464+00:00",
+  "id": "CHG-0001",
+  "intended_final_file_manifest": {
+    "config/dossier.json": {
+      "byte_count": 1705,
+      "sha256": "f8491f75836320f1e6084809c840a664e1f21d0d94c74bac42b3cce01cca5be7"
+    },
+    "registers/claims.csv": {
+      "byte_count": 171,
+      "sha256": "20b182ff5346df6f335da3207b354981272a1b070b29c2754c4ceadbebf9babf"
+    },
+    "registers/hypotheses.csv": {
+      "byte_count": 7123,
+      "sha256": "73c3de5b0a0d28fc37519cdaeb7af753b6761bebd05e674e5322e58d8132c2ab"
+    },
+    "registers/searches.csv": {
+      "byte_count": 199,
+      "sha256": "ccc30770c78022045666809c2d3faf5dfd6f9ae52747846599b4e67da921aa36"
+    },
+    "registers/sources.csv": {
+      "byte_count": 15328,
+      "sha256": "424d99005448a9a8348ec6019d28c29e721e394b1c2451301af7896cff0542f9"
+    },
+    "registers/tasks.csv": {
+      "byte_count": 11586,
+      "sha256": "a4a75995b20c2983adcab524f5ed16a8d350314ec6df8fd337f98367821ad228"
+    },
+    "registers/timeline.csv": {
+      "byte_count": 248,
+      "sha256": "d788a460ae52a20a40c8b17845e3a7c71ee5b77c098c070741fafb6829098b0c"
+    }
+  },
+  "operations": [
+    {
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "WTTW",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "year"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0001",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Affected-station retrospective with staff recollections; distinguish witnessed events from later technical interpretation. The plan records its roughly 30-second WGN account; that wording and its exact source location require reinspection.",
+          "linked_media": "uninspected",
+          "text": "read text (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S01"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Affected-station retrospective with staff recollections; distinguish witnessed events from later technical interpretation. The plan records its roughly 30-second WGN account; that wording and its exact source location require reinspection.",
+        "publication_date": "2017",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "url:https://news.wttw.com/2017/11/21/30-years-later-notorious-max-headroom-incident-remains-mystery",
+        "source_type": "retrospective reporting",
+        "title": "30 Years Later, Notorious 'Max Headroom Incident' Remains a Mystery",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "UPI",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0002",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Full page retrieval was blocked during planning; obtain complete article or archival reproduction. The plan records roughly 25 seconds at WGN and roughly 90 seconds at WTTW at 11:10 p.m.; these are inherited leads, not newly verified extracts.",
+          "linked_media": "uninspected",
+          "text": "search excerpts inspected (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S02"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Full page retrieval was blocked during planning; obtain complete article or archival reproduction. The plan records roughly 25 seconds at WGN and roughly 90 seconds at WTTW at 11:10 p.m.; these are inherited leads, not newly verified extracts.",
+        "publication_date": "1987-11-23",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "blocked",
+        "revision": 1,
+        "source_locator": "url:https://www.upi.com/Archives/1987/11/23/A-video-pirate-struck-two-Chicago-television-stations-briefly/5688564642000",
+        "source_type": "contemporary reporting",
+        "title": "A video pirate struck two Chicago television stations, briefly...",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "WBUR / Endless Thread",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "year"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0003",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Map of later reporting and online theories; trace claims to original speakers and evidence. No linked audio or underlying record verification is inherited.",
+          "linked_media": "uninspected",
+          "text": "transcript excerpts inspected (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S03"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Map of later reporting and online theories; trace claims to original speakers and evidence. No linked audio or underlying record verification is inherited.",
+        "publication_date": "2019",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 1,
+        "source_locator": "url:https://www.wbur.org/endlessthread/2019/11/22/to-the-max-headroom",
+        "source_type": "retrospective reporting",
+        "title": "The Max Headroom Incident: Revisiting The Masked Mystery, 32 Years Later",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Criminal",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "year"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0004",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Interviews with station personnel and an FCC investigator. Publisher notes transcription errors are possible; check audio and original records before relying on disputed wording.",
+          "linked_media": "uninspected",
+          "text": "read transcript text (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S04"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Interviews with station personnel and an FCC investigator. Publisher notes transcription errors are possible; check audio and original records before relying on disputed wording.",
+        "publication_date": "2020",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "url:https://thisiscriminal.com/wp-content/uploads/2020/11/Episode-153-The-Max-Headroom-Incident.pdf",
+        "source_type": "retrospective interview transcript",
+        "title": "Episode 153: The Max Headroom Incident transcript",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "FuzzyMemories",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0005",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Page retrieval timed out during planning. Recording-provenance lead, not an authenticated original or verified transcript.",
+          "linked_media": "uninspected",
+          "text": "search listing inspected; page uninspected (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S05"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Page retrieval timed out during planning. Recording-provenance lead, not an authenticated original or verified transcript.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "blocked",
+        "revision": 1,
+        "source_locator": "url:https://fuzzymemories.tv/m/v/214/",
+        "source_type": "recording listing",
+        "title": "WTTW: The Max Headroom Pirating Incident listing",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "publication_date": "The investigation plan does not state a publication date for this item.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "not_applicable",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "not_applicable"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Chicago Public Library",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Holding/process guide; no single incident event asserted.",
+            "precision": "not_applicable"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "not_applicable",
+        "id": "SRC-0006",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Direct page presented a browser verification barrier. Confirm relevant 1987 holdings and access arrangements; a listing does not establish that a particular issue is available.",
+          "linked_media": "uninspected",
+          "text": "search listing inspected; page uninspected (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S06"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Direct page presented a browser verification barrier. Confirm relevant 1987 holdings and access arrangements; a listing does not establish that a particular issue is available.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "blocked",
+        "revision": 1,
+        "source_locator": "url:https://www.chipublib.org/chicago-newspapers-on-microfilm/",
+        "source_type": "holdings guide",
+        "title": "Chicago Newspapers",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "event_date": "This holdings/process guide is not an account of a single incident event.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "publication_date": "The investigation plan does not state a publication date for this item.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "not_applicable",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "not_applicable"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "FOIA.gov",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Holding/process guide; no single incident event asserted.",
+            "precision": "not_applicable"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "not_applicable",
+        "id": "SRC-0007",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Official process starting point. Check selected agency's current instructions and existing releases when preparing an actual request.",
+          "linked_media": "uninspected",
+          "text": "read text (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S07"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Official process starting point. Check selected agency's current instructions and existing releases when preparing an actual request.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "url:https://www.foia.gov/how-to.html",
+        "source_type": "official process guide",
+        "title": "How to Make a FOIA Request",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "event_date": "This holdings/process guide is not an account of a single incident event.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "publication_date": "The investigation plan does not state a publication date for this item.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "exclusion_json": {},
+        "id": "HYP-0001",
+        "legacy_aliases_json": [
+          "H1"
+        ],
+        "necessary_conditions_json": [],
+        "next_test": "Historical architecture plus contemporaneous monitoring and recovery evidence consistent with that entry point",
+        "predictions_json": [
+          {
+            "description": "Historical architecture plus contemporaneous monitoring and recovery evidence consistent with that entry point",
+            "expected_observations": "To be specified in a frozen bounded-cycle plan before new searches/testing.",
+            "limits": "Initial test candidate only, not a finding or completed prediction test. H1-H3 address entry points; different H4-H7 question scopes may coexist.",
+            "supporting_references": []
+          }
+        ],
+        "proposition": "An external signal replaced material on a station's studio-to-transmitter path",
+        "question_scope": "entry point",
+        "retired": false,
+        "revision": 1,
+        "status": "untested",
+        "supporting_claim_ids_json": [],
+        "unknowns_json": {
+          "necessary_conditions_json": "The plan names test candidates, but evidenced necessary conditions must be defined before a bounded test.",
+          "predictions_json": "The original distinguishing test is retained; cycle-specific expected observations are not yet prewritten or tested."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "exclusion_json": {},
+        "id": "HYP-0002",
+        "legacy_aliases_json": [
+          "H2"
+        ],
+        "necessary_conditions_json": [],
+        "next_test": "Establish which internal feeds were normal or affected; seek logs and independent observations",
+        "predictions_json": [
+          {
+            "description": "Establish which internal feeds were normal or affected; seek logs and independent observations",
+            "expected_observations": "To be specified in a frozen bounded-cycle plan before new searches/testing.",
+            "limits": "Initial test candidate only, not a finding or completed prediction test. H1-H3 address entry points; different H4-H7 question scopes may coexist.",
+            "supporting_references": []
+          }
+        ],
+        "proposition": "Material entered through a studio or other internal program feed",
+        "question_scope": "entry point",
+        "retired": false,
+        "revision": 1,
+        "status": "untested",
+        "supporting_claim_ids_json": [],
+        "unknowns_json": {
+          "necessary_conditions_json": "The plan names test candidates, but evidenced necessary conditions must be defined before a bounded test.",
+          "predictions_json": "The original distinguishing test is retained; cycle-specific expected observations are not yet prewritten or tested."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "exclusion_json": {},
+        "id": "HYP-0003",
+        "legacy_aliases_json": [
+          "H3"
+        ],
+        "necessary_conditions_json": [],
+        "next_test": "Compare authenticated recordings from distinct reception paths and locations against the documented distribution network",
+        "predictions_json": [
+          {
+            "description": "Compare authenticated recordings from distinct reception paths and locations against the documented distribution network",
+            "expected_observations": "To be specified in a frozen bounded-cycle plan before new searches/testing.",
+            "limits": "Initial test candidate only, not a finding or completed prediction test. H1-H3 address entry points; different H4-H7 question scopes may coexist.",
+            "supporting_references": []
+          }
+        ],
+        "proposition": "Substitution occurred on a downstream distribution path",
+        "question_scope": "entry point",
+        "retired": false,
+        "revision": 1,
+        "status": "untested",
+        "supporting_claim_ids_json": [],
+        "unknowns_json": {
+          "necessary_conditions_json": "The plan names test candidates, but evidenced necessary conditions must be defined before a bounded test.",
+          "predictions_json": "The original distinguishing test is retained; cycle-specific expected observations are not yet prewritten or tested."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "exclusion_json": {},
+        "id": "HYP-0004",
+        "legacy_aliases_json": [
+          "H4"
+        ],
+        "necessary_conditions_json": [],
+        "next_test": "Test edits, continuity, playback signatures, and any independently documented production history; edits alone cannot prove the entire event was prerecorded",
+        "predictions_json": [
+          {
+            "description": "Test edits, continuity, playback signatures, and any independently documented production history; edits alone cannot prove the entire event was prerecorded",
+            "expected_observations": "To be specified in a frozen bounded-cycle plan before new searches/testing.",
+            "limits": "Initial test candidate only, not a finding or completed prediction test. H1-H3 address entry points; different H4-H7 question scopes may coexist.",
+            "supporting_references": []
+          }
+        ],
+        "proposition": "At least part of the performance was recorded before transmission",
+        "question_scope": "production timing",
+        "retired": false,
+        "revision": 1,
+        "status": "untested",
+        "supporting_claim_ids_json": [],
+        "unknowns_json": {
+          "necessary_conditions_json": "The plan names test candidates, but evidenced necessary conditions must be defined before a bounded test.",
+          "predictions_json": "The original distinguishing test is retained; cycle-specific expected observations are not yet prewritten or tested."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "exclusion_json": {},
+        "id": "HYP-0005",
+        "legacy_aliases_json": [
+          "H5"
+        ],
+        "necessary_conditions_json": [],
+        "next_test": "Test whether verified 1987 geometry and equipment constraints permit it; do not confuse the video set with the transmitter site",
+        "predictions_json": [
+          {
+            "description": "Test whether verified 1987 geometry and equipment constraints permit it; do not confuse the video set with the transmitter site",
+            "expected_observations": "To be specified in a frozen bounded-cycle plan before new searches/testing.",
+            "limits": "Initial test candidate only, not a finding or completed prediction test. H1-H3 address entry points; different H4-H7 question scopes may coexist.",
+            "supporting_references": []
+          }
+        ],
+        "proposition": "Both intrusions used one transmitting site",
+        "question_scope": "transmitting site",
+        "retired": false,
+        "revision": 1,
+        "status": "untested",
+        "supporting_claim_ids_json": [],
+        "unknowns_json": {
+          "necessary_conditions_json": "The plan names test candidates, but evidenced necessary conditions must be defined before a bounded test.",
+          "predictions_json": "The original distinguishing test is retained; cycle-specific expected observations are not yet prewritten or tested."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "exclusion_json": {},
+        "id": "HYP-0006",
+        "legacy_aliases_json": [
+          "H6"
+        ],
+        "necessary_conditions_json": [],
+        "next_test": "Establish their pre-incident public availability; broad availability weakens the claim of privileged knowledge",
+        "predictions_json": [
+          {
+            "description": "Establish their pre-incident public availability; broad availability weakens the claim of privileged knowledge",
+            "expected_observations": "To be specified in a frozen bounded-cycle plan before new searches/testing.",
+            "limits": "Initial test candidate only, not a finding or completed prediction test. H1-H3 address entry points; different H4-H7 question scopes may coexist.",
+            "supporting_references": []
+          }
+        ],
+        "proposition": "Unusual references required insider knowledge",
+        "question_scope": "insider knowledge",
+        "retired": false,
+        "revision": 1,
+        "status": "untested",
+        "supporting_claim_ids_json": [],
+        "unknowns_json": {
+          "necessary_conditions_json": "The plan names test candidates, but evidenced necessary conditions must be defined before a bounded test.",
+          "predictions_json": "The original distinguishing test is retained; cycle-specific expected observations are not yet prewritten or tested."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "contradicting_claim_ids_json": [],
+        "dependencies_json": [],
+        "exclusion_json": {},
+        "id": "HYP-0007",
+        "legacy_aliases_json": [
+          "H7"
+        ],
+        "necessary_conditions_json": [],
+        "next_test": "Compare independent capture lineages and unprocessed versions; record when independence cannot be established",
+        "predictions_json": [
+          {
+            "description": "Compare independent capture lineages and unprocessed versions; record when independence cannot be established",
+            "expected_observations": "To be specified in a frozen bounded-cycle plan before new searches/testing.",
+            "limits": "Initial test candidate only, not a finding or completed prediction test. H1-H3 address entry points; different H4-H7 question scopes may coexist.",
+            "supporting_references": []
+          }
+        ],
+        "proposition": "A proposed clue arose from tape copying, encoding, or later interpretation",
+        "question_scope": "artifact origin",
+        "retired": false,
+        "revision": 1,
+        "status": "untested",
+        "supporting_claim_ids_json": [],
+        "unknowns_json": {
+          "necessary_conditions_json": "The plan names test candidates, but evidenced necessary conditions must be defined before a bounded test.",
+          "predictions_json": "The original distinguishing test is retained; cycle-specific expected observations are not yet prewritten or tested."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "completion_condition": "Proposed structure exists; status note, ID rules, and register fields are usable",
+        "dependencies_json": [],
+        "effort_timebox": "about 1 session",
+        "expected_output": "Proposed structure exists; status note, ID rules, and register fields are usable",
+        "external_wait": "not_applicable",
+        "id": "TASK-0001",
+        "legacy_aliases_json": [
+          "T01"
+        ],
+        "method": "Create the proposed structure, status note, ID rules, and six usable registers.",
+        "next_action": "Establish the dossier without claiming research outcomes; record actual outputs before changing completion status.",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Set up dossier and registers",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "completion_condition": "Register S01-S07, identify original sources behind later accounts, and document retrieval limits",
+        "dependencies_json": [
+          {
+            "id": "TASK-0001",
+            "note": "Required: original T01"
+          }
+        ],
+        "effort_timebox": "1-2 sessions",
+        "expected_output": "Register S01-S07, identify original sources behind later accounts, and document retrieval limits",
+        "external_wait": "not_applicable",
+        "id": "TASK-0002",
+        "legacy_aliases_json": [
+          "T02"
+        ],
+        "method": "Register S01-S07; trace original sources behind later accounts and retain retrieval limits.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Map the starting sources and their dependencies",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "completion_condition": "Review a defined November 23-30, 1987 search across available papers and trade press; log coverage and gaps",
+        "dependencies_json": [
+          {
+            "id": "TASK-0002",
+            "note": "Required: original T02"
+          }
+        ],
+        "effort_timebox": "2-3 sessions before reassessment",
+        "expected_output": "Review a defined November 23-30, 1987 search across available papers and trade press; log coverage and gaps",
+        "external_wait": "not_applicable",
+        "id": "TASK-0003",
+        "legacy_aliases_json": [
+          "T03"
+        ],
+        "method": "Review a defined 1987-11-23 through 1987-11-30 search across available papers and trade press; log exact coverage, gaps, and article image/text checks.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI + user for restricted archives",
+        "priority": "P1",
+        "question": "Collect contemporaneous reporting",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "completion_condition": "Record available versions, provenance, completeness, and capture lineage; disclose when only derivatives survive",
+        "dependencies_json": [
+          {
+            "id": "TASK-0002",
+            "note": "Required: original T02"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Record available versions, provenance, completeness, and capture lineage; disclose when only derivatives survive",
+        "external_wait": "not_applicable",
+        "id": "TASK-0004",
+        "legacy_aliases_json": [
+          "T04"
+        ],
+        "method": "Record available versions, acquisition/provenance limits, completeness, and capture lineage without inventing authenticated originals.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI + user for personal copies",
+        "priority": "P1",
+        "question": "Locate and inventory recordings",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "completion_condition": "Every timeline entry links to evidence; conflicting times and event boundaries remain visible",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          },
+          {
+            "id": "TASK-0004",
+            "note": "Refinement dependency: original 'refine with T04'; retain uncertainty while recording evidence is unavailable."
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Every timeline entry links to evidence; conflicting times and event boundaries remain visible",
+        "external_wait": "not_applicable",
+        "id": "TASK-0005",
+        "legacy_aliases_json": [
+          "T05"
+        ],
+        "method": "Link every event to evidence and preserve conflicting clocks, precision, paths, and disruption/restoration boundaries.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Build baseline chronology",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "completion_condition": "Diagram has dated evidence for each supported component and clearly marks unknown components",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          }
+        ],
+        "effort_timebox": "reassess after 2-3 sessions",
+        "expected_output": "Diagram has dated evidence for each supported component and clearly marks unknown components",
+        "external_wait": "not_applicable",
+        "id": "TASK-0006",
+        "legacy_aliases_json": [
+          "T06"
+        ],
+        "method": "Use dated 1987 architecture records to support signal-path components; label unsupported components unknown.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI; user for unavailable records",
+        "priority": "P1",
+        "question": "Reconstruct historical station paths",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "completion_condition": "Reproducible derivatives, uncertainty annotations, and blind review of disputed passages",
+        "dependencies_json": [
+          {
+            "id": "TASK-0004",
+            "note": "Required: original T04"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Reproducible derivatives, uncertainty annotations, and blind review of disputed passages",
+        "external_wait": "not_applicable",
+        "id": "TASK-0007",
+        "legacy_aliases_json": [
+          "T07"
+        ],
+        "method": "Create reproducible derivatives, uncertainty annotations, and blind second transcription for disputed passages.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI + user as independent listener",
+        "priority": "P2",
+        "question": "Transcribe and compare recordings",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "completion_condition": "Each examined reference has an interpretation, pre-incident source or unresolved status, and distinctiveness assessment",
+        "dependencies_json": [
+          {
+            "id": "TASK-0007",
+            "note": "Required: original T07. Preliminary public-availability work uses a separate TASK and cannot complete T08."
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Each examined reference has an interpretation, pre-incident source or unresolved status, and distinctiveness assessment",
+        "external_wait": "not_applicable",
+        "id": "TASK-0008",
+        "legacy_aliases_json": [
+          "T08"
+        ],
+        "method": "Assess verified words/images against dated pre-incident material or unresolved status and explain public availability/distinctiveness.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI + user",
+        "priority": "P2",
+        "question": "Build period-reference catalog",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "completion_condition": "Request specifies missing records, identifiers, date range, relevant custodian, and how a response could change the analysis",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          },
+          {
+            "id": "TASK-0006",
+            "note": "Required: original T06"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Request specifies missing records, identifiers, date range, relevant custodian, and how a response could change the analysis",
+        "external_wait": "not_applicable",
+        "id": "TASK-0009",
+        "legacy_aliases_json": [
+          "T09"
+        ],
+        "method": "Search existing releases and confirmed holdings, then draft narrow unsent requests for existing records tied to an analytical gap.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI; user decides outreach",
+        "priority": "P2",
+        "question": "Draft targeted archive requests",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "completion_condition": "Prewritten predictions, preserved inputs, result, and documented changes to hypothesis status",
+        "dependencies_json": [
+          {
+            "id": "TASK-0005",
+            "note": "Required: original T05"
+          },
+          {
+            "id": "TASK-0006",
+            "note": "Required: original T06"
+          },
+          {
+            "id": "TASK-0007",
+            "note": "Conditional dependency: original 'T07 where relevant'; required only if the chosen test needs recording transcription/comparison."
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Prewritten predictions, preserved inputs, result, and documented changes to hypothesis status",
+        "external_wait": "not_applicable",
+        "id": "TASK-0010",
+        "legacy_aliases_json": [
+          "T10"
+        ],
+        "method": "Select an attainable bounded question after baseline; freeze alternatives/predictions, preserve protected inputs, perform the test, and document justified status changes.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI + user as needed",
+        "priority": "P1 after baseline",
+        "question": "Run the best distinguishing test",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "previous": null,
+      "proposed": {
+        "completion_condition": "Another reviewer can trace findings to evidence; alternatives and unresolved questions are included",
+        "dependencies_json": [
+          {
+            "id": "TASK-0010",
+            "note": "Required: original T10"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Another reviewer can trace findings to evidence; alternatives and unresolved questions are included",
+        "external_wait": "not_applicable",
+        "id": "TASK-0011",
+        "legacy_aliases_json": [
+          "T11"
+        ],
+        "method": "Have an actual separate reviewer trace evidence, challenge alternatives/dependence, and retain unresolved questions and specialist limits.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "separate AI review + user",
+        "priority": "P1 after each cycle",
+        "question": "Challenge review and findings report",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    }
+  ],
+  "reason": "Faithful initial seed materialization",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

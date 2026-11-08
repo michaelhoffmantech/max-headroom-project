@@ -1,0 +1,40 @@
+{
+  "change_integrity": {
+    "byte_count": 34959,
+    "sha256": "5441aba0c49923348666c799b1eb4eb3c1dd87656439880cf685377f0999153c"
+  },
+  "closure": null,
+  "id": "CHG-0045",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 10416,
+        "sha256": "36119cad4dd75f3c96e8ed6b887152b0b976d075aabe5c08d86d33876482eb67"
+      },
+      "path": "reports/findings/reviews/RVW-0003.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/.RVW-0003.json.CHG-0045.stage"
+    },
+    {
+      "new": {
+        "byte_count": 9855,
+        "sha256": "e39bef171981aa9177b781709dd6529a7add4be0c8ca487d1e6ad24adf2fd874"
+      },
+      "path": "reports/findings/reviews/RVW-0004.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/.RVW-0004.json.CHG-0045.stage"
+    },
+    {
+      "new": {
+        "byte_count": 9855,
+        "sha256": "2a0dcf90939cad63cdb08ed5bdab1c4e69856588670ea69ae52051f66457bb8a"
+      },
+      "path": "reports/findings/reviews/RVW-0005.json",
+      "previous": null,
+      "staged": "reports/findings/reviews/.RVW-0005.json.CHG-0045.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T20:59:40.471904+00:00",
+  "published_at": "2026-11-08T20:59:40.507274+00:00",
+  "state": "published"
+}

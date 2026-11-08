@@ -1,0 +1,523 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T13:34:59.688143+00:00",
+  "id": "CHG-0010",
+  "intended_final_file_manifest": {
+    "registers/searches.csv": {
+      "byte_count": 12544,
+      "sha256": "4cebe2618b21c17291c38db2a03d0c69bc5f08fccce87fceb36c6e29be500e4a"
+    },
+    "registers/sources.csv": {
+      "byte_count": 20874,
+      "sha256": "45181cf8162cb3883292984ded3dcb63e7f4d9e1843c81832d3df6305f62a1e9"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "unknown",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive attribution/filename; article image date/byline not yet verified",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0008",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No authentication of original publication or historical technical conclusion; archive/index mediation retained",
+          "linked_media": "uninspected",
+          "text": "PDF available remotely but has no readable text layer; image inspection pending",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "URL: https://cuttingsarchive.org/images/6/6d/1987-11-24_Chicago_Tribune.pdf",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "A powerful video prankster could become Max Jailroom",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "creator": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Don Hayner / Chicago Sun-Times",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Archive text metadata attributes1987-11-24; image verification pending",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0009",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No authentication of original publication or historical technical conclusion; archive/index mediation retained",
+          "linked_media": "uninspected",
+          "text": "Archive transcription inspected; obvious OCR defects require image comparison before technical use",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "URL: https://cuttingsarchive.org/images/f/fa/1987-11-24_Chicago_Sun-Times.jpg",
+        "source_type": "Contemporary newspaper clipping scan",
+        "title": "2 channels interrupted to the Max",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Adam Buckman / Electronic Media",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Indexed PDF text labels November30,1987, pages4 and87",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0010",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No authentication of original publication or historical technical conclusion; archive/index mediation retained",
+          "linked_media": "uninspected",
+          "text": "Direct PDF retrieval403; indexed article/continuation text inspected, page image not yet inspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified.",
+        "publication_date": "1987-11-30",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 1,
+        "source_locator": "URL: https://www.worldradiohistory.com/Archive-All-Communications/Electronic-Media/80s/87/Electronic-Media-1987-11-30.pdf",
+        "source_type": "Contemporary trade reporting",
+        "title": "Signal pirates hit Chicago",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "United Press International",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publisher search-result date Nov24,1987",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0011",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No authentication of original publication or historical technical conclusion; archive/index mediation retained",
+          "linked_media": "uninspected",
+          "text": "Direct page403; indexed article text inspected; original page/image not inspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [
+          "SRC-0002"
+        ],
+        "provenance_limits": "Overlapping UPI witness/report wording with SRC-0002; not independent corroboration. Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified.",
+        "publication_date": "1987-11-24",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 1,
+        "source_locator": "URL: https://www.upi.com/Archives/1987/11/24/Video-pirate-breaks-into-regular-programing/4083564728400/",
+        "source_type": "Contemporary wire reporting",
+        "title": "Video pirate breaks into regular programing",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"November 23, 1987\" television Chicago AP",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0010",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"Nov. 24, 1987\" Chicago television",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0011",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"November 30 1987\" Broadcasting",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0012",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"November 1987\" \"Chicago Tribune\"",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0013",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence. PDF available remotely but has no readable text layer; image inspection pending",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://cuttingsarchive.org/images/6/6d/1987-11-24_Chicago_Tribune.pdf",
+        "executed_at": "2026-11-08T13:29:59+00:00",
+        "filters_json": {},
+        "id": "SRCH-0014",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Publisher/archive URL via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0008"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence. Archive transcription inspected; obvious OCR defects require image comparison before technical use",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://cuttingsarchive.org/images/f/fa/1987-11-24_Chicago_Sun-Times.jpg",
+        "executed_at": "2026-11-08T13:29:59+00:00",
+        "filters_json": {},
+        "id": "SRCH-0015",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Publisher/archive URL via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0009"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Direct403"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence. Direct PDF retrieval403; indexed article/continuation text inspected, page image not yet inspected",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.worldradiohistory.com/Archive-All-Communications/Electronic-Media/80s/87/Electronic-Media-1987-11-30.pdf",
+        "executed_at": "2026-11-08T13:29:59+00:00",
+        "filters_json": {},
+        "id": "SRCH-0016",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Publisher/archive URL via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0010"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Direct403"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence. Direct page403; indexed article text inspected; original page/image not inspected",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.upi.com/Archives/1987/11/24/Video-pirate-breaks-into-regular-programing/4083564728400/",
+        "executed_at": "2026-11-08T13:29:59+00:00",
+        "filters_json": {},
+        "id": "SRCH-0017",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Publisher/archive URL via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Original page still403; indexed text only"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence.",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:upi.com/Archives/1987/11/24/ \"Video pirate breaks into regular programing\"",
+        "executed_at": "2026-11-08T13:34:59.433846+00:00",
+        "filters_json": {},
+        "id": "SRCH-0018",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "PDF direct403; indexed continuation page87 inspected"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence.",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:worldradiohistory.com \"Electronic Media\" \"November 30, 1987\" Max Headroom",
+        "executed_at": "2026-11-08T13:34:59.440561+00:00",
+        "filters_json": {},
+        "id": "SRCH-0019",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0010"
+        ]
+      }
+    }
+  ],
+  "reason": "Register bounded contemporary survey leads, exact queries, indexed inspection and access gaps",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

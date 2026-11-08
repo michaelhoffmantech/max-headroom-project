@@ -1,0 +1,14 @@
+# Actual bounded recording comparison
+
+Status: performed 2026-11-08; separately reviewed with limits in RVW-0003/0004/0005; analytical milestone RVW-0006. Question/method/result: [CYC-0001](../cycles/CYC-0001.md). Inputs AST-0013/14 protected by BAK-0008/9 before command-recorded start. [Machine manifest](../../derived/frames/CYC-0001-retry/manifest.json) includes exact commands/settings, version/binary hash, input/output SHA-256 and file-relative time-base notes. [Script](compare_recordings.py) reproduces viewing derivatives into a new output directory.
+
+| Acquired file | Observed context | Acquired encoding / losses |
+| --- | --- | --- |
+| AST-0013, SRC-0012 | about33.23s container. Initial black/watermark, mask/backdrop, terminal black/watermark; no recognizable return in inspected sequence. CLM-0021. | VP9 640x480 ~29.97fps, Opus48kHz stereo; visible watermark, four-by-three. Original analog interlace/timing/digitization history unverified. |
+| AST-0014, SRC-0020 | about97.55s container. Football/program context, mask/backdrop, studio return near58s sample, later football and WGN NEWS group; terminal black. CLM-0022. | H264 522x360 progressive ~29.97fps, AAC44.1kHz stereo, different crop/shape/encoding; original analog information already unavailable. |
+
+The initial97.55s filename lead did not itself identify the contents; actual image inspection established program context. Full-runtime contact sheets show qualitatively similar mask/backdrop movements, but they are neither frame-registered nor proved independent. Watermark/crop/quality differences may arise from copying or encoding. No exact common-damage alignment, edit causation, speech reading, audio continuity, hum/pitch or mechanism conclusion is claimed. Full audio/video decode reported success, which does not prove pristine original audio. The terminal0.1s seek initially produced no Archive image; corrected full-stream reversal yields its last video frame. Failure logs remain preserved.
+
+Blackdetect uses d=0.1, pix_th=0.1, pic_th=0.98. Its logs are pixel thresholds, not disruption boundaries. Example Commons initial black-detection interval0.007–9.583s and Archive24.724333–34.3673s are file statistics only; watermark/noise/encoding affect classification. Sampling is not an exact boundary measurement and may miss brief changes. Raw logs/framemd5 remain separately inspectable, with originals available for comparison. No default enhancement, deinterlacing, frame interpolation or generative reconstruction occurred.
+
+Strongest alternative: brief unsampled return or source editing. Overall confidence moderate; no exclusion from sampling alone. Reopen for overlooked frames, decoder error, changed bytes or fuller authenticated captures. Blind audio and dated cultural reference work remain waiting, with disputed words absent from supported findings.

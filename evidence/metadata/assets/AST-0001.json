@@ -1,0 +1,35 @@
+{
+  "acquired_at": "2026-11-08T13:35:00.465867+00:00",
+  "actor": "research_assistant",
+  "byte_count": 73680,
+  "capture_date": null,
+  "completeness": "unknown",
+  "created_at": "2026-11-08T13:35:00.465920+00:00",
+  "digitization_history": "Repository download; scan production/date/edits unknown",
+  "id": "AST-0001",
+  "input_asset_ids": [],
+  "input_locators": [],
+  "kind": "acquired_original",
+  "known_edits": [],
+  "original_media_history": "Contemporary newspaper/trade-paper clipping or issue, as attributed by repository; original paper chain unknown",
+  "processing": null,
+  "provenance_limits": "Third-party source attributed by archive; original publication/capture chain unverified",
+  "receiver_feed": null,
+  "restrictions": "Private copyrighted source; no public redistribution",
+  "revision": 1,
+  "schema_version": 1,
+  "sha256": "ae99f651aabcd3e8d15809f602b19382c318269940b3f4c21999e3311facd749",
+  "source_id": "SRC-0008",
+  "storage": {
+    "access_limit": "Private copyrighted source; no public redistribution",
+    "alias": "primary_evidence",
+    "relative_path": "AST-0001/1987-11-24-tribune.pdf"
+  },
+  "tape_generation": null,
+  "unknowns": {
+    "capture_date": "Not a broadcast capture; scan creation unknown",
+    "processing": "Not yet established; do not infer.",
+    "receiver_feed": "Not a broadcast recording",
+    "tape_generation": "Not a broadcast recording"
+  }
+}

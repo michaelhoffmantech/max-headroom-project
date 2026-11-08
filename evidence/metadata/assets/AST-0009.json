@@ -1,0 +1,60 @@
+{
+  "acquired_at": "2026-11-08T13:45:49.335587+00:00",
+  "actor": "research_assistant",
+  "byte_count": 4196513,
+  "capture_date": null,
+  "completeness": "partial",
+  "created_at": "2026-11-08T13:45:49.335599+00:00",
+  "digitization_history": "Mechanical PyMuPDF page rendering,160dpi,RGB,noalpha; no OCR/enhancement",
+  "id": "AST-0009",
+  "input_asset_ids": [
+    "AST-0003"
+  ],
+  "input_locators": [
+    {
+      "asset_id": "AST-0003",
+      "page_number": 87
+    }
+  ],
+  "kind": "derivative",
+  "known_edits": [
+    "PDF page rendered to PNG; original bytes unchanged"
+  ],
+  "original_media_history": "Inherited from the protected source asset; this is a rendered page",
+  "processing": {
+    "arguments": [
+      "analysis/chronology/render_clippings.py"
+    ],
+    "claimed_as_recovered_evidence": false,
+    "executable": "python",
+    "generative": false,
+    "method": "Mechanical page rasterization",
+    "output_sha256": "5f670714d55bd87d0010653fe38a007dff387ed49656b4fd8f43b7b8f13ef4b0",
+    "settings": {
+      "alpha": false,
+      "dpi": 160
+    },
+    "stream_notes": "PDF page ordinal 87",
+    "time_base": "not_applicable: paged source",
+    "tool_version": "Python3.13.12; PyMuPDF2.1"
+  },
+  "provenance_limits": "Rendering preserves displayed source content; neither source nor scan origin authenticated",
+  "receiver_feed": null,
+  "restrictions": "Private research only; source restrictions apply",
+  "revision": 1,
+  "schema_version": 1,
+  "sha256": "5f670714d55bd87d0010653fe38a007dff387ed49656b4fd8f43b7b8f13ef4b0",
+  "source_id": null,
+  "storage": {
+    "access_limit": "Private copyrighted source-derived page; no public redistribution",
+    "alias": "project",
+    "relative_path": "derived/frames/newspaper-pages/AST-0003-page-87.png"
+  },
+  "tape_generation": null,
+  "unknowns": {
+    "capture_date": "Not yet established; do not infer.",
+    "receiver_feed": "Not yet established; do not infer.",
+    "source_id": "Derivative source lineage comes from every input asset, not an arbitrary singular source",
+    "tape_generation": "Not yet established; do not infer."
+  }
+}

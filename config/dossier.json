@@ -1,0 +1,35 @@
+{
+  "allowed_dataset_roles": [
+    "actual",
+    "illustrative"
+  ],
+  "dataset_role": "actual",
+  "entity_locations": {
+    "assets": "evidence/metadata/assets",
+    "backups": "evidence/metadata/backups",
+    "changes": "evidence/metadata/changes",
+    "claims": "registers/claims.csv",
+    "control": "evidence/metadata/control",
+    "cycles": "analysis/cycles",
+    "findings": "reports/findings",
+    "hypotheses": "registers/hypotheses.csv",
+    "reviews": "reports/findings/reviews",
+    "searches": "registers/searches.csv",
+    "sessions": "evidence/metadata/sessions",
+    "sources": "registers/sources.csv",
+    "tasks": "registers/tasks.csv",
+    "timeline": "registers/timeline.csv"
+  },
+  "schema_version": 1,
+  "seed_provenance": {
+    "description": "Hand-curated initial leads and proposed work from INVESTIGATION_PLAN.md; seed creation performs no external research or acquisition.",
+    "generation": "Hand-curated source/hypothesis/task mapping. Initial inherited source inspections are not a new operational baseline; no acquired files, analyzed media, new technical findings, or identification are seeded.",
+    "historical_assertions": false,
+    "inherited_source_check_date": "2026-11-06",
+    "inspection_basis": "Inherited text/excerpt/search-listing observations and access date from INVESTIGATION_PLAN.md section 11 (2026-11-06); no source retrieval or reinspection occurred while preparing these seeds.",
+    "source_plan": "INVESTIGATION_PLAN.md",
+    "source_plan_prepared": "2026-11-06",
+    "source_plan_sha256": "d2e095728215b3fe46290a7531204dab701fb1c9bddcd41f5044006b1fee7ec1"
+  },
+  "seed_sha256": "68f2047786b67281350dffbd9d16c36205e748df44ac2c5ee63770848f2392b1"
+}

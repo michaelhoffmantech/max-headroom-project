@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "review_type": "actual_saved_file_recovery",
+  "reviewer_identity": "/root/saved_state_reader",
+  "reviewer_type": "separate_ai_agent",
+  "reviewer_instance": "/root/saved_state_reader:2026-11-08:saved-file-recovery",
+  "reviewed_at": "2026-11-08T21:07:11.192939+00:00",
+  "context_exposure": "Fresh agent task with fork_turns none; recovery used saved files alone. No historical theory or earlier chat history supplied. Read FND-0001 and preferred explanation while following saved handoff links; this is not blind factual review.",
+  "scope": "Independent recovery and workflow coherence only; no web retrieval, canonical mutation, media reinspection, source authentication or factual corroboration.",
+  "pass_or_fail": "pass",
+  "pass_meaning": "A new reader can recover the research state, limited finding, evidence trail, waits, three actions and difference between completed historical session and incomplete final delivery.",
+  "current_milestone": "Real-source baseline and actual analytical cycle reviewed; final delivery assessment underway.",
+  "current_bounded_question": "What can the acquired candidate files support about visible program-return context, and what remains necessary for the next research question?",
+  "cycle_question": "Do the selected acquired WGN candidate files retain visible studio/program return, or is at least one incomplete for that boundary?",
+  "supported_findings": [
+    {
+      "id": "FND-0001",
+      "revision": 2,
+      "confidence": "moderate",
+      "novelty": "new_to_project",
+      "result": "Commons AST-0013 has no recognizable studio/program return in inspected sampled/terminal imagery; Archive AST-0014 visibly includes post-mask studio/program context. Container lengths about 33.23/97.55 seconds are not historical intrusion durations.",
+      "confidence_reasons": "Archive return is a positive visible observation (CLM-0022 high); Commons absence is qualified to inspected samples (CLM-0021 moderate), which may miss brief intermediate imagery. Capture/edit provenance and independence remain unknown.",
+      "exact_evidence": [
+        {
+          "claim": "CLM-0021 r1",
+          "source": "SRC-0012 r3 / AST-0013 r1",
+          "locator": "derived/frames/CYC-0001-retry/AST-0013-contact.png (one-second full-runtime sampling); AST-0013-end.png (final three seconds at five fps); AST-0013-last.png (native terminal video frame)"
+        },
+        {
+          "claim": "CLM-0022 r1",
+          "source": "SRC-0020 r3 / AST-0014 r1",
+          "locator": "derived/frames/CYC-0001-retry/AST-0014-contact.png, six columns row-major, near file-relative 58 seconds and later WGN NEWS group; AST-0014-end.png and AST-0014-last.png"
+        },
+        {
+          "cycle": "CYC-0001 r6",
+          "method": "analysis/media-comparison/compare_recordings.py; derived/frames/CYC-0001-retry/manifest.json; full decode/framemd5 logs; original failed terminal seek and retry retained"
+        },
+        {
+          "reviews": "RVW-0003 finding r2, RVW-0004 CLM-0021 r1, RVW-0005 CLM-0022 r1 accepted_with_limits; RVW-0006 analytical-cycle milestone continue"
+        }
+      ],
+      "not_supported": [
+        "Source authenticity or capture independence",
+        "Historical broadcast-clock duration",
+        "Transmission mechanism/location/power",
+        "Participant identity or motive",
+        "Disputed speech wording"
+      ]
+    }
+  ],
+  "hypothesis_changes": [
+    {
+      "id": "HYP-0008",
+      "from": "untested",
+      "to": "weakened",
+      "scope": "Selected acquired files; all contain recognizable program return"
+    },
+    {
+      "id": "HYP-0009",
+      "from": "untested",
+      "to": "supported",
+      "scope": "Selected acquired files; at least one lacks recognizable return in inspected sequence"
+    }
+  ],
+  "unchanged_hypotheses": "Original H1-H7 remain untested; no hypothesis ruled out.",
+  "disagreements_and_gaps": [
+    "Attributed WGN 25/28/nominal 30/about 30 second reports; WTTW 88/about 90 seconds and 23:10 versus about 23:15 remain unresolved with unknown clock/phase precision.",
+    "Capture date, receiver/feed, tape generation, digitization, edit chain and independence remain unknown; sampled images can miss brief return.",
+    "Full annotated transcription and genuine unprimed second listening remain unperformed; disputed words absent from findings.",
+    "Five-page FBI package and separate release letter are partial third-party copies. Q1 is not linked to online media; cited FCC letter/tape/prints/full custody history absent. Log-processing entries do not prove incident disposition.",
+    "Dated as-built receivers, antennas, monitoring/control and alternate distribution details remain missing; physical holdings/access unconfirmed."
+  ],
+  "waits": [
+    {
+      "task": "TASK-0007 / T067",
+      "owner": "AI plus owner as independent listener",
+      "dependency": "Actual annotated transcript and named unprimed second listener, preferred words withheld"
+    },
+    {
+      "task": "TASK-0008 / T068",
+      "owner": "AI plus owner",
+      "dependency": "Completed TASK-0007 and dated pre-1987-11-22 primary reference evidence"
+    },
+    {
+      "task": "Optional records/outreach",
+      "owner": "Owner",
+      "dependency": "Owner contact/fee decision and current agency-instruction check. Drafts are unsent; no contact, spending or submission occurred."
+    }
+  ],
+  "stopping_and_reopening": [
+    "Bounded selected-file test is complete. Stop repeated same-index searches; a decode correction, overlooked return, different bytes or fuller authenticated capture can justify a new prospectively frozen cycle.",
+    "RF mechanism/site/power branch deferred until dated architecture and qualified specialist review.",
+    "Culture/motive branch deferred until verified content and dated public-availability evidence. No RF specialist is necessary for current limited visual finding.",
+    "Session completion requires exact final bytes, matching confirmed receipt and coherently mirrored published control. First delivery also needs final cross-output milestone review."
+  ],
+  "next_three_actions": [
+    {
+      "order": 1,
+      "owner": "Separate reviewer",
+      "action": "Recover saved milestone/question, finding/confidence, waits and three actions from saved files",
+      "dependencies": [
+        "FND-0001 r2",
+        "docs/STATUS.md"
+      ],
+      "this_review": "Performed by this actual fresh-reader exercise"
+    },
+    {
+      "order": 2,
+      "owner": "AI",
+      "action": "Complete FR-001 through FR-034 and SC-001 through SC-010 evidence assessment",
+      "dependencies": [
+        "Reviewed actual CYC-0001",
+        "reports/milestones/workstreams.md"
+      ]
+    },
+    {
+      "order": 3,
+      "owner": "Separate reviewer and AI",
+      "action": "Complete cross-output/fresh-reader review, then confirm final exact-byte backup and delivery gate",
+      "dependencies": [
+        "TASK-0011",
+        "Final report bytes"
+      ]
+    }
+  ],
+  "session_coherence": {
+    "historical_research_session_completed": true,
+    "session": "SES-0003 r3",
+    "receipt": "BAK-0010 confirmed 2026-11-08T21:04:26.876922+00:00",
+    "control": "CHG-0051 published, closure confirmed; matching backup control and receipt verified by Dataset._closure_complete",
+    "historical_completion_checks": {
+      "SES-0001": true,
+      "SES-0002": true,
+      "SES-0003": true
+    },
+    "current_exact_handoff_complete": false,
+    "why_current_differs": "BAK-0010 old snapshot has no changed/removed files, but three later files are now required by current snapshot: reports/milestones/exercises/quickstart-completion.json, reports/milestones/exercises/us3-us4-exercise.json, reports/milestones/exercises/us3-us4-exercise.py. Historical closure remains valid; expanded current handoff needs another final snapshot.",
+    "backup_limit": "Owner-selected separate directory C:/dev/max-headroom-project-backup is on C:; verified copies do not protect against loss of that drive."
+  },
+  "final_delivery_complete": false,
+  "tool_checks": [
+    {
+      "command": "python tools/dossier.py --format json validate --gate cycle --verify-files",
+      "result": "ok / ready; errors and blockers empty; FND-0001 shareable_for_selected_reviewers"
+    },
+    {
+      "command": "python tools/dossier.py --format json validate --gate delivery --verify-files",
+      "result": "blocked / not_ready",
+      "blockers": [
+        "milestone_review: Missing matching milestone review",
+        "completed_handoff: Exact-content final session backup and mirrored commit required"
+      ]
+    },
+    {
+      "method": "Imported tools/dossier.py Dataset._closure_complete; historical and current exact checks, receipt manifest diff",
+      "result": "Historical sessions coherent; current expanded exact handoff not complete"
+    }
+  ],
+  "confusing_or_stale_saved_instructions": [
+    {
+      "path": "INVESTIGATION_PLAN.md",
+      "issue": "Header still calls stage ideation/planning and points project home to C:/dev/max-headroom-analysis-project; Immediate next session still lists setup/baseline as pending. Operational checkpoints and current STATUS supersede this initial plan, but a fresh reader must resolve that hierarchy."
+    },
+    {
+      "path": "analysis/media-comparison/comparison-report.md",
+      "issue": "Opening status says separate reasoning review pending despite matching RVW-0003 through RVW-0006 and current STATUS recording review completion. Prefer explicitly dated snapshot wording or current review pointer."
+    },
+    {
+      "path": "analysis/chronology/contradictions.md",
+      "issue": "Snapshot still says awaiting separate baseline review and metadata-only/no recording bytes in baseline-specific rows; historically accurate before later cycle but easily misread as current. Canonical current source/cycle records and STATUS make later acquisition explicit."
+    },
+    {
+      "path": "registers/tasks.csv TASK-0011",
+      "issue": "Some unknowns_json reasons still say queued/no performed result while status is active and next action is recovery/final review. Current status is recoverable, but leftover seed rationale is stale."
+    }
+  ],
+  "evidence_read": [
+    "README.md",
+    "INVESTIGATION_PLAN.md",
+    "docs/STATUS.md",
+    "docs/METHODS.md",
+    "docs/DECISIONS.md",
+    "reports/findings/FND-0001.md",
+    "reports/findings/FND-0001.json",
+    "analysis/cycles/CYC-0001.json",
+    "analysis/media-comparison/comparison-report.md",
+    "analysis/chronology/contradictions.md",
+    "reports/milestones/workstreams.md",
+    "registers/claims.csv CLM-0021/22",
+    "registers/tasks.csv TASK-0007/8/11",
+    "reports/findings/reviews/RVW-0001 through RVW-0006",
+    "evidence/metadata/sessions/SES-0001 through SES-0003",
+    "evidence/metadata/backups/BAK-0010",
+    "evidence/metadata/control/CHG-0051",
+    "config/storage.local.json",
+    "tools/dossier.py"
+  ],
+  "limitations": [
+    "Recovery is independent of earlier chat, not independent corroboration of historical facts.",
+    "Did not reinspect source recordings or primary publication images, rerun media decoding, authenticate third-party files, assess novelty, or certify all FR/SC requirements.",
+    "Tool commands ran read-only with PYTHONDONTWRITEBYTECODE=1; this output under work/ is the only file written by this reviewer.",
+    "Root may update state after this dated observation; final delivery conclusion applies to the inspected snapshot."
+  ]
+}

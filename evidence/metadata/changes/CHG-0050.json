@@ -1,0 +1,356 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T21:04:21.661936+00:00",
+  "id": "CHG-0050",
+  "intended_final_file_manifest": {
+    "evidence/metadata/sessions/SES-0003.json": {
+      "byte_count": 3902,
+      "sha256": "9fc519222edfccbfa9aa3bfdf0db83d12d301e878b9b897ea23144097f6c3ffb"
+    },
+    "registers/tasks.csv": {
+      "byte_count": 15290,
+      "sha256": "e2f2f94592714edda12bdd7199d179b89e0d2d1d2e08f135b682736f47e1029f"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Prewritten predictions, preserved inputs, result, and documented changes to hypothesis status",
+        "dependencies_json": [
+          {
+            "id": "TASK-0005",
+            "note": "Required: original T05"
+          },
+          {
+            "id": "TASK-0006",
+            "note": "Required: original T06"
+          },
+          {
+            "id": "TASK-0007",
+            "note": "Conditional dependency: original 'T07 where relevant'; required only if the chosen test needs recording transcription/comparison."
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Prewritten predictions, preserved inputs, result, and documented changes to hypothesis status",
+        "external_wait": "not_applicable",
+        "id": "TASK-0010",
+        "legacy_aliases_json": [
+          "T10"
+        ],
+        "method": "Select an attainable bounded question after baseline; freeze alternatives/predictions, preserve protected inputs, perform the test, and document justified status changes.",
+        "next_action": "Acquire/protect frozen candidate inputs, then execute prospective file-context test",
+        "output_refs_json": [],
+        "owner": "AI + user as needed",
+        "priority": "P1 after baseline",
+        "question": "Run the best distinguishing test",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Prewritten predictions, preserved inputs, result, and documented changes to hypothesis status",
+        "dependencies_json": [
+          {
+            "id": "TASK-0005",
+            "note": "Required: original T05"
+          },
+          {
+            "id": "TASK-0006",
+            "note": "Required: original T06"
+          },
+          {
+            "id": "TASK-0007",
+            "note": "Conditional dependency: original 'T07 where relevant'; required only if the chosen test needs recording transcription/comparison. Relevant visual comparison T066 is performed; the selected file-context test uses no disputed wording. Remaining T067/T068 listening/culture work is not needed for this result."
+          }
+        ],
+        "effort_timebox": "Frozen CYC-0001 one bounded acquisition/analysis session; exact plan/time recorded before cycle queries",
+        "expected_output": "Prewritten predictions, preserved inputs, result, and documented changes to hypothesis status",
+        "external_wait": "not_applicable",
+        "id": "TASK-0010",
+        "legacy_aliases_json": [
+          "T10"
+        ],
+        "method": "Select an attainable bounded question after baseline; freeze alternatives/predictions, preserve protected inputs, perform the test, and document justified status changes.",
+        "next_action": "Proceed to saved-file handoff and final cross-output review",
+        "output_refs_json": [
+          "analysis/cycles/CYC-0001.json",
+          "analysis/cycles/CYC-0001.md",
+          "reports/findings/FND-0001.md",
+          "reports/findings/reviews/RVW-0003.json",
+          "reports/milestones/analytical-cycle.md"
+        ],
+        "owner": "AI + user as needed",
+        "priority": "P1 after baseline",
+        "question": "Run the best distinguishing test",
+        "reopening_condition": "New bytes/full-context capture or overlooked return/decoder evidence require new prospective cycle",
+        "result": "Actual prospectively frozen, protected-file context test performed and separately reviewed. HYP8weakened, HYP9supported with limits; H1-H7untested.",
+        "retired": false,
+        "revision": 3,
+        "status": "done",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Another reviewer can trace findings to evidence; alternatives and unresolved questions are included",
+        "dependencies_json": [
+          {
+            "id": "TASK-0010",
+            "note": "Required: original T10"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Another reviewer can trace findings to evidence; alternatives and unresolved questions are included",
+        "external_wait": "not_applicable",
+        "id": "TASK-0011",
+        "legacy_aliases_json": [
+          "T11"
+        ],
+        "method": "Have an actual separate reviewer trace evidence, challenge alternatives/dependence, and retain unresolved questions and specialist limits.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "separate AI review + user",
+        "priority": "P1 after each cycle",
+        "question": "Challenge review and findings report",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Another reviewer can trace findings to evidence; alternatives and unresolved questions are included",
+        "dependencies_json": [
+          {
+            "id": "TASK-0010",
+            "note": "Required: original T10"
+          }
+        ],
+        "effort_timebox": "One review/handoff session; no external outreach or spending",
+        "expected_output": "Another reviewer can trace findings to evidence; alternatives and unresolved questions are included",
+        "external_wait": "not_applicable",
+        "id": "TASK-0011",
+        "legacy_aliases_json": [
+          "T11"
+        ],
+        "method": "Have an actual separate reviewer trace evidence, challenge alternatives/dependence, and retain unresolved questions and specialist limits.",
+        "next_action": "Recover saved state independently and complete cross-output delivery review",
+        "output_refs_json": [],
+        "owner": "separate AI review + user",
+        "priority": "P1 after each cycle",
+        "question": "Challenge review and findings report",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sessions",
+      "previous": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": null,
+        "completed_task_outputs": [],
+        "created_at": "2026-11-08T20:52:12.897054+00:00",
+        "current_milestone": "analytical_cycle",
+        "current_question": "Do the selected acquired WGN candidate files retain a visible return to studio/program context?",
+        "deferred_branches": [
+          "Disputed wording and cultural attribution await genuine blind listening; no wording is used in this test"
+        ],
+        "disagreements": [],
+        "final_handoff": null,
+        "findings": [],
+        "gaps": [
+          "Unverified capture and digitization lineage",
+          "Full-context higher-generation recording not established"
+        ],
+        "hypothesis_changes": [],
+        "id": "SES-0003",
+        "intended_completion_at": null,
+        "intended_state": "active",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0004"
+            ],
+            "output": "Acquire and protect frozen candidate inputs",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "CYC-0001"
+            ],
+            "output": "Execute bounded file-context method",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "CYC-0001"
+            ],
+            "output": "Challenge actual file-context finding",
+            "owner": "Separate reviewer"
+          }
+        ],
+        "reopening_condition": null,
+        "reserved_receipt_id": null,
+        "revision": 1,
+        "schema_version": 1,
+        "started_at": "2026-11-08T20:52:12.897039+00:00",
+        "stopping_condition": null,
+        "unknowns": {
+          "closure_snapshot_id": "Not yet established; do not infer.",
+          "final_handoff": "Not yet established; do not infer.",
+          "intended_completion_at": "Not yet established; do not infer.",
+          "reopening_condition": "Not yet established; do not infer.",
+          "reserved_receipt_id": "Not yet established; do not infer.",
+          "stopping_condition": "Not yet established; do not infer."
+        },
+        "waits": []
+      },
+      "proposed": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": null,
+        "completed_task_outputs": [
+          {
+            "output_refs": [
+              "analysis/cycles/CYC-0001.json",
+              "reports/findings/FND-0001.md"
+            ],
+            "result": "Actual performed and separately reviewed test; current cycle file-verification gate passes",
+            "task_id": "TASK-0010"
+          },
+          {
+            "output_refs": [
+              "reports/records/inventory.md",
+              "reports/requests/record-request.md",
+              "reports/interviews/neutral-guide.md"
+            ],
+            "result": "Partial release inspected, source context and unsent drafts prepared",
+            "task_id": "TASK-0009"
+          },
+          {
+            "output_refs": [
+              "reports/milestones/exercises/us5-exercise.md",
+              "reports/milestones/exercises/us6-exercise.md"
+            ],
+            "result": "Isolated exercises passed11/12checks; no historical fixture conclusions",
+            "task_id": "T069/T077"
+          }
+        ],
+        "created_at": "2026-11-08T20:52:12.897054+00:00",
+        "current_milestone": "analytical_cycle reviewed",
+        "current_question": "What does the completed selected-file context test support, and which transcription/records limits remain?",
+        "deferred_branches": [
+          "RF mechanism/location/power waits for dated architecture and qualified review",
+          "Period culture/motive waits for verified content; familiarity is not involvement"
+        ],
+        "disagreements": [
+          "Source-reported historical times and phase boundaries still differ; no averaged duration"
+        ],
+        "final_handoff": null,
+        "findings": [
+          {
+            "confidence": "moderate",
+            "id": "FND-0001",
+            "result": "Inspected Commons sequence lacks recognizable return; Archive shows post-mask studio/program return; no broadcast duration/mechanism inference",
+            "revision": 2
+          }
+        ],
+        "gaps": [
+          "Capture/feed/generation/edit independence unknown",
+          "No full-rate viewing of every decoded frame or blind word transcription",
+          "Partial FBI release does not authenticate online files or prove full case coverage",
+          "Dated as-built engineering components remain missing"
+        ],
+        "hypothesis_changes": [
+          {
+            "from": "untested",
+            "id": "HYP-0008",
+            "to": "weakened"
+          },
+          {
+            "from": "untested",
+            "id": "HYP-0009",
+            "to": "supported"
+          }
+        ],
+        "id": "SES-0003",
+        "intended_completion_at": null,
+        "intended_state": "active",
+        "next_actions": [
+          {
+            "dependencies": [
+              "FND-0001"
+            ],
+            "output": "Recover saved milestone/question/findings/waits and three actions without chat",
+            "owner": "Separate reviewer"
+          },
+          {
+            "dependencies": [
+              "TASK-0010"
+            ],
+            "output": "Complete all-FR/SC final evidence assessment",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0011"
+            ],
+            "output": "Cross-output review and verified final session snapshot",
+            "owner": "Separate reviewer; AI"
+          }
+        ],
+        "reopening_condition": "New evidence or changed assumption justifies a new frozen question; original records/reviews retained",
+        "reserved_receipt_id": null,
+        "revision": 2,
+        "schema_version": 1,
+        "started_at": "2026-11-08T20:52:12.897039+00:00",
+        "stopping_condition": "Bounded actual test and records-preparation session complete; close and continue final review in a new session",
+        "unknowns": {
+          "closure_snapshot_id": "Not yet established; do not infer.",
+          "final_handoff": "Not yet established; do not infer.",
+          "intended_completion_at": "Not yet established; do not infer.",
+          "reserved_receipt_id": "Not yet established; do not infer."
+        },
+        "waits": [
+          "TASK-0007: unprimed second listener and time-coded transcription if words become relevant",
+          "TASK-0008: completedT07 plus dated preincident reference evidence",
+          "Optional records submission requires owner contact/fee decision; no submission made"
+        ]
+      }
+    }
+  ],
+  "reason": "Record actual reviewed cycle outcome, conditional scope and final-review handoff before session protection",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

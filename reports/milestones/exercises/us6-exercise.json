@@ -1,0 +1,77 @@
+{
+  "actual_records_modified": false,
+  "checks": [
+    {
+      "detail": "All mutations are confined to a temporary illustrative dataset",
+      "name": "isolated",
+      "result": "pass"
+    },
+    {
+      "detail": "Release context does not upgrade completeness or authenticity",
+      "name": "partial_preserved",
+      "result": "pass"
+    },
+    {
+      "detail": "Invalid proposed change rejected without publishing fixture mutation",
+      "name": "missing_pagination_rejected",
+      "result": "pass"
+    },
+    {
+      "detail": "Invalid proposed change rejected without publishing fixture mutation",
+      "name": "confirmation_without_evidence_rejected",
+      "result": "pass"
+    },
+    {
+      "detail": "Current draft bytes/hash and scope fields verify while status remains unsent",
+      "name": "unsent_bytes_and_scope",
+      "result": "pass"
+    },
+    {
+      "detail": "Invalid proposed change rejected without publishing fixture mutation",
+      "name": "sent_status_rejected",
+      "result": "pass"
+    },
+    {
+      "detail": "Invalid proposed change rejected without publishing fixture mutation",
+      "name": "later_exposure_prompt_required",
+      "result": "pass"
+    },
+    {
+      "detail": "Unknown custodian becomes a named dependency",
+      "name": "unknown_custodian_named_gap",
+      "result": "pass"
+    },
+    {
+      "detail": "Invalid proposed change rejected without publishing fixture mutation",
+      "name": "unknown_custodian_blocks_done",
+      "result": "pass"
+    },
+    {
+      "detail": "Changed draft fails exact byte verification",
+      "name": "changed_bytes_detected",
+      "result": "pass"
+    },
+    {
+      "detail": "This exercise contains no sender, interview, purchase or network operation",
+      "name": "no_external_actions",
+      "result": "pass"
+    },
+    {
+      "detail": "Workflow acceptance suite ran against isolated fixtures",
+      "name": "workflow_tests_pass",
+      "result": "pass"
+    }
+  ],
+  "dataset_role": "illustrative",
+  "executed_at": "2026-11-08T20:55:48.666051+00:00",
+  "exercise": "US6",
+  "external_actions": [],
+  "label": "Fictional partial agency release, unconfirmed holding and unsent drafts only",
+  "related_tests": {
+    "command": "python -m unittest test_workflow -v (cwd tests)",
+    "exit_code": 0,
+    "output": "test_baseline_requires_foundation_review_instead_of_seed_counts_alone (test_workflow.BaselineAcceptanceTests.test_baseline_requires_foundation_review_instead_of_seed_counts_alone) ... ok\ntest_conflicting_duration_reports_and_unknown_clock_offset_survive (test_workflow.BaselineAcceptanceTests.test_conflicting_duration_reports_and_unknown_clock_offset_survive) ... ok\ntest_unexamined_sources_do_not_satisfy_actual_baseline (test_workflow.BaselineAcceptanceTests.test_unexamined_sources_do_not_satisfy_actual_baseline) ... ok\ntest_cycle_search_cannot_predate_frozen_plan (test_workflow.CycleAcceptanceTests.test_cycle_search_cannot_predate_frozen_plan) ... ok\ntest_metadata_only_cycle_or_delivery_can_never_be_ready (test_workflow.CycleAcceptanceTests.test_metadata_only_cycle_or_delivery_can_never_be_ready) ... ok\ntest_missing_record_is_not_an_evidenced_necessary_condition_failure (test_workflow.CycleAcceptanceTests.test_missing_record_is_not_an_evidenced_necessary_condition_failure) ... ok\ntest_reopening_exclusion_requires_new_evidence_or_changed_assumption (test_workflow.CycleAcceptanceTests.test_reopening_exclusion_requires_new_evidence_or_changed_assumption) ... ok\ntest_required_blind_listening_task_blocks_cycle_while_queued (test_workflow.CycleAcceptanceTests.test_required_blind_listening_task_blocks_cycle_while_queued) ... ok\ntest_required_missing_tool_blocks_only_the_affected_cycle (test_workflow.CycleAcceptanceTests.test_required_missing_tool_blocks_only_the_affected_cycle) ... ok\ntest_system_freezes_original_predictions_and_ignores_backdated_request (test_workflow.CycleAcceptanceTests.test_system_freezes_original_predictions_and_ignores_backdated_request) ... ok\ntest_unperformed_cycle_cannot_be_marked_tested (test_workflow.CycleAcceptanceTests.test_unperformed_cycle_cannot_be_marked_tested) ... ok\ntest_unprotected_original_blocks_analysis_start (test_workflow.CycleAcceptanceTests.test_unprotected_original_blocks_analysis_start) ... ok\ntest_partial_release_keeps_release_context_and_completeness_limits (test_workflow.ExternalResearchAcceptanceTests.test_partial_release_keeps_release_context_and_completeness_limits) ... ok\ntest_sender_purchase_and_interview_execution_commands_are_absent (test_workflow.ExternalResearchAcceptanceTests.test_sender_purchase_and_interview_execution_commands_are_absent) ... ok\ntest_unconfirmed_holding_and_unknown_custodian_stay_explicit (test_workflow.ExternalResearchAcceptanceTests.test_unconfirmed_holding_and_unknown_custodian_stay_explicit) ... ok\ntest_all_fifteen_outputs_can_honestly_mix_available_waiting_and_deferred (test_workflow.FinalReadinessAcceptanceTests.test_all_fifteen_outputs_can_honestly_mix_available_waiting_and_deferred) ... ok\ntest_available_output_requires_existing_non_scaffold_product (test_workflow.FinalReadinessAcceptanceTests.test_available_output_requires_existing_non_scaffold_product) ... ok\ntest_blank_action_or_untyped_dependencies_cannot_close_session (test_workflow.FinalReadinessAcceptanceTests.test_blank_action_or_untyped_dependencies_cannot_close_session) ... ok\ntest_blank_completed_output_cannot_close_session (test_workflow.FinalReadinessAcceptanceTests.test_blank_completed_output_cannot_close_session) ... ok\ntest_blank_question_cannot_be_closed_as_substantive_handoff (test_workflow.FinalReadinessAcceptanceTests.test_blank_question_cannot_be_closed_as_substantive_handoff) ... ok\ntest_five_names_without_output_accounting_do_not_satisfy_inventory (test_workflow.FinalReadinessAcceptanceTests.test_five_names_without_output_accounting_do_not_satisfy_inventory) ... ok\ntest_incomplete_finding_is_exposed_as_draft (test_workflow.FinalReadinessAcceptanceTests.test_incomplete_finding_is_exposed_as_draft) ... ok\ntest_missing_or_duplicate_output_is_rejected (test_workflow.FinalReadinessAcceptanceTests.test_missing_or_duplicate_output_is_rejected) ... ok\ntest_reviewed_finding_still_needs_access_context_for_sharing (test_workflow.FinalReadinessAcceptanceTests.test_reviewed_finding_still_needs_access_context_for_sharing) ... ok\ntest_shareable_finding_returns_to_review_pending_when_basis_changes (test_workflow.FinalReadinessAcceptanceTests.test_shareable_finding_returns_to_review_pending_when_basis_changes) ... ok\ntest_substantive_finding_awaits_separate_review (test_workflow.FinalReadinessAcceptanceTests.test_substantive_finding_awaits_separate_review) ... ok\ntest_unknown_status_and_escaping_product_are_rejected (test_workflow.FinalReadinessAcceptanceTests.test_unknown_status_and_escaping_product_are_rejected) ... ok\ntest_unperformed_output_requires_explicit_reason (test_workflow.FinalReadinessAcceptanceTests.test_unperformed_output_requires_explicit_reason) ... ok\ntest_blind_transcription_rejects_exposure_to_preferred_wording (test_workflow.ReviewAcceptanceTests.test_blind_transcription_rejects_exposure_to_preferred_wording) ... ok\ntest_edited_milestone_stays_historical_without_mutating_review_copy (test_workflow.ReviewAcceptanceTests.test_edited_milestone_stays_historical_without_mutating_review_copy) ... ok\ntest_milestone_copies_are_fixed_and_unrelated_edits_do_not_invalidate (test_workflow.ReviewAcceptanceTests.test_milestone_copies_are_fixed_and_unrelated_edits_do_not_invalidate) ... ok\ntest_missing_milestone_basis_or_mismatched_hash_is_rejected (test_workflow.ReviewAcceptanceTests.test_missing_milestone_basis_or_mismatched_hash_is_rejected) ... ok\ntest_privacy_rejection_does_not_become_shareable_review (test_workflow.ReviewAcceptanceTests.test_privacy_rejection_does_not_become_shareable_review) ... ok\ntest_record_review_attaches_without_changing_reviewed_claim (test_workflow.ReviewAcceptanceTests.test_record_review_attaches_without_changing_reviewed_claim) ... ok\ntest_same_author_identity_cannot_be_relabelled_separate_review (test_workflow.ReviewAcceptanceTests.test_same_author_identity_cannot_be_relabelled_separate_review) ... ok\ntest_complete_request_and_neutral_guide_remain_unsent_and_verify_exact_bytes (test_workflow.StructuredRecordsResearchAcceptanceTests.test_complete_request_and_neutral_guide_remain_unsent_and_verify_exact_bytes) ... ok\ntest_confirmed_holding_requires_actual_confirmation_evidence (test_workflow.StructuredRecordsResearchAcceptanceTests.test_confirmed_holding_requires_actual_confirmation_evidence) ... ok\ntest_draft_bytes_are_verified_when_file_checks_are_requested (test_workflow.StructuredRecordsResearchAcceptanceTests.test_draft_bytes_are_verified_when_file_checks_are_requested) ... ok\ntest_interview_guide_requires_observation_vs_later_knowledge_prompts (test_workflow.StructuredRecordsResearchAcceptanceTests.test_interview_guide_requires_observation_vs_later_knowledge_prompts) ... ok\ntest_release_context_missing_required_pagination_is_rejected (test_workflow.StructuredRecordsResearchAcceptanceTests.test_release_context_missing_required_pagination_is_rejected) ... ok\ntest_request_draft_cannot_be_recorded_as_sent_by_local_workflow (test_workflow.StructuredRecordsResearchAcceptanceTests.test_request_draft_cannot_be_recorded_as_sent_by_local_workflow) ... ok\ntest_unknown_draft_custodian_is_gap_and_cannot_complete_task (test_workflow.StructuredRecordsResearchAcceptanceTests.test_unknown_draft_custodian_is_gap_and_cannot_complete_task) ... ok\ntest_unknown_release_context_remains_named_gap_without_authentication_upgrade (test_workflow.StructuredRecordsResearchAcceptanceTests.test_unknown_release_context_remains_named_gap_without_authentication_upgrade) ... ok\ntest_metadata_validation_does_not_probe_analysis_executables (test_workflow.ToolDependencyAcceptanceTests.test_metadata_validation_does_not_probe_analysis_executables) ... ok\ntest_required_tool_version_is_probed_and_manifest_is_command_owned (test_workflow.ToolDependencyAcceptanceTests.test_required_tool_version_is_probed_and_manifest_is_command_owned) ... ok\ntest_unexpected_tool_version_blocks_start_without_analysis_result (test_workflow.ToolDependencyAcceptanceTests.test_unexpected_tool_version_blocks_start_without_analysis_result) ... ok\ntest_a_receipt_for_another_session_cannot_complete_new_session (test_workflow.WorkflowIntegrityRegressionTests.test_a_receipt_for_another_session_cannot_complete_new_session) ... ok\ntest_cycle_cannot_forge_a_verified_analysis_start_through_apply (test_workflow.WorkflowIntegrityRegressionTests.test_cycle_cannot_forge_a_verified_analysis_start_through_apply) ... ok\ntest_finding_review_becomes_stale_when_its_source_basis_changes (test_workflow.WorkflowIntegrityRegressionTests.test_finding_review_becomes_stale_when_its_source_basis_changes) ... ok\ntest_inherited_inspection_does_not_count_as_new_actual_source_review (test_workflow.WorkflowIntegrityRegressionTests.test_inherited_inspection_does_not_count_as_new_actual_source_review) ... ok\ntest_new_research_note_after_snapshot_invalidates_current_closure (test_workflow.WorkflowIntegrityRegressionTests.test_new_research_note_after_snapshot_invalidates_current_closure) ... ok\ntest_novelty_assertion_requires_preserved_prior_coverage_search (test_workflow.WorkflowIntegrityRegressionTests.test_novelty_assertion_requires_preserved_prior_coverage_search) ... ok\ntest_recorded_analysis_start_and_input_manifest_are_immutable (test_workflow.WorkflowIntegrityRegressionTests.test_recorded_analysis_start_and_input_manifest_are_immutable) ... ok\ntest_unknown_review_decision_cannot_clear_readiness (test_workflow.WorkflowIntegrityRegressionTests.test_unknown_review_decision_cannot_clear_readiness) ... ok\n\n----------------------------------------------------------------------\nRan 54 tests in 30.649s\n\nOK\n"
+  },
+  "status": "passed",
+  "temporary_dataset_removed": true
+}

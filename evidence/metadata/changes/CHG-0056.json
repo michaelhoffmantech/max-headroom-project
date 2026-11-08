@@ -1,0 +1,2154 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T21:15:17.492218+00:00",
+  "id": "CHG-0056",
+  "intended_final_file_manifest": {
+    "reports/findings/reviews/RVW-0008.json": {
+      "byte_count": 62805,
+      "sha256": "de650bcc4fe643cdad86d2ae9125af1481db80a64084cdac604f274e731c135c"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/.gitignore": {
+      "byte_count": 528,
+      "sha256": "eca572aac980775727b85823d33b16656a4c9c6f41f678e5d2ab57b5aff88549"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/.specify/memory/constitution.md": {
+      "byte_count": 15407,
+      "sha256": "297f3a04b2dba16189cef2bd6bc5c8e1496767c8b71dcb3cd08f9e722d49c69b"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/INVESTIGATION_PLAN.md": {
+      "byte_count": 30678,
+      "sha256": "647fdb012542338c1b9aafba2f44ec10092d9759a391b5eadc01080f02b258a2"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/README.md": {
+      "byte_count": 1449,
+      "sha256": "aed61e015ed17a869152a9b878a183e74ab4a75f50d757eeedad7c583c4f7477"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/chronology/contradictions.md": {
+      "byte_count": 9533,
+      "sha256": "556866e6a4e975b792a24d9663879c27f64bc308db3a8a573ba22f72c2c79495"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/chronology/image-text-check.md": {
+      "byte_count": 1308,
+      "sha256": "16272355e7f75799c6429b7ed893737ed1770677ed16991634018dd21a9b5cd2"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/chronology/source-map.md": {
+      "byte_count": 5692,
+      "sha256": "df7305bba06d432b9b95fe859dd4a18dde806777d8d137ff578aecaffe4283e0"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/chronology/timeline.md": {
+      "byte_count": 8805,
+      "sha256": "8968d895d298a15e70b995b53c7d3fb10d2ea3148ae9751ec0a535c5202ac27b"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/culture/reference-catalog.md": {
+      "byte_count": 2422,
+      "sha256": "751ffac771e1a4938c1943c0804243533e115dcf1fbe202ebfb55b40aee4f143"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/cycles/CYC-0001.json": {
+      "byte_count": 11332,
+      "sha256": "eb6a884276f5d3e56a03f3d1152ef20abd6b6958001bc8cb6f125a0af771ef69"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/cycles/CYC-0001.md": {
+      "byte_count": 2818,
+      "sha256": "3df3740bb2707e9a336f079419539bb79a3c81fce963ebc0522ff4021525f540"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/engineering/assumptions.md": {
+      "byte_count": 4064,
+      "sha256": "a8f2fec7f9df229da5b1f743d36f5e5e2023de4ca1b6f86c3162915ae8ed07b4"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/engineering/explanation-comparison.md": {
+      "byte_count": 3591,
+      "sha256": "6cfeb30760b8bae194557ed03b15620ad7d9636fa5a8adeade89c707f03c1c67"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/engineering/signal-paths.md": {
+      "byte_count": 4343,
+      "sha256": "272fcfcc19a1a68f85e8e0be1705f35bf57f1a2e9cb9077ff4123786f934446b"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/media-comparison/compare_recordings.py": {
+      "byte_count": 4191,
+      "sha256": "7734b54338033c9b2a1aafb749690d056c9670d899f8f8b03acbc40859367f82"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/media-comparison/comparison-report.md": {
+      "byte_count": 2872,
+      "sha256": "5a42b59aee998b56c10e8e19b5ea4bb689bb45bd74ef8a53e2ae93dca08638f5"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/media-comparison/recording-inventory.md": {
+      "byte_count": 8568,
+      "sha256": "0cd4d9054f37d4b3aa4dcdcb6212a0002cbf61f87a4d349fcc093655d1746767"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/config/storage.local.example.json": {
+      "byte_count": 1617,
+      "sha256": "0965ea356b53896d47a0223e1980b905de28bf6e06b34204387006cb42bec378"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/CYC-0001-retry/AST-0013-contact.png": {
+      "byte_count": 2501596,
+      "sha256": "949817a5886eec720c2a6b5fe626db9386bed4345434c15b803b5ac89e6858f2"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/CYC-0001-retry/AST-0013-end.png": {
+      "byte_count": 57359,
+      "sha256": "619fe4ece6e57ab3d38c4d0c0653e0b7445d2a060aaea4eac34c412ea288be9c"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/CYC-0001-retry/AST-0014-contact.png": {
+      "byte_count": 7251536,
+      "sha256": "88507d073fccb9d3ce1dde6137a9415bca13a7d934d3832783d80ff27367fb73"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/CYC-0001-retry/AST-0014-end.png": {
+      "byte_count": 796075,
+      "sha256": "854e5f520a2d2493d13dfc438a0b1d8b7db642294fd63999841dbf0884959a7e"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/CYC-0001-retry/manifest.json": {
+      "byte_count": 11186,
+      "sha256": "d1606fb7085d232b701da09b340491c9ecdc14992421f6bc684349e54c913e5c"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/records-pages/AST-0011-page-1.png": {
+      "byte_count": 148462,
+      "sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/records-pages/AST-0011-page-4.png": {
+      "byte_count": 232629,
+      "sha256": "2ca728985c5f8f89f4ff723d4952f6ab7ac1346229d3c0fc67b1a528c049c7a4"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/records-pages/AST-0011-page-5.png": {
+      "byte_count": 478993,
+      "sha256": "8d4b591e7ecaf5a7237db8e31931d801c8b639d3110868517e6515d806f2791c"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/records-pages/AST-0012-page-1.png": {
+      "byte_count": 341972,
+      "sha256": "719b95174e424815c44f870ba92d44c0a31a357e9a785d1d1a8bd7841c6c7685"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/records-pages/AST-0012-page-2.png": {
+      "byte_count": 333681,
+      "sha256": "66c4de4487a98c3bc49ddeedb8bed37c3db1e864502f8dcc1a31034e9befbb4e"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/derived/transcripts/README.md": {
+      "byte_count": 1681,
+      "sha256": "c53bc05947c817f964e8ba2b82c50cce7d3a4f59b9908d647108996211b774c0"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/docs/DECISIONS.md": {
+      "byte_count": 8492,
+      "sha256": "0f98e3ba013a242fa7ef7135cf46f72a5b3ad4b3a7a04cd32fa18552f7fa7f0d"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/docs/METHODS.md": {
+      "byte_count": 14369,
+      "sha256": "14457f0f790d70926fc31fe6b341f47d213e444422fe4ae6b5a3802ebc89500b"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/docs/STATUS.md": {
+      "byte_count": 5497,
+      "sha256": "523e7aaa7f917f8169edf56f6f27544a5d344f74f9b807244e4a0fb0587f5bf8"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/docs/inspections/2026-11-08-records-rendered.json": {
+      "byte_count": 3459,
+      "sha256": "eb89594473f1a67abeec73a522047160452d2c4aa6fe63a7b7f419395b2b436d"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/docs/inspections/2026-11-08-records-research.json": {
+      "byte_count": 34999,
+      "sha256": "1afe800a7c61bb9ccb39fe145860bd43533873d15617b971565d97c910374b95"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/findings/FND-0001.json": {
+      "byte_count": 4263,
+      "sha256": "c75f5d24d5d697b4a7569edab55686bd8342aa90836974053320e0211138a453"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/findings/FND-0001.md": {
+      "byte_count": 4162,
+      "sha256": "1193a27b6e8166e77508a5f6f44834da0d15e340106a5e2c2f5bf8366e7c21f0"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/findings/reviews/RVW-0007.json": {
+      "byte_count": 60360,
+      "sha256": "f8bdca9d09c61c64e9ce74613a0fad30f5a1761acb1c49798cb2dfeac4b0bdc4"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/interviews/neutral-guide.md": {
+      "byte_count": 3433,
+      "sha256": "743b3ffae0799e6de8f9fdce2262fb393ee9b754344c5d9fcfad8a238f1aac2a"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/final-state-reader.json": {
+      "byte_count": 12475,
+      "sha256": "a3b323e10ec405374952e29d66242eaf9a97d2376f5860d32ae4bf18e8e9f61a"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/public-package-check.json": {
+      "byte_count": 16630,
+      "sha256": "ae154e1fb7557b8e8900f5278d5155eb6dc904e51341d2f76e6c99d80cf4db9a"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/public-package-check.md": {
+      "byte_count": 3778,
+      "sha256": "fed9a4f9806bd305967c4321c720ec2505e699f88342a750fc5e6d34469b6f9e"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/quickstart-completion.json": {
+      "byte_count": 1392,
+      "sha256": "cab38b89fb86d7183716fc9b2713ca44254348bcd4b70f72f0c4a5f1d39b8178"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/saved-state-reader.json": {
+      "byte_count": 11722,
+      "sha256": "2550d7877aacc5de75ec2328b182a2ba4fa3e785ce484a784e8ec94415bea746"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/us3-us4-exercise.json": {
+      "byte_count": 2578,
+      "sha256": "bd164a40aa51a09036a5f556fab66ffd71c8cbaa94f512da113d706143b4f638"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/us5-exercise.json": {
+      "byte_count": 5951,
+      "sha256": "18c805a7541a98c9c907e5a75a9520192f44368d2acf90e4f028915a895dcb65"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/us6-exercise.json": {
+      "byte_count": 12015,
+      "sha256": "6392c8f80d0d22585c2173c45b386179700633699d8bd2bc3b7da9e2fee660a2"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/workstreams.md": {
+      "byte_count": 3204,
+      "sha256": "9a50b25f40172bd7bca6932359c86e0e9e2c637923df2e49695ac9a170aefa5b"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/records/inventory.md": {
+      "byte_count": 7750,
+      "sha256": "18eebbd5e749687e7b3c4016a46f681a73305d8d860fa6a1f71afab115d6e52d"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/reports/requests/record-request.md": {
+      "byte_count": 4170,
+      "sha256": "85240258f3d7d3ccd3d842709a71d862f94fe20175c591673ae8c0e289dc7eb1"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/specs/001-investigation-dossier/spec.md": {
+      "byte_count": 43826,
+      "sha256": "dd23eac3e16d8945c0fe82c413c324b88ccf61be452ddc4e4ac6e10f5ddb16c4"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/basis/tools/dossier.py": {
+      "byte_count": 107734,
+      "sha256": "0e5a2919c74f93b766d922eb17b4a3420799066f410a5c6e8adbe5357ef831c5"
+    },
+    "reports/findings/reviews/artifacts/RVW-0008/document.md": {
+      "byte_count": 11061,
+      "sha256": "79119e446e8c0ad065b22c5d8afdaec5bed1cb17feaddf31ba35e0896e629524"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "reviews",
+      "previous": null,
+      "proposed": {
+        "actor": "research_assistant",
+        "author_identity": "/root",
+        "author_type": "AI research assistant",
+        "created_at": "2026-11-08T21:15:16.148264+00:00",
+        "decision": "continue",
+        "evidence_inspected": [
+          {
+            "byte_count": 11061,
+            "path": "reports/milestones/delivery-review.md",
+            "sha256": "79119e446e8c0ad065b22c5d8afdaec5bed1cb17feaddf31ba35e0896e629524"
+          },
+          {
+            "byte_count": 5497,
+            "path": "docs/STATUS.md",
+            "sha256": "523e7aaa7f917f8169edf56f6f27544a5d344f74f9b807244e4a0fb0587f5bf8"
+          },
+          {
+            "byte_count": 30678,
+            "path": "INVESTIGATION_PLAN.md",
+            "sha256": "647fdb012542338c1b9aafba2f44ec10092d9759a391b5eadc01080f02b258a2"
+          },
+          {
+            "byte_count": 14369,
+            "path": "docs/METHODS.md",
+            "sha256": "14457f0f790d70926fc31fe6b341f47d213e444422fe4ae6b5a3802ebc89500b"
+          },
+          {
+            "byte_count": 8492,
+            "path": "docs/DECISIONS.md",
+            "sha256": "0f98e3ba013a242fa7ef7135cf46f72a5b3ad4b3a7a04cd32fa18552f7fa7f0d"
+          },
+          {
+            "byte_count": 3204,
+            "path": "reports/milestones/workstreams.md",
+            "sha256": "9a50b25f40172bd7bca6932359c86e0e9e2c637923df2e49695ac9a170aefa5b"
+          },
+          {
+            "byte_count": 4162,
+            "path": "reports/findings/FND-0001.md",
+            "sha256": "1193a27b6e8166e77508a5f6f44834da0d15e340106a5e2c2f5bf8366e7c21f0"
+          },
+          {
+            "byte_count": 4263,
+            "path": "reports/findings/FND-0001.json",
+            "sha256": "c75f5d24d5d697b4a7569edab55686bd8342aa90836974053320e0211138a453"
+          },
+          {
+            "byte_count": 11332,
+            "path": "analysis/cycles/CYC-0001.json",
+            "sha256": "eb6a884276f5d3e56a03f3d1152ef20abd6b6958001bc8cb6f125a0af771ef69"
+          },
+          {
+            "byte_count": 2818,
+            "path": "analysis/cycles/CYC-0001.md",
+            "sha256": "3df3740bb2707e9a336f079419539bb79a3c81fce963ebc0522ff4021525f540"
+          },
+          {
+            "byte_count": 4191,
+            "path": "analysis/media-comparison/compare_recordings.py",
+            "sha256": "7734b54338033c9b2a1aafb749690d056c9670d899f8f8b03acbc40859367f82"
+          },
+          {
+            "byte_count": 2872,
+            "path": "analysis/media-comparison/comparison-report.md",
+            "sha256": "5a42b59aee998b56c10e8e19b5ea4bb689bb45bd74ef8a53e2ae93dca08638f5"
+          },
+          {
+            "byte_count": 8568,
+            "path": "analysis/media-comparison/recording-inventory.md",
+            "sha256": "0cd4d9054f37d4b3aa4dcdcb6212a0002cbf61f87a4d349fcc093655d1746767"
+          },
+          {
+            "byte_count": 5692,
+            "path": "analysis/chronology/source-map.md",
+            "sha256": "df7305bba06d432b9b95fe859dd4a18dde806777d8d137ff578aecaffe4283e0"
+          },
+          {
+            "byte_count": 8805,
+            "path": "analysis/chronology/timeline.md",
+            "sha256": "8968d895d298a15e70b995b53c7d3fb10d2ea3148ae9751ec0a535c5202ac27b"
+          },
+          {
+            "byte_count": 9533,
+            "path": "analysis/chronology/contradictions.md",
+            "sha256": "556866e6a4e975b792a24d9663879c27f64bc308db3a8a573ba22f72c2c79495"
+          },
+          {
+            "byte_count": 1308,
+            "path": "analysis/chronology/image-text-check.md",
+            "sha256": "16272355e7f75799c6429b7ed893737ed1770677ed16991634018dd21a9b5cd2"
+          },
+          {
+            "byte_count": 4343,
+            "path": "analysis/engineering/signal-paths.md",
+            "sha256": "272fcfcc19a1a68f85e8e0be1705f35bf57f1a2e9cb9077ff4123786f934446b"
+          },
+          {
+            "byte_count": 4064,
+            "path": "analysis/engineering/assumptions.md",
+            "sha256": "a8f2fec7f9df229da5b1f743d36f5e5e2023de4ca1b6f86c3162915ae8ed07b4"
+          },
+          {
+            "byte_count": 3591,
+            "path": "analysis/engineering/explanation-comparison.md",
+            "sha256": "6cfeb30760b8bae194557ed03b15620ad7d9636fa5a8adeade89c707f03c1c67"
+          },
+          {
+            "byte_count": 7750,
+            "path": "reports/records/inventory.md",
+            "sha256": "18eebbd5e749687e7b3c4016a46f681a73305d8d860fa6a1f71afab115d6e52d"
+          },
+          {
+            "byte_count": 4170,
+            "path": "reports/requests/record-request.md",
+            "sha256": "85240258f3d7d3ccd3d842709a71d862f94fe20175c591673ae8c0e289dc7eb1"
+          },
+          {
+            "byte_count": 3433,
+            "path": "reports/interviews/neutral-guide.md",
+            "sha256": "743b3ffae0799e6de8f9fdce2262fb393ee9b754344c5d9fcfad8a238f1aac2a"
+          },
+          {
+            "byte_count": 2422,
+            "path": "analysis/culture/reference-catalog.md",
+            "sha256": "751ffac771e1a4938c1943c0804243533e115dcf1fbe202ebfb55b40aee4f143"
+          },
+          {
+            "byte_count": 1681,
+            "path": "derived/transcripts/README.md",
+            "sha256": "c53bc05947c817f964e8ba2b82c50cce7d3a4f59b9908d647108996211b774c0"
+          },
+          {
+            "byte_count": 3459,
+            "path": "docs/inspections/2026-11-08-records-rendered.json",
+            "sha256": "eb89594473f1a67abeec73a522047160452d2c4aa6fe63a7b7f419395b2b436d"
+          },
+          {
+            "byte_count": 34999,
+            "path": "docs/inspections/2026-11-08-records-research.json",
+            "sha256": "1afe800a7c61bb9ccb39fe145860bd43533873d15617b971565d97c910374b95"
+          },
+          {
+            "byte_count": 11722,
+            "path": "reports/milestones/exercises/saved-state-reader.json",
+            "sha256": "2550d7877aacc5de75ec2328b182a2ba4fa3e785ce484a784e8ec94415bea746"
+          },
+          {
+            "byte_count": 2578,
+            "path": "reports/milestones/exercises/us3-us4-exercise.json",
+            "sha256": "bd164a40aa51a09036a5f556fab66ffd71c8cbaa94f512da113d706143b4f638"
+          },
+          {
+            "byte_count": 5951,
+            "path": "reports/milestones/exercises/us5-exercise.json",
+            "sha256": "18c805a7541a98c9c907e5a75a9520192f44368d2acf90e4f028915a895dcb65"
+          },
+          {
+            "byte_count": 12015,
+            "path": "reports/milestones/exercises/us6-exercise.json",
+            "sha256": "6392c8f80d0d22585c2173c45b386179700633699d8bd2bc3b7da9e2fee660a2"
+          },
+          {
+            "byte_count": 16630,
+            "path": "reports/milestones/exercises/public-package-check.json",
+            "sha256": "ae154e1fb7557b8e8900f5278d5155eb6dc904e51341d2f76e6c99d80cf4db9a"
+          },
+          {
+            "byte_count": 3778,
+            "path": "reports/milestones/exercises/public-package-check.md",
+            "sha256": "fed9a4f9806bd305967c4321c720ec2505e699f88342a750fc5e6d34469b6f9e"
+          },
+          {
+            "byte_count": 1392,
+            "path": "reports/milestones/exercises/quickstart-completion.json",
+            "sha256": "cab38b89fb86d7183716fc9b2713ca44254348bcd4b70f72f0c4a5f1d39b8178"
+          },
+          {
+            "byte_count": 1449,
+            "path": "README.md",
+            "sha256": "aed61e015ed17a869152a9b878a183e74ab4a75f50d757eeedad7c583c4f7477"
+          },
+          {
+            "byte_count": 528,
+            "path": ".gitignore",
+            "sha256": "eca572aac980775727b85823d33b16656a4c9c6f41f678e5d2ab57b5aff88549"
+          },
+          {
+            "byte_count": 1617,
+            "path": "config/storage.local.example.json",
+            "sha256": "0965ea356b53896d47a0223e1980b905de28bf6e06b34204387006cb42bec378"
+          },
+          {
+            "byte_count": 107734,
+            "path": "tools/dossier.py",
+            "sha256": "0e5a2919c74f93b766d922eb17b4a3420799066f410a5c6e8adbe5357ef831c5"
+          },
+          {
+            "byte_count": 43826,
+            "path": "specs/001-investigation-dossier/spec.md",
+            "sha256": "dd23eac3e16d8945c0fe82c413c324b88ccf61be452ddc4e4ac6e10f5ddb16c4"
+          },
+          {
+            "byte_count": 15407,
+            "path": ".specify/memory/constitution.md",
+            "sha256": "297f3a04b2dba16189cef2bd6bc5c8e1496767c8b71dcb3cd08f9e722d49c69b"
+          },
+          {
+            "byte_count": 148462,
+            "path": "derived/frames/records-pages/AST-0011-page-1.png",
+            "sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d"
+          },
+          {
+            "byte_count": 232629,
+            "path": "derived/frames/records-pages/AST-0011-page-4.png",
+            "sha256": "2ca728985c5f8f89f4ff723d4952f6ab7ac1346229d3c0fc67b1a528c049c7a4"
+          },
+          {
+            "byte_count": 478993,
+            "path": "derived/frames/records-pages/AST-0011-page-5.png",
+            "sha256": "8d4b591e7ecaf5a7237db8e31931d801c8b639d3110868517e6515d806f2791c"
+          },
+          {
+            "byte_count": 341972,
+            "path": "derived/frames/records-pages/AST-0012-page-1.png",
+            "sha256": "719b95174e424815c44f870ba92d44c0a31a357e9a785d1d1a8bd7841c6c7685"
+          },
+          {
+            "byte_count": 333681,
+            "path": "derived/frames/records-pages/AST-0012-page-2.png",
+            "sha256": "66c4de4487a98c3bc49ddeedb8bed37c3db1e864502f8dcc1a31034e9befbb4e"
+          },
+          {
+            "byte_count": 2501596,
+            "path": "derived/frames/CYC-0001-retry/AST-0013-contact.png",
+            "sha256": "949817a5886eec720c2a6b5fe626db9386bed4345434c15b803b5ac89e6858f2"
+          },
+          {
+            "byte_count": 57359,
+            "path": "derived/frames/CYC-0001-retry/AST-0013-end.png",
+            "sha256": "619fe4ece6e57ab3d38c4d0c0653e0b7445d2a060aaea4eac34c412ea288be9c"
+          },
+          {
+            "byte_count": 7251536,
+            "path": "derived/frames/CYC-0001-retry/AST-0014-contact.png",
+            "sha256": "88507d073fccb9d3ce1dde6137a9415bca13a7d934d3832783d80ff27367fb73"
+          },
+          {
+            "byte_count": 796075,
+            "path": "derived/frames/CYC-0001-retry/AST-0014-end.png",
+            "sha256": "854e5f520a2d2493d13dfc438a0b1d8b7db642294fd63999841dbf0884959a7e"
+          },
+          {
+            "byte_count": 11186,
+            "path": "derived/frames/CYC-0001-retry/manifest.json",
+            "sha256": "d1606fb7085d232b701da09b340491c9ecdc14992421f6bc684349e54c913e5c"
+          },
+          {
+            "byte_count": 12475,
+            "path": "reports/milestones/exercises/final-state-reader.json",
+            "sha256": "a3b323e10ec405374952e29d66242eaf9a97d2376f5860d32ae4bf18e8e9f61a"
+          },
+          {
+            "byte_count": 60360,
+            "path": "reports/findings/reviews/RVW-0007.json",
+            "sha256": "f8bdca9d09c61c64e9ce74613a0fad30f5a1761acb1c49798cb2dfeac4b0bdc4"
+          }
+        ],
+        "exposure_rationale": "Inherited full project/author context and was shown favored file-context result. Independently inspected cited localimages, canonical records, actualbyte/receipt checks and cross-output prose; this is separate reasoning/extraction review, not blind transcription or factual corroboration.",
+        "findings": {
+          "checks": [
+            {
+              "evidence": "Read all34FR/10SC assessment rows and normative spec, all15workstream rows, current task/source states. Real baseline/test are present; T067/T068 and sourceTASK7/8 remain explicitly waiting, not falsely checked. FR014/015 are implemented/accounted with actual deeper research unresolved; the matrix does not claim full historical investigation completion.",
+              "name": "requirement_and_conditional_scope",
+              "result": "pass_with_limits"
+            },
+            {
+              "evidence": "Personally viewed Commons/Archive complete-runtime contact and terminal-sampling images. Commons sampled/terminal material lacks recognizable return; Archive visibly includes studio/program/WGN NEWS context. FND1r2/CYC1r6 retain sampling/encoding/capture limits, strongest alternative, reversal evidence and original H1-H7untested. No exact duration, independent capture, participant, motive or mechanism inference is promoted.",
+              "name": "actual_finding_and_independence",
+              "result": "pass_with_limits"
+            },
+            {
+              "evidence": "Personally viewed protected AST11 PDFp5 and AST12 PDFp1/p2, plus AST11worksheetp1/acknowledgmentp4. CLM23 accurately attributes five previously processed pages and only checked may-exist paragraph; unchecked existence/transfer/destruction alternatives are not adopted. CLM24 accurately attributes Q1at-least-second-generation/negativeenhancement/illustrativeprints to that specimen alone. July20letter, tape/prints, fullcustody and linktoonlinefiles remain absent. 8/11worksheet versus8/10acknowledgment/report dates are retained as different fields.",
+              "name": "agency_extract_image_review",
+              "result": "pass_with_limits"
+            },
+            {
+              "evidence": "Independently verified all7acquired originals with current-byte/confirmed-receipt checks and all25derivatives with current-byte checks; all derivativeinput IDs resolve. BAK2/3/4/6/7/8/9 cover exact originals. ActualCYC1freeze20:52:13 precedes its newqueries/acquisition/analysis; BAK8/9confirmation precedes commandowned start20:53:53 and actual method20:54:32. Prior separate baseline review covers original publication inspection order. Checksum is integrity, not authenticity.",
+              "name": "preservation_and_derivative_integrity",
+              "result": "pass"
+            },
+            {
+              "evidence": "Inspected chronology/contradictions and engineering paths/assumptions/explanationtable. Reported25/28/30 and88/about90 remain source-attributed with unknown clock offsets and component/tap/alternatefeed gaps. H1/H2/H3 predictions remain conditional, no unsupported power/location estimates. No speech transcript was used; genuine unprimed listening and dated cultural references remain waiting.",
+              "name": "historical_architecture_clocks_and_audio",
+              "result": "pass_with_limits"
+            },
+            {
+              "evidence": "Finding/current reports target owner and selectedreviewers. No unsupported participant identity or private contact is promoted. Git ls-files contains nine tooling/template/fictionalfixture files only, currentHEAD8c9fc89; research/docs/registers/evidence/localroots are excluded. Request and neutral guide are UNSENT; holdings/access unconfirmed where appropriate; owner fee/contact/submission decisions remain external. This review sent no message to outside parties and performed no submission/spending.",
+              "name": "privacy_audience_and_external_actions",
+              "result": "pass"
+            },
+            {
+              "evidence": "Reviewer reopened official FBI Requesting Records page on2026-11-08 during this review. Current text confirms eFOIPA or letter route, RIDS Initial Processing Operations Unit, name/address, detailed incident description and fee-limit choice. Draft remains unsent and requires owner private fields/recheckbeforeaction. This is review verification, not a newincidentfinding or legaladvice. URL: https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/freedom-of-information-privacy-act/requesting-fbi-records",
+              "name": "current_agency_instruction_review",
+              "result": "pass_with_limits"
+            },
+            {
+              "evidence": "SRCH56-58/FNDmetadata state new_to_project only and priorpublished/host exposure. AI reviews are reasoning checks, not factual corroboration. No RFspecialist determination is implied; historicalmechanism work explicitly needs datedevidence and qualified review.",
+              "name": "novelty_and_specialist_scope",
+              "result": "pass_with_limits"
+            },
+            {
+              "evidence": "Read durable92test publicpackage proof,54workflow proof,8US3/US4,11US5,12US6exercise results and freshreader59PASS output. Did not rerun alltests. Personally ran readonly records/cycle --verify-files: ready, FND1shareable_for_selected_reviewers. Three earlier sessions have coherent historicalclosure; SES4active doesnotclaimcompletion. Saved STATUS/currentINVpreface recover next3ownedactions and waits.",
+              "name": "tests_and_saved_state",
+              "result": "pass_with_limits"
+            },
+            {
+              "evidence": "Read durable final-state-reader.json: actual separate no-chat instance recovered milestone/question, FND1moderateconfidence/exact evidence, HYP8/9changes, gaps/waits/reopening and exactlythreeownedactions; correctly identified finalclosurepending. Read changed delivery-review.md/STATUS/INVcheckpoints and TASK11r4done outputs/result. Onlythree prior filebasis items changed and onlyTASK11 oldrecordrevision changed; FND1r2/CYC1r6/source/claim/asset bases remain unchanged. Updated prose distinguishes completed research/review work from effective finalclosure. SES4 remainsactive until commandownedclosure; finalreview deliberately excludes allsessions and specs/tasks.md bookkeeping.",
+              "name": "actual_T082_and_final_handoff_replacement",
+              "result": "pass_with_limits"
+            },
+            {
+              "evidence": "RVW7 is preservedhistorically; its basis was legitimatelyupdated by finalreader/handoffnotes. This replacement binds current finalfiles/TASK11. Rootwillmaterialize thisreview, thencloseSES4 andrun delivery --verify-files; only a matching confirmedsnapshot/receipt/mirroredcontrol makesfinalcompletioneffective. No coverednotes/register edits are authorized by thisreview afterthatconfirmation withoutnewprotection.",
+              "name": "final_closure_acceptance_condition",
+              "result": "pending_expected"
+            }
+          ],
+          "critique": [],
+          "summary": "Accept the updated final first-delivery handoff for exact protected closure. Re-inspected the three changed narrative files, TASK-0011 r4 and the actual second fresh-reader result. Research/finding/source bases are unchanged; two actual no-chat recoveries passed. T067/T068 remain unperformed conditional waits. No substantive blocker found. This replacement review does not certify a final snapshot or effective session completion before close-session and read-only verification."
+        },
+        "id": "RVW-0008",
+        "preferred_theory_exposure": "not_blind",
+        "review_type": "milestone",
+        "reviewed_at": "2026-11-08T21:14:51.268395+00:00",
+        "reviewer_identity": "/root/delivery_review",
+        "reviewer_instance": "/root/delivery_review:T081-T082-final-replacement:2026-11-08T21:14:51.268395+00:00",
+        "reviewer_type": "AI agent, actual separate instance from author",
+        "revision": 1,
+        "schema_version": 1,
+        "superseded_review_id": "RVW-0007",
+        "target": {
+          "basis_files": [
+            {
+              "byte_count": 5497,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "docs/STATUS.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/docs/STATUS.md"
+              },
+              "sha256": "523e7aaa7f917f8169edf56f6f27544a5d344f74f9b807244e4a0fb0587f5bf8"
+            },
+            {
+              "byte_count": 30678,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "INVESTIGATION_PLAN.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/INVESTIGATION_PLAN.md"
+              },
+              "sha256": "647fdb012542338c1b9aafba2f44ec10092d9759a391b5eadc01080f02b258a2"
+            },
+            {
+              "byte_count": 14369,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "docs/METHODS.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/docs/METHODS.md"
+              },
+              "sha256": "14457f0f790d70926fc31fe6b341f47d213e444422fe4ae6b5a3802ebc89500b"
+            },
+            {
+              "byte_count": 8492,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "docs/DECISIONS.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/docs/DECISIONS.md"
+              },
+              "sha256": "0f98e3ba013a242fa7ef7135cf46f72a5b3ad4b3a7a04cd32fa18552f7fa7f0d"
+            },
+            {
+              "byte_count": 3204,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/milestones/workstreams.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/workstreams.md"
+              },
+              "sha256": "9a50b25f40172bd7bca6932359c86e0e9e2c637923df2e49695ac9a170aefa5b"
+            },
+            {
+              "byte_count": 4162,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/FND-0001.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/findings/FND-0001.md"
+              },
+              "sha256": "1193a27b6e8166e77508a5f6f44834da0d15e340106a5e2c2f5bf8366e7c21f0"
+            },
+            {
+              "byte_count": 4263,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/FND-0001.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/findings/FND-0001.json"
+              },
+              "sha256": "c75f5d24d5d697b4a7569edab55686bd8342aa90836974053320e0211138a453"
+            },
+            {
+              "byte_count": 11332,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/cycles/CYC-0001.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/cycles/CYC-0001.json"
+              },
+              "sha256": "eb6a884276f5d3e56a03f3d1152ef20abd6b6958001bc8cb6f125a0af771ef69"
+            },
+            {
+              "byte_count": 2818,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/cycles/CYC-0001.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/cycles/CYC-0001.md"
+              },
+              "sha256": "3df3740bb2707e9a336f079419539bb79a3c81fce963ebc0522ff4021525f540"
+            },
+            {
+              "byte_count": 4191,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/media-comparison/compare_recordings.py"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/media-comparison/compare_recordings.py"
+              },
+              "sha256": "7734b54338033c9b2a1aafb749690d056c9670d899f8f8b03acbc40859367f82"
+            },
+            {
+              "byte_count": 2872,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/media-comparison/comparison-report.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/media-comparison/comparison-report.md"
+              },
+              "sha256": "5a42b59aee998b56c10e8e19b5ea4bb689bb45bd74ef8a53e2ae93dca08638f5"
+            },
+            {
+              "byte_count": 8568,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/media-comparison/recording-inventory.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/media-comparison/recording-inventory.md"
+              },
+              "sha256": "0cd4d9054f37d4b3aa4dcdcb6212a0002cbf61f87a4d349fcc093655d1746767"
+            },
+            {
+              "byte_count": 5692,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/chronology/source-map.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/chronology/source-map.md"
+              },
+              "sha256": "df7305bba06d432b9b95fe859dd4a18dde806777d8d137ff578aecaffe4283e0"
+            },
+            {
+              "byte_count": 8805,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/chronology/timeline.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/chronology/timeline.md"
+              },
+              "sha256": "8968d895d298a15e70b995b53c7d3fb10d2ea3148ae9751ec0a535c5202ac27b"
+            },
+            {
+              "byte_count": 9533,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/chronology/contradictions.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/chronology/contradictions.md"
+              },
+              "sha256": "556866e6a4e975b792a24d9663879c27f64bc308db3a8a573ba22f72c2c79495"
+            },
+            {
+              "byte_count": 1308,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/chronology/image-text-check.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/chronology/image-text-check.md"
+              },
+              "sha256": "16272355e7f75799c6429b7ed893737ed1770677ed16991634018dd21a9b5cd2"
+            },
+            {
+              "byte_count": 4343,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/engineering/signal-paths.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/engineering/signal-paths.md"
+              },
+              "sha256": "272fcfcc19a1a68f85e8e0be1705f35bf57f1a2e9cb9077ff4123786f934446b"
+            },
+            {
+              "byte_count": 4064,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/engineering/assumptions.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/engineering/assumptions.md"
+              },
+              "sha256": "a8f2fec7f9df229da5b1f743d36f5e5e2023de4ca1b6f86c3162915ae8ed07b4"
+            },
+            {
+              "byte_count": 3591,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/engineering/explanation-comparison.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/engineering/explanation-comparison.md"
+              },
+              "sha256": "6cfeb30760b8bae194557ed03b15620ad7d9636fa5a8adeade89c707f03c1c67"
+            },
+            {
+              "byte_count": 7750,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/records/inventory.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/records/inventory.md"
+              },
+              "sha256": "18eebbd5e749687e7b3c4016a46f681a73305d8d860fa6a1f71afab115d6e52d"
+            },
+            {
+              "byte_count": 4170,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/requests/record-request.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/requests/record-request.md"
+              },
+              "sha256": "85240258f3d7d3ccd3d842709a71d862f94fe20175c591673ae8c0e289dc7eb1"
+            },
+            {
+              "byte_count": 3433,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/interviews/neutral-guide.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/interviews/neutral-guide.md"
+              },
+              "sha256": "743b3ffae0799e6de8f9fdce2262fb393ee9b754344c5d9fcfad8a238f1aac2a"
+            },
+            {
+              "byte_count": 2422,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "analysis/culture/reference-catalog.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/analysis/culture/reference-catalog.md"
+              },
+              "sha256": "751ffac771e1a4938c1943c0804243533e115dcf1fbe202ebfb55b40aee4f143"
+            },
+            {
+              "byte_count": 1681,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "derived/transcripts/README.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/derived/transcripts/README.md"
+              },
+              "sha256": "c53bc05947c817f964e8ba2b82c50cce7d3a4f59b9908d647108996211b774c0"
+            },
+            {
+              "byte_count": 3459,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "docs/inspections/2026-11-08-records-rendered.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/docs/inspections/2026-11-08-records-rendered.json"
+              },
+              "sha256": "eb89594473f1a67abeec73a522047160452d2c4aa6fe63a7b7f419395b2b436d"
+            },
+            {
+              "byte_count": 34999,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "docs/inspections/2026-11-08-records-research.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/docs/inspections/2026-11-08-records-research.json"
+              },
+              "sha256": "1afe800a7c61bb9ccb39fe145860bd43533873d15617b971565d97c910374b95"
+            },
+            {
+              "byte_count": 11722,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/milestones/exercises/saved-state-reader.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/saved-state-reader.json"
+              },
+              "sha256": "2550d7877aacc5de75ec2328b182a2ba4fa3e785ce484a784e8ec94415bea746"
+            },
+            {
+              "byte_count": 2578,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/milestones/exercises/us3-us4-exercise.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/us3-us4-exercise.json"
+              },
+              "sha256": "bd164a40aa51a09036a5f556fab66ffd71c8cbaa94f512da113d706143b4f638"
+            },
+            {
+              "byte_count": 5951,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/milestones/exercises/us5-exercise.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/us5-exercise.json"
+              },
+              "sha256": "18c805a7541a98c9c907e5a75a9520192f44368d2acf90e4f028915a895dcb65"
+            },
+            {
+              "byte_count": 12015,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/milestones/exercises/us6-exercise.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/us6-exercise.json"
+              },
+              "sha256": "6392c8f80d0d22585c2173c45b386179700633699d8bd2bc3b7da9e2fee660a2"
+            },
+            {
+              "byte_count": 16630,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/milestones/exercises/public-package-check.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/public-package-check.json"
+              },
+              "sha256": "ae154e1fb7557b8e8900f5278d5155eb6dc904e51341d2f76e6c99d80cf4db9a"
+            },
+            {
+              "byte_count": 3778,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/milestones/exercises/public-package-check.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/public-package-check.md"
+              },
+              "sha256": "fed9a4f9806bd305967c4321c720ec2505e699f88342a750fc5e6d34469b6f9e"
+            },
+            {
+              "byte_count": 1392,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/milestones/exercises/quickstart-completion.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/quickstart-completion.json"
+              },
+              "sha256": "cab38b89fb86d7183716fc9b2713ca44254348bcd4b70f72f0c4a5f1d39b8178"
+            },
+            {
+              "byte_count": 1449,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "README.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/README.md"
+              },
+              "sha256": "aed61e015ed17a869152a9b878a183e74ab4a75f50d757eeedad7c583c4f7477"
+            },
+            {
+              "byte_count": 528,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": ".gitignore"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/.gitignore"
+              },
+              "sha256": "eca572aac980775727b85823d33b16656a4c9c6f41f678e5d2ab57b5aff88549"
+            },
+            {
+              "byte_count": 1617,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "config/storage.local.example.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/config/storage.local.example.json"
+              },
+              "sha256": "0965ea356b53896d47a0223e1980b905de28bf6e06b34204387006cb42bec378"
+            },
+            {
+              "byte_count": 107734,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "tools/dossier.py"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/tools/dossier.py"
+              },
+              "sha256": "0e5a2919c74f93b766d922eb17b4a3420799066f410a5c6e8adbe5357ef831c5"
+            },
+            {
+              "byte_count": 43826,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "specs/001-investigation-dossier/spec.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/specs/001-investigation-dossier/spec.md"
+              },
+              "sha256": "dd23eac3e16d8945c0fe82c413c324b88ccf61be452ddc4e4ac6e10f5ddb16c4"
+            },
+            {
+              "byte_count": 15407,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": ".specify/memory/constitution.md"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/.specify/memory/constitution.md"
+              },
+              "sha256": "297f3a04b2dba16189cef2bd6bc5c8e1496767c8b71dcb3cd08f9e722d49c69b"
+            },
+            {
+              "byte_count": 148462,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "derived/frames/records-pages/AST-0011-page-1.png"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/records-pages/AST-0011-page-1.png"
+              },
+              "sha256": "e2647604c3285008f61702d779317de6728297a764ec8b2ed57fc128f264a15d"
+            },
+            {
+              "byte_count": 232629,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "derived/frames/records-pages/AST-0011-page-4.png"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/records-pages/AST-0011-page-4.png"
+              },
+              "sha256": "2ca728985c5f8f89f4ff723d4952f6ab7ac1346229d3c0fc67b1a528c049c7a4"
+            },
+            {
+              "byte_count": 478993,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "derived/frames/records-pages/AST-0011-page-5.png"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/records-pages/AST-0011-page-5.png"
+              },
+              "sha256": "8d4b591e7ecaf5a7237db8e31931d801c8b639d3110868517e6515d806f2791c"
+            },
+            {
+              "byte_count": 341972,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "derived/frames/records-pages/AST-0012-page-1.png"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/records-pages/AST-0012-page-1.png"
+              },
+              "sha256": "719b95174e424815c44f870ba92d44c0a31a357e9a785d1d1a8bd7841c6c7685"
+            },
+            {
+              "byte_count": 333681,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "derived/frames/records-pages/AST-0012-page-2.png"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/records-pages/AST-0012-page-2.png"
+              },
+              "sha256": "66c4de4487a98c3bc49ddeedb8bed37c3db1e864502f8dcc1a31034e9befbb4e"
+            },
+            {
+              "byte_count": 2501596,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "derived/frames/CYC-0001-retry/AST-0013-contact.png"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/CYC-0001-retry/AST-0013-contact.png"
+              },
+              "sha256": "949817a5886eec720c2a6b5fe626db9386bed4345434c15b803b5ac89e6858f2"
+            },
+            {
+              "byte_count": 57359,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "derived/frames/CYC-0001-retry/AST-0013-end.png"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/CYC-0001-retry/AST-0013-end.png"
+              },
+              "sha256": "619fe4ece6e57ab3d38c4d0c0653e0b7445d2a060aaea4eac34c412ea288be9c"
+            },
+            {
+              "byte_count": 7251536,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "derived/frames/CYC-0001-retry/AST-0014-contact.png"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/CYC-0001-retry/AST-0014-contact.png"
+              },
+              "sha256": "88507d073fccb9d3ce1dde6137a9415bca13a7d934d3832783d80ff27367fb73"
+            },
+            {
+              "byte_count": 796075,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "derived/frames/CYC-0001-retry/AST-0014-end.png"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/CYC-0001-retry/AST-0014-end.png"
+              },
+              "sha256": "854e5f520a2d2493d13dfc438a0b1d8b7db642294fd63999841dbf0884959a7e"
+            },
+            {
+              "byte_count": 11186,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "derived/frames/CYC-0001-retry/manifest.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/derived/frames/CYC-0001-retry/manifest.json"
+              },
+              "sha256": "d1606fb7085d232b701da09b340491c9ecdc14992421f6bc684349e54c913e5c"
+            },
+            {
+              "byte_count": 12475,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/milestones/exercises/final-state-reader.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/milestones/exercises/final-state-reader.json"
+              },
+              "sha256": "a3b323e10ec405374952e29d66242eaf9a97d2376f5860d32ae4bf18e8e9f61a"
+            },
+            {
+              "byte_count": 60360,
+              "file": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/RVW-0007.json"
+              },
+              "reviewed_copy": {
+                "access_limit": "Private owner/selected-reviewer research state",
+                "alias": "project",
+                "relative_path": "reports/findings/reviews/artifacts/RVW-0008/basis/reports/findings/reviews/RVW-0007.json"
+              },
+              "sha256": "f8bdca9d09c61c64e9ce74613a0fad30f5a1761acb1c49798cb2dfeac4b0bdc4"
+            }
+          ],
+          "basis_records": [
+            {
+              "id": "SRC-0001",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0002",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0003",
+              "revision": 3
+            },
+            {
+              "id": "SRC-0004",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0005",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0006",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0007",
+              "revision": 2
+            },
+            {
+              "id": "SRC-0008",
+              "revision": 4
+            },
+            {
+              "id": "SRC-0009",
+              "revision": 4
+            },
+            {
+              "id": "SRC-0010",
+              "revision": 3
+            },
+            {
+              "id": "SRC-0011",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0012",
+              "revision": 3
+            },
+            {
+              "id": "SRC-0013",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0014",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0015",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0016",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0017",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0018",
+              "revision": 3
+            },
+            {
+              "id": "SRC-0019",
+              "revision": 3
+            },
+            {
+              "id": "SRC-0020",
+              "revision": 3
+            },
+            {
+              "id": "SRC-0021",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0022",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0023",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0024",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0025",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0026",
+              "revision": 1
+            },
+            {
+              "id": "SRC-0027",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0001",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0002",
+              "revision": 2
+            },
+            {
+              "id": "CLM-0003",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0004",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0005",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0006",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0007",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0008",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0009",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0010",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0011",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0012",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0013",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0014",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0015",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0016",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0017",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0018",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0019",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0020",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0021",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0022",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0023",
+              "revision": 1
+            },
+            {
+              "id": "CLM-0024",
+              "revision": 1
+            },
+            {
+              "id": "EVT-0001",
+              "revision": 2
+            },
+            {
+              "id": "EVT-0002",
+              "revision": 1
+            },
+            {
+              "id": "EVT-0003",
+              "revision": 1
+            },
+            {
+              "id": "EVT-0004",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0001",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0002",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0003",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0004",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0005",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0006",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0007",
+              "revision": 1
+            },
+            {
+              "id": "HYP-0008",
+              "revision": 2
+            },
+            {
+              "id": "HYP-0009",
+              "revision": 2
+            },
+            {
+              "id": "TASK-0001",
+              "revision": 3
+            },
+            {
+              "id": "TASK-0002",
+              "revision": 4
+            },
+            {
+              "id": "TASK-0003",
+              "revision": 3
+            },
+            {
+              "id": "TASK-0004",
+              "revision": 3
+            },
+            {
+              "id": "TASK-0005",
+              "revision": 3
+            },
+            {
+              "id": "TASK-0006",
+              "revision": 3
+            },
+            {
+              "id": "TASK-0007",
+              "revision": 2
+            },
+            {
+              "id": "TASK-0008",
+              "revision": 2
+            },
+            {
+              "id": "TASK-0009",
+              "revision": 3
+            },
+            {
+              "id": "TASK-0010",
+              "revision": 3
+            },
+            {
+              "id": "TASK-0011",
+              "revision": 4
+            },
+            {
+              "id": "SRCH-0001",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0002",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0003",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0004",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0005",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0006",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0007",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0008",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0009",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0010",
+              "revision": 2
+            },
+            {
+              "id": "SRCH-0011",
+              "revision": 2
+            },
+            {
+              "id": "SRCH-0012",
+              "revision": 2
+            },
+            {
+              "id": "SRCH-0013",
+              "revision": 2
+            },
+            {
+              "id": "SRCH-0014",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0015",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0016",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0017",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0018",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0019",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0020",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0021",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0022",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0023",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0024",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0025",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0026",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0027",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0028",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0029",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0030",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0031",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0032",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0033",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0034",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0035",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0036",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0037",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0038",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0039",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0040",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0041",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0042",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0043",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0044",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0045",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0046",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0047",
+              "revision": 2
+            },
+            {
+              "id": "SRCH-0048",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0049",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0050",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0051",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0052",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0053",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0054",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0055",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0056",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0057",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0058",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0059",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0060",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0061",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0062",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0063",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0064",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0065",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0066",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0067",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0068",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0069",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0070",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0071",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0072",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0073",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0074",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0075",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0076",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0077",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0078",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0079",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0080",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0081",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0082",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0083",
+              "revision": 1
+            },
+            {
+              "id": "SRCH-0084",
+              "revision": 1
+            },
+            {
+              "id": "AST-0001",
+              "revision": 1
+            },
+            {
+              "id": "AST-0002",
+              "revision": 1
+            },
+            {
+              "id": "AST-0003",
+              "revision": 1
+            },
+            {
+              "id": "AST-0004",
+              "revision": 1
+            },
+            {
+              "id": "AST-0005",
+              "revision": 1
+            },
+            {
+              "id": "AST-0006",
+              "revision": 1
+            },
+            {
+              "id": "AST-0007",
+              "revision": 1
+            },
+            {
+              "id": "AST-0008",
+              "revision": 1
+            },
+            {
+              "id": "AST-0009",
+              "revision": 1
+            },
+            {
+              "id": "AST-0010",
+              "revision": 1
+            },
+            {
+              "id": "AST-0011",
+              "revision": 1
+            },
+            {
+              "id": "AST-0012",
+              "revision": 1
+            },
+            {
+              "id": "AST-0013",
+              "revision": 1
+            },
+            {
+              "id": "AST-0014",
+              "revision": 1
+            },
+            {
+              "id": "AST-0015",
+              "revision": 1
+            },
+            {
+              "id": "AST-0016",
+              "revision": 1
+            },
+            {
+              "id": "AST-0017",
+              "revision": 1
+            },
+            {
+              "id": "AST-0018",
+              "revision": 1
+            },
+            {
+              "id": "AST-0019",
+              "revision": 1
+            },
+            {
+              "id": "AST-0020",
+              "revision": 1
+            },
+            {
+              "id": "AST-0021",
+              "revision": 1
+            },
+            {
+              "id": "AST-0022",
+              "revision": 1
+            },
+            {
+              "id": "AST-0023",
+              "revision": 2
+            },
+            {
+              "id": "AST-0024",
+              "revision": 2
+            },
+            {
+              "id": "AST-0025",
+              "revision": 2
+            },
+            {
+              "id": "AST-0026",
+              "revision": 2
+            },
+            {
+              "id": "AST-0027",
+              "revision": 2
+            },
+            {
+              "id": "AST-0028",
+              "revision": 2
+            },
+            {
+              "id": "AST-0029",
+              "revision": 2
+            },
+            {
+              "id": "AST-0030",
+              "revision": 2
+            },
+            {
+              "id": "AST-0031",
+              "revision": 2
+            },
+            {
+              "id": "AST-0032",
+              "revision": 2
+            },
+            {
+              "id": "CYC-0001",
+              "revision": 6
+            },
+            {
+              "id": "FND-0001",
+              "revision": 2
+            },
+            {
+              "id": "RVW-0001",
+              "revision": 1
+            },
+            {
+              "id": "RVW-0002",
+              "revision": 1
+            },
+            {
+              "id": "RVW-0003",
+              "revision": 1
+            },
+            {
+              "id": "RVW-0004",
+              "revision": 1
+            },
+            {
+              "id": "RVW-0005",
+              "revision": 1
+            },
+            {
+              "id": "RVW-0006",
+              "revision": 1
+            },
+            {
+              "id": "RVW-0007",
+              "revision": 1
+            },
+            {
+              "id": "BAK-0001",
+              "revision": 1
+            },
+            {
+              "id": "BAK-0002",
+              "revision": 1
+            },
+            {
+              "id": "BAK-0003",
+              "revision": 1
+            },
+            {
+              "id": "BAK-0004",
+              "revision": 1
+            },
+            {
+              "id": "BAK-0005",
+              "revision": 1
+            },
+            {
+              "id": "BAK-0006",
+              "revision": 1
+            },
+            {
+              "id": "BAK-0007",
+              "revision": 1
+            },
+            {
+              "id": "BAK-0008",
+              "revision": 1
+            },
+            {
+              "id": "BAK-0009",
+              "revision": 1
+            },
+            {
+              "id": "BAK-0010",
+              "revision": 1
+            }
+          ],
+          "byte_count": 11061,
+          "document": {
+            "access_limit": "Private owner/selected-reviewer research state",
+            "alias": "project",
+            "relative_path": "reports/milestones/delivery-review.md"
+          },
+          "kind": "milestone_document",
+          "milestone": "review",
+          "reviewed_copy": {
+            "access_limit": "Private owner/selected-reviewer research state",
+            "alias": "project",
+            "relative_path": "reports/findings/reviews/artifacts/RVW-0008/document.md"
+          },
+          "sha256": "79119e446e8c0ad065b22c5d8afdaec5bed1cb17feaddf31ba35e0896e629524"
+        },
+        "unknowns": {},
+        "unresolved_specialist_questions": [
+          "Not blind to author result; AI agreement adds no factual corroboration.",
+          "No audio listening or independent word transcription performed; T067/T068 remain waiting and no disputed words enter finding.",
+          "Contact sampling can miss brief intermediate frames; no historical phase measurement or capture authentication.",
+          "Third-party agency copies and incomplete release/custody context remain unverified; Q1notlinkedtoonlineassets.",
+          "Not a qualified historical RFengineering assessment; dated as-built records and specialist review required for strongermechanism claims.",
+          "Same-C backup is separate-copy protection, not drive-loss protection. FinalSES4 snapshot/mirror and read-onlydeliverygate remain essential acceptance conditions."
+        ]
+      }
+    }
+  ],
+  "reason": "Preserve actual separate review review; no factual corroboration implied",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

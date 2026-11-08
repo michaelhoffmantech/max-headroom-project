@@ -1,0 +1,162 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T20:53:17.886871+00:00",
+  "id": "CHG-0038",
+  "intended_final_file_manifest": {
+    "evidence/metadata/assets/AST-0014.json": {
+      "byte_count": 1562,
+      "sha256": "c865a24e63b84da2eed0a8c8166a1b1b5d27bad78988075e51f391f40338d261"
+    },
+    "registers/sources.csv": {
+      "byte_count": 40270,
+      "sha256": "cd63e4abb96c66ee333926b53a1f1ac00fe1019e7915e10891128ebd5c035feb"
+    }
+  },
+  "operations": [
+    {
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T20:53:17.795857+00:00",
+        "actor": "research_assistant",
+        "byte_count": 5608429,
+        "capture_date": null,
+        "completeness": null,
+        "created_at": "2026-11-08T20:53:17.795953+00:00",
+        "digitization_history": "Exact public download; prior conversion/cropping/timing losses unknown",
+        "id": "AST-0014",
+        "input_asset_ids": [],
+        "input_locators": [],
+        "kind": "acquired_original",
+        "known_edits": [],
+        "original_media_history": "Host attribution only; original capture and tape chain unverified",
+        "processing": null,
+        "provenance_limits": "Acquired original means unchanged downloaded bytes, not original1987 master; actual capture/feed/generation/edits unknown",
+        "receiver_feed": null,
+        "restrictions": "Private owner/selected-reviewer research only; host licensing assertion not independently adjudicated",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "0b4cf98b3fb0f212bdfe82e2e55a38fbd5b0eaa18c8dcc268de2bd1edcbb0672",
+        "source_id": "SRC-0020",
+        "storage": {
+          "access_limit": "Private owner/selected-reviewer research only; host licensing assertion not independently adjudicated",
+          "alias": "primary_evidence",
+          "relative_path": "AST-0014/wgn-archive.mp4"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not yet established; do not infer.",
+          "completeness": "Not yet established; do not infer.",
+          "processing": "Not yet established; do not infer.",
+          "receiver_feed": "Not yet established; do not infer.",
+          "tape_generation": "Not yet established; do not infer."
+        }
+      }
+    },
+    {
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Unknown capture/uploader lineage",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0020",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No full source inspection claimed",
+          "linked_media": "uninspected",
+          "text": "uninspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Concrete baseline lead; physical capture/feed/tape/digitization relationship unknown; no independence assumed",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer inspection only",
+        "retired": false,
+        "retrieval_status": "not_attempted",
+        "revision": 1,
+        "source_locator": "https://archive.org/download/maxheadroom/1st%20incident.mp4",
+        "source_type": "Public candidate recording download",
+        "title": "Internet Archive maxheadroom item: 1st incident.mp4",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [
+          "AST-0014"
+        ],
+        "completeness": "unknown",
+        "creator": "Unknown capture/uploader lineage",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0020",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No full source inspection claimed",
+          "linked_media": "uninspected",
+          "text": "uninspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Concrete baseline lead; physical capture/feed/tape/digitization relationship unknown; no independence assumed",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer inspection only",
+        "retired": false,
+        "retrieval_status": "not_attempted",
+        "revision": 2,
+        "source_locator": "https://archive.org/download/maxheadroom/1st%20incident.mp4",
+        "source_type": "Public candidate recording download",
+        "title": "Internet Archive maxheadroom item: 1st incident.mp4",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      }
+    }
+  ],
+  "reason": "Register unchanged supplied acquisition",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

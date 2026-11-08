@@ -1,0 +1,477 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T20:59:07.995953+00:00",
+  "id": "CHG-0044",
+  "intended_final_file_manifest": {
+    "analysis/cycles/CYC-0001.json": {
+      "byte_count": 11332,
+      "sha256": "eb6a884276f5d3e56a03f3d1152ef20abd6b6958001bc8cb6f125a0af771ef69"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "cycles",
+      "previous": {
+        "actor": "research_assistant",
+        "alternatives": [
+          "HYP-0008: all successfully acquired selected files contain visible return",
+          "HYP-0009: at least one successfully acquired selected file lacks visible return before file end"
+        ],
+        "analysis_input_manifest": [
+          {
+            "id": "AST-0013",
+            "revision": 1,
+            "sha256": "840aa371bede576eae925793e600d6cd9b647ed0f608880baa35ceb8a46b7224"
+          },
+          {
+            "id": "AST-0014",
+            "revision": 1,
+            "sha256": "0b4cf98b3fb0f212bdfe82e2e55a38fbd5b0eaa18c8dcc268de2bd1edcbb0672"
+          },
+          {
+            "id": "CLM-0001",
+            "revision": 1,
+            "sha256": "870db863faf62808b9fd37748f0903abe1775ec0341011ea8285e834a1f78423"
+          },
+          {
+            "id": "CLM-0002",
+            "revision": 2,
+            "sha256": "f4642a3a40bb81236070f5cb94819b0ceab1aade135d959b2fa610cf6cae9593"
+          }
+        ],
+        "analysis_started_at": "2026-11-08T20:53:53.699132+00:00",
+        "analysis_tool_manifest": [
+          {
+            "arguments": [
+              "-version"
+            ],
+            "checked_at": "2026-11-08T20:53:53.508885+00:00",
+            "executable": "ffmpeg",
+            "probe_command": [
+              "C:\\dev\\max-headroom-project\\work\\bin\\ffmpeg.EXE",
+              "-version"
+            ],
+            "resolved_path": "C:\\dev\\max-headroom-project\\work\\bin\\ffmpeg.EXE",
+            "version": "9.0.2-essentials_build-www.gyan.dev",
+            "version_output": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+          }
+        ],
+        "created_at": "2026-11-08T20:52:12.897093+00:00",
+        "dependencies": [
+          {
+            "id": "TASK-0004"
+          }
+        ],
+        "evidence_needs": [
+          "Selected existing lead SRC-0012 Commons WGN original uploaded file, plus concrete Internet Archive maxheadroom/1st incident.mp4 lead already encountered in baseline; acquire exact bytes without account/DRM bypass. If unavailable retain barrier; at least one actual decoded file is essential.",
+          "Preserve unchanged download and private backup before any probe. Inspect one-second contact sheet plus dense final 3 seconds; use native final frames when ambiguity remains. Decode all frames, inspect stream metadata and blackdetect d=0.1:pix_th=0.1:pic_th=0.98. No speech reading or identity inference.",
+          "Use file-relative decoded timestamps only. Record FFmpeg version/hash, all commands/logs/input/output hashes. Contact sheets are reduced viewing derivatives, not recovered detail. Compare crop/quality/common visible content qualitatively; independent capture not presumed."
+        ],
+        "expected_output": "CYC-0001 method/result, protected inputs, reproducible frames/logs/comparison and a qualified file-completeness finding with separate review",
+        "finding_ids": [
+          "FND-0001"
+        ],
+        "frozen_at": "2026-11-08T20:52:13.081262+00:00",
+        "frozen_plan_sha256": "c1e39b8bdcd035bb15602e7110e77d60fe04c088901ed34bb48c5329c291e4e6",
+        "hidden_assumptions": [
+          "Visible return is recognizable in acquired imagery; uncertain cases remain unresolved",
+          "Downloaded object matches the recorded public endpoint, not necessarily an original capture"
+        ],
+        "hypothesis_changes": [
+          {
+            "from": "untested",
+            "id": "HYP-0008",
+            "reason": "Qualified acquired-file counterexample; sampling prevents absolute exclusion",
+            "to": "weakened"
+          },
+          {
+            "from": "untested",
+            "id": "HYP-0009",
+            "reason": "Inspected Commons terminal sequence lacks return whereas Archive visibly returns",
+            "to": "supported"
+          }
+        ],
+        "id": "CYC-0001",
+        "input_assets": [
+          {
+            "id": "AST-0013",
+            "revision": 1,
+            "sha256": "840aa371bede576eae925793e600d6cd9b647ed0f608880baa35ceb8a46b7224"
+          },
+          {
+            "id": "AST-0014",
+            "revision": 1,
+            "sha256": "0b4cf98b3fb0f212bdfe82e2e55a38fbd5b0eaa18c8dcc268de2bd1edcbb0672"
+          }
+        ],
+        "input_claims": [
+          {
+            "id": "CLM-0001",
+            "revision": 1
+          },
+          {
+            "id": "CLM-0002",
+            "revision": 2
+          }
+        ],
+        "limitations": [
+          "Original capture date/feed/tape generation/digitization/independence unknown for both files",
+          "Sampled images can miss a very brief return; precise phase boundaries not measured",
+          "Similar mask/backdrop movement is qualitative; different crop, watermark/resolution/encoding prohibit assumed independent corroboration",
+          "Audio decoded for error check, not listened/transcribed; continuity, pitch and disputed wording remain unassessed",
+          "Container runtime33.23/97.55s is not intrusion duration; Archive contains surrounding program material",
+          "Blackdetect threshold events are file-pixel statistics, not proof of RF failure; initial/final acquired streams are progressive/encoded and cannot recover lost analog/interlace detail"
+        ],
+        "method": {
+          "derivatives": [
+            "AST-0015",
+            "AST-0016",
+            "AST-0017",
+            "AST-0018",
+            "AST-0019",
+            "AST-0020",
+            "AST-0021",
+            "AST-0022"
+          ],
+          "deviations": [
+            "Initial run retained under derived/frames/CYC-0001. Seeking final0.1containersecond yielded no Archive video frame despite exit0, due tail/seek ambiguity. Retried full-stream reverse extraction, recording failure. Contact-sheet grid expanded from6x6 to cover actual97.55s file. Predictions unchanged."
+          ],
+          "finished_at": "2026-11-08T20:54:38.958607+00:00",
+          "inputs": [
+            "AST-0013",
+            "AST-0014"
+          ],
+          "manifest": "derived/frames/CYC-0001-retry/manifest.json",
+          "script": "analysis/media-comparison/compare_recordings.py",
+          "started_at": "2026-11-08T20:54:32.334443+00:00",
+          "steps": [
+            "Full video/audio decode to null; blackdetect fixed d0.1/pix_th0.1/pic_th0.98; full frame MD5/timebase output",
+            "One-second contact sheets over complete container runtime; final3seconds5fps; native terminal video frame",
+            "Root visually inspected all six successful viewing images; no speech listening or transcript used"
+          ],
+          "tool_manifest": {
+            "byte_count": 105423872,
+            "executable": "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "sha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec"
+          }
+        },
+        "necessary_conditions": [
+          {
+            "description": "A file can support a restoration-boundary measurement only if recognizable post-intrusion context is actually present; file length alone is insufficient."
+          }
+        ],
+        "plan": {
+          "alternatives": [
+            "HYP-0008: all successfully acquired selected files contain visible return",
+            "HYP-0009: at least one successfully acquired selected file lacks visible return before file end"
+          ],
+          "dependencies": [
+            {
+              "id": "TASK-0004"
+            }
+          ],
+          "evidence_needs": [
+            "Selected existing lead SRC-0012 Commons WGN original uploaded file, plus concrete Internet Archive maxheadroom/1st incident.mp4 lead already encountered in baseline; acquire exact bytes without account/DRM bypass. If unavailable retain barrier; at least one actual decoded file is essential.",
+            "Preserve unchanged download and private backup before any probe. Inspect one-second contact sheet plus dense final 3 seconds; use native final frames when ambiguity remains. Decode all frames, inspect stream metadata and blackdetect d=0.1:pix_th=0.1:pic_th=0.98. No speech reading or identity inference.",
+            "Use file-relative decoded timestamps only. Record FFmpeg version/hash, all commands/logs/input/output hashes. Contact sheets are reduced viewing derivatives, not recovered detail. Compare crop/quality/common visible content qualitatively; independent capture not presumed."
+          ],
+          "expected_output": "CYC-0001 method/result, protected inputs, reproducible frames/logs/comparison and a qualified file-completeness finding with separate review",
+          "necessary_conditions": [
+            {
+              "description": "A file can support a restoration-boundary measurement only if recognizable post-intrusion context is actually present; file length alone is insufficient."
+            }
+          ],
+          "predictions": [
+            {
+              "description": "A decoded candidate ending in masked imagery or black with no subsequent program/studio imagery contradicts HYP-0008 within this acquired set and supports HYP-0009."
+            },
+            {
+              "description": "If every decoded candidate visibly returns, HYP-0008 is supported for this set; neither result authenticates the 1987 broadcast or yields a broadcast-clock duration."
+            },
+            {
+              "description": "Unreadable/ambiguous terminal imagery leaves the relevant candidate unresolved, not proof of truncation."
+            }
+          ],
+          "question": "Do the selected acquired WGN candidate files retain visible studio/program return, or is at least one incomplete for that boundary?",
+          "timebox": "One bounded acquisition/analysis session; maximum two selected candidates with one retry per public endpoint; reassess barriers instead of broadening collection"
+        },
+        "planned_by": "/root",
+        "predictions": [
+          {
+            "description": "A decoded candidate ending in masked imagery or black with no subsequent program/studio imagery contradicts HYP-0008 within this acquired set and supports HYP-0009."
+          },
+          {
+            "description": "If every decoded candidate visibly returns, HYP-0008 is supported for this set; neither result authenticates the 1987 broadcast or yields a broadcast-clock duration."
+          },
+          {
+            "description": "Unreadable/ambiguous terminal imagery leaves the relevant candidate unresolved, not proof of truncation."
+          }
+        ],
+        "question": "Do the selected acquired WGN candidate files retain visible studio/program return, or is at least one incomplete for that boundary?",
+        "reopening_condition": "A new fuller/higher-generation file or decode correction justifies a new prospectively frozen cycle",
+        "required_tools": [
+          {
+            "arguments": [
+              "-version"
+            ],
+            "executable": "ffmpeg",
+            "expected_version": "9.0.2-essentials_build-www.gyan.dev"
+          }
+        ],
+        "result": "Within the selected acquired digital files, Commons AST-0013 lacks recognizable return in the inspected sampled/terminal sequence; Archive AST-0014 visibly contains a post-mask studio return. The all-context alternative HYP-0008 is weakened, HYP-0009 supported with sampling/capture limits. No hypothesis is ruled out and H1-H7 remain untested.",
+        "reversal_evidence": "Decode error, overlooked return frames, changed file, or authenticated fuller capture can reverse or limit file-specific conclusions; new bytes require a new AST/new cycle.",
+        "revision": 5,
+        "schema_version": 1,
+        "search_ids": [
+          "SRCH-0052",
+          "SRCH-0053",
+          "SRCH-0054",
+          "SRCH-0055",
+          "SRCH-0056",
+          "SRCH-0057",
+          "SRCH-0058"
+        ],
+        "source_dependence": "Commons attributes a Museum upload; Internet Archive capture chain is unknown. Do not count agreement as independent corroboration.",
+        "state": "tested",
+        "stopping_condition": "Stop after selected files and bounded retries; unacquired inputs remain access gaps",
+        "strongest_alternative": "Return may be obscured/ambiguous rather than absent; candidate edits/encoding and declared common lineage limit historical inference.",
+        "test_performed": true,
+        "timebox": "One bounded acquisition/analysis session; maximum two selected candidates with one retry per public endpoint; reassess barriers instead of broadening collection",
+        "unknowns": {}
+      },
+      "proposed": {
+        "actor": "research_assistant",
+        "alternatives": [
+          "HYP-0008: all successfully acquired selected files contain visible return",
+          "HYP-0009: at least one successfully acquired selected file lacks visible return before file end"
+        ],
+        "analysis_input_manifest": [
+          {
+            "id": "AST-0013",
+            "revision": 1,
+            "sha256": "840aa371bede576eae925793e600d6cd9b647ed0f608880baa35ceb8a46b7224"
+          },
+          {
+            "id": "AST-0014",
+            "revision": 1,
+            "sha256": "0b4cf98b3fb0f212bdfe82e2e55a38fbd5b0eaa18c8dcc268de2bd1edcbb0672"
+          },
+          {
+            "id": "CLM-0001",
+            "revision": 1,
+            "sha256": "870db863faf62808b9fd37748f0903abe1775ec0341011ea8285e834a1f78423"
+          },
+          {
+            "id": "CLM-0002",
+            "revision": 2,
+            "sha256": "f4642a3a40bb81236070f5cb94819b0ceab1aade135d959b2fa610cf6cae9593"
+          }
+        ],
+        "analysis_started_at": "2026-11-08T20:53:53.699132+00:00",
+        "analysis_tool_manifest": [
+          {
+            "arguments": [
+              "-version"
+            ],
+            "checked_at": "2026-11-08T20:53:53.508885+00:00",
+            "executable": "ffmpeg",
+            "probe_command": [
+              "C:\\dev\\max-headroom-project\\work\\bin\\ffmpeg.EXE",
+              "-version"
+            ],
+            "resolved_path": "C:\\dev\\max-headroom-project\\work\\bin\\ffmpeg.EXE",
+            "version": "9.0.2-essentials_build-www.gyan.dev",
+            "version_output": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+          }
+        ],
+        "created_at": "2026-11-08T20:52:12.897093+00:00",
+        "dependencies": [
+          {
+            "id": "TASK-0004"
+          }
+        ],
+        "evidence_needs": [
+          "Selected existing lead SRC-0012 Commons WGN original uploaded file, plus concrete Internet Archive maxheadroom/1st incident.mp4 lead already encountered in baseline; acquire exact bytes without account/DRM bypass. If unavailable retain barrier; at least one actual decoded file is essential.",
+          "Preserve unchanged download and private backup before any probe. Inspect one-second contact sheet plus dense final 3 seconds; use native final frames when ambiguity remains. Decode all frames, inspect stream metadata and blackdetect d=0.1:pix_th=0.1:pic_th=0.98. No speech reading or identity inference.",
+          "Use file-relative decoded timestamps only. Record FFmpeg version/hash, all commands/logs/input/output hashes. Contact sheets are reduced viewing derivatives, not recovered detail. Compare crop/quality/common visible content qualitatively; independent capture not presumed."
+        ],
+        "expected_output": "CYC-0001 method/result, protected inputs, reproducible frames/logs/comparison and a qualified file-completeness finding with separate review",
+        "finding_ids": [
+          "FND-0001"
+        ],
+        "frozen_at": "2026-11-08T20:52:13.081262+00:00",
+        "frozen_plan_sha256": "c1e39b8bdcd035bb15602e7110e77d60fe04c088901ed34bb48c5329c291e4e6",
+        "hidden_assumptions": [
+          "Visible return is recognizable in acquired imagery; uncertain cases remain unresolved",
+          "Downloaded object matches the recorded public endpoint, not necessarily an original capture"
+        ],
+        "hypothesis_changes": [
+          {
+            "from": "untested",
+            "id": "HYP-0008",
+            "reason": "Qualified acquired-file counterexample; sampling prevents absolute exclusion",
+            "to": "weakened"
+          },
+          {
+            "from": "untested",
+            "id": "HYP-0009",
+            "reason": "Inspected Commons terminal sequence lacks return whereas Archive visibly returns",
+            "to": "supported"
+          }
+        ],
+        "id": "CYC-0001",
+        "input_assets": [
+          {
+            "id": "AST-0013",
+            "revision": 1,
+            "sha256": "840aa371bede576eae925793e600d6cd9b647ed0f608880baa35ceb8a46b7224"
+          },
+          {
+            "id": "AST-0014",
+            "revision": 1,
+            "sha256": "0b4cf98b3fb0f212bdfe82e2e55a38fbd5b0eaa18c8dcc268de2bd1edcbb0672"
+          }
+        ],
+        "input_claims": [
+          {
+            "id": "CLM-0001",
+            "revision": 1
+          },
+          {
+            "id": "CLM-0002",
+            "revision": 2
+          }
+        ],
+        "limitations": [
+          "Original capture date/feed/tape generation/digitization/independence unknown for both files",
+          "Sampled images can miss a very brief return; precise phase boundaries not measured",
+          "Similar mask/backdrop movement is qualitative; different crop, watermark/resolution/encoding prohibit assumed independent corroboration",
+          "Audio decoded for error check, not listened/transcribed; continuity, pitch and disputed wording remain unassessed",
+          "Container runtime33.23/97.55s is not intrusion duration; Archive contains surrounding program material",
+          "Blackdetect threshold events are file-pixel statistics, not proof of RF failure; initial/final acquired streams are progressive/encoded and cannot recover lost analog/interlace detail"
+        ],
+        "method": {
+          "derivatives": [
+            "AST-0015",
+            "AST-0016",
+            "AST-0017",
+            "AST-0018",
+            "AST-0019",
+            "AST-0020",
+            "AST-0021",
+            "AST-0022"
+          ],
+          "deviations": [
+            "Initial run retained under derived/frames/CYC-0001. Seeking final0.1containersecond yielded no Archive video frame despite exit0, due tail/seek ambiguity. Retried full-stream reverse extraction, recording failure. Contact-sheet grid expanded from6x6 to cover actual97.55s file. Predictions unchanged."
+          ],
+          "finished_at": "2026-11-08T20:54:38.958607+00:00",
+          "inputs": [
+            "AST-0013",
+            "AST-0014"
+          ],
+          "manifest": "derived/frames/CYC-0001-retry/manifest.json",
+          "script": "analysis/media-comparison/compare_recordings.py",
+          "started_at": "2026-11-08T20:54:32.334443+00:00",
+          "steps": [
+            "Full video/audio decode to null; blackdetect fixed d0.1/pix_th0.1/pic_th0.98; full frame MD5/timebase output",
+            "One-second contact sheets over complete container runtime; final3seconds5fps; native terminal video frame",
+            "Root visually inspected all six successful viewing images; no speech listening or transcript used"
+          ],
+          "tool_manifest": {
+            "byte_count": 105423872,
+            "executable": "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "sha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec"
+          }
+        },
+        "necessary_conditions": [
+          {
+            "description": "A file can support a restoration-boundary measurement only if recognizable post-intrusion context is actually present; file length alone is insufficient."
+          }
+        ],
+        "plan": {
+          "alternatives": [
+            "HYP-0008: all successfully acquired selected files contain visible return",
+            "HYP-0009: at least one successfully acquired selected file lacks visible return before file end"
+          ],
+          "dependencies": [
+            {
+              "id": "TASK-0004"
+            }
+          ],
+          "evidence_needs": [
+            "Selected existing lead SRC-0012 Commons WGN original uploaded file, plus concrete Internet Archive maxheadroom/1st incident.mp4 lead already encountered in baseline; acquire exact bytes without account/DRM bypass. If unavailable retain barrier; at least one actual decoded file is essential.",
+            "Preserve unchanged download and private backup before any probe. Inspect one-second contact sheet plus dense final 3 seconds; use native final frames when ambiguity remains. Decode all frames, inspect stream metadata and blackdetect d=0.1:pix_th=0.1:pic_th=0.98. No speech reading or identity inference.",
+            "Use file-relative decoded timestamps only. Record FFmpeg version/hash, all commands/logs/input/output hashes. Contact sheets are reduced viewing derivatives, not recovered detail. Compare crop/quality/common visible content qualitatively; independent capture not presumed."
+          ],
+          "expected_output": "CYC-0001 method/result, protected inputs, reproducible frames/logs/comparison and a qualified file-completeness finding with separate review",
+          "necessary_conditions": [
+            {
+              "description": "A file can support a restoration-boundary measurement only if recognizable post-intrusion context is actually present; file length alone is insufficient."
+            }
+          ],
+          "predictions": [
+            {
+              "description": "A decoded candidate ending in masked imagery or black with no subsequent program/studio imagery contradicts HYP-0008 within this acquired set and supports HYP-0009."
+            },
+            {
+              "description": "If every decoded candidate visibly returns, HYP-0008 is supported for this set; neither result authenticates the 1987 broadcast or yields a broadcast-clock duration."
+            },
+            {
+              "description": "Unreadable/ambiguous terminal imagery leaves the relevant candidate unresolved, not proof of truncation."
+            }
+          ],
+          "question": "Do the selected acquired WGN candidate files retain visible studio/program return, or is at least one incomplete for that boundary?",
+          "timebox": "One bounded acquisition/analysis session; maximum two selected candidates with one retry per public endpoint; reassess barriers instead of broadening collection"
+        },
+        "planned_by": "/root",
+        "predictions": [
+          {
+            "description": "A decoded candidate ending in masked imagery or black with no subsequent program/studio imagery contradicts HYP-0008 within this acquired set and supports HYP-0009."
+          },
+          {
+            "description": "If every decoded candidate visibly returns, HYP-0008 is supported for this set; neither result authenticates the 1987 broadcast or yields a broadcast-clock duration."
+          },
+          {
+            "description": "Unreadable/ambiguous terminal imagery leaves the relevant candidate unresolved, not proof of truncation."
+          }
+        ],
+        "question": "Do the selected acquired WGN candidate files retain visible studio/program return, or is at least one incomplete for that boundary?",
+        "reopening_condition": "A new fuller/higher-generation file or decode correction justifies a new prospectively frozen cycle",
+        "required_tools": [
+          {
+            "arguments": [
+              "-version"
+            ],
+            "executable": "ffmpeg",
+            "expected_version": "9.0.2-essentials_build-www.gyan.dev"
+          }
+        ],
+        "result": "Within the selected acquired digital files, Commons AST-0013 lacks recognizable return in the inspected sampled/terminal sequence; Archive AST-0014 visibly contains a post-mask studio return. The all-context alternative HYP-0008 is weakened, HYP-0009 supported with sampling/capture limits. No hypothesis is ruled out and H1-H7 remain untested.",
+        "reversal_evidence": "Decode error, overlooked return frames, changed file, or authenticated fuller capture can reverse or limit file-specific conclusions; new bytes require a new AST/new cycle.",
+        "revision": 6,
+        "schema_version": 1,
+        "search_ids": [
+          "SRCH-0052",
+          "SRCH-0053",
+          "SRCH-0054",
+          "SRCH-0055",
+          "SRCH-0056",
+          "SRCH-0057",
+          "SRCH-0058"
+        ],
+        "source_dependence": "Commons attributes a Museum upload; Internet Archive capture chain is unknown. Do not count agreement as independent corroboration.",
+        "state": "reviewed",
+        "stopping_condition": "Stop after selected files and bounded retries; unacquired inputs remain access gaps",
+        "strongest_alternative": "Return may be obscured/ambiguous rather than absent; candidate edits/encoding and declared common lineage limit historical inference.",
+        "test_performed": true,
+        "timebox": "One bounded acquisition/analysis session; maximum two selected candidates with one retry per public endpoint; reassess barriers instead of broadening collection",
+        "unknowns": {}
+      }
+    }
+  ],
+  "reason": "Actual separate reviewer accepted the performed cycle with limits; preserve reviewed state before fixed finding review basis",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

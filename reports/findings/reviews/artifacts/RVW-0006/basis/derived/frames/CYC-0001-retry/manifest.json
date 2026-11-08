@@ -1,0 +1,286 @@
+{
+  "cycle_id": "CYC-0001",
+  "finished_at": "2026-11-08T20:54:38.958607+00:00",
+  "inputs": [
+    {
+      "asset_id": "AST-0013",
+      "commands": [
+        {
+          "arguments": [
+            "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "-hide_banner",
+            "-nostdin",
+            "-i",
+            "C:\\dev\\max-headroom-project\\evidence\\originals\\AST-0013\\wgn-commons.webm",
+            "-vf",
+            "blackdetect=d=0.1:pix_th=0.1:pic_th=0.98",
+            "-f",
+            "null",
+            "-"
+          ],
+          "byte_count": 2260,
+          "log": "derived/frames/CYC-0001-retry/AST-0013-decode.log",
+          "returncode": 0,
+          "sha256": "36dad77ec54468ac26be5d1dd8993ec9df393d01f3528e21fe1507fbc0055e71"
+        },
+        {
+          "arguments": [
+            "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "-hide_banner",
+            "-nostdin",
+            "-i",
+            "C:\\dev\\max-headroom-project\\evidence\\originals\\AST-0013\\wgn-commons.webm",
+            "-vf",
+            "fps=1,scale=320:-1,tile=6x6",
+            "-frames:v",
+            "1",
+            "-update",
+            "1",
+            "C:\\dev\\max-headroom-project\\derived\\frames\\CYC-0001-retry\\AST-0013-contact.png"
+          ],
+          "byte_count": 1743,
+          "log": "derived/frames/CYC-0001-retry/AST-0013-contact.png.log",
+          "returncode": 0,
+          "sha256": "a529b97c144d6f03419c300823babbf97fac1b71781109246e0f87758dc5a4f7"
+        },
+        {
+          "arguments": [
+            "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "-hide_banner",
+            "-nostdin",
+            "-sseof",
+            "-3",
+            "-i",
+            "C:\\dev\\max-headroom-project\\evidence\\originals\\AST-0013\\wgn-commons.webm",
+            "-vf",
+            "fps=5,scale=320:-1,tile=5x3",
+            "-frames:v",
+            "1",
+            "-update",
+            "1",
+            "C:\\dev\\max-headroom-project\\derived\\frames\\CYC-0001-retry\\AST-0013-end.png"
+          ],
+          "byte_count": 1639,
+          "log": "derived/frames/CYC-0001-retry/AST-0013-end.png.log",
+          "returncode": 0,
+          "sha256": "1e85c727e34503a414286812ca0749492a7a5abb8a92f56271f2addbbeded51f"
+        },
+        {
+          "arguments": [
+            "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "-hide_banner",
+            "-nostdin",
+            "-i",
+            "C:\\dev\\max-headroom-project\\evidence\\originals\\AST-0013\\wgn-commons.webm",
+            "-an",
+            "-vf",
+            "reverse",
+            "-frames:v",
+            "1",
+            "-update",
+            "1",
+            "C:\\dev\\max-headroom-project\\derived\\frames\\CYC-0001-retry\\AST-0013-last.png"
+          ],
+          "byte_count": 1642,
+          "log": "derived/frames/CYC-0001-retry/AST-0013-last.png.log",
+          "returncode": 0,
+          "sha256": "95af8767b4cb1f52b46fa0bfd53ebd3ae74c8ca0c02c45d6dc0af547f1108363"
+        },
+        {
+          "arguments": [
+            "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "-hide_banner",
+            "-nostdin",
+            "-i",
+            "C:\\dev\\max-headroom-project\\evidence\\originals\\AST-0013\\wgn-commons.webm",
+            "-map",
+            "0:v:0",
+            "-an",
+            "-f",
+            "framemd5",
+            "C:\\dev\\max-headroom-project\\derived\\frames\\CYC-0001-retry\\AST-0013-frames.md5"
+          ],
+          "byte_count": 1806,
+          "log": "derived/frames/CYC-0001-retry/AST-0013-frames.md5.log",
+          "returncode": 0,
+          "sha256": "29f01fcda3c1c889a1dbde3d93c7ce13e033170de6b34e1ca02cb45fdf41130a"
+        }
+      ],
+      "container_duration_seconds": 33.23,
+      "input_sha256": "840aa371bede576eae925793e600d6cd9b647ed0f608880baa35ceb8a46b7224",
+      "outputs": [
+        {
+          "byte_count": 2501596,
+          "notes": "one-second samples from file start; row-major 6columns; empty trailing tiles are padding",
+          "path": "derived/frames/CYC-0001-retry/AST-0013-contact.png",
+          "sha256": "949817a5886eec720c2a6b5fe626db9386bed4345434c15b803b5ac89e6858f2"
+        },
+        {
+          "byte_count": 57359,
+          "notes": "final3seconds sampled5fps; seek/decoder time alignment is approximate, not exact historical boundary",
+          "path": "derived/frames/CYC-0001-retry/AST-0013-end.png",
+          "sha256": "619fe4ece6e57ab3d38c4d0c0653e0b7445d2a060aaea4eac34c412ea288be9c"
+        },
+        {
+          "byte_count": 17466,
+          "notes": "last decoded video frame from full stream reversal; native decoded resolution; avoids audio/container-tail seek ambiguity",
+          "path": "derived/frames/CYC-0001-retry/AST-0013-last.png",
+          "sha256": "258949adca68ce505eeac91dbc6887ce3b6c5c017a522570d9a28c96322fc3a0"
+        },
+        {
+          "byte_count": 79820,
+          "notes": "all decoded video frames; unscaled checksums and timebase in header",
+          "path": "derived/frames/CYC-0001-retry/AST-0013-frames.md5",
+          "sha256": "8c6e3e64b1a98b1f2fd17b1e8a673763a9f7777faa621bb468b26fdc0ad09c65"
+        }
+      ],
+      "source_id": "SRC-0012"
+    },
+    {
+      "asset_id": "AST-0014",
+      "commands": [
+        {
+          "arguments": [
+            "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "-hide_banner",
+            "-nostdin",
+            "-i",
+            "C:\\dev\\max-headroom-project\\evidence\\originals\\AST-0014\\wgn-archive.mp4",
+            "-vf",
+            "blackdetect=d=0.1:pix_th=0.1:pic_th=0.98",
+            "-f",
+            "null",
+            "-"
+          ],
+          "byte_count": 2268,
+          "log": "derived/frames/CYC-0001-retry/AST-0014-decode.log",
+          "returncode": 0,
+          "sha256": "aacc31a978e3d8be51284b1573c637c1d36ec1f2fb28ffd6e4a072a1ff981ba4"
+        },
+        {
+          "arguments": [
+            "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "-hide_banner",
+            "-nostdin",
+            "-i",
+            "C:\\dev\\max-headroom-project\\evidence\\originals\\AST-0014\\wgn-archive.mp4",
+            "-vf",
+            "fps=1,scale=320:-1,tile=6x17",
+            "-frames:v",
+            "1",
+            "-update",
+            "1",
+            "C:\\dev\\max-headroom-project\\derived\\frames\\CYC-0001-retry\\AST-0014-contact.png"
+          ],
+          "byte_count": 1643,
+          "log": "derived/frames/CYC-0001-retry/AST-0014-contact.png.log",
+          "returncode": 0,
+          "sha256": "9dcbb929877ab990cdb35d2e2d406827d83d28aff37908c5e30a81047f9b0472"
+        },
+        {
+          "arguments": [
+            "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "-hide_banner",
+            "-nostdin",
+            "-sseof",
+            "-3",
+            "-i",
+            "C:\\dev\\max-headroom-project\\evidence\\originals\\AST-0014\\wgn-archive.mp4",
+            "-vf",
+            "fps=5,scale=320:-1,tile=5x3",
+            "-frames:v",
+            "1",
+            "-update",
+            "1",
+            "C:\\dev\\max-headroom-project\\derived\\frames\\CYC-0001-retry\\AST-0014-end.png"
+          ],
+          "byte_count": 1538,
+          "log": "derived/frames/CYC-0001-retry/AST-0014-end.png.log",
+          "returncode": 0,
+          "sha256": "4ca92cdfe327b6cbfcbc0d4e3d7d02cf3b01b242bcb6aead9141cb21cb81af68"
+        },
+        {
+          "arguments": [
+            "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "-hide_banner",
+            "-nostdin",
+            "-i",
+            "C:\\dev\\max-headroom-project\\evidence\\originals\\AST-0014\\wgn-archive.mp4",
+            "-an",
+            "-vf",
+            "reverse",
+            "-frames:v",
+            "1",
+            "-update",
+            "1",
+            "C:\\dev\\max-headroom-project\\derived\\frames\\CYC-0001-retry\\AST-0014-last.png"
+          ],
+          "byte_count": 1547,
+          "log": "derived/frames/CYC-0001-retry/AST-0014-last.png.log",
+          "returncode": 0,
+          "sha256": "28f3e4531b93ae66c4a4db4b16e34bc823bd6545dafbc9a50b86b794311d3214"
+        },
+        {
+          "arguments": [
+            "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+            "-hide_banner",
+            "-nostdin",
+            "-i",
+            "C:\\dev\\max-headroom-project\\evidence\\originals\\AST-0014\\wgn-archive.mp4",
+            "-map",
+            "0:v:0",
+            "-an",
+            "-f",
+            "framemd5",
+            "C:\\dev\\max-headroom-project\\derived\\frames\\CYC-0001-retry\\AST-0014-frames.md5"
+          ],
+          "byte_count": 1710,
+          "log": "derived/frames/CYC-0001-retry/AST-0014-frames.md5.log",
+          "returncode": 0,
+          "sha256": "79fe60dd5b00cf1b8f01941cb02e865f8a7a9694b59d723a1a6a328c7ba786e4"
+        }
+      ],
+      "container_duration_seconds": 97.55,
+      "input_sha256": "0b4cf98b3fb0f212bdfe82e2e55a38fbd5b0eaa18c8dcc268de2bd1edcbb0672",
+      "outputs": [
+        {
+          "byte_count": 7251536,
+          "notes": "one-second samples from file start; row-major 6columns; empty trailing tiles are padding",
+          "path": "derived/frames/CYC-0001-retry/AST-0014-contact.png",
+          "sha256": "88507d073fccb9d3ce1dde6137a9415bca13a7d934d3832783d80ff27367fb73"
+        },
+        {
+          "byte_count": 796075,
+          "notes": "final3seconds sampled5fps; seek/decoder time alignment is approximate, not exact historical boundary",
+          "path": "derived/frames/CYC-0001-retry/AST-0014-end.png",
+          "sha256": "854e5f520a2d2493d13dfc438a0b1d8b7db642294fd63999841dbf0884959a7e"
+        },
+        {
+          "byte_count": 5476,
+          "notes": "last decoded video frame from full stream reversal; native decoded resolution; avoids audio/container-tail seek ambiguity",
+          "path": "derived/frames/CYC-0001-retry/AST-0014-last.png",
+          "sha256": "1219d9aea52a4633d504c46615e1da1abfac6ac0f06f755fe8504ed1a0e006e5"
+        },
+        {
+          "byte_count": 233740,
+          "notes": "all decoded video frames; unscaled checksums and timebase in header",
+          "path": "derived/frames/CYC-0001-retry/AST-0014-frames.md5",
+          "sha256": "8faeff182a4545cb6fd658e87a542d7466e97b9c7046b4ef87e30979c0dc101c"
+        }
+      ],
+      "source_id": "SRC-0020"
+    }
+  ],
+  "limits": [
+    "File-relative decoded coordinates only; no broadcast timing/authenticity inference",
+    "Contact sheets reduced for viewing; final image native decoded resolution; no enhancement, deinterlacing, trimming of originals, or generative processing",
+    "Audio is decoded in the full null pass but not transcribed/listened to by this script; no disputed words asserted"
+  ],
+  "started_at": "2026-11-08T20:54:32.334443+00:00",
+  "tool": {
+    "byte_count": 105423872,
+    "executable": "C:/dev/max-headroom-project/work/bin/ffmpeg.exe",
+    "sha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec"
+  },
+  "version": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+}

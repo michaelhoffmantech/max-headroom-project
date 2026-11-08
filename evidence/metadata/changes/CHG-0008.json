@@ -1,0 +1,201 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T13:28:07.747428+00:00",
+  "id": "CHG-0008",
+  "intended_final_file_manifest": {
+    "docs/STATUS.md": {
+      "byte_count": 2464,
+      "sha256": "a617148ebe591a575f035f5e71837d920b59e4ba48f924c08c90b15d7161fddc"
+    },
+    "evidence/metadata/sessions/SES-0001.json": {
+      "byte_count": 2713,
+      "sha256": "b337113647ee87273d2e8aa14a76a87479f76f2e8c30d5cb41334a1d7bb33da5"
+    }
+  },
+  "operations": [
+    {
+      "entity_type": "sessions",
+      "previous": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": null,
+        "completed_task_outputs": [
+          {
+            "output_refs": [
+              "README.md",
+              "docs/METHODS.md",
+              "registers/"
+            ],
+            "result": "Usable six-register dossier and checked preservation tools",
+            "task_id": "TASK-0001"
+          },
+          {
+            "output_refs": [
+              "registers/sources.csv",
+              "registers/claims.csv",
+              "registers/searches.csv"
+            ],
+            "result": "Seven sources attempted with exact inspection/dependence limits",
+            "task_id": "TASK-0002"
+          },
+          {
+            "output_refs": [
+              "reports/milestones/foundation.md",
+              "reports/findings/reviews/RVW-0001.json"
+            ],
+            "result": "Actual separate usability review recommends continue",
+            "task_id": "T027"
+          }
+        ],
+        "created_at": "2026-11-07T22:36:27.684070+00:00",
+        "current_milestone": "foundation",
+        "current_question": "Foundation inspection and usability review completed; next stage is a bounded contemporary baseline survey",
+        "deferred_branches": [
+          "Detailed media interpretation awaits sources and review"
+        ],
+        "disagreements": [],
+        "final_handoff": null,
+        "findings": [],
+        "gaps": [
+          "No acquired or measured broadcast recording",
+          "CPL guide blocked; UPI direct retrieval blocked although indexed text inspected",
+          "Original station/FCC records and capture/session independence unverified"
+        ],
+        "hypothesis_changes": [],
+        "id": "SES-0001",
+        "intended_completion_at": null,
+        "intended_state": "active",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0002"
+            ],
+            "output": "Defined1987-11-23 through1987-11-30 reporting survey",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0002"
+            ],
+            "output": "WGN/WTTW recording inventory with capture/provenance gaps",
+            "owner": "AI; owner for personal copies"
+          },
+          {
+            "dependencies": [
+              "TASK-0003"
+            ],
+            "output": "Dated historical signal-path baseline with unsupported components explicit",
+            "owner": "AI"
+          }
+        ],
+        "reopening_condition": "Re-review foundation if evidence-model usability changes",
+        "reserved_receipt_id": null,
+        "revision": 2,
+        "schema_version": 1,
+        "started_at": "2026-11-07T22:36:27.684056+00:00",
+        "stopping_condition": "No foundation blocker remains; continue to baseline after this confirmed closure",
+        "unknowns": {
+          "closure_snapshot_id": "Not yet established; do not infer.",
+          "final_handoff": "Not yet established; do not infer.",
+          "intended_completion_at": "Not yet established; do not infer.",
+          "reserved_receipt_id": "Not yet established; do not infer."
+        },
+        "waits": [
+          "Private backup is an owner-selected C: directory and does not protect against loss of C:"
+        ]
+      },
+      "proposed": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": "BAK-0001",
+        "completed_task_outputs": [
+          {
+            "output_refs": [
+              "README.md",
+              "docs/METHODS.md",
+              "registers/"
+            ],
+            "result": "Usable six-register dossier and checked preservation tools",
+            "task_id": "TASK-0001"
+          },
+          {
+            "output_refs": [
+              "registers/sources.csv",
+              "registers/claims.csv",
+              "registers/searches.csv"
+            ],
+            "result": "Seven sources attempted with exact inspection/dependence limits",
+            "task_id": "TASK-0002"
+          },
+          {
+            "output_refs": [
+              "reports/milestones/foundation.md",
+              "reports/findings/reviews/RVW-0001.json"
+            ],
+            "result": "Actual separate usability review recommends continue",
+            "task_id": "T027"
+          }
+        ],
+        "created_at": "2026-11-07T22:36:27.684070+00:00",
+        "current_milestone": "foundation",
+        "current_question": "Foundation inspection and usability review completed; next stage is a bounded contemporary baseline survey",
+        "deferred_branches": [
+          "Detailed media interpretation awaits sources and review"
+        ],
+        "disagreements": [],
+        "final_handoff": {
+          "access_limit": "Private research state",
+          "alias": "project",
+          "relative_path": "docs/STATUS.md"
+        },
+        "findings": [],
+        "gaps": [
+          "No acquired or measured broadcast recording",
+          "CPL guide blocked; UPI direct retrieval blocked although indexed text inspected",
+          "Original station/FCC records and capture/session independence unverified"
+        ],
+        "hypothesis_changes": [],
+        "id": "SES-0001",
+        "intended_completion_at": "2026-11-08T13:28:07.704160+00:00",
+        "intended_state": "complete",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0002"
+            ],
+            "output": "Defined1987-11-23 through1987-11-30 reporting survey",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0002"
+            ],
+            "output": "WGN/WTTW recording inventory with capture/provenance gaps",
+            "owner": "AI; owner for personal copies"
+          },
+          {
+            "dependencies": [
+              "TASK-0003"
+            ],
+            "output": "Dated historical signal-path baseline with unsupported components explicit",
+            "owner": "AI"
+          }
+        ],
+        "reopening_condition": "Re-review foundation if evidence-model usability changes",
+        "reserved_receipt_id": "BAK-0001",
+        "revision": 3,
+        "schema_version": 1,
+        "started_at": "2026-11-07T22:36:27.684056+00:00",
+        "stopping_condition": "No foundation blocker remains; continue to baseline after this confirmed closure",
+        "unknowns": {},
+        "waits": [
+          "Private backup is an owner-selected C: directory and does not protect against loss of C:"
+        ]
+      }
+    }
+  ],
+  "reason": "Protect exact final session bytes before completion",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

@@ -1,0 +1,1393 @@
+{
+  "actor": "research_assistant",
+  "attempted_at": "2026-11-08T20:52:12.840982+00:00",
+  "confirmed_at": "2026-11-08T20:52:12.840991+00:00",
+  "covered_ids": [
+    "SES-0002"
+  ],
+  "created_at": "2026-11-08T20:52:12.841000+00:00",
+  "destination_alias": "backup",
+  "failure_domain": "Owner-selected private separate directory on C:. Verified copies protect against accidental changes, not failure or loss of C:.",
+  "failure_reason": null,
+  "id": "BAK-0005",
+  "limits": "Integrity only; no historical authentication",
+  "manifest": [
+    {
+      "backup_relative_path": "snapshots/BAK-0005/.specify/memory/constitution.md",
+      "byte_count": 15407,
+      "path": ".specify/memory/constitution.md",
+      "sha256": "297f3a04b2dba16189cef2bd6bc5c8e1496767c8b71dcb3cd08f9e722d49c69b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": ".specify/memory/constitution.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/INVESTIGATION_PLAN.md",
+      "byte_count": 28528,
+      "path": "INVESTIGATION_PLAN.md",
+      "sha256": "53ec61f0a36405f66e238445a55648cc0d4ec74eb87f053d01d0da563ae5c2aa",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "INVESTIGATION_PLAN.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/README.md",
+      "byte_count": 1449,
+      "path": "README.md",
+      "sha256": "aed61e015ed17a869152a9b878a183e74ab4a75f50d757eeedad7c583c4f7477",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "README.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/chronology/contradictions.md",
+      "byte_count": 9119,
+      "path": "analysis/chronology/contradictions.md",
+      "sha256": "b9dcfcde03fde496795f834fdabcea0887f5447dc287cb7b24d23c5057627999",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/chronology/contradictions.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/chronology/image-text-check.md",
+      "byte_count": 1308,
+      "path": "analysis/chronology/image-text-check.md",
+      "sha256": "16272355e7f75799c6429b7ed893737ed1770677ed16991634018dd21a9b5cd2",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/chronology/image-text-check.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/chronology/render_clippings.py",
+      "byte_count": 1424,
+      "path": "analysis/chronology/render_clippings.py",
+      "sha256": "df9e90d6c54740788fe16413bd3cc2fb51b94d96a41396cc3e6ee86faa5007f7",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/chronology/render_clippings.py"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/chronology/source-map.md",
+      "byte_count": 5692,
+      "path": "analysis/chronology/source-map.md",
+      "sha256": "df7305bba06d432b9b95fe859dd4a18dde806777d8d137ff578aecaffe4283e0",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/chronology/source-map.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/chronology/timeline.md",
+      "byte_count": 8805,
+      "path": "analysis/chronology/timeline.md",
+      "sha256": "8968d895d298a15e70b995b53c7d3fb10d2ea3148ae9751ec0a535c5202ac27b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/chronology/timeline.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/culture/README.md",
+      "byte_count": 1996,
+      "path": "analysis/culture/README.md",
+      "sha256": "dda72b4846af1cd10a41f8c7eccb47c31af118d6f5bccafcc07ddfd046fbf782",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/culture/README.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/culture/reference-catalog.md",
+      "byte_count": 2422,
+      "path": "analysis/culture/reference-catalog.md",
+      "sha256": "751ffac771e1a4938c1943c0804243533e115dcf1fbe202ebfb55b40aee4f143",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/culture/reference-catalog.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/cycles/README.md",
+      "byte_count": 3071,
+      "path": "analysis/cycles/README.md",
+      "sha256": "62bb4c6bf3aedcf82d09f8368cc67426c9d71fecc53a32198d013c2d81f160c2",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/cycles/README.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/engineering/assumptions.md",
+      "byte_count": 4064,
+      "path": "analysis/engineering/assumptions.md",
+      "sha256": "a8f2fec7f9df229da5b1f743d36f5e5e2023de4ca1b6f86c3162915ae8ed07b4",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/engineering/assumptions.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/engineering/explanation-comparison.md",
+      "byte_count": 3591,
+      "path": "analysis/engineering/explanation-comparison.md",
+      "sha256": "6cfeb30760b8bae194557ed03b15620ad7d9636fa5a8adeade89c707f03c1c67",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/engineering/explanation-comparison.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/engineering/signal-paths.md",
+      "byte_count": 4343,
+      "path": "analysis/engineering/signal-paths.md",
+      "sha256": "272fcfcc19a1a68f85e8e0be1705f35bf57f1a2e9cb9077ff4123786f934446b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/engineering/signal-paths.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/media-comparison/README.md",
+      "byte_count": 2514,
+      "path": "analysis/media-comparison/README.md",
+      "sha256": "3c51575b9f3f538dd5c176194ce423ecd9ee0662d3b50a263ffa65b56cc17f67",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/media-comparison/README.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/analysis/media-comparison/recording-inventory.md",
+      "byte_count": 7850,
+      "path": "analysis/media-comparison/recording-inventory.md",
+      "sha256": "cd3a7cbe141254f82e2e53cdf76bdafb543fb511cd536ea4b7cef921155ab911",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "analysis/media-comparison/recording-inventory.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/config/dossier.json",
+      "byte_count": 1705,
+      "path": "config/dossier.json",
+      "sha256": "f8491f75836320f1e6084809c840a664e1f21d0d94c74bac42b3cce01cca5be7",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "config/dossier.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/config/seed-records.json",
+      "byte_count": 50520,
+      "path": "config/seed-records.json",
+      "sha256": "ad35994aad25722699ea71c449b56922203acff6dcdcd88df787aec7eafb7eee",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "config/seed-records.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/derived/frames/newspaper-pages/AST-0001-page-1.png",
+      "byte_count": 393320,
+      "path": "derived/frames/newspaper-pages/AST-0001-page-1.png",
+      "sha256": "31202b72ef1380aa73dea48ef4137b9fabe923646ba2beb2df24c086ed9418c8",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "derived/frames/newspaper-pages/AST-0001-page-1.png"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/derived/frames/newspaper-pages/AST-0001-page-2.png",
+      "byte_count": 454453,
+      "path": "derived/frames/newspaper-pages/AST-0001-page-2.png",
+      "sha256": "7a39b4a27f15cf4901398ba8fd24386c4a0d34f979d986671e4b02736f2f7e16",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "derived/frames/newspaper-pages/AST-0001-page-2.png"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/derived/frames/newspaper-pages/AST-0003-page-2.png",
+      "byte_count": 2802022,
+      "path": "derived/frames/newspaper-pages/AST-0003-page-2.png",
+      "sha256": "99f2385e64490c9f6e5ecf4ad3efa4e8a22732152ee2a900b2511f06a885cde1",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "derived/frames/newspaper-pages/AST-0003-page-2.png"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/derived/frames/newspaper-pages/AST-0003-page-6.png",
+      "byte_count": 3854114,
+      "path": "derived/frames/newspaper-pages/AST-0003-page-6.png",
+      "sha256": "b1866eb0f503946d5bea6c55f44337ac9699e1c1c6a2bfe78c383166573c19c4",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "derived/frames/newspaper-pages/AST-0003-page-6.png"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/derived/frames/newspaper-pages/AST-0003-page-80.png",
+      "byte_count": 4194191,
+      "path": "derived/frames/newspaper-pages/AST-0003-page-80.png",
+      "sha256": "b28809a540cf4fcd518f2b0b4ace6c39d15d4a757c2848212c3b44009904072b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "derived/frames/newspaper-pages/AST-0003-page-80.png"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/derived/frames/newspaper-pages/AST-0003-page-87.png",
+      "byte_count": 4196513,
+      "path": "derived/frames/newspaper-pages/AST-0003-page-87.png",
+      "sha256": "5f670714d55bd87d0010653fe38a007dff387ed49656b4fd8f43b7b8f13ef4b0",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "derived/frames/newspaper-pages/AST-0003-page-87.png"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/derived/frames/newspaper-pages/AST-0003-page-89.png",
+      "byte_count": 3826658,
+      "path": "derived/frames/newspaper-pages/AST-0003-page-89.png",
+      "sha256": "61f39e5f54e433c251145b1c30783d5eb7c919c66ba8dcd93c4b22c0b3e1f499",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "derived/frames/newspaper-pages/AST-0003-page-89.png"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/derived/transcripts/README.md",
+      "byte_count": 1681,
+      "path": "derived/transcripts/README.md",
+      "sha256": "c53bc05947c817f964e8ba2b82c50cce7d3a4f59b9908d647108996211b774c0",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "derived/transcripts/README.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/docs/DECISIONS.md",
+      "byte_count": 7736,
+      "path": "docs/DECISIONS.md",
+      "sha256": "9f7b90e20f1b536dcfad46d4c09a5b96bbb932b2883e80371e67be9371f384d3",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "docs/DECISIONS.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/docs/METHODS.md",
+      "byte_count": 14369,
+      "path": "docs/METHODS.md",
+      "sha256": "14457f0f790d70926fc31fe6b341f47d213e444422fe4ae6b5a3802ebc89500b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "docs/METHODS.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/docs/STATUS.md",
+      "byte_count": 2849,
+      "path": "docs/STATUS.md",
+      "sha256": "986ee3d506bb4a98db2b54c556fe1c5b4d3be12724b0ec41f90039eec9df3392",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "docs/STATUS.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/docs/inspections/2026-11-07-starter-notes.json",
+      "byte_count": 5758,
+      "path": "docs/inspections/2026-11-07-starter-notes.json",
+      "sha256": "9f441639cd30e4e835b52bd50fcb71127aabad20b1e0f987025e10f81cfe7d93",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "docs/inspections/2026-11-07-starter-notes.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/assets/AST-0001.json",
+      "byte_count": 1407,
+      "path": "evidence/metadata/assets/AST-0001.json",
+      "sha256": "481797588cc3e217bde13c9a0dd0665bf553c07abdad8496eb2ab36aa0962ff0",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/assets/AST-0001.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/assets/AST-0002.json",
+      "byte_count": 1410,
+      "path": "evidence/metadata/assets/AST-0002.json",
+      "sha256": "a7e4e93f80e1750469931aff689ecbce440b1ba82ac697dec7f192bc5e3273f4",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/assets/AST-0002.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/assets/AST-0003.json",
+      "byte_count": 1419,
+      "path": "evidence/metadata/assets/AST-0003.json",
+      "sha256": "95e59f2ed3907f7e99c897508828490712ad40920506e6e1bc9cebb24acca39f",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/assets/AST-0003.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/assets/AST-0004.json",
+      "byte_count": 2105,
+      "path": "evidence/metadata/assets/AST-0004.json",
+      "sha256": "e19697634b2e1ae6ca54d95954197da2a66854df878ad151280d12469d7e766f",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/assets/AST-0004.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/assets/AST-0005.json",
+      "byte_count": 2105,
+      "path": "evidence/metadata/assets/AST-0005.json",
+      "sha256": "03de654d1c34129dc69cc78df0d0ab28aef3173c6abfcff84fd3977051f2ef7d",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/assets/AST-0005.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/assets/AST-0006.json",
+      "byte_count": 2106,
+      "path": "evidence/metadata/assets/AST-0006.json",
+      "sha256": "c59f61af9175cf2a8651e7e6993edd83d4a3676880d416721a42100500810b08",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/assets/AST-0006.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/assets/AST-0007.json",
+      "byte_count": 2106,
+      "path": "evidence/metadata/assets/AST-0007.json",
+      "sha256": "cd46c01d895992ed07d78df266daac56740e093278046150e8239fb5d4dc579b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/assets/AST-0007.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/assets/AST-0008.json",
+      "byte_count": 2109,
+      "path": "evidence/metadata/assets/AST-0008.json",
+      "sha256": "828644d3058bafc1e1580335beaf0a78a4a69dea00f66ff8e5cf14afc146c968",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/assets/AST-0008.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/assets/AST-0009.json",
+      "byte_count": 2109,
+      "path": "evidence/metadata/assets/AST-0009.json",
+      "sha256": "993840c6cc5fa780b98890ca92b64f4d2e75abf794bf3143b3d310f81ce5659d",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/assets/AST-0009.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/assets/AST-0010.json",
+      "byte_count": 2109,
+      "path": "evidence/metadata/assets/AST-0010.json",
+      "sha256": "f38fd2eccd39c39cb7cc46c25dfa97d127e7ca3346f8a18028a5a56fa0890a5d",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/assets/AST-0010.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/backups/BAK-0001.json",
+      "byte_count": 26945,
+      "path": "evidence/metadata/backups/BAK-0001.json",
+      "sha256": "d018f8eea1a98b7556a45593e8bfc1ae1559f044fc8085775e243e4052364d79",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/backups/BAK-0001.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/backups/BAK-0002.json",
+      "byte_count": 1440,
+      "path": "evidence/metadata/backups/BAK-0002.json",
+      "sha256": "67c7754e9c13521322647df8e569c1b90789f7ca034048b2e86f73c21d01d7eb",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/backups/BAK-0002.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/backups/BAK-0003.json",
+      "byte_count": 1443,
+      "path": "evidence/metadata/backups/BAK-0003.json",
+      "sha256": "1bbc890f6eceebdfdda35c8825a79af60135e49470e20448cccfa991e407b132",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/backups/BAK-0003.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/backups/BAK-0004.json",
+      "byte_count": 1452,
+      "path": "evidence/metadata/backups/BAK-0004.json",
+      "sha256": "7db93db5185b640e9c2f0ee78ac6bb8120141ff59c93f454be1d2b90f3af0220",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/backups/BAK-0004.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0001.json",
+      "byte_count": 51691,
+      "path": "evidence/metadata/changes/CHG-0001.json",
+      "sha256": "3e65c3498f80183c54743ea0929d649e86596afc5262b641e064033f91ba5de4",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0001.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0002.json",
+      "byte_count": 2685,
+      "path": "evidence/metadata/changes/CHG-0002.json",
+      "sha256": "842e6608f29749a00ab52dfb3a94b042333de1e06bdfec12eae65890c6889968",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0002.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0003.json",
+      "byte_count": 5897,
+      "path": "evidence/metadata/changes/CHG-0003.json",
+      "sha256": "a666d49077093a58d890b97501eb95d91115c9f04c2b9affcb7f8217889074bc",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0003.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0004.json",
+      "byte_count": 64603,
+      "path": "evidence/metadata/changes/CHG-0004.json",
+      "sha256": "e98ad7d97959e5c935e9b6084e6d197ebffba2cf292dd0e81869ad810f14a912",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0004.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0005.json",
+      "byte_count": 6278,
+      "path": "evidence/metadata/changes/CHG-0005.json",
+      "sha256": "74d58846f898b1f68c035e412b128b688b57931fba444ffa13ddcbc8ee58ffbe",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0005.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0006.json",
+      "byte_count": 27458,
+      "path": "evidence/metadata/changes/CHG-0006.json",
+      "sha256": "aae8a43d73b9a899b455601dcbc3d22f7ee34705df4073d8997116b4685e8328",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0006.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0007.json",
+      "byte_count": 16050,
+      "path": "evidence/metadata/changes/CHG-0007.json",
+      "sha256": "6fc92c49dec5aa980d012fce69a06654332db90fef3b9aab65d8801dc9511b4b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0007.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0008.json",
+      "byte_count": 7266,
+      "path": "evidence/metadata/changes/CHG-0008.json",
+      "sha256": "7224d5712f1209ea8bf6e59f2e25cbf495ff0f7cd228c2676e340ff76975792b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0008.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0009.json",
+      "byte_count": 9612,
+      "path": "evidence/metadata/changes/CHG-0009.json",
+      "sha256": "15cbcd7f8233ca908fb3d433b19907c682c2c3484d5c796814c6eac0119316ca",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0009.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0010.json",
+      "byte_count": 22518,
+      "path": "evidence/metadata/changes/CHG-0010.json",
+      "sha256": "29b9eacaf51fae6e0241b5a4015eae3f1898c7ce0131af51807deb6dcc1be62e",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0010.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0011.json",
+      "byte_count": 6898,
+      "path": "evidence/metadata/changes/CHG-0011.json",
+      "sha256": "03249a839b0b789907c3dc31f471317b8e7f7c891da272d799bd6877897a4dcf",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0011.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0012.json",
+      "byte_count": 2199,
+      "path": "evidence/metadata/changes/CHG-0012.json",
+      "sha256": "757b06a4e9afdf611d2239a0e4542ee442cb930e56c39d28a5320cdda8370d0b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0012.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0013.json",
+      "byte_count": 6789,
+      "path": "evidence/metadata/changes/CHG-0013.json",
+      "sha256": "881e297e3cfa5242190c64f8bbfd79f022c5445246a428201076c13774affc3b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0013.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0014.json",
+      "byte_count": 2202,
+      "path": "evidence/metadata/changes/CHG-0014.json",
+      "sha256": "eb6041be6e15cd2835a9ce45d06b3d4f56ab73b7a11f3103d86e293f7bc50898",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0014.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0015.json",
+      "byte_count": 6830,
+      "path": "evidence/metadata/changes/CHG-0015.json",
+      "sha256": "02cc5b6d47f93ba3aa164c7645801ac2b02546d474f0c93d659e8ae00a0c60fd",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0015.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0016.json",
+      "byte_count": 2211,
+      "path": "evidence/metadata/changes/CHG-0016.json",
+      "sha256": "f2b51ed5c389b9b78102b7293969186e63d2e4b307f5a7e4d19db45cd4aef30c",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0016.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0017.json",
+      "byte_count": 34516,
+      "path": "evidence/metadata/changes/CHG-0017.json",
+      "sha256": "6d90ce575f16858939212ec2516fb06c012fb20bda29d030d9f0e4e6d75a83d3",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0017.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0018.json",
+      "byte_count": 18244,
+      "path": "evidence/metadata/changes/CHG-0018.json",
+      "sha256": "311aef121ca60bc936d42d58a373b21681848f85d1ea04a9d70362d77f761916",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0018.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0019.json",
+      "byte_count": 53559,
+      "path": "evidence/metadata/changes/CHG-0019.json",
+      "sha256": "789434973e4053b0628d7c2e35f7f3db4b280073fe83cc23472c9cbc8fa17fe6",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0019.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0020.json",
+      "byte_count": 26694,
+      "path": "evidence/metadata/changes/CHG-0020.json",
+      "sha256": "70e7ebfafe148f78fb3d4a45e81998029efc42f43acc00b7a34f6c35a3d3c95b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0020.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0021.json",
+      "byte_count": 29159,
+      "path": "evidence/metadata/changes/CHG-0021.json",
+      "sha256": "6ae23d163768c4b891e11ff0e6c22eac381358d536b76df43d291d9ea9fed33b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0021.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0022.json",
+      "byte_count": 6495,
+      "path": "evidence/metadata/changes/CHG-0022.json",
+      "sha256": "29cdb73480bafe3ed6390ec85e28b0a3fe6e1a49cf0a70ca4e849a02e8e73db4",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0022.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0023.json",
+      "byte_count": 39695,
+      "path": "evidence/metadata/changes/CHG-0023.json",
+      "sha256": "eda1d368c8461322f9d0380a59f9bc0298500f36560f1a5c0cd880770165958a",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0023.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0024.json",
+      "byte_count": 7807,
+      "path": "evidence/metadata/changes/CHG-0024.json",
+      "sha256": "cdd11ff329073c7fd97436b1605fe9e473f1ad0f46870ae1b1cff28f61f61e66",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0024.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/changes/CHG-0025.json",
+      "byte_count": 7830,
+      "path": "evidence/metadata/changes/CHG-0025.json",
+      "sha256": "3140ffd0301f348cf7e624a204fed6bdb1f48171ea67a91bc85de71afc9e105b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/changes/CHG-0025.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/sessions/SES-0001.json",
+      "byte_count": 2713,
+      "path": "evidence/metadata/sessions/SES-0001.json",
+      "sha256": "b337113647ee87273d2e8aa14a76a87479f76f2e8c30d5cb41334a1d7bb33da5",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/sessions/SES-0001.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/evidence/metadata/sessions/SES-0002.json",
+      "byte_count": 2971,
+      "path": "evidence/metadata/sessions/SES-0002.json",
+      "sha256": "6ff753a2986985685cb453b5d5ec76943711b7192d7723ba0a6fc4907fd9cde9",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "evidence/metadata/sessions/SES-0002.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/registers/claims.csv",
+      "byte_count": 17414,
+      "path": "registers/claims.csv",
+      "sha256": "3222efea79d404b10e14ebc1e69fbfd07f93a9f42fee95694dae77bbaaed9bbf",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "registers/claims.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/registers/hypotheses.csv",
+      "byte_count": 7123,
+      "path": "registers/hypotheses.csv",
+      "sha256": "73c3de5b0a0d28fc37519cdaeb7af753b6761bebd05e674e5322e58d8132c2ab",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "registers/hypotheses.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/registers/searches.csv",
+      "byte_count": 32052,
+      "path": "registers/searches.csv",
+      "sha256": "12c4869d9a70328ef595d744b22e2f56059081e7fd1d4eff04d53d693de095ba",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "registers/searches.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/registers/sources.csv",
+      "byte_count": 36219,
+      "path": "registers/sources.csv",
+      "sha256": "b0d58d41e35e0840b9d6d2c34eb52b3cc5d05a928daa2902fcc27cef33ef7d7f",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "registers/sources.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/registers/tasks.csv",
+      "byte_count": 12946,
+      "path": "registers/tasks.csv",
+      "sha256": "c7c391d66039e515552394289baf309b73f172f4b1defe82b0b09363ae869f91",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "registers/tasks.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/registers/timeline.csv",
+      "byte_count": 5401,
+      "path": "registers/timeline.csv",
+      "sha256": "3f75928b6b8a07070d724471314d9de40e73a7514824466275b79ae99a8ec38c",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "registers/timeline.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/README.md",
+      "byte_count": 2976,
+      "path": "reports/findings/README.md",
+      "sha256": "e79be980bf77779ce4f12b829e0bfcd85d3271aaa78f9d33eb9a069b7064ff6a",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/README.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/RVW-0001.json",
+      "byte_count": 20550,
+      "path": "reports/findings/reviews/RVW-0001.json",
+      "sha256": "9a1098454a3d1a2b0715b5c767b0cfee90368e3ece089b00d6e3d65a495c83d2",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/RVW-0001.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/RVW-0002.json",
+      "byte_count": 28857,
+      "path": "reports/findings/reviews/RVW-0002.json",
+      "sha256": "7ab56d16af57462e70a1836e76e9ce4e959f0d2cb6ad16505c444ba46e587ad2",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/RVW-0002.json"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/.specify/memory/constitution.md",
+      "byte_count": 15407,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/.specify/memory/constitution.md",
+      "sha256": "297f3a04b2dba16189cef2bd6bc5c8e1496767c8b71dcb3cd08f9e722d49c69b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/.specify/memory/constitution.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/INVESTIGATION_PLAN.md",
+      "byte_count": 26903,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/INVESTIGATION_PLAN.md",
+      "sha256": "d2e095728215b3fe46290a7531204dab701fb1c9bddcd41f5044006b1fee7ec1",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/INVESTIGATION_PLAN.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/README.md",
+      "byte_count": 1449,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/README.md",
+      "sha256": "aed61e015ed17a869152a9b878a183e74ab4a75f50d757eeedad7c583c4f7477",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/README.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/docs/DECISIONS.md",
+      "byte_count": 7736,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/DECISIONS.md",
+      "sha256": "9f7b90e20f1b536dcfad46d4c09a5b96bbb932b2883e80371e67be9371f384d3",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/DECISIONS.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/docs/METHODS.md",
+      "byte_count": 13559,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/METHODS.md",
+      "sha256": "47f7033a41ea9b7511ca81a14262bec0d5252219b8473d17bc67d1af40e7323e",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/METHODS.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/docs/STATUS.md",
+      "byte_count": 2369,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/STATUS.md",
+      "sha256": "154dfe657686035db4c099b729cee159b4650eb24538942d02d073bc212a4a3d",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/docs/STATUS.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/registers/claims.csv",
+      "byte_count": 6885,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/claims.csv",
+      "sha256": "d8adf61fcdd2816c7a24927525cd377520f4855a53fc2afb4b467df6d15c438d",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/claims.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/registers/hypotheses.csv",
+      "byte_count": 7123,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/hypotheses.csv",
+      "sha256": "73c3de5b0a0d28fc37519cdaeb7af753b6761bebd05e674e5322e58d8132c2ab",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/hypotheses.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/registers/searches.csv",
+      "byte_count": 5683,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/searches.csv",
+      "sha256": "1c1056634159f82e218f07177d34ef22cbca340d79daa38ecc1525e16506738a",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/searches.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/registers/sources.csv",
+      "byte_count": 15110,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/sources.csv",
+      "sha256": "cb825b2cc19325ccf355839eae62f8aada2a31facf09999c66d2598def296bf4",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/sources.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/registers/tasks.csv",
+      "byte_count": 11868,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/tasks.csv",
+      "sha256": "6665216e44aed5be345f7988de9da4405ce29cf1de020712a8842981c83062b8",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/tasks.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/registers/timeline.csv",
+      "byte_count": 248,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/timeline.csv",
+      "sha256": "d788a460ae52a20a40c8b17845e3a7c71ee5b77c098c070741fafb6829098b0c",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/registers/timeline.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/plan.md",
+      "byte_count": 15069,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/plan.md",
+      "sha256": "9e50d6420b0fba9a4490640e79b27d51832746f06f36c3e43195f2c09aa6a5e8",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/plan.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/spec.md",
+      "byte_count": 43826,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/spec.md",
+      "sha256": "dd23eac3e16d8945c0fe82c413c324b88ccf61be452ddc4e4ac6e10f5ddb16c4",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/basis/specs/001-investigation-dossier/spec.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0001/document.md",
+      "byte_count": 3003,
+      "path": "reports/findings/reviews/artifacts/RVW-0001/document.md",
+      "sha256": "0afbe5828b2484224a8875a0a4959ab421c7ef44aa7988a6944cb0e19eca6247",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0001/document.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/contradictions.md",
+      "byte_count": 9119,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/contradictions.md",
+      "sha256": "b9dcfcde03fde496795f834fdabcea0887f5447dc287cb7b24d23c5057627999",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/contradictions.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/image-text-check.md",
+      "byte_count": 1308,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/image-text-check.md",
+      "sha256": "16272355e7f75799c6429b7ed893737ed1770677ed16991634018dd21a9b5cd2",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/image-text-check.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/source-map.md",
+      "byte_count": 5692,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/source-map.md",
+      "sha256": "df7305bba06d432b9b95fe859dd4a18dde806777d8d137ff578aecaffe4283e0",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/source-map.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/timeline.md",
+      "byte_count": 8805,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/timeline.md",
+      "sha256": "8968d895d298a15e70b995b53c7d3fb10d2ea3148ae9751ec0a535c5202ac27b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/chronology/timeline.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/analysis/engineering/assumptions.md",
+      "byte_count": 4064,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/engineering/assumptions.md",
+      "sha256": "a8f2fec7f9df229da5b1f743d36f5e5e2023de4ca1b6f86c3162915ae8ed07b4",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/engineering/assumptions.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/analysis/engineering/explanation-comparison.md",
+      "byte_count": 3591,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/engineering/explanation-comparison.md",
+      "sha256": "6cfeb30760b8bae194557ed03b15620ad7d9636fa5a8adeade89c707f03c1c67",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/engineering/explanation-comparison.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/analysis/engineering/signal-paths.md",
+      "byte_count": 4343,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/engineering/signal-paths.md",
+      "sha256": "272fcfcc19a1a68f85e8e0be1705f35bf57f1a2e9cb9077ff4123786f934446b",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/engineering/signal-paths.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/analysis/media-comparison/recording-inventory.md",
+      "byte_count": 7850,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/media-comparison/recording-inventory.md",
+      "sha256": "cd3a7cbe141254f82e2e53cdf76bdafb543fb511cd536ea4b7cef921155ab911",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/analysis/media-comparison/recording-inventory.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0001-page-1.png",
+      "byte_count": 393320,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0001-page-1.png",
+      "sha256": "31202b72ef1380aa73dea48ef4137b9fabe923646ba2beb2df24c086ed9418c8",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0001-page-1.png"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0001-page-2.png",
+      "byte_count": 454453,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0001-page-2.png",
+      "sha256": "7a39b4a27f15cf4901398ba8fd24386c4a0d34f979d986671e4b02736f2f7e16",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0001-page-2.png"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0003-page-6.png",
+      "byte_count": 3854114,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0003-page-6.png",
+      "sha256": "b1866eb0f503946d5bea6c55f44337ac9699e1c1c6a2bfe78c383166573c19c4",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0003-page-6.png"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0003-page-89.png",
+      "byte_count": 3826658,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0003-page-89.png",
+      "sha256": "61f39e5f54e433c251145b1c30783d5eb7c919c66ba8dcd93c4b22c0b3e1f499",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/derived/frames/newspaper-pages/AST-0003-page-89.png"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/evidence/originals/AST-0002/1987-11-24-sun-times.jpg",
+      "byte_count": 818182,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/evidence/originals/AST-0002/1987-11-24-sun-times.jpg",
+      "sha256": "385fc43a6fd42d82c9d1d762729bbe7fae34b2e2e1a78b14c141837f7adc0e6f",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/evidence/originals/AST-0002/1987-11-24-sun-times.jpg"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/registers/claims.csv",
+      "byte_count": 17414,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/claims.csv",
+      "sha256": "3222efea79d404b10e14ebc1e69fbfd07f93a9f42fee95694dae77bbaaed9bbf",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/claims.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/registers/hypotheses.csv",
+      "byte_count": 7123,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/hypotheses.csv",
+      "sha256": "73c3de5b0a0d28fc37519cdaeb7af753b6761bebd05e674e5322e58d8132c2ab",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/hypotheses.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/registers/searches.csv",
+      "byte_count": 32052,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/searches.csv",
+      "sha256": "12c4869d9a70328ef595d744b22e2f56059081e7fd1d4eff04d53d693de095ba",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/searches.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/registers/sources.csv",
+      "byte_count": 36219,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/sources.csv",
+      "sha256": "b0d58d41e35e0840b9d6d2c34eb52b3cc5d05a928daa2902fcc27cef33ef7d7f",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/sources.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/registers/tasks.csv",
+      "byte_count": 12946,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/tasks.csv",
+      "sha256": "c7c391d66039e515552394289baf309b73f172f4b1defe82b0b09363ae869f91",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/tasks.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/registers/timeline.csv",
+      "byte_count": 5401,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/timeline.csv",
+      "sha256": "3f75928b6b8a07070d724471314d9de40e73a7514824466275b79ae99a8ec38c",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/registers/timeline.csv"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/basis/reports/milestones/workstreams.md",
+      "byte_count": 2953,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/basis/reports/milestones/workstreams.md",
+      "sha256": "15d4ba41a59ab8888597b0c5cd6a17da201b7dcc425a21f614b9cfc2e6d5561f",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/basis/reports/milestones/workstreams.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/findings/reviews/artifacts/RVW-0002/document.md",
+      "byte_count": 4540,
+      "path": "reports/findings/reviews/artifacts/RVW-0002/document.md",
+      "sha256": "bc78eb975fec0bebe74cb0af6214c3d5747ad3166fda931fe9b42ca5dedf54cc",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/findings/reviews/artifacts/RVW-0002/document.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/interviews/README.md",
+      "byte_count": 1331,
+      "path": "reports/interviews/README.md",
+      "sha256": "f26c65935dc1be6205eac7f3e5e0a9bba3394c63a6dda5bcc0f3d58b5050483a",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/interviews/README.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/milestones/README.md",
+      "byte_count": 3970,
+      "path": "reports/milestones/README.md",
+      "sha256": "aec3beb093309ea93e2b9cba5347210e7ca1b88eeed2dbd4d3f39a8bbb0bdf84",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/milestones/README.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/milestones/baseline.md",
+      "byte_count": 4540,
+      "path": "reports/milestones/baseline.md",
+      "sha256": "bc78eb975fec0bebe74cb0af6214c3d5747ad3166fda931fe9b42ca5dedf54cc",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/milestones/baseline.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/milestones/foundation.md",
+      "byte_count": 3003,
+      "path": "reports/milestones/foundation.md",
+      "sha256": "0afbe5828b2484224a8875a0a4959ab421c7ef44aa7988a6944cb0e19eca6247",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/milestones/foundation.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/milestones/workstreams.md",
+      "byte_count": 2953,
+      "path": "reports/milestones/workstreams.md",
+      "sha256": "15d4ba41a59ab8888597b0c5cd6a17da201b7dcc425a21f614b9cfc2e6d5561f",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/milestones/workstreams.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/records/README.md",
+      "byte_count": 1648,
+      "path": "reports/records/README.md",
+      "sha256": "dd268b95dc3c18214003b3fe218efa440a52fd50a84918d64ce4816194dab73d",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/records/README.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/reports/requests/README.md",
+      "byte_count": 1220,
+      "path": "reports/requests/README.md",
+      "sha256": "5082f5d50ab0865ddb63f77280c07abb8fc9433ecd8059175eba6d2a128329b5",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "reports/requests/README.md"
+      }
+    },
+    {
+      "backup_relative_path": "snapshots/BAK-0005/tools/dossier.py",
+      "byte_count": 106404,
+      "path": "tools/dossier.py",
+      "sha256": "6c62a5d743287ae7199260b79b1174822f6b70cbe9bd74a3f8664a4dcb813ad2",
+      "source": {
+        "access_limit": "Private research state",
+        "alias": "project",
+        "relative_path": "tools/dossier.py"
+      }
+    }
+  ],
+  "method": "stream-copy; SHA-256 and byte count readback",
+  "predecessor_attempt": null,
+  "restrictions": "Private backup; no publication authorization",
+  "result": "confirmed",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "session",
+  "source_alias": "project",
+  "tool_version": "dossier schema1 Python 3.13.12",
+  "unknowns": {
+    "failure_reason": "Not yet established; do not infer.",
+    "predecessor_attempt": "Not yet established; do not infer."
+  }
+}

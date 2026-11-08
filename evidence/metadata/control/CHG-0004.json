@@ -1,0 +1,51 @@
+{
+  "anchor_observed_at": "2026-11-07T22:52:31.503133+00:00",
+  "anchor_reason": "Explicit initial-run migration: bytes observed after implementation added CHG anchoring; not retroactive evidence of earlier integrity.",
+  "change_integrity": {
+    "byte_count": 64603,
+    "sha256": "e98ad7d97959e5c935e9b6084e6d197ebffba2cf292dd0e81869ad810f14a912"
+  },
+  "closure": null,
+  "id": "CHG-0004",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 15110,
+        "sha256": "cb825b2cc19325ccf355839eae62f8aada2a31facf09999c66d2598def296bf4"
+      },
+      "path": "registers/sources.csv",
+      "previous": {
+        "byte_count": 15328,
+        "sha256": "424d99005448a9a8348ec6019d28c29e721e394b1c2451301af7896cff0542f9"
+      },
+      "staged": "registers/.sources.csv.CHG-0004.stage"
+    },
+    {
+      "new": {
+        "byte_count": 6885,
+        "sha256": "d8adf61fcdd2816c7a24927525cd377520f4855a53fc2afb4b467df6d15c438d"
+      },
+      "path": "registers/claims.csv",
+      "previous": {
+        "byte_count": 171,
+        "sha256": "20b182ff5346df6f335da3207b354981272a1b070b29c2754c4ceadbebf9babf"
+      },
+      "staged": "registers/.claims.csv.CHG-0004.stage"
+    },
+    {
+      "new": {
+        "byte_count": 5683,
+        "sha256": "1c1056634159f82e218f07177d34ef22cbca340d79daa38ecc1525e16506738a"
+      },
+      "path": "registers/searches.csv",
+      "previous": {
+        "byte_count": 199,
+        "sha256": "ccc30770c78022045666809c2d3faf5dfd6f9ae52747846599b4e67da921aa36"
+      },
+      "staged": "registers/.searches.csv.CHG-0004.stage"
+    }
+  ],
+  "prepared_at": "2026-11-07T22:50:35.911036+00:00",
+  "published_at": "2026-11-07T22:50:35.919334+00:00",
+  "state": "published"
+}

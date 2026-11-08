@@ -1,0 +1,110 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T21:07:42.847345+00:00",
+  "id": "CHG-0052",
+  "intended_final_file_manifest": {
+    "evidence/metadata/sessions/SES-0004.json": {
+      "byte_count": 2723,
+      "sha256": "42db9b7dcb5ee5a72c36ca8040bbe0cf10b0d7481c6d680773785d0fb2e474a4"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "sessions",
+      "previous": null,
+      "proposed": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": null,
+        "completed_task_outputs": [
+          {
+            "output_refs": [
+              "reports/milestones/exercises/saved-state-reader.json"
+            ],
+            "result": "Actual fresh-instance saved-file recovery performed; minor stale status cues identified and corrected in final review session",
+            "task_id": "T059"
+          }
+        ],
+        "created_at": "2026-11-08T21:07:38.723968+00:00",
+        "current_milestone": "final delivery review",
+        "current_question": "Can another reviewer audit the actual limited finding and resume the next evidence work from saved files?",
+        "deferred_branches": [
+          "RF mechanism/site/power pending dated architecture and qualified review"
+        ],
+        "disagreements": [
+          "Historical reported phase timing remains unresolved"
+        ],
+        "final_handoff": null,
+        "findings": [
+          {
+            "confidence": "moderate",
+            "id": "FND-0001",
+            "result": "Qualified selected-file program-return context observation",
+            "revision": 2
+          }
+        ],
+        "gaps": [
+          "Unknown capture/feed/edit independence",
+          "Unperformed blind transcription and period cultural interpretation",
+          "Missing cited agency letter/Q1capture chain and dated as-built equipment"
+        ],
+        "hypothesis_changes": [
+          {
+            "id": "HYP-0008",
+            "status": "weakened"
+          },
+          {
+            "id": "HYP-0009",
+            "status": "supported"
+          }
+        ],
+        "id": "SES-0004",
+        "intended_completion_at": null,
+        "intended_state": "active",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0010"
+            ],
+            "output": "Finalize requirement evidence assessment",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0011"
+            ],
+            "output": "Cross-output/fresh-reader assessment",
+            "owner": "Separate reviewer"
+          },
+          {
+            "dependencies": [
+              "SES-0004"
+            ],
+            "output": "Confirmed exact final handoff and delivery gate",
+            "owner": "AI"
+          }
+        ],
+        "reopening_condition": "New full-context records/captures or qualified listeners justify the next bounded question",
+        "reserved_receipt_id": null,
+        "revision": 1,
+        "schema_version": 1,
+        "started_at": "2026-11-08T21:07:38.723946+00:00",
+        "stopping_condition": "Close after current reviews and final exact-byte backup; do not claim broader historical conclusions",
+        "unknowns": {
+          "closure_snapshot_id": "Not yet established; do not infer.",
+          "final_handoff": "Not yet established; do not infer.",
+          "intended_completion_at": "Not yet established; do not infer.",
+          "reserved_receipt_id": "Not yet established; do not infer."
+        },
+        "waits": [
+          "ConditionalT067/T068 listening/content dependencies; no disputed words used"
+        ]
+      }
+    }
+  ],
+  "reason": "Open separate final review session after protected analytical-session completion and fresh saved-file recovery",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

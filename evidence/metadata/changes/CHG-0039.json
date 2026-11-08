@@ -1,0 +1,61 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T20:53:18.284407+00:00",
+  "id": "CHG-0039",
+  "intended_final_file_manifest": {
+    "evidence/metadata/backups/BAK-0009.json": {
+      "byte_count": 1484,
+      "sha256": "d4076415c41ba127a285f51c4ff7747055585e63be62082136d2870442a1f819"
+    }
+  },
+  "operations": [
+    {
+      "entity_type": "backups",
+      "previous": null,
+      "proposed": {
+        "actor": "research_assistant",
+        "attempted_at": "2026-11-08T20:53:18.211831+00:00",
+        "confirmed_at": "2026-11-08T20:53:18.211843+00:00",
+        "covered_ids": [
+          "AST-0014"
+        ],
+        "created_at": "2026-11-08T20:53:18.211856+00:00",
+        "destination_alias": "backup",
+        "failure_domain": "Owner-selected private separate directory on C:. Verified copies protect against accidental changes, not failure or loss of C:.",
+        "failure_reason": null,
+        "id": "BAK-0009",
+        "limits": "Integrity only; no historical authentication",
+        "manifest": [
+          {
+            "asset_id": "AST-0014",
+            "backup_relative_path": "objects/BAK-0009/AST-0014",
+            "byte_count": 5608429,
+            "sha256": "0b4cf98b3fb0f212bdfe82e2e55a38fbd5b0eaa18c8dcc268de2bd1edcbb0672",
+            "source": {
+              "access_limit": "Private owner/selected-reviewer research only; host licensing assertion not independently adjudicated",
+              "alias": "primary_evidence",
+              "relative_path": "AST-0014/wgn-archive.mp4"
+            }
+          }
+        ],
+        "method": "stream-copy; SHA-256 and byte count readback",
+        "predecessor_attempt": null,
+        "restrictions": "Private backup; no publication authorization",
+        "result": "confirmed",
+        "revision": 1,
+        "schema_version": 1,
+        "scope": "original",
+        "source_alias": "primary_evidence",
+        "tool_version": "dossier schema1 Python 3.13.12",
+        "unknowns": {
+          "failure_reason": "Not yet established; do not infer.",
+          "predecessor_attempt": "Not yet established; do not infer."
+        }
+      }
+    }
+  ],
+  "reason": "Confirm matching copied bytes",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

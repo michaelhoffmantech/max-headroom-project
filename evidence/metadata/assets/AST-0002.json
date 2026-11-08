@@ -1,0 +1,35 @@
+{
+  "acquired_at": "2026-11-08T13:35:01.731720+00:00",
+  "actor": "research_assistant",
+  "byte_count": 818182,
+  "capture_date": null,
+  "completeness": "unknown",
+  "created_at": "2026-11-08T13:35:01.731768+00:00",
+  "digitization_history": "Repository download; scan production/date/edits unknown",
+  "id": "AST-0002",
+  "input_asset_ids": [],
+  "input_locators": [],
+  "kind": "acquired_original",
+  "known_edits": [],
+  "original_media_history": "Contemporary newspaper/trade-paper clipping or issue, as attributed by repository; original paper chain unknown",
+  "processing": null,
+  "provenance_limits": "Third-party source attributed by archive; original publication/capture chain unverified",
+  "receiver_feed": null,
+  "restrictions": "Private copyrighted source; no public redistribution",
+  "revision": 1,
+  "schema_version": 1,
+  "sha256": "385fc43a6fd42d82c9d1d762729bbe7fae34b2e2e1a78b14c141837f7adc0e6f",
+  "source_id": "SRC-0009",
+  "storage": {
+    "access_limit": "Private copyrighted source; no public redistribution",
+    "alias": "primary_evidence",
+    "relative_path": "AST-0002/1987-11-24-sun-times.jpg"
+  },
+  "tape_generation": null,
+  "unknowns": {
+    "capture_date": "Not a broadcast capture; scan creation unknown",
+    "processing": "Not yet established; do not infer.",
+    "receiver_feed": "Not a broadcast recording",
+    "tape_generation": "Not a broadcast recording"
+  }
+}

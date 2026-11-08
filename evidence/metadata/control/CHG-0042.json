@@ -1,0 +1,142 @@
+{
+  "change_integrity": {
+    "byte_count": 76688,
+    "sha256": "6714bf1deda5b135612e113a9fa35d558e0e80d79476a569e5c5a71f9d2b9323"
+  },
+  "closure": null,
+  "id": "CHG-0042",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 2867,
+        "sha256": "7b19e8f23c5bee38a0fc91357521b82f7a97ae2fb852a4e62a466e108b5fe80a"
+      },
+      "path": "evidence/metadata/assets/AST-0015.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0015.json.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2909,
+        "sha256": "a3bfa82a21cd9f560319fbaef16494fb509b5fc700b2caa7966b0a776adf4b1a"
+      },
+      "path": "evidence/metadata/assets/AST-0016.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0016.json.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2918,
+        "sha256": "c03ce1ccb7b6e488d6e8091820687ad37bb1c2ee156c9f4780b1eaf8cd8739e4"
+      },
+      "path": "evidence/metadata/assets/AST-0017.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0017.json.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2785,
+        "sha256": "c448fb15b104674a0da1beaadae692102edbd9610e18690d4b324e3064209572"
+      },
+      "path": "evidence/metadata/assets/AST-0018.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0018.json.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2867,
+        "sha256": "c88cb88d83b96bd65b49a4161e9eeee8eb096375134b79ccfe8d618181cf1f1d"
+      },
+      "path": "evidence/metadata/assets/AST-0019.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0019.json.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2909,
+        "sha256": "2bb9f195d4bee1a4ee2772a595bd2b0547d53613d4b364bf6d13f2c1d9433a4e"
+      },
+      "path": "evidence/metadata/assets/AST-0020.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0020.json.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2916,
+        "sha256": "a127ee4de3f769c129f65b33f7495c4730c5ec418a411f145f7999cd1fb37893"
+      },
+      "path": "evidence/metadata/assets/AST-0021.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0021.json.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2785,
+        "sha256": "31d5299410960665b6258eb2c4bb851f1a2c48d90b413ff19302b92932eca627"
+      },
+      "path": "evidence/metadata/assets/AST-0022.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0022.json.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 19838,
+        "sha256": "62bc9e707f38604187d77346b06c72eecf5bfdee18e90b6df16911cb055672da"
+      },
+      "path": "registers/claims.csv",
+      "previous": {
+        "byte_count": 17414,
+        "sha256": "3222efea79d404b10e14ebc1e69fbfd07f93a9f42fee95694dae77bbaaed9bbf"
+      },
+      "staged": "registers/.claims.csv.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 40336,
+        "sha256": "7fbc87f6d89e013dc039de5e5bd31e1c3fb90731edb562a4ad3bbf036170924c"
+      },
+      "path": "registers/sources.csv",
+      "previous": {
+        "byte_count": 40270,
+        "sha256": "cd63e4abb96c66ee333926b53a1f1ac00fe1019e7915e10891128ebd5c035feb"
+      },
+      "staged": "registers/.sources.csv.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 4262,
+        "sha256": "56ae0de24d6f82444236665d3ffe1042a7b58d3c6cd8658accd83b7d0b6878a7"
+      },
+      "path": "reports/findings/FND-0001.json",
+      "previous": null,
+      "staged": "reports/findings/.FND-0001.json.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 8604,
+        "sha256": "5703d778597c5f9c4188b5fd3151c161872bfd376a0049fc66895471bf562903"
+      },
+      "path": "registers/hypotheses.csv",
+      "previous": {
+        "byte_count": 8379,
+        "sha256": "5bb1b248b2bbcb1b7431f4ddd184f1eadacbb1cd59f3d0d6f71e35448579ae5a"
+      },
+      "staged": "registers/.hypotheses.csv.CHG-0042.stage"
+    },
+    {
+      "new": {
+        "byte_count": 11279,
+        "sha256": "85733e83ff82942d4b9491d9380bde1d720781fcd6786c2db8a19bacc0245aae"
+      },
+      "path": "analysis/cycles/CYC-0001.json",
+      "previous": {
+        "byte_count": 8706,
+        "sha256": "be26afa75cdddd6ffeabd211fc4747f5d9e764e4b8915be383593b816d7d9730"
+      },
+      "staged": "analysis/cycles/.CYC-0001.json.CHG-0042.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T20:56:38.544458+00:00",
+  "published_at": "2026-11-08T20:56:38.582729+00:00",
+  "state": "published"
+}

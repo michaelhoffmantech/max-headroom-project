@@ -1,0 +1,82 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-07T22:36:27.777113+00:00",
+  "id": "CHG-0002",
+  "intended_final_file_manifest": {
+    "evidence/metadata/sessions/SES-0001.json": {
+      "byte_count": 1732,
+      "sha256": "a62c6ba4de32e81c3c1217460033bc371d548d98e44be05ab09eb84922198ddd"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "sessions",
+      "previous": null,
+      "proposed": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": null,
+        "completed_task_outputs": [],
+        "created_at": "2026-11-07T22:36:27.684070+00:00",
+        "current_milestone": "foundation",
+        "current_question": "Can the starter record be made inspectable without overstating inspection or independence?",
+        "deferred_branches": [
+          "Detailed media interpretation awaits sources and review"
+        ],
+        "disagreements": [],
+        "final_handoff": null,
+        "findings": [],
+        "gaps": [
+          "Starter sources need current inspection"
+        ],
+        "hypothesis_changes": [],
+        "id": "SES-0001",
+        "intended_completion_at": null,
+        "intended_state": "active",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0001"
+            ],
+            "output": "Inspect/register starter sources",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0002"
+            ],
+            "output": "Review foundation usability",
+            "owner": "separate reviewer"
+          },
+          {
+            "dependencies": [
+              "TASK-0002"
+            ],
+            "output": "Begin contemporary survey after foundation review",
+            "owner": "AI"
+          }
+        ],
+        "reopening_condition": null,
+        "reserved_receipt_id": null,
+        "revision": 1,
+        "schema_version": 1,
+        "started_at": "2026-11-07T22:36:27.684056+00:00",
+        "stopping_condition": null,
+        "unknowns": {
+          "closure_snapshot_id": "Not yet established; do not infer.",
+          "final_handoff": "Not yet established; do not infer.",
+          "intended_completion_at": "Not yet established; do not infer.",
+          "reopening_condition": "Not yet established; do not infer.",
+          "reserved_receipt_id": "Not yet established; do not infer.",
+          "stopping_condition": "Not yet established; do not infer."
+        },
+        "waits": []
+      }
+    }
+  ],
+  "reason": "Open actual foundation research session; no historical finding asserted",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

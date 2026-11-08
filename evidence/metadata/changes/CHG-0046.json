@@ -1,0 +1,95 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T21:01:22.083951+00:00",
+  "id": "CHG-0046",
+  "intended_final_file_manifest": {
+    "registers/tasks.csv": {
+      "byte_count": 12929,
+      "sha256": "ce4c660b4c7192782ec6fc25ece45fca9cd5dba74b4e2239f22461c062e9c6c7"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Request specifies missing records, identifiers, date range, relevant custodian, and how a response could change the analysis",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          },
+          {
+            "id": "TASK-0006",
+            "note": "Required: original T06"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Request specifies missing records, identifiers, date range, relevant custodian, and how a response could change the analysis",
+        "external_wait": "not_applicable",
+        "id": "TASK-0009",
+        "legacy_aliases_json": [
+          "T09"
+        ],
+        "method": "Search existing releases and confirmed holdings, then draft narrow unsent requests for existing records tied to an analytical gap.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI; user decides outreach",
+        "priority": "P2",
+        "question": "Draft targeted archive requests",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Request specifies missing records, identifiers, date range, relevant custodian, and how a response could change the analysis",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          },
+          {
+            "id": "TASK-0006",
+            "note": "Required: original T06"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Request specifies missing records, identifiers, date range, relevant custodian, and how a response could change the analysis",
+        "external_wait": "not_applicable",
+        "id": "TASK-0009",
+        "legacy_aliases_json": [
+          "T09"
+        ],
+        "method": "Search existing releases and confirmed holdings, then draft narrow unsent requests for existing records tied to an analytical gap.",
+        "next_action": "Integrate already performed bounded records preparation; no earlier activation timestamp is inferred",
+        "output_refs_json": [],
+        "owner": "AI; user decides outreach",
+        "priority": "P2",
+        "question": "Draft targeted archive requests",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    }
+  ],
+  "reason": "Record active records task before honest completion transition; retain actual research timestamps separately",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

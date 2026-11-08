@@ -1,0 +1,25 @@
+{
+  "change_integrity": {
+    "byte_count": 7807,
+    "sha256": "cdd11ff329073c7fd97436b1605fe9e473f1ad0f46870ae1b1cff28f61f61e66"
+  },
+  "closure": null,
+  "id": "CHG-0024",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 3077,
+        "sha256": "1290de769508b49dabafe1f6505248d9fc5b25f4a46441b181eabd629514fdc6"
+      },
+      "path": "evidence/metadata/sessions/SES-0002.json",
+      "previous": {
+        "byte_count": 3022,
+        "sha256": "72147822af985ccc8199a11a4ed24bd2443656ea1681df320f0098b3c43670c3"
+      },
+      "staged": "evidence/metadata/sessions/.SES-0002.json.CHG-0024.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T20:52:10.610344+00:00",
+  "published_at": "2026-11-08T20:52:10.637561+00:00",
+  "state": "published"
+}

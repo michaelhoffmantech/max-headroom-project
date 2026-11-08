@@ -1,0 +1,225 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T13:29:25.148141+00:00",
+  "id": "CHG-0009",
+  "intended_final_file_manifest": {
+    "evidence/metadata/sessions/SES-0002.json": {
+      "byte_count": 1941,
+      "sha256": "f69f32f8e5fc5f2987d15a96b34ac14f344fbaf386bd6e070fe9c5540c1c10b7"
+    },
+    "registers/tasks.csv": {
+      "byte_count": 11826,
+      "sha256": "504e59825a9da0cbcb74408da57feaa7faac1fd0bcfecc29ca8417e19d21e93e"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "sessions",
+      "previous": null,
+      "proposed": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": null,
+        "completed_task_outputs": [],
+        "created_at": "2026-11-08T13:29:25.014200+00:00",
+        "current_milestone": "baseline",
+        "current_question": "What do accessible contemporary accounts and recording leads establish for the two stations, and which historical path components remain unknown?",
+        "deferred_branches": [
+          "Detailed audiovisual interpretation awaits inventoried/protected input and required review"
+        ],
+        "disagreements": [],
+        "final_handoff": null,
+        "findings": [],
+        "gaps": [
+          "Original recordings and exact capture lineage not established",
+          "Dated1987 equipment/monitoring documentation not yet located"
+        ],
+        "hypothesis_changes": [],
+        "id": "SES-0002",
+        "intended_completion_at": null,
+        "intended_state": "active",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0002"
+            ],
+            "output": "Defined contemporary reporting survey",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0002"
+            ],
+            "output": "Recording inventory with explicit provenance gaps",
+            "owner": "AI; owner for personal copies"
+          },
+          {
+            "dependencies": [
+              "TASK-0003"
+            ],
+            "output": "Chronology and dated signal-path baseline",
+            "owner": "AI"
+          }
+        ],
+        "reopening_condition": null,
+        "reserved_receipt_id": null,
+        "revision": 1,
+        "schema_version": 1,
+        "started_at": "2026-11-08T13:29:25.014186+00:00",
+        "stopping_condition": null,
+        "unknowns": {
+          "closure_snapshot_id": "Not yet established; do not infer.",
+          "final_handoff": "Not yet established; do not infer.",
+          "intended_completion_at": "Not yet established; do not infer.",
+          "reopening_condition": "Not yet established; do not infer.",
+          "reserved_receipt_id": "Not yet established; do not infer.",
+          "stopping_condition": "Not yet established; do not infer."
+        },
+        "waits": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Review a defined November 23-30, 1987 search across available papers and trade press; log coverage and gaps",
+        "dependencies_json": [
+          {
+            "id": "TASK-0002",
+            "note": "Required: original T02"
+          }
+        ],
+        "effort_timebox": "2-3 sessions before reassessment",
+        "expected_output": "Review a defined November 23-30, 1987 search across available papers and trade press; log coverage and gaps",
+        "external_wait": "not_applicable",
+        "id": "TASK-0003",
+        "legacy_aliases_json": [
+          "T03"
+        ],
+        "method": "Review a defined 1987-11-23 through 1987-11-30 search across available papers and trade press; log exact coverage, gaps, and article image/text checks.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI + user for restricted archives",
+        "priority": "P1",
+        "question": "Collect contemporaneous reporting",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Review a defined November 23-30, 1987 search across available papers and trade press; log coverage and gaps",
+        "dependencies_json": [
+          {
+            "id": "TASK-0002",
+            "note": "Required: original T02"
+          }
+        ],
+        "effort_timebox": "2-3 sessions before reassessment",
+        "expected_output": "Review a defined November 23-30, 1987 search across available papers and trade press; log coverage and gaps",
+        "external_wait": "not_applicable",
+        "id": "TASK-0003",
+        "legacy_aliases_json": [
+          "T03"
+        ],
+        "method": "Review a defined 1987-11-23 through 1987-11-30 search across available papers and trade press; log exact coverage, gaps, and article image/text checks.",
+        "next_action": "Perform bounded available-source survey and preserve exact coverage/gaps",
+        "output_refs_json": [],
+        "owner": "AI + user for restricted archives",
+        "priority": "P1",
+        "question": "Collect contemporaneous reporting",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Record available versions, provenance, completeness, and capture lineage; disclose when only derivatives survive",
+        "dependencies_json": [
+          {
+            "id": "TASK-0002",
+            "note": "Required: original T02"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Record available versions, provenance, completeness, and capture lineage; disclose when only derivatives survive",
+        "external_wait": "not_applicable",
+        "id": "TASK-0004",
+        "legacy_aliases_json": [
+          "T04"
+        ],
+        "method": "Record available versions, acquisition/provenance limits, completeness, and capture lineage without inventing authenticated originals.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI + user for personal copies",
+        "priority": "P1",
+        "question": "Locate and inventory recordings",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Record available versions, provenance, completeness, and capture lineage; disclose when only derivatives survive",
+        "dependencies_json": [
+          {
+            "id": "TASK-0002",
+            "note": "Required: original T02"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Record available versions, provenance, completeness, and capture lineage; disclose when only derivatives survive",
+        "external_wait": "not_applicable",
+        "id": "TASK-0004",
+        "legacy_aliases_json": [
+          "T04"
+        ],
+        "method": "Record available versions, acquisition/provenance limits, completeness, and capture lineage without inventing authenticated originals.",
+        "next_action": "Perform bounded available-source survey and preserve exact coverage/gaps",
+        "output_refs_json": [],
+        "owner": "AI + user for personal copies",
+        "priority": "P1",
+        "question": "Locate and inventory recordings",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    }
+  ],
+  "reason": "Open actual baseline session after passing and privately protected foundation",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

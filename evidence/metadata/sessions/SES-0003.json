@@ -1,0 +1,111 @@
+{
+  "actor": "research_assistant",
+  "closed_branches": [],
+  "closure_snapshot_id": "BAK-0010",
+  "completed_task_outputs": [
+    {
+      "output_refs": [
+        "analysis/cycles/CYC-0001.json",
+        "reports/findings/FND-0001.md"
+      ],
+      "result": "Actual performed and separately reviewed test; current cycle file-verification gate passes",
+      "task_id": "TASK-0010"
+    },
+    {
+      "output_refs": [
+        "reports/records/inventory.md",
+        "reports/requests/record-request.md",
+        "reports/interviews/neutral-guide.md"
+      ],
+      "result": "Partial release inspected, source context and unsent drafts prepared",
+      "task_id": "TASK-0009"
+    },
+    {
+      "output_refs": [
+        "reports/milestones/exercises/us5-exercise.md",
+        "reports/milestones/exercises/us6-exercise.md"
+      ],
+      "result": "Isolated exercises passed11/12checks; no historical fixture conclusions",
+      "task_id": "T069/T077"
+    }
+  ],
+  "created_at": "2026-11-08T20:52:12.897054+00:00",
+  "current_milestone": "analytical_cycle reviewed",
+  "current_question": "What does the completed selected-file context test support, and which transcription/records limits remain?",
+  "deferred_branches": [
+    "RF mechanism/location/power waits for dated architecture and qualified review",
+    "Period culture/motive waits for verified content; familiarity is not involvement"
+  ],
+  "disagreements": [
+    "Source-reported historical times and phase boundaries still differ; no averaged duration"
+  ],
+  "final_handoff": {
+    "access_limit": "Private research state",
+    "alias": "project",
+    "relative_path": "docs/STATUS.md"
+  },
+  "findings": [
+    {
+      "confidence": "moderate",
+      "id": "FND-0001",
+      "result": "Inspected Commons sequence lacks recognizable return; Archive shows post-mask studio/program return; no broadcast duration/mechanism inference",
+      "revision": 2
+    }
+  ],
+  "gaps": [
+    "Capture/feed/generation/edit independence unknown",
+    "No full-rate viewing of every decoded frame or blind word transcription",
+    "Partial FBI release does not authenticate online files or prove full case coverage",
+    "Dated as-built engineering components remain missing"
+  ],
+  "hypothesis_changes": [
+    {
+      "from": "untested",
+      "id": "HYP-0008",
+      "to": "weakened"
+    },
+    {
+      "from": "untested",
+      "id": "HYP-0009",
+      "to": "supported"
+    }
+  ],
+  "id": "SES-0003",
+  "intended_completion_at": "2026-11-08T21:04:21.882046+00:00",
+  "intended_state": "complete",
+  "next_actions": [
+    {
+      "dependencies": [
+        "FND-0001"
+      ],
+      "output": "Recover saved milestone/question/findings/waits and three actions without chat",
+      "owner": "Separate reviewer"
+    },
+    {
+      "dependencies": [
+        "TASK-0010"
+      ],
+      "output": "Complete all-FR/SC final evidence assessment",
+      "owner": "AI"
+    },
+    {
+      "dependencies": [
+        "TASK-0011"
+      ],
+      "output": "Cross-output review and verified final session snapshot",
+      "owner": "Separate reviewer; AI"
+    }
+  ],
+  "reopening_condition": "New evidence or changed assumption justifies a new frozen question; original records/reviews retained",
+  "reserved_receipt_id": "BAK-0010",
+  "revision": 3,
+  "schema_version": 1,
+  "started_at": "2026-11-08T20:52:12.897039+00:00",
+  "stopping_condition": "Bounded actual test and records-preparation session complete; close and continue final review in a new session",
+  "unknowns": {},
+  "waits": [
+    "TASK-0007: unprimed second listener and time-coded transcription if words become relevant",
+    "TASK-0008: completedT07 plus dated preincident reference evidence",
+    "Optional records submission requires owner contact/fee decision; no submission made"
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T13:45:50.554619+00:00",
+  "id": "CHG-0018",
+  "intended_final_file_manifest": {
+    "registers/claims.csv": {
+      "byte_count": 17321,
+      "sha256": "eba1f18478a882755cd6c121fafa85e669434f73c7011e5d46ac84ec875f680b"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0009",
+        "legacy_aliases_json": [],
+        "proposition": "The Tribune clipping first page describes the WGN appearance as28seconds.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0001",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "PDFpage1, middlecolumn, paragraph beginning Twohours earlier",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "PDFpage1, middlecolumn, paragraph beginning Twohours earlier"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0008",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0010",
+        "legacy_aliases_json": [],
+        "proposition": "The Tribune continuation reports the first WGN interruption at9:14pm.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0001",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "PDFpage2,leftcolumn, paragraph beginning Thefirst interruption",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "PDFpage2,leftcolumn, paragraph beginning Thefirst interruption"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0008",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0011",
+        "legacy_aliases_json": [],
+        "proposition": "The Tribune continuation identifies WGN studios at2501WBradleyPlace and transmission from the JohnHancockCenter.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0001",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "PDFpage2,leftcolumn, station-location paragraph and map",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "PDFpage2,leftcolumn, station-location paragraph and map"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0008",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0012",
+        "legacy_aliases_json": [],
+        "proposition": "The Tribune continuation identifies WTTW studios at5400NStLouisAvenue and a SearsTower transmitter.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0001",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "PDFpage2,leftcolumn, station-location paragraph and map",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "PDFpage2,leftcolumn, station-location paragraph and map"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0008",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0013",
+        "legacy_aliases_json": [],
+        "proposition": "The Tribune attributes WGN recovery to an engineer changing the program-link frequency.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0001",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "PDFpage2,leftcolumn, paragraph beginning Strutzel said",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "PDFpage2,leftcolumn, paragraph beginning Strutzel said"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0008",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0014",
+        "legacy_aliases_json": [],
+        "proposition": "The Tribune attributes to WTTW a check of internal video sources before considering an outside cause.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0001",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "PDFpage2,leftcolumn, paragraph beginning Bythe time",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "PDFpage2,leftcolumn, paragraph beginning Bythe time"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0008",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0015",
+        "legacy_aliases_json": [],
+        "proposition": "The Sun-Times image says WGN played for25seconds until workers changed transmission paths.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0002",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "Clippingimage, paragraph beginning Thefirst interruption",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "Clippingimage, paragraph beginning Thefirst interruption"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0009",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0016",
+        "legacy_aliases_json": [],
+        "proposition": "The Sun-Times image describes WTTW as1minute28seconds.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0002",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "Clippingimage, paragraph beginning Atthe end",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "Clippingimage, paragraph beginning Atthe end"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0009",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0017",
+        "legacy_aliases_json": [],
+        "proposition": "The Sun-Times image attributes a local-origin assessment to the WGN engineering director.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0002",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "Clippingimage, paragraph beginning Itis pretty apparent",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "Clippingimage, paragraph beginning Itis pretty apparent"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0009",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0018",
+        "legacy_aliases_json": [],
+        "proposition": "Electronic Media reports a25second WGN appearance with an engineer correcting it.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0003",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "Printedpage4 finalparagraph, continuedpage87 firstline",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "Printedpage4 finalparagraph, continuedpage87 firstline"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0010",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0019",
+        "legacy_aliases_json": [],
+        "proposition": "Electronic Media distinguishes local WGN picture intrusion from tentative cable-superstation impact.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0003",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "Printedpage87, SignalpirateshitChicago, secondparagraph",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "Printedpage87, SignalpirateshitChicago, secondparagraph"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0010",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "Reported account, not an independently measured event.",
+          "Reporting precision and phase boundaries must remain separate."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Inspected attributed text; confidence applies to the account rather than unstated historical details",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0020",
+        "legacy_aliases_json": [],
+        "proposition": "Electronic Media attributes WTTW at11:10pm and approximately90seconds to its station spokesman.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "asset_id": "AST-0003",
+            "limits": "Attributed contemporary reporting; source/edition chain and underlying technical records remain unverified",
+            "locator": {
+              "description": "Printedpage87, SignalpirateshitChicago, thirdparagraph",
+              "kind": "page",
+              "precision": "Text passage/field as identified",
+              "value": "Printedpage87, SignalpirateshitChicago, thirdparagraph"
+            },
+            "role": "Supports the attributed account only",
+            "source_id": "SRC-0010",
+            "source_revision": 3
+          }
+        ],
+        "unknowns_json": {}
+      }
+    }
+  ],
+  "reason": "Record image-checked contemporary timing/path accounts and OCR discrepancies as attributed claims",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

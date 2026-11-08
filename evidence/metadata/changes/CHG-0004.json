@@ -1,0 +1,1291 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-07T22:50:35.908617+00:00",
+  "id": "CHG-0004",
+  "intended_final_file_manifest": {
+    "registers/claims.csv": {
+      "byte_count": 6885,
+      "sha256": "d8adf61fcdd2816c7a24927525cd377520f4855a53fc2afb4b467df6d15c438d"
+    },
+    "registers/searches.csv": {
+      "byte_count": 5683,
+      "sha256": "1c1056634159f82e218f07177d34ef22cbca340d79daa38ecc1525e16506738a"
+    },
+    "registers/sources.csv": {
+      "byte_count": 15110,
+      "sha256": "cb825b2cc19325ccf355839eae62f8aada2a31facf09999c66d2598def296bf4"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "WTTW",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "year"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0001",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Affected-station retrospective with staff recollections; distinguish witnessed events from later technical interpretation. The plan records its roughly 30-second WGN account; that wording and its exact source location require reinspection.",
+          "linked_media": "uninspected",
+          "text": "read text (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S01"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Affected-station retrospective with staff recollections; distinguish witnessed events from later technical interpretation. The plan records its roughly 30-second WGN account; that wording and its exact source location require reinspection.",
+        "publication_date": "2017",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "url:https://news.wttw.com/2017/11/21/30-years-later-notorious-max-headroom-incident-remains-mystery",
+        "source_type": "retrospective reporting",
+        "title": "30 Years Later, Notorious 'Max Headroom Incident' Remains a Mystery",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-07",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Jay Shefsky / WTTW",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publisher text/date inspected2026-11-07",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0001",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "/root/implementation_docs",
+          "limits": "Durations are attributed article descriptions, not measurements. Investigation-status wording is a 2017 statement, not verification of present status.",
+          "linked_media": "uninspected",
+          "text": "Main article text inspected; embedded audio/video and underlying station/FCC records uninspected.",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S01"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Shared interviewee Skierkiewicz also appears in S04. Separate publications do not establish independent underlying testimony; interview-session dependence and parent records remain unknown. Durations are attributed article descriptions, not measurements. Investigation-status wording is a 2017 statement, not verification of present status.",
+        "publication_date": "2017-11-21",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 2,
+        "source_locator": "url:https://news.wttw.com/2017/11/21/30-years-later-notorious-max-headroom-incident-remains-mystery",
+        "source_type": "retrospective reporting",
+        "title": "30 Years Later, Notorious 'Max Headroom Incident' Remains a Mystery",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "No verified parent intellectual item/session; empty list does not imply independence. Shared interviewee Skierkiewicz also appears in S04. Separate publications do not establish independent underlying testimony; interview-session dependence and parent records remain unknown.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "UPI",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0002",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Full page retrieval was blocked during planning; obtain complete article or archival reproduction. The plan records roughly 25 seconds at WGN and roughly 90 seconds at WTTW at 11:10 p.m.; these are inherited leads, not newly verified extracts.",
+          "linked_media": "uninspected",
+          "text": "search excerpts inspected (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S02"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Full page retrieval was blocked during planning; obtain complete article or archival reproduction. The plan records roughly 25 seconds at WGN and roughly 90 seconds at WTTW at 11:10 p.m.; these are inherited leads, not newly verified extracts.",
+        "publication_date": "1987-11-23",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "blocked",
+        "revision": 1,
+        "source_locator": "url:https://www.upi.com/Archives/1987/11/23/A-video-pirate-struck-two-Chicago-television-stations-briefly/5688564642000",
+        "source_type": "contemporary reporting",
+        "title": "A video pirate struck two Chicago television stations, briefly...",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-07",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "UPI",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0002",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "research_assistant",
+          "limits": "Exact-URL search retrieved indexed text including approximate durations; original publisher page remains blocked. No recording inspected.",
+          "linked_media": "uninspected",
+          "text": "Indexed search-result article text inspected; direct publisher request returned403. This is not inspection of the original page or article image.",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S02"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Contemporary UPI account includes attributed statements; original notes and source dependence unverified. Exact-URL search retrieved indexed text including approximate durations; original publisher page remains blocked. No recording inspected.",
+        "publication_date": "1987-11-23",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 2,
+        "source_locator": "url:https://www.upi.com/Archives/1987/11/23/A-video-pirate-struck-two-Chicago-television-stations-briefly/5688564642000",
+        "source_type": "contemporary reporting",
+        "title": "A video pirate struck two Chicago television stations, briefly...",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "No verified parent intellectual item/session; empty list does not imply independence. Contemporary UPI account includes attributed statements; original notes and source dependence unverified.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "WBUR / Endless Thread",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "year"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0003",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Map of later reporting and online theories; trace claims to original speakers and evidence. No linked audio or underlying record verification is inherited.",
+          "linked_media": "uninspected",
+          "text": "transcript excerpts inspected (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S03"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Map of later reporting and online theories; trace claims to original speakers and evidence. No linked audio or underlying record verification is inherited.",
+        "publication_date": "2019",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 1,
+        "source_locator": "url:https://www.wbur.org/endlessthread/2019/11/22/to-the-max-headroom",
+        "source_type": "retrospective reporting",
+        "title": "The Max Headroom Incident: Revisiting The Masked Mystery, 32 Years Later",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-07",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "WBUR / Endless Thread",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "year"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0003",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "research_assistant",
+          "limits": "Publisher describes an edited transcript. Broadcast clips, original interview recordings, and underlying agency records unverified. Allegations in later discussion are not adopted as findings.",
+          "linked_media": "uninspected",
+          "text": "Page header, transcript warning, WGN opening account, and portions of later interview/context text inspected; linked audio uninspected.",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S03"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Interview compilation identifies later journalists/investigator accounts; the exact originating interview sessions and relationships to other publications remain unknown. Publisher describes an edited transcript. Broadcast clips, original interview recordings, and underlying agency records unverified. Allegations in later discussion are not adopted as findings.",
+        "publication_date": "2019",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 2,
+        "source_locator": "url:https://www.wbur.org/endlessthread/2019/11/22/to-the-max-headroom",
+        "source_type": "retrospective reporting",
+        "title": "The Max Headroom Incident: Revisiting The Masked Mystery, 32 Years Later",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "No verified parent intellectual item/session; empty list does not imply independence. Interview compilation identifies later journalists/investigator accounts; the exact originating interview sessions and relationships to other publications remain unknown.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Criminal",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "year"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0004",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Interviews with station personnel and an FCC investigator. Publisher notes transcription errors are possible; check audio and original records before relying on disputed wording.",
+          "linked_media": "uninspected",
+          "text": "read transcript text (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S04"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Interviews with station personnel and an FCC investigator. Publisher notes transcription errors are possible; check audio and original records before relying on disputed wording.",
+        "publication_date": "2020",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "url:https://thisiscriminal.com/wp-content/uploads/2020/11/Episode-153-The-Max-Headroom-Incident.pdf",
+        "source_type": "retrospective interview transcript",
+        "title": "Episode 153: The Max Headroom Incident transcript",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-07",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Criminal Productions / Phoebe Judge",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publisher text/date inspected2026-11-07",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0004",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "/root/implementation_docs",
+          "limits": "Potential transcription defects remain uncorrected; no independent timing measurement, architecture verification, or disputed-audio finding.",
+          "linked_media": "uninspected",
+          "text": "Extracted text across all nine PDF pages inspected; audio and embedded broadcast recordings uninspected. Page locators use printed pages 1-9.",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S04"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Retrospective interview compilation; original logs and complaint unverified. Shared Skierkiewicz interviewee with S01; session relationship unknown. Potential transcription defects remain uncorrected; no independent timing measurement, architecture verification, or disputed-audio finding.",
+        "publication_date": "2020-11-20",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 2,
+        "source_locator": "url:https://thisiscriminal.com/wp-content/uploads/2020/11/Episode-153-The-Max-Headroom-Incident.pdf",
+        "source_type": "retrospective interview transcript",
+        "title": "Episode 153: The Max Headroom Incident transcript",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "No verified parent intellectual item/session; empty list does not imply independence. Retrospective interview compilation; original logs and complaint unverified. Shared Skierkiewicz interviewee with S01; session relationship unknown.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "FuzzyMemories",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0005",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Page retrieval timed out during planning. Recording-provenance lead, not an authenticated original or verified transcript.",
+          "linked_media": "uninspected",
+          "text": "search listing inspected; page uninspected (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S05"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Page retrieval timed out during planning. Recording-provenance lead, not an authenticated original or verified transcript.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "blocked",
+        "revision": 1,
+        "source_locator": "url:https://fuzzymemories.tv/m/v/214/",
+        "source_type": "recording listing",
+        "title": "WTTW: The Max Headroom Pirating Incident listing",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "publication_date": "The investigation plan does not state a publication date for this item.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-07",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "FuzzyMemories",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "The incident date is stated in INVESTIGATION_PLAN.md sections 1 and 3.",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0005",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "research_assistant",
+          "limits": "Displayed0:59 is listing metadata, not a verified intrusion measurement. Around11:15pm is an attributed description; capture date/feed/tape generation are not established.",
+          "linked_media": "uninspected",
+          "text": "Listing About text and displayed metadata inspected; linked video not watched, downloaded, or authenticated.",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S05"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Uploader description and uncertain transcription are not independent capture evidence. Recording lineage remains unknown. Displayed0:59 is listing metadata, not a verified intrusion measurement. Around11:15pm is an attributed description; capture date/feed/tape generation are not established.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 2,
+        "source_locator": "url:https://fuzzymemories.tv/m/v/214/",
+        "source_type": "recording listing",
+        "title": "WTTW: The Max Headroom Pirating Incident listing",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "No verified parent intellectual item/session; empty list does not imply independence. Uploader description and uncertain transcription are not independent capture evidence. Recording lineage remains unknown.",
+          "publication_date": "The investigation plan does not state a publication date for this item.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "not_applicable",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "not_applicable"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Chicago Public Library",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Holding/process guide; no single incident event asserted.",
+            "precision": "not_applicable"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "not_applicable",
+        "id": "SRC-0006",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Direct page presented a browser verification barrier. Confirm relevant 1987 holdings and access arrangements; a listing does not establish that a particular issue is available.",
+          "linked_media": "uninspected",
+          "text": "search listing inspected; page uninspected (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S06"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Direct page presented a browser verification barrier. Confirm relevant 1987 holdings and access arrangements; a listing does not establish that a particular issue is available.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "blocked",
+        "revision": 1,
+        "source_locator": "url:https://www.chipublib.org/chicago-newspapers-on-microfilm/",
+        "source_type": "holdings guide",
+        "title": "Chicago Newspapers",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "event_date": "This holdings/process guide is not an account of a single incident event.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "publication_date": "The investigation plan does not state a publication date for this item.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-07",
+        "account_status_json": {
+          "firsthand": "not_applicable",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "not_applicable"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Chicago Public Library",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Holding/process guide; no single incident event asserted.",
+            "precision": "not_applicable"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "not_applicable",
+        "id": "SRC-0006",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "research_assistant",
+          "limits": "Only JavaScript/browser-verification barrier retrieved; newspaper guide, item holdings and access arrangements not inspected or confirmed.",
+          "linked_media": "uninspected",
+          "text": "uninspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S06"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Directory lead only; no historical issue access or holding confirmation. Only JavaScript/browser-verification barrier retrieved; newspaper guide, item holdings and access arrangements not inspected or confirmed.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "blocked",
+        "revision": 2,
+        "source_locator": "url:https://www.chipublib.org/chicago-newspapers-on-microfilm/",
+        "source_type": "holdings guide",
+        "title": "Chicago Newspapers",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "event_date": "This holdings/process guide is not an account of a single incident event.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "No verified parent intellectual item/session; empty list does not imply independence. Directory lead only; no historical issue access or holding confirmation.",
+          "publication_date": "The investigation plan does not state a publication date for this item.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-06",
+        "account_status_json": {
+          "firsthand": "not_applicable",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "not_applicable"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "FOIA.gov",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Holding/process guide; no single incident event asserted.",
+            "precision": "not_applicable"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "not_applicable",
+        "id": "SRC-0007",
+        "inspection_json": {
+          "limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Official process starting point. Check selected agency's current instructions and existing releases when preparing an actual request.",
+          "linked_media": "uninspected",
+          "text": "read text (inherited planning inspection)",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S07"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Inherited from INVESTIGATION_PLAN.md section 11, checked 2026-11-06. This seed preparation did not retrieve or reinspect the source; linked media and underlying records remain unverified. Official process starting point. Check selected agency's current instructions and existing releases when preparing an actual request.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "url:https://www.foia.gov/how-to.html",
+        "source_type": "official process guide",
+        "title": "How to Make a FOIA Request",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "event_date": "This holdings/process guide is not an account of a single incident event.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "Underlying testimony and source dependence have not yet been established.",
+          "publication_date": "The investigation plan does not state a publication date for this item.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-07",
+        "account_status_json": {
+          "firsthand": "not_applicable",
+          "limits": "Status describes the item and embedded accounts provisionally from the plan; technical claims require inspection and underlying evidence.",
+          "retrospective": "not_applicable"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "U.S. Department of Justice / FOIA.gov",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Holding/process guide; no single incident event asserted.",
+            "precision": "not_applicable"
+          },
+          "publication_date": {
+            "basis": "Publication date/precision stated in INVESTIGATION_PLAN.md section 11; no additional date parts inferred.",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "not_applicable",
+        "id": "SRC-0007",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "/root/implementation_docs",
+          "limits": "Publication/update date unstated. This inspection confirms no custodian, holding, available incident record, fee, response deadline, or submission authorization.",
+          "linked_media": "uninspected",
+          "text": "Visible process-guidance text inspected; videos, agency-specific instructions, and existing-release search not inspected.",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [
+          "S07"
+        ],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Official general process page; no incident-specific evidence or known parent source needed for this use. Publication/update date unstated. This inspection confirms no custodian, holding, available incident record, fee, response deadline, or submission authorization.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 2,
+        "source_locator": "url:https://www.foia.gov/how-to.html",
+        "source_type": "official process guide",
+        "title": "How to Make a FOIA Request",
+        "unknowns_json": {
+          "completeness": "Text inspection or a listing is not a verified completeness assessment of the intellectual item.",
+          "event_date": "This holdings/process guide is not an account of a single incident event.",
+          "known_edits_json": "No source edit history has been established.",
+          "parent_source_ids_json": "No verified parent intellectual item/session; empty list does not imply independence. Official general process page; no incident-specific evidence or known parent source needed for this use.",
+          "publication_date": "The investigation plan does not state a publication date for this item.",
+          "restrictions": "Acquisition, reuse, and sharing restrictions have not been assessed."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "initial discovery: T026 exact starter reference only; Durations are attributed article descriptions, not measurements. Investigation-status wording is a 2017 statement, not verification of present status.",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://news.wttw.com/2017/11/21/30-years-later-notorious-max-headroom-incident-remains-mystery",
+        "executed_at": "2026-11-07T22:37:14+00:00",
+        "filters_json": {},
+        "id": "SRCH-0001",
+        "legacy_aliases_json": [],
+        "question": "What does this starter reference actually expose, and what remains uninspected?",
+        "repository": "Publisher URL via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery before selection of an analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0001"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Exact-URL search retrieved indexed text including approximate durations; original publisher page remains blocked. No recording inspected."
+        ],
+        "coverage": "initial discovery: T026 exact starter reference only; Exact-URL search retrieved indexed text including approximate durations; original publisher page remains blocked. No recording inspected.",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.upi.com/Archives/1987/11/23/A-video-pirate-struck-two-Chicago-television-stations-briefly/5688564642000/",
+        "executed_at": "2026-11-07T22:39:48+00:00",
+        "filters_json": {},
+        "id": "SRCH-0002",
+        "legacy_aliases_json": [],
+        "question": "What does this starter reference actually expose, and what remains uninspected?",
+        "repository": "Publisher URL via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery before selection of an analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Direct original retrieval unavailable"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0002"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "initial discovery: T026 exact starter reference only; Publisher describes an edited transcript. Broadcast clips, original interview recordings, and underlying agency records unverified. Allegations in later discussion are not adopted as findings.",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.wbur.org/endlessthread/2019/11/22/to-the-max-headroom",
+        "executed_at": "2026-11-07T22:39:48+00:00",
+        "filters_json": {},
+        "id": "SRCH-0003",
+        "legacy_aliases_json": [],
+        "question": "What does this starter reference actually expose, and what remains uninspected?",
+        "repository": "Publisher URL via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery before selection of an analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0003"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "initial discovery: T026 exact starter reference only; Potential transcription defects remain uncorrected; no independent timing measurement, architecture verification, or disputed-audio finding.",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://thisiscriminal.com/wp-content/uploads/2020/11/Episode-153-The-Max-Headroom-Incident.pdf",
+        "executed_at": "2026-11-07T22:37:14+00:00",
+        "filters_json": {},
+        "id": "SRCH-0004",
+        "legacy_aliases_json": [],
+        "question": "What does this starter reference actually expose, and what remains uninspected?",
+        "repository": "Publisher URL via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery before selection of an analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0004"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "initial discovery: T026 exact starter reference only; Displayed0:59 is listing metadata, not a verified intrusion measurement. Around11:15pm is an attributed description; capture date/feed/tape generation are not established.",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://fuzzymemories.tv/m/v/214/",
+        "executed_at": "2026-11-07T22:39:48+00:00",
+        "filters_json": {},
+        "id": "SRCH-0005",
+        "legacy_aliases_json": [],
+        "question": "What does this starter reference actually expose, and what remains uninspected?",
+        "repository": "Publisher URL via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery before selection of an analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0005"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Only JavaScript/browser-verification barrier retrieved; newspaper guide, item holdings and access arrangements not inspected or confirmed."
+        ],
+        "coverage": "initial discovery: T026 exact starter reference only; Only JavaScript/browser-verification barrier retrieved; newspaper guide, item holdings and access arrangements not inspected or confirmed.",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.chipublib.org/chicago-newspapers-on-microfilm/",
+        "executed_at": "2026-11-07T22:39:48+00:00",
+        "filters_json": {},
+        "id": "SRCH-0006",
+        "legacy_aliases_json": [],
+        "question": "What does this starter reference actually expose, and what remains uninspected?",
+        "repository": "Publisher URL via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery before selection of an analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Direct original retrieval unavailable"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "initial discovery: T026 exact starter reference only; Publication/update date unstated. This inspection confirms no custodian, holding, available incident record, fee, response deadline, or submission authorization.",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.foia.gov/how-to.html",
+        "executed_at": "2026-11-07T22:37:14+00:00",
+        "filters_json": {},
+        "id": "SRCH-0007",
+        "legacy_aliases_json": [],
+        "question": "What does this starter reference actually expose, and what remains uninspected?",
+        "repository": "Publisher URL via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery before selection of an analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0007"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Indexed result text; publisher direct403; irrelevant archive results excluded"
+        ],
+        "coverage": "initial discovery: T026 exact starter reference only; Indexed result text; publisher direct403; irrelevant archive results excluded",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:upi.com/Archives/1987/11/23/5688564642000 \"25\"",
+        "executed_at": "2026-11-07T22:40:02+00:00",
+        "filters_json": {},
+        "id": "SRCH-0008",
+        "legacy_aliases_json": [],
+        "question": "What does this starter reference actually expose, and what remains uninspected?",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery before selection of an analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Direct original retrieval unavailable"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0002"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Same starter item only; no broad reporting survey performed"
+        ],
+        "coverage": "initial discovery: T026 exact starter reference only; Same starter item only; no broad reporting survey performed",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:upi.com/Archives/1987/11/23/ \"A video pirate struck two Chicago television stations\"",
+        "executed_at": "2026-11-07T22:40:02+00:00",
+        "filters_json": {},
+        "id": "SRCH-0009",
+        "legacy_aliases_json": [],
+        "question": "What does this starter reference actually expose, and what remains uninspected?",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery before selection of an analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Direct original retrieval unavailable"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0002"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "No broadcast recording inspected or measured.",
+          "Approximate wording and measurement boundaries must not be silently standardized."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Text passage inspected; confidence applies to the attributed account, not exact historical timing.",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0001",
+        "legacy_aliases_json": [],
+        "proposition": "UPI indexed article text describes the WGN interruption as approximately25seconds.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "limits": "No original broadcast timing measurement or independent source authentication",
+            "locator": {
+              "description": "Publisher text or indexed excerpt as specified in source inspection",
+              "kind": "paragraph",
+              "precision": "Attributed text passage; no media timing measurement",
+              "value": "WGN duration paragraph beginning The first interruption"
+            },
+            "role": "Supports the stated published account only",
+            "source_id": "SRC-0002",
+            "source_revision": 2
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "No broadcast recording inspected or measured.",
+          "Approximate wording and measurement boundaries must not be silently standardized."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Text passage inspected; confidence applies to the attributed account, not exact historical timing.",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0002",
+        "legacy_aliases_json": [],
+        "proposition": "WTTW2017 article describes the WGN interruption as approximately30seconds.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "limits": "No original broadcast timing measurement or independent source authentication",
+            "locator": {
+              "description": "Publisher text or indexed excerpt as specified in source inspection",
+              "kind": "paragraph",
+              "precision": "Attributed text passage; no media timing measurement",
+              "value": "Main article paragraph7, excluding sponsor inserts"
+            },
+            "role": "Supports the stated published account only",
+            "source_id": "SRC-0001",
+            "source_revision": 2
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "No broadcast recording inspected or measured.",
+          "Approximate wording and measurement boundaries must not be silently standardized."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Text passage inspected; confidence applies to the attributed account, not exact historical timing.",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0003",
+        "legacy_aliases_json": [],
+        "proposition": "Criminal153 transcript narration describes WGN as approximately30seconds including initial black picture.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "limits": "No original broadcast timing measurement or independent source authentication",
+            "locator": {
+              "description": "Publisher text or indexed excerpt as specified in source inspection",
+              "kind": "paragraph",
+              "precision": "Attributed text passage; no media timing measurement",
+              "value": "Printed page2, narrator passage after Dan account"
+            },
+            "role": "Supports the stated published account only",
+            "source_id": "SRC-0004",
+            "source_revision": 2
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "No broadcast recording inspected or measured.",
+          "Approximate wording and measurement boundaries must not be silently standardized."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Text passage inspected; confidence applies to the attributed account, not exact historical timing.",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0004",
+        "legacy_aliases_json": [],
+        "proposition": "UPI indexed article text places the WTTW break-in at11:10pm.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "limits": "No original broadcast timing measurement or independent source authentication",
+            "locator": {
+              "description": "Publisher text or indexed excerpt as specified in source inspection",
+              "kind": "paragraph",
+              "precision": "Attributed text passage; no media timing measurement",
+              "value": "Paragraph beginning The second break-in"
+            },
+            "role": "Supports the stated published account only",
+            "source_id": "SRC-0002",
+            "source_revision": 2
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "No broadcast recording inspected or measured.",
+          "Approximate wording and measurement boundaries must not be silently standardized."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Text passage inspected; confidence applies to the attributed account, not exact historical timing.",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0005",
+        "legacy_aliases_json": [],
+        "proposition": "UPI indexed article text describes the WTTW interruption as approximately90seconds.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "limits": "No original broadcast timing measurement or independent source authentication",
+            "locator": {
+              "description": "Publisher text or indexed excerpt as specified in source inspection",
+              "kind": "paragraph",
+              "precision": "Attributed text passage; no media timing measurement",
+              "value": "Paragraph beginning The second break-in"
+            },
+            "role": "Supports the stated published account only",
+            "source_id": "SRC-0002",
+            "source_revision": 2
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "No broadcast recording inspected or measured.",
+          "Approximate wording and measurement boundaries must not be silently standardized."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Text passage inspected; confidence applies to the attributed account, not exact historical timing.",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0006",
+        "legacy_aliases_json": [],
+        "proposition": "FuzzyMemories listing description places WTTW at around11:15pm.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "limits": "No original broadcast timing measurement or independent source authentication",
+            "locator": {
+              "description": "Publisher text or indexed excerpt as specified in source inspection",
+              "kind": "paragraph",
+              "precision": "Attributed text passage; no media timing measurement",
+              "value": "About description first paragraph"
+            },
+            "role": "Supports the stated published account only",
+            "source_id": "SRC-0005",
+            "source_revision": 2
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "No broadcast recording inspected or measured.",
+          "Approximate wording and measurement boundaries must not be silently standardized."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Text passage inspected; confidence applies to the attributed account, not exact historical timing.",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0007",
+        "legacy_aliases_json": [],
+        "proposition": "FuzzyMemories page displays0:59 as listing duration metadata.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "limits": "No original broadcast timing measurement or independent source authentication",
+            "locator": {
+              "description": "Publisher text or indexed excerpt as specified in source inspection",
+              "kind": "paragraph",
+              "precision": "Attributed text passage; no media timing measurement",
+              "value": "About Duration field"
+            },
+            "role": "Supports the stated published account only",
+            "source_id": "SRC-0005",
+            "source_revision": 2
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": null,
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "No broadcast recording inspected or measured.",
+          "Approximate wording and measurement boundaries must not be silently standardized."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Text passage inspected; confidence applies to the attributed account, not exact historical timing.",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0008",
+        "legacy_aliases_json": [],
+        "proposition": "WBUR labels its transcript as edited from the original script for clarity.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "limits": "No original broadcast timing measurement or independent source authentication",
+            "locator": {
+              "description": "Publisher text or indexed excerpt as specified in source inspection",
+              "kind": "paragraph",
+              "precision": "Attributed text passage; no media timing measurement",
+              "value": "Full Transcript introductory notice"
+            },
+            "role": "Supports the stated published account only",
+            "source_id": "SRC-0003",
+            "source_revision": 2
+          }
+        ],
+        "unknowns_json": {}
+      }
+    }
+  ],
+  "reason": "Register actual bounded starter inspection, indexed retrieval limits, reported claims and exact queries",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

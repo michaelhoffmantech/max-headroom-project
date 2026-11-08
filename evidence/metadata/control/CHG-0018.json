@@ -1,0 +1,25 @@
+{
+  "change_integrity": {
+    "byte_count": 18244,
+    "sha256": "311aef121ca60bc936d42d58a373b21681848f85d1ea04a9d70362d77f761916"
+  },
+  "closure": null,
+  "id": "CHG-0018",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 17321,
+        "sha256": "eba1f18478a882755cd6c121fafa85e669434f73c7011e5d46ac84ec875f680b"
+      },
+      "path": "registers/claims.csv",
+      "previous": {
+        "byte_count": 6885,
+        "sha256": "d8adf61fcdd2816c7a24927525cd377520f4855a53fc2afb4b467df6d15c438d"
+      },
+      "staged": "registers/.claims.csv.CHG-0018.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T13:45:50.557073+00:00",
+  "published_at": "2026-11-08T13:45:50.589853+00:00",
+  "state": "published"
+}

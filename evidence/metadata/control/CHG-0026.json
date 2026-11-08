@@ -1,0 +1,55 @@
+{
+  "change_integrity": {
+    "byte_count": 17726,
+    "sha256": "b04e9d521c448250198c6173b7250e1e59996c99048b5ada598f6f8905d3fea7"
+  },
+  "closure": null,
+  "id": "CHG-0026",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 1865,
+        "sha256": "82926b050a2d9b342f8d542c9b06c4be619d6c236393e26a5d7ed7f177de3c73"
+      },
+      "path": "evidence/metadata/sessions/SES-0003.json",
+      "previous": null,
+      "staged": "evidence/metadata/sessions/.SES-0003.json.CHG-0026.stage"
+    },
+    {
+      "new": {
+        "byte_count": 12930,
+        "sha256": "12133870267f8b85a2bad69d59476b850172591b3ba5ded3658f2fe2cfc04de7"
+      },
+      "path": "registers/tasks.csv",
+      "previous": {
+        "byte_count": 12946,
+        "sha256": "c7c391d66039e515552394289baf309b73f172f4b1defe82b0b09363ae869f91"
+      },
+      "staged": "registers/.tasks.csv.CHG-0026.stage"
+    },
+    {
+      "new": {
+        "byte_count": 8379,
+        "sha256": "5bb1b248b2bbcb1b7431f4ddd184f1eadacbb1cd59f3d0d6f71e35448579ae5a"
+      },
+      "path": "registers/hypotheses.csv",
+      "previous": {
+        "byte_count": 7123,
+        "sha256": "73c3de5b0a0d28fc37519cdaeb7af753b6761bebd05e674e5322e58d8132c2ab"
+      },
+      "staged": "registers/.hypotheses.csv.CHG-0026.stage"
+    },
+    {
+      "new": {
+        "byte_count": 7050,
+        "sha256": "46a5a6e5cb2e1e305290944651a9bd9a313d47c58a35664c22082f833784f323"
+      },
+      "path": "analysis/cycles/CYC-0001.json",
+      "previous": null,
+      "staged": "analysis/cycles/.CYC-0001.json.CHG-0026.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T20:52:13.263964+00:00",
+  "published_at": "2026-11-08T20:52:13.299690+00:00",
+  "state": "published"
+}

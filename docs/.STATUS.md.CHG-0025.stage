@@ -1,0 +1,50 @@
+# Investigation status
+
+Last updated:2026-11-08
+Current milestone: Baseline reviewed; file-context cycle next
+Current bounded question: Are the real-source products sufficient to select a file-completeness test without confusing host runtime and event duration?
+
+## Findings supported by evidence
+
+No reviewed analytical finding yet. The baseline retains20attributed claims and source-linked
+reported times. It preserves25/28/30second WGN accounts and88/approximately90second WTTW accounts
+without treating them as common phase measurements. File duration, clock offsets and capture
+independence are not established by host listings.
+
+## Disagreements and missing evidence
+
+- Publication scans are protected; broadcast recording candidates remain metadata leads.
+- Original clipping issue/date provenance is limited; trade-issue header/date was checked.
+- Station monitoring/control/receiver/antenna/alternate-feed details remain unknown.
+- Local/cable/superstation impact is qualified; uniform effects and normal satellite reception are not inferred.
+
+## Work completed this session
+
+- TASK-0003: defined1987-11-23 through1987-11-30 survey plus logged follow-up/gap searches.
+- TASK-0004: five provisional recording candidates and declared/unknown lineage relationships.
+- TASK-0005/TASK-0006: four baseline product groups with real evidence and named gaps.
+- AST-0001-0003: publication files acquired, SHA-256 recorded and BAK-0002-0004 confirmed before image inspection.
+- Actual separate foundation RVW-0001 and first session BAK-0001 are preserved; SES-0001 completed with actualNov8proof.
+- Core92-test suite passes. Its fixtures do not substitute for research outputs.
+
+## Hypothesis changes
+
+None. H1-H7 remain untested. Conditional path predictions are not test results.
+
+## Next three actions
+
+- T038 completed — separate baseline review recommends continuing with stated limits.
+- TASK-0010 — AI — freeze candidate-completeness alternatives/predictions — passing baseline review.
+- TASK-0007 — AI — acquire/protect selected inputs and perform only justified media work — frozen question and provenance requirements.
+
+## Waiting on user research or external records
+
+- Full-context personal/institutional captures and dated engineering documents may require owner access when their value is clear.
+- Required disputed-audio blind listening remains a dependency if such wording is used.
+
+## Branches deferred or closed
+
+- Identity and RF location/power branches are not justified by this baseline. Reopen only with distinguishing evidence and qualified review.
+- Public Git is tooling only. The private C: backup provides separate copies, not protection against drive loss.
+
+Baseline closure is effective only with its matching confirmed receipt and mirrored control journal.

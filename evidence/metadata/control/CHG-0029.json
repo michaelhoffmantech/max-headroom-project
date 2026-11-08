@@ -1,0 +1,22 @@
+{
+  "change_integrity": {
+    "byte_count": 2212,
+    "sha256": "258773183e46907a521b7d42e283d8f4e4e28c116ea6862a22ca1fb4e150b0a4"
+  },
+  "closure": null,
+  "id": "CHG-0029",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 1453,
+        "sha256": "d7d0a372df0d11ca33d351f17234c39903057988cbda5f3b7868c2932bb32523"
+      },
+      "path": "evidence/metadata/backups/BAK-0006.json",
+      "previous": null,
+      "staged": "evidence/metadata/backups/.BAK-0006.json.CHG-0029.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T20:52:31.590959+00:00",
+  "published_at": "2026-11-08T20:52:31.613476+00:00",
+  "state": "published"
+}

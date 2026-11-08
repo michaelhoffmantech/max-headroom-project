@@ -1,0 +1,226 @@
+{
+  "exercise": "T082 fresh saved-file final-state recovery",
+  "reader_identity": "/root/final_state_reader",
+  "reader_type": "AI agent, separate instance; task instructions only, no parent conversation or expected answer supplied",
+  "assessment_date": "2026-11-08",
+  "assessed_at": "2026-11-08T21:13:33.506268+00:00",
+  "scope": "Read-only recovery of saved project state. No browsing, historical factual corroboration, source authentication, canonical edits, audio listening, media remeasurement or outreach.",
+  "files_inspected": [
+    {
+      "path": "README.md",
+      "scope": "text"
+    },
+    {
+      "path": "INVESTIGATION_PLAN.md",
+      "scope": "text; initial planning scope and dated operational checkpoints"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "scope": "text"
+    },
+    {
+      "path": "reports/milestones/delivery-review.md",
+      "scope": "text"
+    },
+    {
+      "path": "reports/milestones/workstreams.md",
+      "scope": "text"
+    },
+    {
+      "path": "reports/findings/FND-0001.md",
+      "scope": "text"
+    },
+    {
+      "path": "reports/findings/FND-0001.json",
+      "scope": "metadata, evidence locators and limits"
+    },
+    {
+      "path": "analysis/cycles/CYC-0001.md",
+      "scope": "text"
+    },
+    {
+      "path": "analysis/media-comparison/comparison-report.md",
+      "scope": "text"
+    },
+    {
+      "path": "registers/claims.csv",
+      "scope": "CLM-0021 and CLM-0022 rows"
+    },
+    {
+      "path": "registers/hypotheses.csv",
+      "scope": "HYP-0008 and HYP-0009 rows"
+    },
+    {
+      "path": "registers/tasks.csv",
+      "scope": "TASK-0007 and TASK-0008 rows"
+    },
+    {
+      "path": "evidence/metadata/sessions/SES-0004.json",
+      "scope": "complete JSON"
+    },
+    {
+      "path": "reports/findings/reviews/RVW-0003.json",
+      "scope": "selected identity, decision and limitation fields"
+    },
+    {
+      "path": "reports/findings/reviews/RVW-0004.json",
+      "scope": "selected identity and decision fields"
+    },
+    {
+      "path": "reports/findings/reviews/RVW-0005.json",
+      "scope": "selected identity and decision fields"
+    },
+    {
+      "path": "reports/findings/reviews/RVW-0007.json",
+      "scope": "review metadata, selected evidence manifest and limitation fields; lengthy output partially truncated"
+    }
+  ],
+  "answers": {
+    "current_milestone": "Foundation, real-source baseline and actual analytical CYC-0001 are performed and separately reviewed. Final delivery review is active in SES-0004; final effective completion is not yet confirmed.",
+    "current_bounded_question": "What can the acquired candidate files support about visible program-return context, and what remains necessary for the next research question? SES-0004 frames final handoff as whether another reviewer can audit the limited finding and resume saved evidence work.",
+    "analytical_question": "Do the selected acquired WGN candidate files retain visible studio/program return, or is at least one incomplete for that boundary?",
+    "supported_findings": [
+      {
+        "id": "FND-0001",
+        "revision": 2,
+        "confidence": "moderate",
+        "novelty": "new_to_project only",
+        "finding": "Commons AST-0013 has no recognizable studio/program return in the inspected sampled and terminal imagery; Archive AST-0014 visibly contains post-mask studio/program context.",
+        "confidence_reason": "Positive Archive return is directly visible; negative Commons inference is limited by sampling and unverified capture/edit histories.",
+        "evidence": [
+          {
+            "claim": "CLM-0021 r1",
+            "claim_confidence": "moderate",
+            "source": "SRC-0012 r3",
+            "asset": "AST-0013",
+            "exact_locator": "derived/frames/CYC-0001-retry/AST-0013-*; whole-runtime contact sheet at 1s samples, final 3s at 5fps, native final video frame; terminal black/watermark and no recognizable return in inspected sequence"
+          },
+          {
+            "claim": "CLM-0022 r1",
+            "claim_confidence": "high",
+            "source": "SRC-0020 r3",
+            "asset": "AST-0014",
+            "exact_locator": "derived/frames/CYC-0001-retry/AST-0014-*; row-major six-column one-second contact sheet, visible studio/program return near file-relative 58s and later WGN NEWS group; final 3s/native final frame retained"
+          }
+        ],
+        "method_records": [
+          "analysis/cycles/CYC-0001.md",
+          "analysis/media-comparison/comparison-report.md",
+          "derived/frames/CYC-0001-retry/manifest.json"
+        ],
+        "protection": "Inputs protected by BAK-0008/BAK-0009 before analysis; acquired original means unchanged download bytes.",
+        "review": "RVW-0003/0004/0005 accepted with limits; RVW-0006 analytical milestone reported reviewed; RVW-0007 current delivery decision continue. AI agreement adds no independent factual corroboration.",
+        "limits": [
+          "Container lengths about 33.23s and 97.55s are not historical intrusion durations.",
+          "No authentication, independent-capture, mechanism, site, power, identity or motive finding.",
+          "No disputed wording, speech transcript, exact phase boundary or historical clock measurement established.",
+          "Initial failed terminal seek was retained; full-stream reverse retry supplied terminal frame without changing predictions."
+        ]
+      }
+    ],
+    "hypothesis_changes": [
+      {
+        "id": "HYP-0008",
+        "before": "untested",
+        "after": "weakened",
+        "reason": "All selected acquired candidates retaining return is weakened by CLM-0021; a brief unsampled return remains possible."
+      },
+      {
+        "id": "HYP-0009",
+        "before": "untested",
+        "after": "supported",
+        "reason": "At least one selected acquired file lacking recognizable return is supported within inspected samples by CLM-0021/22."
+      }
+    ],
+    "other_hypotheses": "Original H1-H7 remain untested. None is ruled out; statuses are file-specific and previous revisions retained.",
+    "gaps_and_waits": [
+      "Reported historical WGN 25/28/30s and WTTW 88/about90s remain attributed, with unknown clocks, phase boundaries and qualified distribution-path effects.",
+      "Capture date/feed/generation/digitization/edit chain and independence unknown; sampled views can miss brief imagery.",
+      "TASK-0007/T067 full annotated transcription and genuine unprimed second transcription unperformed/waiting; preferred wording must be withheld.",
+      "TASK-0008/T068 cultural interpretation unperformed/waiting for completed T07 plus dated pre-1987-11-22 primary material.",
+      "Partial third-party FBI five-page laboratory package and separate five-page release letter do not establish complete agency records. Cited FCC letter, Q1 linkage to online files, tape/prints and complete custody/feed history absent; processing logs are not disposition.",
+      "Dated as-built receiver/antenna/monitoring/control/alternate-feed records missing. RF work awaits dated architecture and qualified historical broadcast review.",
+      "Records request and neutral interview guide are UNSENT. Owner private contact/fee choice and current agency instructions precede a request; holdings/access must be confirmed before travel/paid work.",
+      "Private backup is another copy on C:, not drive-loss protection. Final exact session protection/mirrored control journal acceptance remains pending."
+    ],
+    "stopping_and_reopening": {
+      "bounded_test": "Selected-file context test complete; stop extrapolation to historical durations or mechanism.",
+      "reopen_file_result": "Overlooked return frames, decoder error, changed bytes, or fuller authenticated captures; freeze a new cycle rather than revise old predictions.",
+      "deferred_RF": "Reopen mechanism/site/power only with dated architecture and qualified review.",
+      "deferred_culture": "Reopen with verified content, genuine blind-word review when wording matters, and dated preincident availability evidence.",
+      "session_stop": "Complete current reviews and exact-byte backed-up handoff; effective completion must be derived from matching review/current snapshot, confirmed receipt and coherently mirrored published control journal, then a passing read-only delivery validator."
+    },
+    "next_three_actions": [
+      {
+        "order": 1,
+        "owner": "Owner with an unprimed listener",
+        "action": "Obtain actual time-coded annotated and blind second transcription if wording will be used.",
+        "dependencies": [
+          "TASK-0007/T067",
+          "Protected inputs",
+          "Preferred wording withheld from second listener"
+        ]
+      },
+      {
+        "order": 2,
+        "owner": "Owner",
+        "action": "Decide whether to authorize the narrow UNSENT FBI records request.",
+        "dependencies": [
+          "TASK-0009",
+          "Private contact/fee choice",
+          "Rechecked current agency instructions"
+        ]
+      },
+      {
+        "order": 3,
+        "owner": "AI and a qualified historical broadcast reviewer",
+        "action": "Frame and prospectively freeze a new architecture/timing cycle.",
+        "dependencies": [
+          "Dated equipment/monitoring records or fuller capture evidence",
+          "New distinguishing predictions frozen before research"
+        ]
+      }
+    ],
+    "final_effective_completion": {
+      "status": "pending",
+      "confirmed": false,
+      "why": "SES-0004 intended_state is active; final_handoff, closure_snapshot_id, intended_completion_at and reserved_receipt_id are null. Delivery validator records check passes but returns not_ready/blocked for completed_handoff: Exact-content final session backup and mirrored commit required. RVW-0007 continue does not itself certify final closure.",
+      "acceptance": "Matching current milestone review and exact final STATUS/session/register snapshot, confirmed receipt and coherently mirrored published control journal; validate --gate delivery --verify-files after close-session must pass. Later covered changes require another confirmed snapshot."
+    }
+  },
+  "validation": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python tools/dossier.py --format json validate --gate delivery --verify-files",
+    "exit_code": 1,
+    "records": "pass",
+    "readiness": "not_ready",
+    "status": "blocked",
+    "errors": [],
+    "blockers": [
+      {
+        "code": "completed_handoff",
+        "message": "Exact-content final session backup and mirrored commit required"
+      }
+    ],
+    "finding_state": {
+      "FND-0001": "shareable_for_selected_reviewers"
+    },
+    "read_only": true
+  },
+  "assessment": {
+    "saved_state_recovery": "pass",
+    "milestone_question_findings_confidence_evidence": "pass",
+    "hypothesis_changes": "pass",
+    "gaps_waits_stopping_reopening": "pass",
+    "exactly_three_owned_dependent_actions": "pass",
+    "completion_status_recovered": "pass: pending, correctly distinguished from reviewed research",
+    "delivery_acceptance": "fail/pending due to final handoff blocker; this is an expected current-state limit, not failure to recover state",
+    "overall": "pass for fresh saved-file recovery"
+  },
+  "ambiguities_and_limitations": [
+    "INVESTIGATION_PLAN retains November 6 ideation stage, old proposed path and unchecked initial next-session tasks; the prominent operational checkpoint explicitly identifies them as historical scope, and dated checkpoints/STATUS resolve current state.",
+    "STATUS says final cross-output review pending while RVW-0007 already exists with continue decision. This is a mildly stale substep cue; exact-byte closure is unambiguously still pending and validator confirms it.",
+    "Runtime text and several IDs/numbers have tight spacing, which makes scanning harder but did not block recovery.",
+    "This is recovery from saved text and metadata, not independent confirmation of images, sources, history, authenticity, complete evidence coverage or specialist engineering conclusions.",
+    "No canonical files were changed. Only this requested work artifact is written. No expected-answer comparison or earlier saved reader report was consulted."
+  ]
+}

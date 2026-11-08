@@ -1,0 +1,1175 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T13:45:51.667563+00:00",
+  "id": "CHG-0019",
+  "intended_final_file_manifest": {
+    "registers/searches.csv": {
+      "byte_count": 29998,
+      "sha256": "acc3288f7a1182809c718aea7675299f13690415436c4c07e97148cbd60f5619"
+    },
+    "registers/sources.csv": {
+      "byte_count": 36219,
+      "sha256": "b0d58d41e35e0840b9d6d2c34eb52b3cc5d05a928daa2902fcc27cef33ef7d7f"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "The record describes metadata, not an independently inspected historical capture or firsthand witness account",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Wikimedia Commons contributors (description; recording author unknown)",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Repository Summary date; not verified capture date",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Commons file-history current upload, not recording/capture date",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0012",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "/root/resume_review",
+          "limits": "Commons credits the Museum upload, courtesy Chris Bieniek, and reports a VHS source from Video Monitoring Services. It lists33s/640x480/VP9-Opus and watermarking; these are unprobed metadata. Digitization and capture chain are not verified. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record.",
+          "linked_media": "uninspected",
+          "text": "Repository description, file history, transcode and metadata text only",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [
+          "Repository metadata reports VP9/Opus re-encoding and a watermark/credit notice; bytes and picture uninspected"
+        ],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [
+          "SRC-0014"
+        ],
+        "provenance_limits": "Commons credits the Museum upload, courtesy Chris Bieniek, and reports a VHS source from Video Monitoring Services. It lists33s/640x480/VP9-Opus and watermarking; these are unprobed metadata. Digitization and capture chain are not verified. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record. Parent reference records the repository's declared host source only; the capture/physical-media relationship remains unverified.",
+        "publication_date": "2018-12-15",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "URL: https://commons.wikimedia.org/wiki/File:WGN-TV_%27Max_Headroom%27_Incident%22_(1987).webm",
+        "source_type": "Recording repository description",
+        "title": "WGN-TV 'Max Headroom' Incident (1987).webm",
+        "unknowns_json": {
+          "completeness": "Only the described host listing/metadata scope was inspected; historical capture completeness is not established",
+          "known_edits_json": "Detailed host/recording edit and digitization history remains unestablished",
+          "restrictions": "No independent access/reuse restriction assessment for the represented recording"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "The record describes metadata, not an independently inspected historical capture or firsthand witness account",
+          "retrospective": "yes"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Wikimedia Commons contributors (description; recording author unknown)",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Repository Summary date; not verified capture date",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Commons current upload row, not capture date",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0013",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "/root/resume_review",
+          "limits": "Repository links V01Dv_TcxTI and labels the file restored by NOTELU, captioned and upscaled. It lists1min39s/1440x1080/VP9-Opus. Restoration procedure is unknown; higher pixel dimensions do not establish original detail. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record.",
+          "linked_media": "uninspected",
+          "text": "Repository description, file history, transcode and metadata text only",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [
+          "Repository label reports restoration, upscaling and closed captions; method/settings/input history unverified"
+        ],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [
+          "SRC-0017"
+        ],
+        "provenance_limits": "Repository links V01Dv_TcxTI and labels the file restored by NOTELU, captioned and upscaled. It lists1min39s/1440x1080/VP9-Opus. Restoration procedure is unknown; higher pixel dimensions do not establish original detail. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record. Parent reference records the repository's declared host source only; the capture/physical-media relationship remains unverified.",
+        "publication_date": "2025-11-27",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "retrieved",
+        "revision": 1,
+        "source_locator": "URL: https://commons.wikimedia.org/wiki/File:Max_Headroom_WTTW_Signal_Intrusion_(1987;_High_Quality_Restoration).webm",
+        "source_type": "Recording repository description",
+        "title": "Max Headroom WTTW Signal Intrusion (1987; High Quality Restoration).webm",
+        "unknowns_json": {
+          "completeness": "Only the described host listing/metadata scope was inspected; historical capture completeness is not established",
+          "known_edits_json": "Detailed host/recording edit and digitization history remains unestablished",
+          "restrictions": "No independent access/reuse restriction assessment for the represented recording"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "The record describes metadata, not an independently inspected historical capture or firsthand witness account",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "unknown",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not independently established from inspected publisher material",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Publication date not independently established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0014",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "/root/resume_review",
+          "limits": "Museum attribution comes from the Commons description. Direct uploader metadata, upload date, playback and surrounding material remain unverified. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record.",
+          "linked_media": "uninspected",
+          "text": "URL located through Commons source link; publisher page fetch failed",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Museum attribution comes from the Commons description. Direct uploader metadata, upload date, playback and surrounding material remain unverified. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "blocked",
+        "revision": 1,
+        "source_locator": "URL: https://www.youtube.com/watch?v=dKnwhokvgxE",
+        "source_type": "Recording/player listing lead",
+        "title": "WGN Channel9 - The Nine O'Clock News - The1st Max Headroom Incident (1987)",
+        "unknowns_json": {
+          "completeness": "Only the described host listing/metadata scope was inspected; historical capture completeness is not established",
+          "creator": "Publisher creator/uploader metadata not independently inspected; linked attributions remain reported leads",
+          "event_date": "A title or linked URL does not independently establish the represented historical event date",
+          "known_edits_json": "Detailed host/recording edit and digitization history remains unestablished",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "No directly verified publication/upload date for this represented item",
+          "restrictions": "No independent access/reuse restriction assessment for the represented recording"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "The record describes metadata, not an independently inspected historical capture or firsthand witness account",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "unknown",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not independently established from inspected publisher material",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Publication date not independently established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0015",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "/root/resume_review",
+          "limits": "Original Upload is the listing title, not authentication of an original tape. No capture chain, upload date, description or playback was verified. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record.",
+          "linked_media": "uninspected",
+          "text": "Title/minimal publisher response and station embedded URL only",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Original Upload is the listing title, not authentication of an original tape. No capture chain, upload date, description or playback was verified. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "partial",
+        "revision": 1,
+        "source_locator": "URL: https://www.youtube.com/watch?v=cycVTXtm0U0",
+        "source_type": "Recording/player listing lead",
+        "title": "WTTW Chicago - The Max Headroom Pirating Incident (1987) - Original Upload",
+        "unknowns_json": {
+          "completeness": "Only the described host listing/metadata scope was inspected; historical capture completeness is not established",
+          "creator": "Publisher creator/uploader metadata not independently inspected; linked attributions remain reported leads",
+          "event_date": "A title or linked URL does not independently establish the represented historical event date",
+          "known_edits_json": "Detailed host/recording edit and digitization history remains unestablished",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "No directly verified publication/upload date for this represented item",
+          "restrictions": "No independent access/reuse restriction assessment for the represented recording"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "The record describes metadata, not an independently inspected historical capture or firsthand witness account",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "unknown",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not independently established from inspected publisher material",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Publication date not independently established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0016",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "/root/resume_review",
+          "limits": "Potential station retrospective excerpts; full playback and relevance to raw capture comparison uninspected. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record.",
+          "linked_media": "uninspected",
+          "text": "Linked player title/URL; fetched body empty",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Potential station retrospective excerpts; full playback and relevance to raw capture comparison uninspected. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "partial",
+        "revision": 1,
+        "source_locator": "URL: https://video.wttw.com/partnerplayer/13cGCusUyKW0C3EjmDhCgQ==/?autoplay=true&callsign=WTTW&end=0&endscreen=false&start=0&topbar=true",
+        "source_type": "Recording/player listing lead",
+        "title": "30 Years Later, Max Headroom Incident Remains a Mystery - Chicago Tonight",
+        "unknowns_json": {
+          "completeness": "Only the described host listing/metadata scope was inspected; historical capture completeness is not established",
+          "creator": "Publisher creator/uploader metadata not independently inspected; linked attributions remain reported leads",
+          "event_date": "A title or linked URL does not independently establish the represented historical event date",
+          "known_edits_json": "Detailed host/recording edit and digitization history remains unestablished",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "No directly verified publication/upload date for this represented item",
+          "restrictions": "No independent access/reuse restriction assessment for the represented recording"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "The record describes metadata, not an independently inspected historical capture or firsthand witness account",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "unknown",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not independently established from inspected publisher material",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Publication date not independently established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0017",
+        "inspection_json": {
+          "inherited_only": false,
+          "inspected_by": "/root/resume_review",
+          "limits": "Restored/captioned/upscaled derivative candidate. Processing could alter clues; no particular algorithm, generated detail, or source-capture independence was established. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record.",
+          "linked_media": "uninspected",
+          "text": "Commons metadata link/title only; direct fetch failed",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [
+          "Repository label reports restoration, upscaling and closed captions; method/settings/input history unverified"
+        ],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Restored/captioned/upscaled derivative candidate. Processing could alter clues; no particular algorithm, generated detail, or source-capture independence was established. Metadata/title inspection only: no acquired file, playback, timing measurement, authentication, independent-capture conclusion, or byte-integrity record.",
+        "publication_date": "unknown",
+        "restrictions": "unknown",
+        "retired": false,
+        "retrieval_status": "blocked",
+        "revision": 1,
+        "source_locator": "URL: https://www.youtube.com/watch?v=V01Dv_TcxTI",
+        "source_type": "Recording/player listing lead",
+        "title": "Max Headroom Incident2nd Broadcast - RESTORED BY NOTELU (CC) (Upscaled)",
+        "unknowns_json": {
+          "completeness": "Only the described host listing/metadata scope was inspected; historical capture completeness is not established",
+          "creator": "Publisher creator/uploader metadata not independently inspected; linked attributions remain reported leads",
+          "event_date": "A title or linked URL does not independently establish the represented historical event date",
+          "known_edits_json": "Detailed host/recording edit and digitization history remains unestablished",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "No directly verified publication/upload date for this represented item",
+          "restrictions": "No independent access/reuse restriction assessment for the represented recording"
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://fuzzymemories.tv/m/v/214/",
+        "executed_at": "2026-11-08T13:29:41+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0020",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "FuzzyMemories",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0005"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://news.wttw.com/2017/11/21/30-years-later-notorious-max-headroom-incident-remains-mystery",
+        "executed_at": "2026-11-08T13:29:41+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0021",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "WTTW",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0001"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "No readable body in fetched player; no playback inspected"
+        ],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open linked partner iframe https://video.wttw.com/partnerplayer/13cGCusUyKW0C3EjmDhCgQ==/?autoplay=true&callsign=WTTW&end=0&endscreen=false&start=0&topbar=true",
+        "executed_at": "2026-11-08T13:29:49+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0022",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "WTTW/PBS",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "No readable body in fetched player; no playback inspected"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0016"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Embedded player fetch returned cache miss; title/URL is a lead only"
+        ],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.youtube.com/embed/cycVTXtm0U0",
+        "executed_at": "2026-11-08T13:29:49+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0023",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "YouTube",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Embedded player fetch returned cache miss; title/URL is a lead only"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0015"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Standard-site link timed out"
+        ],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.fuzzymemories.tv/?nomobile=",
+        "executed_at": "2026-11-08T13:29:49+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0024",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "FuzzyMemories",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Standard-site link timed out"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only; batched result URL pool inspected; per-query attribution not established",
+        "cycle_id": "not_applicable",
+        "exact_query": "site.fuzzymemories.tv \"WGN\" \"Max Headroom\" \"1987\"",
+        "executed_at": "2026-11-08T13:29:58+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0025",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "First query contains the logged site. typo; broad secondary results were not adopted as provenance",
+          "Relevant pooled host metadata was traced separately; no independent result set attributed to this query"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only; batched result URL pool inspected; per-query attribution not established",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:fuzzymemories.tv \"WGN\" \"The Max Headroom\" ",
+        "executed_at": "2026-11-08T13:29:58+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding",
+          "site": "fuzzymemories.tv"
+        },
+        "id": "SRCH-0026",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Secondary retellings/speculative claims excluded; results do not establish full-context capture",
+          "Relevant pooled host metadata was traced separately; no independent result set attributed to this query"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only; batched result URL pool inspected; per-query attribution not established",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"WGN\" \"before and after\" recording",
+        "executed_at": "2026-11-08T13:29:58+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0027",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Secondary retellings/speculative claims excluded; results do not establish full-context capture",
+          "Relevant pooled host metadata was traced separately; no independent result set attributed to this query"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only; batched result URL pool inspected; per-query attribution not established",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"WTTW\" recording \"complete\" FuzzyMemories",
+        "executed_at": "2026-11-08T13:29:58+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0028",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Secondary retellings/speculative claims excluded; results do not establish full-context capture",
+          "Relevant pooled host metadata was traced separately; no independent result set attributed to this query"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://en.wikisource.org/wiki/File:WGN-TV_%27Max_Headroom%27_Incident%22_(1987).webm",
+        "executed_at": "2026-11-08T13:30:10+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0029",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Wikisource Commons-description mirror",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Description only; media not opened"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0012"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://en.wikipedia.org/wiki/Max_Headroom_signal_hijackings",
+        "executed_at": "2026-11-08T13:30:10+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0030",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Wikipedia navigation only",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Reference13/14 upload dates were not independently verified at the publisher and are not adopted as established dates"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0014",
+          "SRC-0015"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only; batched result URL pool inspected; per-query attribution not established",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:fuzzymemories.tv \"WGN Channel 9\" \"1st\" \"Headroom\"",
+        "executed_at": "2026-11-08T13:30:10+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding",
+          "site": "fuzzymemories.tv"
+        },
+        "id": "SRCH-0031",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "No verified unprocessed full broadcast obtained",
+          "Relevant pooled host metadata was traced separately; no independent result set attributed to this query"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only; batched result URL pool inspected; per-query attribution not established",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:commons.wikimedia.org \"Max Headroom\" \"WTTW\" \"Source\"",
+        "executed_at": "2026-11-08T13:30:10+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding",
+          "site": "commons.wikimedia.org"
+        },
+        "id": "SRCH-0032",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "No verified unprocessed full broadcast obtained",
+          "Relevant pooled host metadata was traced separately; no independent result set attributed to this query"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://commons.wikimedia.org/wiki/File:WGN-TV_%27Max_Headroom%27_Incident%22_(1987).webm",
+        "executed_at": "2026-11-08T13:30:17+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0033",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Wikimedia Commons",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Metadata/description only; no downloaded or decoded file"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0012"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Video-page fetch failed; uploader title/date not directly inspected"
+        ],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.youtube.com/watch?v=dKnwhokvgxE",
+        "executed_at": "2026-11-08T13:30:17+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0034",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "YouTube",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Video-page fetch failed; uploader title/date not directly inspected"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "inspect Wikipedia references13-15 and Commons WTTW Source link",
+        "executed_at": "2026-11-08T13:30:17+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0035",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Wikipedia navigation / Wikimedia Commons",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Wikipedia used only to locate primary-hosted candidates, not as capture authentication"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0013",
+          "SRC-0015"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Title returned with only a minimal page body; no playback or source-description inspection"
+        ],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.youtube.com/watch?v=cycVTXtm0U0",
+        "executed_at": "2026-11-08T13:30:27+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0036",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "YouTube",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Title returned with only a minimal page body; no playback or source-description inspection"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0015"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Legacy listing URL returned404"
+        ],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.fuzzymemories.tv/index.php?c=59&m=max+headroom+pirate",
+        "executed_at": "2026-11-08T13:30:27+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0037",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "FuzzyMemories",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Legacy listing URL returned404"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Video-page fetch failed"
+        ],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "open https://www.youtube.com/watch?v=V01Dv_TcxTI",
+        "executed_at": "2026-11-08T13:30:27+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0038",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "YouTube",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Video-page fetch failed"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0017"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "inspect WGN Commons Summary/File history/Metadata and WTTW Commons Summary/File history/Metadata",
+        "executed_at": "2026-11-08T13:30:27+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0039",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Wikimedia Commons",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "All durations, dimensions, upload dates and provenance are repository assertions, not file measurements or verified capture histories"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0012",
+          "SRC-0013"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only; batched result URL pool inspected; per-query attribution not established",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"dKnwhokvgxE\" \"2017\" \"Video Monitoring\"",
+        "executed_at": "2026-11-08T13:30:49+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0040",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Repeated repository copies and secondary narratives did not independently verify publisher upload dates or capture history",
+          "Relevant pooled host metadata was traced separately; no independent result set attributed to this query"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only; batched result URL pool inspected; per-query attribution not established",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"cycVTXtm0U0\" \"October 30, 2007\"",
+        "executed_at": "2026-11-08T13:30:49+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0041",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Repeated repository copies and secondary narratives did not independently verify publisher upload dates or capture history",
+          "Relevant pooled host metadata was traced separately; no independent result set attributed to this query"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only; batched result URL pool inspected; per-query attribution not established",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:fuzzymemories.tv \"Max Headroom\" \"Chris Bieniek\"",
+        "executed_at": "2026-11-08T13:30:49+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding",
+          "site": "fuzzymemories.tv"
+        },
+        "id": "SRCH-0042",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Repeated repository copies and secondary narratives did not independently verify publisher upload dates or capture history",
+          "Relevant pooled host metadata was traced separately; no independent result set attributed to this query"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only; batched result URL pool inspected; per-query attribution not established",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"WGN\" \"Video Monitoring Services\"",
+        "executed_at": "2026-11-08T13:30:49+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding"
+        },
+        "id": "SRCH-0043",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Repeated repository copies and secondary narratives did not independently verify publisher upload dates or capture history",
+          "Relevant pooled host metadata was traced separately; no independent result set attributed to this query"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:archive.org/details \"WTTW\" \"1987-11-22\"",
+        "executed_at": "2026-11-08T13:31:04+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding",
+          "site": "archive.org/details"
+        },
+        "id": "SRCH-0044",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search of Internet Archive details pages",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "No search results; this is a bounded index-search failure, not proof the Archive has no relevant item"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:archive.org/details \"WGN\" \"Max Headroom\"",
+        "executed_at": "2026-11-08T13:31:04+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding",
+          "site": "archive.org/details"
+        },
+        "id": "SRCH-0045",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search of Internet Archive details pages",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "No search results; this is a bounded index-search failure, not proof the Archive has no relevant item"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "T034 bounded recording discovery; listing/metadata inspection only",
+        "cycle_id": "not_applicable",
+        "exact_query": "site:archive.org/details \"Max Headroom\" \"Doctor Who\"",
+        "executed_at": "2026-11-08T13:31:04+00:00",
+        "filters_json": {
+          "scope": "recording metadata discovery only; no media decoding",
+          "site": "archive.org/details"
+        },
+        "id": "SRCH-0046",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search of Internet Archive details pages",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "No search results; this is a bounded index-search failure, not proof the Archive has no relevant item"
+        ],
+        "useful_source_ids_json": []
+      }
+    }
+  ],
+  "reason": "Register bounded T034 host/recording metadata and exact retrieval/search log; no media acquisition or authentication",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

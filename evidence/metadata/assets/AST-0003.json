@@ -1,0 +1,35 @@
+{
+  "acquired_at": "2026-11-08T13:35:07.147558+00:00",
+  "actor": "research_assistant",
+  "byte_count": 16711686,
+  "capture_date": null,
+  "completeness": "unknown",
+  "created_at": "2026-11-08T13:35:07.147609+00:00",
+  "digitization_history": "Repository download; scan production/date/edits unknown",
+  "id": "AST-0003",
+  "input_asset_ids": [],
+  "input_locators": [],
+  "kind": "acquired_original",
+  "known_edits": [],
+  "original_media_history": "Contemporary newspaper/trade-paper clipping or issue, as attributed by repository; original paper chain unknown",
+  "processing": null,
+  "provenance_limits": "Third-party source attributed by archive; original publication/capture chain unverified",
+  "receiver_feed": null,
+  "restrictions": "Private copyrighted source; no public redistribution",
+  "revision": 1,
+  "schema_version": 1,
+  "sha256": "05962f70a48507e6c5c58f08ac8910aa11122f20fbd6af8f1a3a2e3b54730afa",
+  "source_id": "SRC-0010",
+  "storage": {
+    "access_limit": "Private copyrighted source; no public redistribution",
+    "alias": "primary_evidence",
+    "relative_path": "AST-0003/1987-11-30-electronic-media.pdf"
+  },
+  "tape_generation": null,
+  "unknowns": {
+    "capture_date": "Not a broadcast capture; scan creation unknown",
+    "processing": "Not yet established; do not infer.",
+    "receiver_feed": "Not a broadcast recording",
+    "tape_generation": "Not a broadcast recording"
+  }
+}

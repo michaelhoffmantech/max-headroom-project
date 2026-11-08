@@ -1,0 +1,157 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T13:35:07.202610+00:00",
+  "id": "CHG-0015",
+  "intended_final_file_manifest": {
+    "evidence/metadata/assets/AST-0003.json": {
+      "byte_count": 1419,
+      "sha256": "95e59f2ed3907f7e99c897508828490712ad40920506e6e1bc9cebb24acca39f"
+    },
+    "registers/sources.csv": {
+      "byte_count": 20916,
+      "sha256": "253d42d53dbc10d5cbf1989efba238c81960d98d3898745790933a72ac59ca0d"
+    }
+  },
+  "operations": [
+    {
+      "entity_type": "assets",
+      "previous": null,
+      "proposed": {
+        "acquired_at": "2026-11-08T13:35:07.147558+00:00",
+        "actor": "research_assistant",
+        "byte_count": 16711686,
+        "capture_date": null,
+        "completeness": "unknown",
+        "created_at": "2026-11-08T13:35:07.147609+00:00",
+        "digitization_history": "Repository download; scan production/date/edits unknown",
+        "id": "AST-0003",
+        "input_asset_ids": [],
+        "input_locators": [],
+        "kind": "acquired_original",
+        "known_edits": [],
+        "original_media_history": "Contemporary newspaper/trade-paper clipping or issue, as attributed by repository; original paper chain unknown",
+        "processing": null,
+        "provenance_limits": "Third-party source attributed by archive; original publication/capture chain unverified",
+        "receiver_feed": null,
+        "restrictions": "Private copyrighted source; no public redistribution",
+        "revision": 1,
+        "schema_version": 1,
+        "sha256": "05962f70a48507e6c5c58f08ac8910aa11122f20fbd6af8f1a3a2e3b54730afa",
+        "source_id": "SRC-0010",
+        "storage": {
+          "access_limit": "Private copyrighted source; no public redistribution",
+          "alias": "primary_evidence",
+          "relative_path": "AST-0003/1987-11-30-electronic-media.pdf"
+        },
+        "tape_generation": null,
+        "unknowns": {
+          "capture_date": "Not a broadcast capture; scan creation unknown",
+          "processing": "Not yet established; do not infer.",
+          "receiver_feed": "Not a broadcast recording",
+          "tape_generation": "Not a broadcast recording"
+        }
+      }
+    },
+    {
+      "entity_type": "sources",
+      "previous": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Adam Buckman / Electronic Media",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Indexed PDF text labels November30,1987, pages4 and87",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0010",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No authentication of original publication or historical technical conclusion; archive/index mediation retained",
+          "linked_media": "uninspected",
+          "text": "Direct PDF retrieval403; indexed article/continuation text inspected, page image not yet inspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified.",
+        "publication_date": "1987-11-30",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 1,
+        "source_locator": "URL: https://www.worldradiohistory.com/Archive-All-Communications/Electronic-Media/80s/87/Electronic-Media-1987-11-30.pdf",
+        "source_type": "Contemporary trade reporting",
+        "title": "Signal pirates hit Chicago",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      },
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "mixed",
+          "limits": "Contemporary reporting may quote shared witnesses; underlying interview/record independence not established",
+          "retrospective": "no"
+        },
+        "asset_ids_json": [
+          "AST-0003"
+        ],
+        "completeness": "unknown",
+        "creator": "Adam Buckman / Electronic Media",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Incident date attributed by report",
+            "precision": "day"
+          },
+          "publication_date": {
+            "basis": "Indexed PDF text labels November30,1987, pages4 and87",
+            "precision": "day"
+          }
+        },
+        "event_date": "1987-11-22",
+        "id": "SRC-0010",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No authentication of original publication or historical technical conclusion; archive/index mediation retained",
+          "linked_media": "uninspected",
+          "text": "Direct PDF retrieval403; indexed article/continuation text inspected, page image not yet inspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Third-party/indexed presentation; edition, clipping completeness and source-chain details remain unverified.",
+        "publication_date": "1987-11-30",
+        "restrictions": "Copyrighted source; private research and backup only; not for public Git redistribution",
+        "retired": false,
+        "retrieval_status": "excerpt_only",
+        "revision": 2,
+        "source_locator": "URL: https://www.worldradiohistory.com/Archive-All-Communications/Electronic-Media/80s/87/Electronic-Media-1987-11-30.pdf",
+        "source_type": "Contemporary trade reporting",
+        "title": "Signal pirates hit Chicago",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred"
+        }
+      }
+    }
+  ],
+  "reason": "Register unchanged supplied acquisition",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

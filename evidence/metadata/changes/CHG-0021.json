@@ -1,0 +1,673 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T14:02:15.932628+00:00",
+  "id": "CHG-0021",
+  "intended_final_file_manifest": {
+    "registers/claims.csv": {
+      "byte_count": 17414,
+      "sha256": "3222efea79d404b10e14ebc1e69fbfd07f93a9f42fee95694dae77bbaaed9bbf"
+    },
+    "registers/searches.csv": {
+      "byte_count": 32052,
+      "sha256": "12c4869d9a70328ef595d744b22e2f56059081e7fd1d4eff04d53d693de095ba"
+    },
+    "registers/tasks.csv": {
+      "byte_count": 12946,
+      "sha256": "c7c391d66039e515552394289baf309b73f172f4b1defe82b0b09363ae869f91"
+    },
+    "registers/timeline.csv": {
+      "byte_count": 5401,
+      "sha256": "3f75928b6b8a07070d724471314d9de40e73a7514824466275b79ae99a8ec38c"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "claims",
+      "previous": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "No broadcast recording inspected or measured.",
+          "Approximate wording and measurement boundaries must not be silently standardized."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Text passage inspected; confidence applies to the attributed account, not exact historical timing.",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0002",
+        "legacy_aliases_json": [],
+        "proposition": "WTTW2017 article describes the WGN interruption as approximately30seconds.",
+        "retired": false,
+        "revision": 1,
+        "supporting_evidence_json": [
+          {
+            "limits": "No original broadcast timing measurement or independent source authentication",
+            "locator": {
+              "description": "Publisher text or indexed excerpt as specified in source inspection",
+              "kind": "paragraph",
+              "precision": "Attributed text passage; no media timing measurement",
+              "value": "Main article paragraph7, excluding sponsor inserts"
+            },
+            "role": "Supports the stated published account only",
+            "source_id": "SRC-0001",
+            "source_revision": 2
+          }
+        ],
+        "unknowns_json": {}
+      },
+      "proposed": {
+        "category": "reported_claim",
+        "caveats_json": [
+          "The article does not supply a timing method or common phase endpoints; a nominal number is not an authenticated exact measurement.",
+          "Earlier approximate paraphrase retained in CHG history; this revision follows the publisher wording."
+        ],
+        "confidence": "moderate",
+        "confidence_reasons": "Text passage inspected; confidence applies to the attributed account, not exact historical timing.",
+        "contradicting_evidence_json": [],
+        "id": "CLM-0002",
+        "legacy_aliases_json": [],
+        "proposition": "The WTTW2017 article reports WGN news returning after30seconds.",
+        "retired": false,
+        "revision": 2,
+        "supporting_evidence_json": [
+          {
+            "limits": "No original broadcast timing measurement or independent source authentication",
+            "locator": {
+              "description": "Publisher text or indexed excerpt as specified in source inspection",
+              "kind": "paragraph",
+              "precision": "Attributed text passage; no media timing measurement",
+              "value": "Main article paragraph7, excluding sponsor inserts"
+            },
+            "role": "Supports the stated published account only",
+            "source_id": "SRC-0001",
+            "source_revision": 2
+          }
+        ],
+        "unknowns_json": {}
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "timeline",
+      "previous": {
+        "clock_source": "Attributed newspaper/account clock; no station clock/log inspected",
+        "competing_reports_json": [
+          {
+            "caveat": "Not an independent measurement",
+            "claim_id": "CLM-0009",
+            "clock_source": "Tribune front-page account",
+            "precision": "Reported figure; boundaries unstated",
+            "reported_interval": "28seconds"
+          },
+          {
+            "caveat": "Original page blocked",
+            "claim_id": "CLM-0001",
+            "clock_source": "UPI indexed account",
+            "precision": "Approximate",
+            "reported_interval": "about25seconds"
+          },
+          {
+            "caveat": "Retrospective account",
+            "claim_id": "CLM-0002",
+            "clock_source": "WTTW2017article",
+            "precision": "Approximate",
+            "reported_interval": "about30seconds"
+          }
+        ],
+        "event": "Contemporary report places intrusion during sportscast; reported durations25/28seconds and retrospectiveapproximately30seconds are separate accounts.",
+        "id": "EVT-0001",
+        "legacy_aliases_json": [],
+        "phase": "total_disruption",
+        "precision": "Reported minute or approximate duration; no seconds fabricated",
+        "reception_paths_json": [
+          {
+            "claim_ids": [
+              "CLM-0001",
+              "CLM-0002",
+              "CLM-0003",
+              "CLM-0009",
+              "CLM-0010",
+              "CLM-0015",
+              "CLM-0018"
+            ],
+            "path": "Local station reception as reported; exact receiver/feed/capture unknown"
+          }
+        ],
+        "recording_boundaries_json": [],
+        "related_claim_ids_json": [
+          "CLM-0001",
+          "CLM-0002",
+          "CLM-0003",
+          "CLM-0009",
+          "CLM-0010",
+          "CLM-0015",
+          "CLM-0018"
+        ],
+        "retired": false,
+        "revision": 1,
+        "station": "WGN-TV",
+        "time_local_end": "unknown",
+        "time_local_start": "1987-11-22T21:14",
+        "timezone_label": "Chicago local, as reported",
+        "unknowns_json": {
+          "recording_boundaries_json": "No broadcast recording measured; disruption/black/visible/restoration boundaries remain unmeasured",
+          "time_local_end": "Not established by inspected sources; preserve competing accounts and explicit precision",
+          "utc_offset": "Not established by inspected sources; preserve competing accounts and explicit precision"
+        },
+        "utc_offset": "unknown"
+      },
+      "proposed": {
+        "clock_source": "Attributed newspaper/account clock; no station clock/log inspected",
+        "competing_reports_json": [
+          {
+            "caveat": "Not an independent measurement",
+            "claim_id": "CLM-0009",
+            "clock_source": "Tribune front-page account",
+            "precision": "Reported figure; boundaries unstated",
+            "reported_interval": "28seconds"
+          },
+          {
+            "caveat": "Original page blocked",
+            "claim_id": "CLM-0001",
+            "clock_source": "UPI indexed account",
+            "precision": "Approximate",
+            "reported_interval": "about25seconds"
+          },
+          {
+            "caveat": "Retrospective account",
+            "claim_id": "CLM-0002",
+            "clock_source": "WTTW2017article",
+            "precision": "Nominal reported figure; timing method unspecified",
+            "reported_interval": "30seconds"
+          }
+        ],
+        "event": "Contemporary WGN accounts report25/28seconds and a retrospective reports30seconds; they are not standardized as one measured interval.",
+        "id": "EVT-0001",
+        "legacy_aliases_json": [],
+        "phase": "total_disruption",
+        "precision": "Reported minute or approximate duration; no seconds fabricated",
+        "reception_paths_json": [
+          {
+            "claim_ids": [
+              "CLM-0001",
+              "CLM-0002",
+              "CLM-0003",
+              "CLM-0009",
+              "CLM-0010",
+              "CLM-0015",
+              "CLM-0018"
+            ],
+            "path": "Local station reception as reported; exact receiver/feed/capture unknown"
+          }
+        ],
+        "recording_boundaries_json": [],
+        "related_claim_ids_json": [
+          "CLM-0001",
+          "CLM-0002",
+          "CLM-0003",
+          "CLM-0009",
+          "CLM-0010",
+          "CLM-0015",
+          "CLM-0018"
+        ],
+        "retired": false,
+        "revision": 2,
+        "station": "WGN-TV",
+        "time_local_end": "unknown",
+        "time_local_start": "1987-11-22T21:14",
+        "timezone_label": "Chicago local, as reported",
+        "unknowns_json": {
+          "recording_boundaries_json": "No broadcast recording measured; disruption/black/visible/restoration boundaries remain unmeasured",
+          "time_local_end": "Not established by inspected sources; preserve competing accounts and explicit precision",
+          "utc_offset": "Not established by inspected sources; preserve competing accounts and explicit precision"
+        },
+        "utc_offset": "unknown"
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"November 23, 1987\" television Chicago AP",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0010",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      },
+      "proposed": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence. Batch results were pooled; useful sources are not attributed individually to every query.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"November 23, 1987\" television Chicago AP",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0010",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 2,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"Nov. 24, 1987\" Chicago television",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0011",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      },
+      "proposed": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence. Batch results were pooled; useful sources are not attributed individually to every query.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"Nov. 24, 1987\" Chicago television",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0011",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 2,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"November 30 1987\" Broadcasting",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0012",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      },
+      "proposed": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence. Batch results were pooled; useful sources are not attributed individually to every query.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"November 30 1987\" Broadcasting",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0012",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 2,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"November 1987\" \"Chicago Tribune\"",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0013",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      },
+      "proposed": {
+        "access_barriers_json": [
+          "Restricted/direct retrieval and incomplete index coverage; no complete newspaper repository survey"
+        ],
+        "coverage": "1987-11-23 through 1987-11-30 baseline survey; manual screening of available indexed newspapers/trade press, not exhaustive issue coverage; later commentary excluded as evidence. Batch results were pooled; useful sources are not attributed individually to every query.",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" \"November 1987\" \"Chicago Tribune\"",
+        "executed_at": "2026-11-08T13:29:40+00:00",
+        "filters_json": {},
+        "id": "SRCH-0013",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 2,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "Later unsourced summaries/link farms were not adopted as historical evidence"
+        ],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0010",
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": {
+        "access_barriers_json": [
+          "Search returns later summaries; their claimed FBI/agency file links are unverified leads"
+        ],
+        "coverage": "Follow-up expansion after the1987-11-23 through1987-11-30 survey; no original1988record inspected in this query",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\"1988 FCC investigation Chicago follow up",
+        "executed_at": "2026-11-08T13:46:49+00:00",
+        "filters_json": {},
+        "id": "SRCH-0047",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "No primary1988disposition established by these results"
+        ],
+        "useful_source_ids_json": []
+      },
+      "proposed": {
+        "access_barriers_json": [
+          "Search returns later summaries; their claimed FBI/agency file links are unverified leads"
+        ],
+        "coverage": "Follow-up expansion after the1987-11-23 through1987-11-30 survey; no original1988record inspected in this query",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\" 1988 FCC investigation Chicago follow up",
+        "executed_at": "2026-11-08T13:46:49+00:00",
+        "filters_json": {},
+        "id": "SRCH-0047",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 2,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "No primary1988disposition established by these results"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Every timeline entry links to evidence; conflicting times and event boundaries remain visible",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          },
+          {
+            "id": "TASK-0004",
+            "note": "Refinement dependency: original 'refine with T04'; retain uncertainty while recording evidence is unavailable."
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Every timeline entry links to evidence; conflicting times and event boundaries remain visible",
+        "external_wait": "not_applicable",
+        "id": "TASK-0005",
+        "legacy_aliases_json": [
+          "T05"
+        ],
+        "method": "Link every event to evidence and preserve conflicting clocks, precision, paths, and disruption/restoration boundaries.",
+        "next_action": "Assemble source-linked baseline products from inspected accounts, preserving all unsupported components and contradictions",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Build baseline chronology",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Every timeline entry links to evidence; conflicting times and event boundaries remain visible",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          },
+          {
+            "id": "TASK-0004",
+            "note": "Refinement dependency: original 'refine with T04'; retain uncertainty while recording evidence is unavailable."
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Every timeline entry links to evidence; conflicting times and event boundaries remain visible",
+        "external_wait": "not_applicable",
+        "id": "TASK-0005",
+        "legacy_aliases_json": [
+          "T05"
+        ],
+        "method": "Link every event to evidence and preserve conflicting clocks, precision, paths, and disruption/restoration boundaries.",
+        "next_action": "Use actual baseline review to select one attainable distinguishing test; reopen dated equipment research when needed",
+        "output_refs_json": [
+          "registers/timeline.csv",
+          "analysis/chronology/timeline.md",
+          "analysis/chronology/contradictions.md"
+        ],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Build baseline chronology",
+        "reopening_condition": "not_applicable",
+        "result": "Initial real-source chronology assembled; reported minutes/durations, four phase types and clock/offset/capture limits remain separate.",
+        "retired": false,
+        "revision": 3,
+        "status": "done",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Diagram has dated evidence for each supported component and clearly marks unknown components",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          }
+        ],
+        "effort_timebox": "reassess after 2-3 sessions",
+        "expected_output": "Diagram has dated evidence for each supported component and clearly marks unknown components",
+        "external_wait": "not_applicable",
+        "id": "TASK-0006",
+        "legacy_aliases_json": [
+          "T06"
+        ],
+        "method": "Use dated 1987 architecture records to support signal-path components; label unsupported components unknown.",
+        "next_action": "Assemble source-linked baseline products from inspected accounts, preserving all unsupported components and contradictions",
+        "output_refs_json": [],
+        "owner": "AI; user for unavailable records",
+        "priority": "P1",
+        "question": "Reconstruct historical station paths",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Diagram has dated evidence for each supported component and clearly marks unknown components",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          }
+        ],
+        "effort_timebox": "reassess after 2-3 sessions",
+        "expected_output": "Diagram has dated evidence for each supported component and clearly marks unknown components",
+        "external_wait": "not_applicable",
+        "id": "TASK-0006",
+        "legacy_aliases_json": [
+          "T06"
+        ],
+        "method": "Use dated 1987 architecture records to support signal-path components; label unsupported components unknown.",
+        "next_action": "Use actual baseline review to select one attainable distinguishing test; reopen dated equipment research when needed",
+        "output_refs_json": [
+          "analysis/engineering/signal-paths.md",
+          "analysis/engineering/assumptions.md",
+          "analysis/engineering/explanation-comparison.md"
+        ],
+        "owner": "AI; user for unavailable records",
+        "priority": "P1",
+        "question": "Reconstruct historical station paths",
+        "reopening_condition": "not_applicable",
+        "result": "Dated reported station paths and conditional explanations assembled from contemporary pages; actual as-built monitoring/control/receiver/antenna and feasibility parameters remain unknown. No current facilities or point RF estimate substituted.",
+        "retired": false,
+        "revision": 3,
+        "status": "done",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed."
+        }
+      }
+    }
+  ],
+  "reason": "Finalize initial baseline outputs, retain nominal-wording correction and exact search provenance",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

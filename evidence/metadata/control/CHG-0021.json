@@ -1,0 +1,61 @@
+{
+  "change_integrity": {
+    "byte_count": 29159,
+    "sha256": "6ae23d163768c4b891e11ff0e6c22eac381358d536b76df43d291d9ea9fed33b"
+  },
+  "closure": null,
+  "id": "CHG-0021",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 32052,
+        "sha256": "12c4869d9a70328ef595d744b22e2f56059081e7fd1d4eff04d53d693de095ba"
+      },
+      "path": "registers/searches.csv",
+      "previous": {
+        "byte_count": 31691,
+        "sha256": "a53d37ac742674b5225dfbd1f4381d2059ccb4fef0641dbf30e1a21057d1886c"
+      },
+      "staged": "registers/.searches.csv.CHG-0021.stage"
+    },
+    {
+      "new": {
+        "byte_count": 5401,
+        "sha256": "3f75928b6b8a07070d724471314d9de40e73a7514824466275b79ae99a8ec38c"
+      },
+      "path": "registers/timeline.csv",
+      "previous": {
+        "byte_count": 5382,
+        "sha256": "fb772d9e9247152372835f88d1d04657994cc5be20f761923875ee3038c2b304"
+      },
+      "staged": "registers/.timeline.csv.CHG-0021.stage"
+    },
+    {
+      "new": {
+        "byte_count": 17414,
+        "sha256": "3222efea79d404b10e14ebc1e69fbfd07f93a9f42fee95694dae77bbaaed9bbf"
+      },
+      "path": "registers/claims.csv",
+      "previous": {
+        "byte_count": 17321,
+        "sha256": "eba1f18478a882755cd6c121fafa85e669434f73c7011e5d46ac84ec875f680b"
+      },
+      "staged": "registers/.claims.csv.CHG-0021.stage"
+    },
+    {
+      "new": {
+        "byte_count": 12946,
+        "sha256": "c7c391d66039e515552394289baf309b73f172f4b1defe82b0b09363ae869f91"
+      },
+      "path": "registers/tasks.csv",
+      "previous": {
+        "byte_count": 12501,
+        "sha256": "8276155971fa1a8eb7471cecd2bb9a8ab1b486a1b1caed0c660b5777898fd26b"
+      },
+      "staged": "registers/.tasks.csv.CHG-0021.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T14:02:15.933557+00:00",
+  "published_at": "2026-11-08T14:02:15.960301+00:00",
+  "state": "published"
+}

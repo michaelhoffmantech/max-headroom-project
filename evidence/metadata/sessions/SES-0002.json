@@ -1,0 +1,92 @@
+{
+  "actor": "research_assistant",
+  "closed_branches": [],
+  "closure_snapshot_id": "BAK-0005",
+  "completed_task_outputs": [
+    {
+      "output_refs": [
+        "registers/searches.csv",
+        "analysis/chronology/image-text-check.md"
+      ],
+      "result": "Defined contemporary survey with image checks and barriers",
+      "task_id": "TASK-0003"
+    },
+    {
+      "output_refs": [
+        "analysis/media-comparison/recording-inventory.md"
+      ],
+      "result": "Provisional recording version/provenance inventory",
+      "task_id": "TASK-0004"
+    },
+    {
+      "output_refs": [
+        "analysis/chronology/timeline.md",
+        "analysis/chronology/contradictions.md"
+      ],
+      "result": "Source-linked chronology with explicit clock/phase limits",
+      "task_id": "TASK-0005"
+    },
+    {
+      "output_refs": [
+        "analysis/engineering/signal-paths.md",
+        "analysis/engineering/assumptions.md"
+      ],
+      "result": "Dated reported paths and unknowns; no point RF deduction",
+      "task_id": "TASK-0006"
+    }
+  ],
+  "created_at": "2026-11-08T13:29:25.014200+00:00",
+  "current_milestone": "baseline reviewed",
+  "current_question": "The four actual baseline products passed separate review with explicit access, timing and architecture limits.",
+  "deferred_branches": [
+    "Detailed audiovisual interpretation awaits inventoried/protected input and required review"
+  ],
+  "disagreements": [],
+  "final_handoff": {
+    "access_limit": "Private research state",
+    "alias": "project",
+    "relative_path": "docs/STATUS.md"
+  },
+  "findings": [],
+  "gaps": [
+    "No inspected broadcast recording yet",
+    "Historic receiver/antenna/control/alternate-feed details remain unverified",
+    "Clip runtime/capture completeness and independence not established"
+  ],
+  "hypothesis_changes": [],
+  "id": "SES-0002",
+  "intended_completion_at": "2026-11-08T20:52:10.746745+00:00",
+  "intended_state": "complete",
+  "next_actions": [
+    {
+      "dependencies": [
+        "TASK-0005",
+        "TASK-0006"
+      ],
+      "output": "Preserve separate baseline review and freeze bounded candidate-completeness test",
+      "owner": "AI"
+    },
+    {
+      "dependencies": [
+        "TASK-0004"
+      ],
+      "output": "Acquire and protect selected candidate files before probing",
+      "owner": "AI"
+    },
+    {
+      "dependencies": [
+        "TASK-0010"
+      ],
+      "output": "Perform test and challenge its file-coordinate/context conclusions",
+      "owner": "AI; separate reviewer"
+    }
+  ],
+  "reopening_condition": "Revisit baseline when new contemporary records, full-context captures or dated as-built diagrams become available",
+  "reserved_receipt_id": "BAK-0005",
+  "revision": 4,
+  "schema_version": 1,
+  "started_at": "2026-11-08T13:29:25.014186+00:00",
+  "stopping_condition": "Baseline effort checkpoint reached; continue to the frozen file-context cycle after protected closure",
+  "unknowns": {},
+  "waits": []
+}

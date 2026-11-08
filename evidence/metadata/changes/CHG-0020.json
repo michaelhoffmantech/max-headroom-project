@@ -1,0 +1,617 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T13:49:29.275550+00:00",
+  "id": "CHG-0020",
+  "intended_final_file_manifest": {
+    "registers/searches.csv": {
+      "byte_count": 31691,
+      "sha256": "a53d37ac742674b5225dfbd1f4381d2059ccb4fef0641dbf30e1a21057d1886c"
+    },
+    "registers/tasks.csv": {
+      "byte_count": 12501,
+      "sha256": "8276155971fa1a8eb7471cecd2bb9a8ab1b486a1b1caed0c660b5777898fd26b"
+    },
+    "registers/timeline.csv": {
+      "byte_count": 5382,
+      "sha256": "fb772d9e9247152372835f88d1d04657994cc5be20f761923875ee3038c2b304"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Search returns later summaries; their claimed FBI/agency file links are unverified leads"
+        ],
+        "coverage": "Follow-up expansion after the1987-11-23 through1987-11-30 survey; no original1988record inspected in this query",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"Max Headroom\"1988 FCC investigation Chicago follow up",
+        "executed_at": "2026-11-08T13:46:49+00:00",
+        "filters_json": {},
+        "id": "SRCH-0047",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [
+          "No primary1988disposition established by these results"
+        ],
+        "useful_source_ids_json": []
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "No actual1987receiver/antenna/remote-control/equipment manual or as-built diagram established; later assertions not substituted"
+        ],
+        "coverage": "Historical-path gap search after contemporary reporting baseline",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"WGN\" \"1987\" \"studio transmitter link\" engineering Hancock",
+        "executed_at": "2026-11-08T13:46:49+00:00",
+        "filters_json": {},
+        "id": "SRCH-0048",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0010"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "No actual1987receiver/antenna/remote-control/equipment manual or as-built diagram established; later assertions not substituted"
+        ],
+        "coverage": "Historical-path gap search after contemporary reporting baseline",
+        "cycle_id": "not_applicable",
+        "exact_query": "\"WTTW\" \"1987\" \"microwave\" transmitter monitoring",
+        "executed_at": "2026-11-08T13:46:49+00:00",
+        "filters_json": {},
+        "id": "SRCH-0049",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Web search index",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {
+          "cycle_id": "Initial discovery/baseline stage, not a selected analytical cycle"
+        },
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0008",
+          "SRC-0010"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "timeline",
+      "previous": null,
+      "proposed": {
+        "clock_source": "Attributed newspaper/account clock; no station clock/log inspected",
+        "competing_reports_json": [
+          {
+            "caveat": "Not an independent measurement",
+            "claim_id": "CLM-0009",
+            "clock_source": "Tribune front-page account",
+            "precision": "Reported figure; boundaries unstated",
+            "reported_interval": "28seconds"
+          },
+          {
+            "caveat": "Original page blocked",
+            "claim_id": "CLM-0001",
+            "clock_source": "UPI indexed account",
+            "precision": "Approximate",
+            "reported_interval": "about25seconds"
+          },
+          {
+            "caveat": "Retrospective account",
+            "claim_id": "CLM-0002",
+            "clock_source": "WTTW2017article",
+            "precision": "Approximate",
+            "reported_interval": "about30seconds"
+          }
+        ],
+        "event": "Contemporary report places intrusion during sportscast; reported durations25/28seconds and retrospectiveapproximately30seconds are separate accounts.",
+        "id": "EVT-0001",
+        "legacy_aliases_json": [],
+        "phase": "total_disruption",
+        "precision": "Reported minute or approximate duration; no seconds fabricated",
+        "reception_paths_json": [
+          {
+            "claim_ids": [
+              "CLM-0001",
+              "CLM-0002",
+              "CLM-0003",
+              "CLM-0009",
+              "CLM-0010",
+              "CLM-0015",
+              "CLM-0018"
+            ],
+            "path": "Local station reception as reported; exact receiver/feed/capture unknown"
+          }
+        ],
+        "recording_boundaries_json": [],
+        "related_claim_ids_json": [
+          "CLM-0001",
+          "CLM-0002",
+          "CLM-0003",
+          "CLM-0009",
+          "CLM-0010",
+          "CLM-0015",
+          "CLM-0018"
+        ],
+        "retired": false,
+        "revision": 1,
+        "station": "WGN-TV",
+        "time_local_end": "unknown",
+        "time_local_start": "1987-11-22T21:14",
+        "timezone_label": "Chicago local, as reported",
+        "unknowns_json": {
+          "recording_boundaries_json": "No broadcast recording measured; disruption/black/visible/restoration boundaries remain unmeasured",
+          "time_local_end": "Not established by inspected sources; preserve competing accounts and explicit precision",
+          "utc_offset": "Not established by inspected sources; preserve competing accounts and explicit precision"
+        },
+        "utc_offset": "unknown"
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "timeline",
+      "previous": null,
+      "proposed": {
+        "clock_source": "Attributed newspaper/account clock; no station clock/log inspected",
+        "competing_reports_json": [],
+        "event": "WGN recovery attributed to an engineer changing its program-link frequency; exact restoration boundary unmeasured.",
+        "id": "EVT-0002",
+        "legacy_aliases_json": [],
+        "phase": "restoration",
+        "precision": "Reported minute or approximate duration; no seconds fabricated",
+        "reception_paths_json": [
+          {
+            "claim_ids": [
+              "CLM-0013"
+            ],
+            "path": "Local station reception as reported; exact receiver/feed/capture unknown"
+          }
+        ],
+        "recording_boundaries_json": [],
+        "related_claim_ids_json": [
+          "CLM-0013"
+        ],
+        "retired": false,
+        "revision": 1,
+        "station": "WGN-TV",
+        "time_local_end": "unknown",
+        "time_local_start": "unknown",
+        "timezone_label": "Chicago local, as reported",
+        "unknowns_json": {
+          "recording_boundaries_json": "No broadcast recording measured; disruption/black/visible/restoration boundaries remain unmeasured",
+          "time_local_end": "Not established by inspected sources; preserve competing accounts and explicit precision",
+          "time_local_start": "Not established by inspected sources; preserve competing accounts and explicit precision",
+          "utc_offset": "Not established by inspected sources; preserve competing accounts and explicit precision"
+        },
+        "utc_offset": "unknown"
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "timeline",
+      "previous": null,
+      "proposed": {
+        "clock_source": "Attributed newspaper/account clock; no station clock/log inspected",
+        "competing_reports_json": [
+          {
+            "caveat": "Clock origin/offset unverified",
+            "claim_id": "CLM-0004",
+            "clock_source": "UPI indexed account",
+            "precision": "Reported minute",
+            "reported_time": "1987-11-22T23:10"
+          },
+          {
+            "caveat": "Listing not authenticated capture timing",
+            "claim_id": "CLM-0006",
+            "clock_source": "FuzzyMemories listing",
+            "precision": "Approximate",
+            "reported_time": "around23:15"
+          }
+        ],
+        "event": "Doctor Who interruption; reports place it at11:10pm versus listing around11:15pm, with88/approximately90second descriptions.",
+        "id": "EVT-0003",
+        "legacy_aliases_json": [],
+        "phase": "total_disruption",
+        "precision": "Reported minute or approximate duration; no seconds fabricated",
+        "reception_paths_json": [
+          {
+            "claim_ids": [
+              "CLM-0004",
+              "CLM-0005",
+              "CLM-0006",
+              "CLM-0016",
+              "CLM-0020"
+            ],
+            "path": "Local station reception as reported; exact receiver/feed/capture unknown"
+          }
+        ],
+        "recording_boundaries_json": [],
+        "related_claim_ids_json": [
+          "CLM-0004",
+          "CLM-0005",
+          "CLM-0006",
+          "CLM-0016",
+          "CLM-0020"
+        ],
+        "retired": false,
+        "revision": 1,
+        "station": "WTTW",
+        "time_local_end": "unknown",
+        "time_local_start": "unknown",
+        "timezone_label": "Chicago local, as reported",
+        "unknowns_json": {
+          "recording_boundaries_json": "No broadcast recording measured; disruption/black/visible/restoration boundaries remain unmeasured",
+          "time_local_end": "Not established by inspected sources; preserve competing accounts and explicit precision",
+          "time_local_start": "Not established by inspected sources; preserve competing accounts and explicit precision",
+          "utc_offset": "Not established by inspected sources; preserve competing accounts and explicit precision"
+        },
+        "utc_offset": "unknown"
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "timeline",
+      "previous": null,
+      "proposed": {
+        "clock_source": "Attributed newspaper/account clock; no station clock/log inspected",
+        "competing_reports_json": [],
+        "event": "Normal programming reportedly returned; precise black/visible/restoration boundaries and affected paths await recordings/logs.",
+        "id": "EVT-0004",
+        "legacy_aliases_json": [],
+        "phase": "restoration",
+        "precision": "Reported minute or approximate duration; no seconds fabricated",
+        "reception_paths_json": [
+          {
+            "claim_ids": [
+              "CLM-0005",
+              "CLM-0016",
+              "CLM-0020"
+            ],
+            "path": "Local station reception as reported; exact receiver/feed/capture unknown"
+          }
+        ],
+        "recording_boundaries_json": [],
+        "related_claim_ids_json": [
+          "CLM-0005",
+          "CLM-0016",
+          "CLM-0020"
+        ],
+        "retired": false,
+        "revision": 1,
+        "station": "WTTW",
+        "time_local_end": "unknown",
+        "time_local_start": "unknown",
+        "timezone_label": "Chicago local, as reported",
+        "unknowns_json": {
+          "recording_boundaries_json": "No broadcast recording measured; disruption/black/visible/restoration boundaries remain unmeasured",
+          "time_local_end": "Not established by inspected sources; preserve competing accounts and explicit precision",
+          "time_local_start": "Not established by inspected sources; preserve competing accounts and explicit precision",
+          "utc_offset": "Not established by inspected sources; preserve competing accounts and explicit precision"
+        },
+        "utc_offset": "unknown"
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Review a defined November 23-30, 1987 search across available papers and trade press; log coverage and gaps",
+        "dependencies_json": [
+          {
+            "id": "TASK-0002",
+            "note": "Required: original T02"
+          }
+        ],
+        "effort_timebox": "2-3 sessions before reassessment",
+        "expected_output": "Review a defined November 23-30, 1987 search across available papers and trade press; log coverage and gaps",
+        "external_wait": "not_applicable",
+        "id": "TASK-0003",
+        "legacy_aliases_json": [
+          "T03"
+        ],
+        "method": "Review a defined 1987-11-23 through 1987-11-30 search across available papers and trade press; log exact coverage, gaps, and article image/text checks.",
+        "next_action": "Perform bounded available-source survey and preserve exact coverage/gaps",
+        "output_refs_json": [],
+        "owner": "AI + user for restricted archives",
+        "priority": "P1",
+        "question": "Collect contemporaneous reporting",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Review a defined November 23-30, 1987 search across available papers and trade press; log coverage and gaps",
+        "dependencies_json": [
+          {
+            "id": "TASK-0002",
+            "note": "Required: original T02"
+          }
+        ],
+        "effort_timebox": "2-3 sessions before reassessment",
+        "expected_output": "Review a defined November 23-30, 1987 search across available papers and trade press; log coverage and gaps",
+        "external_wait": "not_applicable",
+        "id": "TASK-0003",
+        "legacy_aliases_json": [
+          "T03"
+        ],
+        "method": "Review a defined 1987-11-23 through 1987-11-30 search across available papers and trade press; log exact coverage, gaps, and article image/text checks.",
+        "next_action": "Use the inspected accounts for source map/chronology and dated supported/unknown path baseline; expand archives only for a distinguishing gap",
+        "output_refs_json": [
+          "registers/searches.csv",
+          "registers/sources.csv",
+          "analysis/chronology/image-text-check.md"
+        ],
+        "owner": "AI + user for restricted archives",
+        "priority": "P1",
+        "question": "Collect contemporaneous reporting",
+        "reopening_condition": "not_applicable",
+        "result": "Defined available-source survey completed: UPI23/24indexed text, Tribune24and Sun-Times24images, ElectronicMedia30printed4/87images; exact coverage, later-noise exclusions and archive/index gaps retained. This is not exhaustive issue coverage.",
+        "retired": false,
+        "revision": 3,
+        "status": "done",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Record available versions, provenance, completeness, and capture lineage; disclose when only derivatives survive",
+        "dependencies_json": [
+          {
+            "id": "TASK-0002",
+            "note": "Required: original T02"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Record available versions, provenance, completeness, and capture lineage; disclose when only derivatives survive",
+        "external_wait": "not_applicable",
+        "id": "TASK-0004",
+        "legacy_aliases_json": [
+          "T04"
+        ],
+        "method": "Record available versions, acquisition/provenance limits, completeness, and capture lineage without inventing authenticated originals.",
+        "next_action": "Perform bounded available-source survey and preserve exact coverage/gaps",
+        "output_refs_json": [],
+        "owner": "AI + user for personal copies",
+        "priority": "P1",
+        "question": "Locate and inventory recordings",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Record available versions, provenance, completeness, and capture lineage; disclose when only derivatives survive",
+        "dependencies_json": [
+          {
+            "id": "TASK-0002",
+            "note": "Required: original T02"
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Record available versions, provenance, completeness, and capture lineage; disclose when only derivatives survive",
+        "external_wait": "not_applicable",
+        "id": "TASK-0004",
+        "legacy_aliases_json": [
+          "T04"
+        ],
+        "method": "Record available versions, acquisition/provenance limits, completeness, and capture lineage without inventing authenticated originals.",
+        "next_action": "Acquire a specific justified recording only when needed; preserve originals and verify backup before analysis",
+        "output_refs_json": [
+          "analysis/media-comparison/recording-inventory.md",
+          "registers/sources.csv",
+          "registers/searches.csv"
+        ],
+        "owner": "AI + user for personal copies",
+        "priority": "P1",
+        "question": "Locate and inventory recordings",
+        "reopening_condition": "not_applicable",
+        "result": "Five provisional public recording candidates inventoried from host metadata; no broadcast media inspected/acquired and no verified best-quality/capture-independence rank claimed. Full-context/capture provenance remains a named gap.",
+        "retired": false,
+        "revision": 3,
+        "status": "done",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Every timeline entry links to evidence; conflicting times and event boundaries remain visible",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          },
+          {
+            "id": "TASK-0004",
+            "note": "Refinement dependency: original 'refine with T04'; retain uncertainty while recording evidence is unavailable."
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Every timeline entry links to evidence; conflicting times and event boundaries remain visible",
+        "external_wait": "not_applicable",
+        "id": "TASK-0005",
+        "legacy_aliases_json": [
+          "T05"
+        ],
+        "method": "Link every event to evidence and preserve conflicting clocks, precision, paths, and disruption/restoration boundaries.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Build baseline chronology",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Every timeline entry links to evidence; conflicting times and event boundaries remain visible",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          },
+          {
+            "id": "TASK-0004",
+            "note": "Refinement dependency: original 'refine with T04'; retain uncertainty while recording evidence is unavailable."
+          }
+        ],
+        "effort_timebox": "unknown",
+        "expected_output": "Every timeline entry links to evidence; conflicting times and event boundaries remain visible",
+        "external_wait": "not_applicable",
+        "id": "TASK-0005",
+        "legacy_aliases_json": [
+          "T05"
+        ],
+        "method": "Link every event to evidence and preserve conflicting clocks, precision, paths, and disruption/restoration boundaries.",
+        "next_action": "Assemble source-linked baseline products from inspected accounts, preserving all unsupported components and contradictions",
+        "output_refs_json": [],
+        "owner": "AI",
+        "priority": "P1",
+        "question": "Build baseline chronology",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "effort_timebox": "The initial backlog supplies no numerical effort/timebox for this task; define a bounded reassessment timebox before activating its research.",
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "tasks",
+      "previous": {
+        "completion_condition": "Diagram has dated evidence for each supported component and clearly marks unknown components",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          }
+        ],
+        "effort_timebox": "reassess after 2-3 sessions",
+        "expected_output": "Diagram has dated evidence for each supported component and clearly marks unknown components",
+        "external_wait": "not_applicable",
+        "id": "TASK-0006",
+        "legacy_aliases_json": [
+          "T06"
+        ],
+        "method": "Use dated 1987 architecture records to support signal-path components; label unsupported components unknown.",
+        "next_action": "Confirm prerequisite outputs and dependencies; define/reassess the bounded task before activating it.",
+        "output_refs_json": [],
+        "owner": "AI; user for unavailable records",
+        "priority": "P1",
+        "question": "Reconstruct historical station paths",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 1,
+        "status": "queued",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      },
+      "proposed": {
+        "completion_condition": "Diagram has dated evidence for each supported component and clearly marks unknown components",
+        "dependencies_json": [
+          {
+            "id": "TASK-0003",
+            "note": "Required: original T03"
+          }
+        ],
+        "effort_timebox": "reassess after 2-3 sessions",
+        "expected_output": "Diagram has dated evidence for each supported component and clearly marks unknown components",
+        "external_wait": "not_applicable",
+        "id": "TASK-0006",
+        "legacy_aliases_json": [
+          "T06"
+        ],
+        "method": "Use dated 1987 architecture records to support signal-path components; label unsupported components unknown.",
+        "next_action": "Assemble source-linked baseline products from inspected accounts, preserving all unsupported components and contradictions",
+        "output_refs_json": [],
+        "owner": "AI; user for unavailable records",
+        "priority": "P1",
+        "question": "Reconstruct historical station paths",
+        "reopening_condition": "not_applicable",
+        "result": "not_applicable",
+        "retired": false,
+        "revision": 2,
+        "status": "active",
+        "unknowns_json": {
+          "external_wait": "No external wait has been initiated by seed creation.",
+          "reopening_condition": "The queued task has not been stopped or closed.",
+          "result": "The task is queued and has no performed result."
+        }
+      }
+    }
+  ],
+  "reason": "Record bounded survey result and attributed event baseline; begin dated path/source-map synthesis",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

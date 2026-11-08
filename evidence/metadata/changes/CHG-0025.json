@@ -1,0 +1,209 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T20:52:10.800999+00:00",
+  "id": "CHG-0025",
+  "intended_final_file_manifest": {
+    "docs/STATUS.md": {
+      "byte_count": 2849,
+      "sha256": "986ee3d506bb4a98db2b54c556fe1c5b4d3be12724b0ec41f90039eec9df3392"
+    },
+    "evidence/metadata/sessions/SES-0002.json": {
+      "byte_count": 2971,
+      "sha256": "6ff753a2986985685cb453b5d5ec76943711b7192d7723ba0a6fc4907fd9cde9"
+    }
+  },
+  "operations": [
+    {
+      "entity_type": "sessions",
+      "previous": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": null,
+        "completed_task_outputs": [
+          {
+            "output_refs": [
+              "registers/searches.csv",
+              "analysis/chronology/image-text-check.md"
+            ],
+            "result": "Defined contemporary survey with image checks and barriers",
+            "task_id": "TASK-0003"
+          },
+          {
+            "output_refs": [
+              "analysis/media-comparison/recording-inventory.md"
+            ],
+            "result": "Provisional recording version/provenance inventory",
+            "task_id": "TASK-0004"
+          },
+          {
+            "output_refs": [
+              "analysis/chronology/timeline.md",
+              "analysis/chronology/contradictions.md"
+            ],
+            "result": "Source-linked chronology with explicit clock/phase limits",
+            "task_id": "TASK-0005"
+          },
+          {
+            "output_refs": [
+              "analysis/engineering/signal-paths.md",
+              "analysis/engineering/assumptions.md"
+            ],
+            "result": "Dated reported paths and unknowns; no point RF deduction",
+            "task_id": "TASK-0006"
+          }
+        ],
+        "created_at": "2026-11-08T13:29:25.014200+00:00",
+        "current_milestone": "baseline reviewed",
+        "current_question": "The four actual baseline products passed separate review with explicit access, timing and architecture limits.",
+        "deferred_branches": [
+          "Detailed audiovisual interpretation awaits inventoried/protected input and required review"
+        ],
+        "disagreements": [],
+        "final_handoff": null,
+        "findings": [],
+        "gaps": [
+          "No inspected broadcast recording yet",
+          "Historic receiver/antenna/control/alternate-feed details remain unverified",
+          "Clip runtime/capture completeness and independence not established"
+        ],
+        "hypothesis_changes": [],
+        "id": "SES-0002",
+        "intended_completion_at": null,
+        "intended_state": "active",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0005",
+              "TASK-0006"
+            ],
+            "output": "Preserve separate baseline review and freeze bounded candidate-completeness test",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0004"
+            ],
+            "output": "Acquire and protect selected candidate files before probing",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0010"
+            ],
+            "output": "Perform test and challenge its file-coordinate/context conclusions",
+            "owner": "AI; separate reviewer"
+          }
+        ],
+        "reopening_condition": "Revisit baseline when new contemporary records, full-context captures or dated as-built diagrams become available",
+        "reserved_receipt_id": null,
+        "revision": 3,
+        "schema_version": 1,
+        "started_at": "2026-11-08T13:29:25.014186+00:00",
+        "stopping_condition": "Baseline effort checkpoint reached; continue to the frozen file-context cycle after protected closure",
+        "unknowns": {
+          "closure_snapshot_id": "Not yet established; do not infer.",
+          "final_handoff": "Not yet established; do not infer.",
+          "intended_completion_at": "Not yet established; do not infer.",
+          "reserved_receipt_id": "Not yet established; do not infer."
+        },
+        "waits": []
+      },
+      "proposed": {
+        "actor": "research_assistant",
+        "closed_branches": [],
+        "closure_snapshot_id": "BAK-0005",
+        "completed_task_outputs": [
+          {
+            "output_refs": [
+              "registers/searches.csv",
+              "analysis/chronology/image-text-check.md"
+            ],
+            "result": "Defined contemporary survey with image checks and barriers",
+            "task_id": "TASK-0003"
+          },
+          {
+            "output_refs": [
+              "analysis/media-comparison/recording-inventory.md"
+            ],
+            "result": "Provisional recording version/provenance inventory",
+            "task_id": "TASK-0004"
+          },
+          {
+            "output_refs": [
+              "analysis/chronology/timeline.md",
+              "analysis/chronology/contradictions.md"
+            ],
+            "result": "Source-linked chronology with explicit clock/phase limits",
+            "task_id": "TASK-0005"
+          },
+          {
+            "output_refs": [
+              "analysis/engineering/signal-paths.md",
+              "analysis/engineering/assumptions.md"
+            ],
+            "result": "Dated reported paths and unknowns; no point RF deduction",
+            "task_id": "TASK-0006"
+          }
+        ],
+        "created_at": "2026-11-08T13:29:25.014200+00:00",
+        "current_milestone": "baseline reviewed",
+        "current_question": "The four actual baseline products passed separate review with explicit access, timing and architecture limits.",
+        "deferred_branches": [
+          "Detailed audiovisual interpretation awaits inventoried/protected input and required review"
+        ],
+        "disagreements": [],
+        "final_handoff": {
+          "access_limit": "Private research state",
+          "alias": "project",
+          "relative_path": "docs/STATUS.md"
+        },
+        "findings": [],
+        "gaps": [
+          "No inspected broadcast recording yet",
+          "Historic receiver/antenna/control/alternate-feed details remain unverified",
+          "Clip runtime/capture completeness and independence not established"
+        ],
+        "hypothesis_changes": [],
+        "id": "SES-0002",
+        "intended_completion_at": "2026-11-08T20:52:10.746745+00:00",
+        "intended_state": "complete",
+        "next_actions": [
+          {
+            "dependencies": [
+              "TASK-0005",
+              "TASK-0006"
+            ],
+            "output": "Preserve separate baseline review and freeze bounded candidate-completeness test",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0004"
+            ],
+            "output": "Acquire and protect selected candidate files before probing",
+            "owner": "AI"
+          },
+          {
+            "dependencies": [
+              "TASK-0010"
+            ],
+            "output": "Perform test and challenge its file-coordinate/context conclusions",
+            "owner": "AI; separate reviewer"
+          }
+        ],
+        "reopening_condition": "Revisit baseline when new contemporary records, full-context captures or dated as-built diagrams become available",
+        "reserved_receipt_id": "BAK-0005",
+        "revision": 4,
+        "schema_version": 1,
+        "started_at": "2026-11-08T13:29:25.014186+00:00",
+        "stopping_condition": "Baseline effort checkpoint reached; continue to the frozen file-context cycle after protected closure",
+        "unknowns": {},
+        "waits": []
+      }
+    }
+  ],
+  "reason": "Protect exact final session bytes before completion",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

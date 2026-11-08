@@ -1,0 +1,41 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T20:53:13.001486+00:00",
+  "id": "CHG-0034",
+  "intended_final_file_manifest": {
+    "registers/searches.csv": {
+      "byte_count": 34390,
+      "sha256": "8d8502146e9456e53c8b548be7825bd8eb668b1fdcf3c8e4cd4d32d7680f29a5"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "Exact unchanged selected candidate download; no media probe/decoding before backup",
+        "cycle_id": "CYC-0001",
+        "exact_query": "download https://upload.wikimedia.org/wikipedia/commons/5/59/WGN-TV_%27Max_Headroom%27_Incident%22_%281987%29.webm",
+        "executed_at": "2026-11-08T20:53:12.040090+00:00",
+        "filters_json": {},
+        "id": "SRCH-0054",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Public host direct bytes",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {},
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0012"
+        ]
+      }
+    }
+  ],
+  "reason": "Record actual candidate acquisition endpoint before ingestion",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

@@ -1,0 +1,122 @@
+{
+  "actor": "research_assistant",
+  "created_at": "2026-11-08T20:53:11.978851+00:00",
+  "id": "CHG-0033",
+  "intended_final_file_manifest": {
+    "registers/searches.csv": {
+      "byte_count": 33990,
+      "sha256": "64e633707f93ef4881eaca5ea04c58b16ca4d76eac0881b63b6f8c3e50e414dc"
+    },
+    "registers/sources.csv": {
+      "byte_count": 40242,
+      "sha256": "4534dd972eef35f1842bb62ca153b29990499626997bf40fb82bd608e139a1d7"
+    }
+  },
+  "operations": [
+    {
+      "decision_context": {},
+      "entity_type": "sources",
+      "previous": null,
+      "proposed": {
+        "access_date": "2026-11-08",
+        "account_status_json": {
+          "firsthand": "unknown",
+          "limits": "No independence inferred",
+          "retrospective": "unknown"
+        },
+        "asset_ids_json": [],
+        "completeness": "unknown",
+        "creator": "Unknown capture/uploader lineage",
+        "date_precision_json": {
+          "event_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          },
+          "publication_date": {
+            "basis": "Not established",
+            "precision": "unknown"
+          }
+        },
+        "event_date": "unknown",
+        "id": "SRC-0020",
+        "inspection_json": {
+          "inherited_only": false,
+          "limits": "No full source inspection claimed",
+          "linked_media": "uninspected",
+          "text": "uninspected",
+          "underlying_records": "unverified"
+        },
+        "known_edits_json": [],
+        "legacy_aliases_json": [],
+        "parent_source_ids_json": [],
+        "provenance_limits": "Concrete baseline lead; physical capture/feed/tape/digitization relationship unknown; no independence assumed",
+        "publication_date": "unknown",
+        "restrictions": "Private owner/selected-reviewer inspection only",
+        "retired": false,
+        "retrieval_status": "not_attempted",
+        "revision": 1,
+        "source_locator": "https://archive.org/download/maxheadroom/1st%20incident.mp4",
+        "source_type": "Public candidate recording download",
+        "title": "Internet Archive maxheadroom item: 1st incident.mp4",
+        "unknowns_json": {
+          "completeness": "Not established from inspected material; do not infer.",
+          "event_date": "Not established from inspected material; do not infer.",
+          "parent_source_ids_json": "Underlying dependence/capture/session relationship unestablished; no independence inferred",
+          "publication_date": "Not established from inspected material; do not infer."
+        }
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [],
+        "coverage": "Exact selected candidate metadata inspection after frozen plan; host says33.234seconds and named Museum/VMS lineage, not independent verification",
+        "cycle_id": "CYC-0001",
+        "exact_query": "open https://commons.wikimedia.org/wiki/File:WGN-TV_%27Max_Headroom%27_Incident%22_(1987).webm and original-file link",
+        "executed_at": "2026-11-08T20:53:11.625899+00:00",
+        "filters_json": {},
+        "id": "SRCH-0052",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Commons published file page via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {},
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": [
+          "SRC-0012"
+        ]
+      }
+    },
+    {
+      "decision_context": {},
+      "entity_type": "searches",
+      "previous": null,
+      "proposed": {
+        "access_barriers_json": [
+          "Web tool cannot access video endpoint; direct byte download attempted separately"
+        ],
+        "coverage": "Exact selected candidate endpoint after frozen plan",
+        "cycle_id": "CYC-0001",
+        "exact_query": "open https://archive.org/download/maxheadroom/1st%20incident.mp4",
+        "executed_at": "2026-11-08T20:53:11.642966+00:00",
+        "filters_json": {},
+        "id": "SRCH-0053",
+        "legacy_aliases_json": [],
+        "question": "Find inspectable evidence for the stated bounded coverage and preserve access limits",
+        "repository": "Internet Archive via web tool",
+        "retired": false,
+        "revision": 1,
+        "unknowns_json": {},
+        "unsuccessful_results_json": [],
+        "useful_source_ids_json": []
+      }
+    }
+  ],
+  "reason": "Register prospective cycle candidate queries and unverified Archive source",
+  "revision": 1,
+  "schema_version": 1,
+  "unknowns": {}
+}

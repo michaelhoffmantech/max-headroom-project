@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-11-08T20:52:35.309727+00:00",
+  "package_directory": "C:\\dev\\max-headroom-project\\work\\public-package-20261108T205128Z",
+  "scope": "ILLUSTRATIVE generated text, no actual research evidence",
+  "commands": [
+    {
+      "command": [
+        "backup",
+        "--asset",
+        "AST-0001"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "status": "ok",
+      "codes": []
+    },
+    {
+      "command": [
+        "restore-asset",
+        "--asset",
+        "AST-0001",
+        "--receipt",
+        "BAK-0001",
+        "--into",
+        "recovered/clean-new.txt"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "status": "ok",
+      "codes": []
+    },
+    {
+      "command": [
+        "restore-asset",
+        "--asset",
+        "AST-0001",
+        "--receipt",
+        "BAK-0001",
+        "--into",
+        "recovered/clean-new.txt"
+      ],
+      "exit_code": 3,
+      "expected": 3,
+      "status": "conflict",
+      "codes": [
+        "restore_exists"
+      ]
+    },
+    {
+      "command": [
+        "validate",
+        "--gate",
+        "records",
+        "--verify-files"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "status": "ok",
+      "codes": []
+    }
+  ],
+  "original_unchanged": true,
+  "new_recovery_linked": true,
+  "temporary_dataset_removed_on_exit": true
+}

@@ -1,0 +1,37 @@
+{
+  "change_integrity": {
+    "byte_count": 53559,
+    "sha256": "789434973e4053b0628d7c2e35f7f3db4b280073fe83cc23472c9cbc8fa17fe6"
+  },
+  "closure": null,
+  "id": "CHG-0019",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 29998,
+        "sha256": "acc3288f7a1182809c718aea7675299f13690415436c4c07e97148cbd60f5619"
+      },
+      "path": "registers/searches.csv",
+      "previous": {
+        "byte_count": 12544,
+        "sha256": "4cebe2618b21c17291c38db2a03d0c69bc5f08fccce87fceb36c6e29be500e4a"
+      },
+      "staged": "registers/.searches.csv.CHG-0019.stage"
+    },
+    {
+      "new": {
+        "byte_count": 36219,
+        "sha256": "b0d58d41e35e0840b9d6d2c34eb52b3cc5d05a928daa2902fcc27cef33ef7d7f"
+      },
+      "path": "registers/sources.csv",
+      "previous": {
+        "byte_count": 21947,
+        "sha256": "9021d44addb1621a3a73e5b8be6a1db921ec82c31130d87fc2e3c6d11996dc6b"
+      },
+      "staged": "registers/.sources.csv.CHG-0019.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T13:45:51.668647+00:00",
+  "published_at": "2026-11-08T13:45:51.696197+00:00",
+  "state": "published"
+}

@@ -1,0 +1,88 @@
+{
+  "change_integrity": {
+    "byte_count": 34516,
+    "sha256": "6d90ce575f16858939212ec2516fb06c012fb20bda29d030d9f0e4e6d75a83d3"
+  },
+  "closure": null,
+  "id": "CHG-0017",
+  "outputs": [
+    {
+      "new": {
+        "byte_count": 21947,
+        "sha256": "9021d44addb1621a3a73e5b8be6a1db921ec82c31130d87fc2e3c6d11996dc6b"
+      },
+      "path": "registers/sources.csv",
+      "previous": {
+        "byte_count": 20916,
+        "sha256": "253d42d53dbc10d5cbf1989efba238c81960d98d3898745790933a72ac59ca0d"
+      },
+      "staged": "registers/.sources.csv.CHG-0017.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2105,
+        "sha256": "e19697634b2e1ae6ca54d95954197da2a66854df878ad151280d12469d7e766f"
+      },
+      "path": "evidence/metadata/assets/AST-0004.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0004.json.CHG-0017.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2105,
+        "sha256": "03de654d1c34129dc69cc78df0d0ab28aef3173c6abfcff84fd3977051f2ef7d"
+      },
+      "path": "evidence/metadata/assets/AST-0005.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0005.json.CHG-0017.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2106,
+        "sha256": "c59f61af9175cf2a8651e7e6993edd83d4a3676880d416721a42100500810b08"
+      },
+      "path": "evidence/metadata/assets/AST-0006.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0006.json.CHG-0017.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2106,
+        "sha256": "cd46c01d895992ed07d78df266daac56740e093278046150e8239fb5d4dc579b"
+      },
+      "path": "evidence/metadata/assets/AST-0007.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0007.json.CHG-0017.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2109,
+        "sha256": "828644d3058bafc1e1580335beaf0a78a4a69dea00f66ff8e5cf14afc146c968"
+      },
+      "path": "evidence/metadata/assets/AST-0008.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0008.json.CHG-0017.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2109,
+        "sha256": "993840c6cc5fa780b98890ca92b64f4d2e75abf794bf3143b3d310f81ce5659d"
+      },
+      "path": "evidence/metadata/assets/AST-0009.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0009.json.CHG-0017.stage"
+    },
+    {
+      "new": {
+        "byte_count": 2109,
+        "sha256": "f38fd2eccd39c39cb7cc46c25dfa97d127e7ca3346f8a18028a5a56fa0890a5d"
+      },
+      "path": "evidence/metadata/assets/AST-0010.json",
+      "previous": null,
+      "staged": "evidence/metadata/assets/.AST-0010.json.CHG-0017.stage"
+    }
+  ],
+  "prepared_at": "2026-11-08T13:45:50.019038+00:00",
+  "published_at": "2026-11-08T13:45:50.051990+00:00",
+  "state": "published"
+}
